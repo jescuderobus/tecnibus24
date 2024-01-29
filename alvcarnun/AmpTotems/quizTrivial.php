@@ -117,11 +117,11 @@ $hechos4=$paisAleatorio["hechos"][3];
     <amp-story standalone
         title="Quizzy"
         publisher="tecniBUS"
-        publisher-logo-src="./assets/AMP-Brand-White-Icon.svg"
-        poster-portrait-src="./assets/cover.jpg">
+        publisher-logo-src="./../../../SHARED/imagenes/AMP-Brand-White-Icon.svg"
+        poster-portrait-src="./../../../SHARED/imagenes/cover.jpg">
       <amp-story-page id="cover" auto-advance-after="3s">
         <amp-story-grid-layer template="fill">
-          <amp-img src="./assets/quizziCover.jpg"
+          <amp-img src="./../../../SHARED/imagenes/quizziCover.jpg"
               width="768" height="1280"
               layout="responsive">
           </amp-img>
