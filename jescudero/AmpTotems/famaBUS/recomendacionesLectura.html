@@ -1,0 +1,503 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+
+    <script>
+    
+      // truco para que refresque a los 40s - hay que calcular el tiempo cada vez
+      setTimeout(function() {
+          window.location.href = 'recomendacionesLectura.html?' + new Date().getTime();
+      }, 130000);
+    
+    </script>
+
+    <title>Recomendaciones de libros en Fama</title>
+    <link rel="canonical" href="pets.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+    <style amp-custom>
+      amp-story {
+        font-family: 'Oswald',sans-serif;
+        color: #fff;
+      }
+      amp-story-page {
+        background-color: #000;
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 2.875em;
+        font-weight: normal;
+        line-height: 1.174;
+      }
+      p {
+        font-weight: normal;
+        font-size: 1.3em;
+        line-height: 1.5em;
+        color: #fff;
+      }
+      q {
+        font-weight: 300;
+        font-size: 1.1em;
+      }
+      amp-story-grid-layer.bottom {
+        align-content:end;
+      }
+      amp-story-grid-layer.noedge {
+        padding: 0px;
+      }
+      amp-story-grid-layer.center-text {
+        align-content: center;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+      }
+      .banner-text {
+        text-align: center;
+        background-color: #000;
+        line-height: 2em;
+      }
+
+      .borde-negro {
+    color: white;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+}
+      .postOfficep{
+        background-color: rgba(221, 15, 77, 0.8);
+        color:white;
+        font-size:1.1em;
+        padding:1em;
+        border-radius: 1em;
+        margin-top:1em;
+        text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- Cover page -->
+    <amp-story standalone
+        title="Recomendaciones de lectura"
+        publisher="famaBUS"
+        publisher-logo-src="../../../SHARED/imagenes/AMP-Brand-White-Icon.svg"
+        poster-portrait-src="../../../SHARED/imagenes/recomendacionesLecturaCover.jpg">
+      <amp-story-page id="cover" auto-advance-after="6s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/recomendacionesLecturaCover.jpg"
+              width="768" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1  class="borde-negro">Recomendaciones de Lectura</h1>
+          <p  class="borde-negro">By famaBUS</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+      <!-- SEPARADOR -->
+      <amp-story-page id="separador0" auto-advance-after="5s">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+                width="720" height="1280"
+                poster="../../../SHARED/imagenes/000.png"
+                layout="responsive">
+              <source src="../../../SHARED/videos/separador0.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1>Bellas Artes</h1>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p>Observamos un cuadro</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+      <!-- Page 1 (Balsa de la Medusa): 2 layers (fill + thirds) -->
+      <amp-story-page id="page1" auto-advance-after="6s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/balsaMedusa3.jpg" 
+              width="768" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+            <h1 grid-area="upper-third">La balsa de la Medusa</h1>
+            <p grid-area="lower-third"><br/>El cuadro fue pintado por Théodore Géricault en 1819, y puedes verlo en el Museo del Louvre.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page1" auto-advance-after="6s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/balsaMedusa4.jpg" 
+              width="768" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+            <h1 grid-area="upper-third">La balsa de la Medusa</h1>
+            <p grid-area="lower-third"><br/><br/>Tiene unas impresionantes dimensiones de 491x716 cm, hay apartamentos en París con menos superficie</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page1" auto-advance-after="6s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/balsaMedusa1.jpg" 
+              width="768" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+            <h1 grid-area="upper-third">La balsa de la Medusa</h1>
+            <p grid-area="lower-third">Para quienes no conocen su historia podría pasar desapercibido, pero en 1819 todo el mundo sabía que es lo que pasaba en este cuadro...</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page1" auto-advance-after="12s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/balsaMedusa2.jpg" 
+              width="768" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+            <h1 grid-area="upper-third">La balsa de la Medusa</h1>
+            <p grid-area="middle-third"><br/><br/><br/>si quieres descubrirlo escanea el QR</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+      <!-- SEPARADOR -->
+      <amp-story-page id="separador0" auto-advance-after="5s">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+                width="720" height="1280"
+                poster="../../../SHARED/imagenes/000.png"
+                layout="responsive">
+              <source src="../../../SHARED/videos/separador1.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1>Geografía</h1>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p>Lugares del mundo</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+
+
+      <!-- Page 2 (Nauru): 1 layer (vertical) -->
+      <amp-story-page id="page2" auto-advance-after="6s">
+        <amp-story-grid-layer template="vertical">
+          <p>La isla más remota del mundo</p>
+          <amp-img src="../../../SHARED/imagenes/Nauru1.jpg" width="15vw" height="26vh"  layout="fixed" style="display:block;margin:auto;"></amp-img>
+          <p style="font-size: 1em;">- Desde España, hay que tomar tres vuelos y se tardan 48 horas en llegar.</p>
+          <p style="font-size: 1em;">- En 1968 consiguen la independencia de UK y se convierten en el país con la mayor renta per cápita del mundo gracias a la explotación de los fosfatos. </p>
+          <p style="font-size: 1em;">- Actualmente es tristemente conocido por ser el país con más obesos del mundo.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+      <amp-story-page id="page2" auto-advance-after="6s">
+        <amp-story-grid-layer template="thirds">
+          <amp-img grid-area="upper-third" src="../../../SHARED/imagenes/NauruC.jpg" width="1280" height="768" layout="responsive" animate-in="fade-in" animate-in-delay="1.9s"></amp-img>
+          <amp-img grid-area="middle-third" src="../../../SHARED/imagenes/NauruB.jpg" width="1280" height="768" layout="responsive" animate-in="fade-in" animate-in-delay="1.5s"></amp-img>
+          <amp-img grid-area="lower-third" src="../../../SHARED/imagenes/NauruA.jpg" width="1280" height="768" layout="responsive"  animate-in="fade-in" animate-in-delay=".1s"></amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <p>La isla más remota del mundo</p>
+          <amp-img src="../../../SHARED/imagenes/Nauru1.jpg" width="15vw" height="26vh"  layout="fixed" animate-in="fade-in" animate-in-delay="4.1s" style="display:block;margin:auto;"></amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page2" auto-advance-after="12s">
+        <amp-story-grid-layer template="vertical">
+          <p>La isla más remota del mundo</p>
+          <amp-img src="../../../SHARED/imagenes/Nauru1.jpg" width="15vw" height="26vh" layout="fixed"  style="display:block;margin:auto;"></amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/Nauru2.png" width="768" height="1280" layout="responsive"></amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+      <!-- SEPARADOR -->
+      <amp-story-page id="separador0" auto-advance-after="5s">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+                width="720" height="1280"
+                poster="../../../SHARED/imagenes/000.png"
+                layout="responsive">
+              <source src="../../../SHARED/videos/separador2.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1>Filosofía</h1>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p></p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page 3 (Etica Desconfiados): 2 layers (fill + thirds) -->
+      <amp-story-page id="page1" auto-advance-after="12s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/eticaDesconfiados.jpg" 
+              width="768" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+            <h1 grid-area="upper-third"  class="borde-negro">Ética para desconfiados</h1>
+            <div grid-area="middle-third" style="text-align: justify;">
+            <p style="background-color: rgba(127, 255, 212, 0.5);color:rgba(0, 0, 0, 1);font-size:1em;padding:1em;border-radius: 1em;">
+              ¿Te has sentido solo y aislado? Quizá no eres tú, sino la sociedad entera que provoca que nuestros lazos personales sean más frágiles. Hoy en día es crucial preguntarnos cómo nos sentimos, cómo tomamos decisiones o cómo elegimos a nuestras amistades. Solo así será posible construir un entorno seguro y de confianza que nos ayude a enfrentarnos a los retos de la vida cotidiana.
+            </p>
+          </div>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+      <amp-story-page id="page1" auto-advance-after="12s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/eticaDesconfiados2.jpg" 
+              width="768" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+            <h1 grid-area="upper-third" class="borde-negro">Ética para desconfiados</h1>
+            <p grid-area="lower-third"></p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- SEPARADOR -->
+      <amp-story-page id="separador0" auto-advance-after="5s">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+                width="720" height="1280"
+                poster="../../../SHARED/imagenes/000.png"
+                layout="responsive">
+              <source src="../../../SHARED/videos/separador4.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1>Informática</h1>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p></p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page 3 (Bird): 3 layers (fill + vertical + vertical) + Audio-->
+      <amp-story-page id="page3" auto-advance-after="6s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/britishPostOffice.jpg"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1 class="borde-negro">Mr Bates vs The Post Office</h1>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <q>Cómo una serie de TV desató la indignación del público por uno de los mayores escándalos judiciales de la historia de Reino Unido y obligó al gobierno a actuar</q>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page3" auto-advance-after="12s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/britishPostOffice.jpg"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="thirds">
+          <p grid-area="upper-third" class="postOfficep">En el Escándalo de la Post Office, cientos de empleados <b>inocentes</b> fueron acusados de robo, fraude y contabilidad falsa.</p>
+          <p grid-area="middle-third" class="postOfficep">Muchos pagaron con cárcel delitos que nunca cometieron, debido a un <b>sistema informático defectuoso</b>, una red de mentiras y la falta de interés de las autoridades.</p>
+          <p grid-area="lower-third" class="postOfficep">Los afectados llevan más de dos décadas intentando que se haga justicia. Sólo consiguieron la justicia veinte años después y tras una serie de TV que explicó el caso a la sociedad.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+      <amp-story-page id="page3" auto-advance-after="12s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/britishPostOffice1.jpg"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1 class="borde-negro">Mr Bates vs The Post Office</h1>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bottom">
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- SEPARADOR -->
+      <amp-story-page id="separador0" auto-advance-after="5s">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+                width="720" height="1280"
+                poster="../../../SHARED/imagenes/000.png"
+                layout="responsive">
+              <source src="../../../SHARED/videos/separador3.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1>Otras lecturas</h1>
+          <h2>en nuestro camino</h2>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p></p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page EXTRA (El terror): 3 layers (fill (video) + vertical + vertical) -->
+      <amp-story-page id="page4" auto-advance-after="12s">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+                width="720" height="1280"
+                poster="../../../SHARED/imagenes/000.png"
+                layout="responsive">
+              <source src="../../../SHARED/videos/saturnoHijo_animation.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1>El terror de 1824</h1>
+          <h2>Benito Pérez Galdós</h2>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/saturnoHijo1.png" width="768" height="1280" layout="responsive"></amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page EXTRA (El hundimiento de Japón): 3 layers (fill (video) + vertical + vertical) -->
+      <amp-story-page id="page5" auto-advance-after="12s">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+                width="720" height="1280"
+                poster="../../../SHARED/imagenes/000.png"
+                layout="responsive">
+              <source src="../../../SHARED/videos/japanSinks_animation.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1>Japan Sinks</h1>
+          <h3><i>El hundiminto de Japón</i></h3>
+          <h2>Sakyo Komatsu</h2>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/japanSinks1.png" width="768" height="1280" layout="responsive"></amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+      <!-- Page EXTRA (Tecnología Popular): 3 layers (fill (video) + vertical + vertical) -->
+      <amp-story-page id="page5" auto-advance-after="12s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/tecnologiaPopular.jpg" width="768" height="1280" layout="responsive"></amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1 class="borde-negro">Tecnología Popular</h1>
+          <h2 class="borde-negro">Julio Caro Baroja</h2>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="fill">
+          <amp-img src="../../../SHARED/imagenes/tecnologiaPopular1.png" width="768" height="1280" layout="responsive"></amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+      <!-- Page 5 (Collage): 2 layers + animations -->
+      <amp-story-page id="page5" auto-advance-after="6s">
+        <amp-story-grid-layer template="vertical" class="noedge">
+          <div class="wrapper">
+            <amp-img src="../../../SHARED/imagenes/balsaMedusa0.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay="0.4s">
+            </amp-img>
+            <amp-img src="../../../SHARED/imagenes/Nauru3.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay="0.6s">
+            </amp-img>
+            <amp-img src="../../../SHARED/imagenes/eticaDesconfiados.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay=".8s">
+            </amp-img>
+            <amp-img src="../../../SHARED/imagenes/britishPostOffice2.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay="1s">
+            </amp-img>
+          </div>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="center-text">
+          <p class="banner-text" animate-in="whoosh-in-right">nuestras recomendaciones de enero</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+      <!-- Page 5 (Collage): 2 layers + animations -->
+      <amp-story-page id="page5" auto-advance-after="6s">
+        <amp-story-grid-layer template="vertical" class="noedge">
+          <div class="wrapper">
+            <amp-img src="../../../SHARED/imagenes/japanSinks.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay="0.4s">
+            </amp-img>
+            <amp-img src="../../../SHARED/imagenes/saturnoHijo.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay="0.6s">
+            </amp-img>
+            <amp-img src="../../../SHARED/imagenes/tecnologiaPopular2.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay=".8s">
+            </amp-img>
+            <amp-img src="../../../SHARED/imagenes/solicitudCompra1.png"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay="1s">
+            </amp-img>
+          </div>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="center-text">
+          <p class="banner-text" animate-in="whoosh-in-right">nuestras recomendaciones de enero</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Bookend -->
+      <amp-story-bookend src="bookend.json" layout="nodisplay"></amp-story-bookend>
+    </amp-story>
+  </body>
+</html>

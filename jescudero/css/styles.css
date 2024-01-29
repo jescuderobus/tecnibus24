@@ -1,0 +1,10 @@
+.contenedor {
+    display: flex; /* Esto activa Flexbox para el contenedor */
+}
+
+.div1, .div2 {
+    flex: 1; /* Esto hace que cada div tome una cantidad igual del espacio disponible */
+    margin: 5px; /* Espacio alrededor de los divs */
+    padding: 10px; /* Espacio dentro de los divs */
+    border: 1px solid black; /* Borde para visualizar los divs */
+}

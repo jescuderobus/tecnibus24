@@ -1,0 +1,175 @@
+{
+    "cartas": [
+        {
+          "tematica": "ciencia_y_naturaleza",
+          "titulo": "Astronomía",
+          "nombre": "Júpiter",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/PIA22946-Jupiter-RedSpot-JunoSpacecraft-20190212.jpg/420px-PIA22946-Jupiter-RedSpot-JunoSpacecraft-20190212.jpg",
+          "imageOrientation": "C",
+          "hechos": [
+            "Es el planeta que tiene más del doble de la masa de todos los demás planetas juntos.",
+            "Posee una Gran Mancha Roja, una tormenta gigante que ha estado activa por al menos 400 años.",
+            "Tiene 79 lunas conocidas, incluyendo a Ganímedes, la luna más grande del sistema solar.",
+            "Su campo magnético es catorce veces más fuerte que el de la Tierra."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Júpiter_(planeta)"
+        },
+        {
+          "tematica": "ciencia_y_naturaleza",
+          "titulo": "🧬 Biología",
+          "nombre": "ADN",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Benzopyrene_DNA_adduct_1JDG.png/330px-Benzopyrene_DNA_adduct_1JDG.png",
+          "imageOrientation": "V",
+          "hechos": [
+            "Su estructura fue descubierta por Watson y Crick en 1953.",
+            "Está compuesto por cuatro bases nitrogenadas: adenina, timina, citosina y guanina.",
+            "Cada célula humana contiene aproximadamente 3 mil millones de pares de bases.",
+            "El 99% es idéntico entre todas las personas."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/%C3%81cido_desoxirribonucleico"
+        },
+        {
+          "tematica": "ciencia_y_naturaleza",
+          "titulo": "🦖 Dinosaurios",
+          "nombre": "Tyrannosaurus Rex",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Tyrannosaurus_skeleton.jpg/330px-Tyrannosaurus_skeleton.jpg",
+          "imageOrientation": "H",
+          "hechos": [
+            "Vivió durante el período Cretácico Tardío, hace unos 68-66 millones de años.",
+            "Era uno de los carnívoros más grandes, con una longitud de hasta 12 metros.",
+            "Tenía una mordida extremadamente poderosa, una de las más fuertes de cualquier dinosaurio.",
+            "Sus brazos eran sorprendentemente cortos en comparación con su tamaño corporal."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Tyrannosaurus_rex"
+        },
+        {
+          "tematica": "ciencia_y_naturaleza",
+          "titulo": "🌌 Astronomía",
+          "nombre": "Telescopio Hubble",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/HST-SM4.jpeg/390px-HST-SM4.jpeg",
+          "imageOrientation": "H",
+          "hechos": [
+            "Fue lanzado al espacio en 1990 y nombrado en honor a un famoso astrónomo Norteamericano.",
+            "Ha jugado un papel crucial en el descubrimiento de la expansión acelerada del universo.",
+            "Es conocido por sus imágenes espectaculares del espacio, que han ampliado nuestro conocimiento del universo.",
+            "Ha ayudado a determinar la edad y composición de estrellas distantes y galaxias."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Telescopio_espacial_Hubble"
+        },
+        {
+          "tematica": "geografia",
+          "titulo": "🏞️ Rios",
+          "nombre": "Amazonas",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Casaamazonica.jpg/360px-Casaamazonica.jpg",
+          "imageOrientation": "H",
+          "hechos": [
+            "Es el río más largo y caudaloso del mundo, con una longitud de aproximadamente 7.000 kilómetros.",
+            "Su cuenca es la selva tropical más grande del mundo, abarcando varios países sudamericanos.",
+            "Es hogar de una biodiversidad increíble, incluyendo especies únicas de plantas y animales.",
+            "Libera alrededor del 20% del agua dulce que fluye al océano en el mundo."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Río_Amazonas"
+        },
+        {
+          "tematica": "geografia",
+          "titulo": "🏔️ Montañas",
+          "nombre": "Monte Everest",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Everest_kalapatthar.jpg/413px-Everest_kalapatthar.jpg",
+          "imageOrientation": "V",
+          "hechos": [
+            "Es la montaña más alta de la Tierra, con una altura de 8.848 metros sobre el nivel del mar.",
+            "Se encuentra en la cordillera del Himalaya, en la frontera entre Nepal y el Tíbet.",
+            "El primer ascenso exitoso fue realizado por Sir Edmund Hillary y Tenzing Norgay en 1953.",
+            "Cada año, cientos de montañistas intentan escalarlo, esto ha generado preocupaciones ambientales."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Monte_Everest"
+        },
+        {
+          "tematica": "geografia",
+          "titulo": "🌍 Lugares",
+          "nombre": "Antártida",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Everest_kalapatthar.jpg/413px-Everest_kalapatthar.jpg",
+          "imageOrientation": "V",
+          "hechos": [
+            "Es el continente más meridional y el cuarto más grande de la Tierra.",
+            "Está cubierto casi en su totalidad por hielo, con un espesor promedio de 1.9 kilómetros.",
+            "No tiene una población permanente, pero alberga estaciones de investigación de varios países.",
+            "Es crucial para la regulación del clima global y un importante indicador de cambio climático."
+          ],
+          "enlace": ""
+        },
+        {
+          "tematica": "geografia",
+          "titulo": "🌋 Lugares",
+          "nombre": "Cinturón de Fuego del Pacífico",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/EQs_1900-2013_worldseis.png/330px-EQs_1900-2013_worldseis.png",
+          "imageOrientation": "H",
+          "hechos": [
+            "Es una región en forma de herradura que alberga el 75% de los volcanes activos del mundo.",
+            "Se extiende por 40.000 kilómetros a lo largo de las costas del Pacífico en América, Asia y Oceanía.",
+            "Es famoso por su actividad sísmica, siendo responsable del 90% de los terremotos del mundo.",
+            "Incluye famosos volcanes como el Monte Fuji en Japón y el Monte St. Helens en EE.UU."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Cinturón_de_fuego_del_Pacífico"
+        },
+        {
+          "tematica": "geografia",
+          "titulo": "🏝️ Lugares",
+          "nombre": "Islas Galápagos",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Alvaro_Sevilla_Design_foto_de_la_Tortuga_Galapagos_Isla_Santa_Cruz.jpg/390px-Alvaro_Sevilla_Design_foto_de_la_Tortuga_Galapagos_Isla_Santa_Cruz.jpg",
+          "imageOrientation": "H",
+          "hechos": [
+            "Es un archipiélago volcánico en el océano Pacífico, parte de Ecuador.",
+            "Fueron la inspiración para la teoría de la evolución de Darwin debido a su diversidad única de especies.",
+            "El ecosistema de las islas es frágil y alberga muchas especies endémicas, como las famosas tortugas gigantes.",
+            "Es Patrimonio de la Humanidad y una de las áreas marinas protegidas más grandes del mundo."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Islas_Galápagos"
+        },
+        {
+          "tematica": "ciencias_sociales",
+          "titulo": "Personajes",
+          "nombre": "📚 Emile Durkheim",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/%C3%89mile_Durkheim.jpg/330px-%C3%89mile_Durkheim.jpg",
+          "imageOrientation":"V",
+          "hechos": [
+            "Considerado uno de los padres fundadores de la sociología moderna.",
+            "Desarrolló la teoría de la cohesión social y la división del trabajo en la sociedad.",
+            "Es conocido por su estudio sobre el suicidio y su relación con factores sociales.",
+            "Sus teorías enfatizaban la importancia de las instituciones en el mantenimiento del orden social."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/%C3%89mile_Durkheim"
+        },
+        {
+          "tematica": "ciencias_sociales",
+          "titulo": "Economía",
+          "nombre": "📉 El Capitalismo",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Hartmann_Maschinenhalle_1868_%2801%29.jpg/419px-Hartmann_Maschinenhalle_1868_%2801%29.jpg",
+          "imageOrientation":"H",
+          "hechos": [
+            "Sistema económico basado en la propiedad privada de los medios de producción y la creación de bienes para el beneficio.",
+            "Ha sido el sistema dominante en el mundo occidental desde el fin del feudalismo.",
+            "Críticos como Karl Marx han argumentado que crea desigualdades y explota a la clase trabajadora.",
+            "Ha evolucionado en diversas formas, desde el capitalismo de libre mercado hasta modelos mixtos con intervención estatal."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Capitalismo"
+        },
+        {
+          "tematica": "ciencias_sociales",
+          "titulo": "Legislación",
+          "nombre": "📜 La Declaración Universal de Derechos Humanos",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Eleanor_Roosevelt_UDHR.jpg/360px-Eleanor_Roosevelt_UDHR.jpg",
+          "imageOrientation":"H",
+          "hechos": [
+            "Adoptada por la ONU en 1948, es un documento fundamental en la historia de los derechos humanos.",
+            "Establece una amplia gama de derechos y libertades fundamentales para todas las personas.",
+            "Ha sido la base para numerosos tratados y leyes internacionales en materia de derechos humanos.",
+            "Su adopción fue un hito en respuesta a las atrocidades de la Segunda Guerra Mundial."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Declaraci%C3%B3n_Universal_de_Derechos_Humanos"
+        }
+        
+      
+    ]
+  }
+  

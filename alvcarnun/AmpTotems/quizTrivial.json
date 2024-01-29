@@ -1,0 +1,101 @@
+{
+    "paises": [
+      {
+        "titulo": "Paises del mundo",
+        "nombre": "&#x1f1f3;&#x1f1e6 Kazajistán",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kazakhstan_%28orthographic_projection%29.svg/375px-Kazakhstan_%28orthographic_projection%29.svg.png",
+        "hechos": [
+          "Es el noveno país más grande del mundo, y el más grande del mundo sin litoral.",
+          "Rico en recursos naturales: petróleo, gas natural, y minerales.",
+          "Cuenta con una gran diversidad étnica",
+          "🚀 El Cosmódromo de Baikonur es la más vieja central de lanzamientos al espacio."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Kazajistán"
+      },
+      {
+        "titulo": "Paises del mundo",
+        "nombre": "&#x1f1f3;&#x1f1e6 Namibia", 
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Namibia_%28orthographic_projection%29.svg/375px-Namibia_%28orthographic_projection%29.svg.png",
+        "hechos": [
+          "🏜️ Tiene uno de los desiertos más antiguos del mundo, con una edad estimada de al menos 55 millones de años.",
+          "Tiene una de las dunas más altas del mundo, la cual alcanza una altura aproximada de 383 metros.",
+          "🦁 El Parque Nacional Etosha, es famoso por sus vastas salinas y por ser un excelente lugar para observar la vida salvaje.",
+          "Fue el primer país en el mundo en incluir la protección del medio ambiente en su constitución"
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Namibia"
+      }, 
+      {
+        "titulo": "Paises del mundo",
+        "nombre": "&#x1f1f3;&#x1f1e6 Islas Feroe",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Europe-Faroe_Islands.svg/435px-Europe-Faroe_Islands.svg.png",
+        "hechos": [
+          "🐑 La población de ovejas supera la de los residentes humanos, contribuyendo a su famoso paisaje verde y ondulado.",
+          "Tienen uno de los parlamentos mas antiguos del mundo, conocido como el Løgting, 900 d.c.",
+          "No hay árboles nativos, los pocos bosques que existen hoy en día fueron plantados por humanos.",
+          "🌞 En verano experimentan el fenómeno de la \"noche blanca\", donde el sol apenas se pone, ofreciendo casi 24 horas de luz diurna."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Islas_Feroe"
+      },
+      {
+        "titulo": "Paises del mundo",
+        "nombre": "&#x1f1f3;&#x1f1e6 Japón",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Japan_%28orthographic_projection%29.svg/375px-Japan_%28orthographic_projection%29.svg.png",
+        "hechos": [
+          "Es el país con más terremotos registrados en el mundo.",
+          "Tiene la red de trenes de alta velocidad más avanzada, conocida como Shinkansen.",
+          "Es el país con la mayor cantidad de personas centenarias.",
+          "Cuenta con más de 6,800 islas en su territorio."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Jap%C3%B3n"
+      },
+      {
+        "titulo": "Paises del mundo",
+        "nombre": "&#x1f1f3;&#x1f1e6 Australia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_with_AAT_%28orthographic_projection%29.svg/375px-Australia_with_AAT_%28orthographic_projection%29.svg.png",
+        "hechos": [
+          "Es el país más grande de Oceanía y el sexto más grande del mundo.",
+          "Tiene la mayor cantidad de especies de reptiles del planeta.",
+          "Es conocido por tener algunos de los animales más venenosos del mundo.",
+          "Alberga la Gran Barrera de Coral, el arrecife de coral más grande del mundo."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Australia"
+      },
+      {
+        "titulo": "Paises del mundo",
+        "nombre": "&#x1f1f3;&#x1f1e6 Finlandia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/EU-Finland_%28orthographic_projection%29.svg/375px-EU-Finland_%28orthographic_projection%29.svg.png",
+        "hechos": [
+          "Es conocida como 'la tierra de los mil lagos', aunque en realidad tiene cerca de 188,000.",
+          "En Finlandia, la educación es gratuita y muy valorada, siendo uno de los mejores sistemas educativos del mundo.",
+          "Es uno de los mejores lugares para ver la aurora boreal.",
+          "La sauna es una parte importante de la cultura finlandesa."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Finlandia"
+      },
+      {
+        "titulo": "Paises del mundo",
+        "nombre": "&#x1f1f3;&#x1f1e6 Brasil",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/BRA_orthographic.svg/375px-BRA_orthographic.svg.png",
+        "hechos": [
+          "Es el país con la mayor biodiversidad del mundo.",
+          "Alberga el Amazonas, el río más largo y caudaloso del mundo.",
+          "Es famoso por su carnaval de Río de Janeiro, uno de los más grandes del mundo.",
+          "Tiene la mayor comunidad japonesa fuera de Japón."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Brasil"
+      },
+      {
+        "titulo": "Paises del mundo",
+        "nombre": "&#x1f1f3;&#x1f1e6 Canadá",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CAN_orthographic.svg/330px-CAN_orthographic.svg.png",
+        "hechos": [
+          "Es el segundo país más grande del mundo en términos de superficie total.",
+          "Tiene más lagos que el resto del mundo combinado.",
+          "Es uno de los países más fríos, con temperaturas extremadamente bajas en invierno.",
+          "Es conocido por su política de bilingüismo oficial, francés e inglés."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Canad%C3%A1"
+      } 
+    ]
+  }
+  

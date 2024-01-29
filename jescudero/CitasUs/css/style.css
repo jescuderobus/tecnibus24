@@ -1,0 +1,184 @@
+
+table{
+    margin: 10px auto;
+    width:80%;
+    
+}
+.disponible{
+ background-color:rgb(138, 231, 0) ;
+ cursor: pointer;
+}
+.disponible:hover{
+    background-color:rgb(81, 129, 7) ;
+    cursor: pointer;
+   }
+
+table p{
+    text-align: center;
+    margin: 10px auto 10px auto ;
+}
+table td{
+    text-align: center;
+    margin: 10px auto 10px auto ;
+}
+table h3{
+
+    margin : auto auto;
+    padding: 10px;
+}
+
+
+.hoy{
+    background-color:rgba(114, 115, 117, 0.637);
+    color:rgb(0, 0, 0);
+}
+
+.inline{
+    display: inline;
+}
+td{
+    border: aliceblue 1px solid;
+}
+th{
+     border: black 1px solid;
+     padding: 10px;
+     text-align: center;
+     background-color: #eeeeee;
+}
+h6{
+    max-width: 200px;
+}
+.disponible.pasado{
+    background-color:rgb(117, 182, 20) ;
+    cursor:default;
+   }
+   .no_disponible_usu{
+    background-color: rgb(174, 7, 47);
+    cursor:default;
+}
+.no_disponible_admin{
+    background-color: rgb(174, 7, 47);
+    cursor:pointer;
+}
+.no_disponible_admin.pasado{
+    background-color: rgb(165, 23, 23);
+    cursor:pointer;
+}
+#formulario_prev .form-control[readonly]{
+    cursor:default;
+}
+h2{
+    text-align:center;
+}
+#add_evento .modal-footer{
+    margin:0px;
+}
+#add_evento2 .modal-footer{
+    margin:0px;
+}
+.pasado{
+    background-color: rgb(238, 238, 238);
+}
+.deshabilitado{
+    background-color: rgb(238, 238, 238);
+}
+
+h1{
+    text-align:center;
+}
+.miscancelar{
+width: 150px;
+}
+.misfechas{
+    width: 150px;
+}
+.mishoras{
+    width:150px;
+}
+.margin{
+    margin: 5px;
+}
+th .check{
+  margin:10px 10px 10px 10px;
+}
+ .modal{
+  background-color: rgba(0, 0, 0, 0.5);
+ }
+.usuario{
+    text-align: end;
+    margin-right: 10px;
+}
+.botones_configuracion{
+    display:flex;
+    margin:2px;
+}
+
+.columna_numero{
+    width: 10%;
+}
+.eliminartramo{
+    margin-left: 140%;
+}
+.cabecera{
+    background-color: rgb(234, 182, 42);
+    align-items: center ;
+    
+display: flex;}
+.usuario{
+    color:#9c1f2f;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 1%;
+    min-width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    text-align: left;
+}
+img{
+    width:37%;
+}
+.siguiente{
+    text-align: center;
+}
+.volverhoy{
+    text-align: center;
+}
+.logos{
+    max-width: 33%;
+}
+.titulo{
+    width: 33%;
+    font-weight: bold;
+    color: #9c1f2f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecero_tabla_fecha{
+    width: 15%;
+}
+.botones{
+    margin-top: 10px;
+}
+.semana_anterior{
+    text-align: center;
+}
+.cuerpo{
+    width: 80%;
+    margin: auto;
+    
+}
+body{
+    text-align: center;
+    border-top: 10px solid #9c1f2f;
+    
+}
+/* .franja_roja{
+    width: 100%;
+    height: ;
+} */
+.cerrar_sesion{
+    text-align: end;
+}
+.citashoy{
+    margin-top: 10px;
+}

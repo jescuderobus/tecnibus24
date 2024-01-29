@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html amp lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Web Stories</title>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+      <link rel="canonical" href="pets.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-video"
+        src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-story"
+        src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+    <style amp-custom>
+      amp-story {
+        font-family: 'Oswald',sans-serif;
+        color: #000;
+      }
+      amp-story-page {
+        background-color: #000;
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 2.875em;
+        font-weight: normal;
+        line-height: 1.174;
+      }
+      p {
+        font-weight: normal;
+        font-size: 1.3em;
+        line-height: 1.5em;
+        color: #000;
+      }
+      q {
+        font-weight: 300;
+        font-size: 1.1em;
+      }
+      amp-story-grid-layer.bottom {
+        align-content:end;
+      }
+      amp-story-grid-layer.noedge {
+        padding: 0px;
+      }
+      amp-story-grid-layer.center-text {
+        align-content: center;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+      }
+      .banner-text {
+        text-align: center;
+        background-color: #000;
+        line-height: 2em;
+      }
+    </style>
+</head>
+<body>
+  <amp-story standalone
+              title="Quizlet Ecuaciones"
+              publisher="BUS"
+              publisher-logo-src="assets/AMP-Brand-White-Icon.svg"
+              poster-portrait-src="assets/cover.jpg">
+    <!-- El contenido de las historias se generará dinámicamente aquí -->
+  </amp-story>
+
+  <script>
+    // Tu array de historias en formato JSON
+    var stories = [
+      { id: "p1", title: "¿Cuál es esta ecuación?", image: "assets/EcuacionEuler.png", url: "" },
+      { id: "r1", title: "Es la Identidad de Euler", image: "assets/EcuacionEuler.png", url: "" },
+      
+      { id: "p2", title: "Cuál es esta ecuación?", image: "assets/EcuacionDirac.png", url: "" },
+      { id: "r2", title: "Es la ecuación de Dirac", image: "assets/EcuacionDirac.png", url: "" },
+      
+      { id: "p3", title: "Cuál es esta ecuación?", image: "assets/EcuaciondeEinstein.png", url: "" },
+      { id: "r3", title: "Es la ecuación de la Energía de Einstein", image: "assets/EcuaciondeEinstein.png", url: "" },
+      
+      { id: "p4", title: "Cuál es esta ecuación?", image: "assets/EcuaciondeNewton.png", url: "" },
+      { id: "r4", title: "Es la 2º ley de Newton", image: "assets/EcuaciondeNewton.png", url: "" },
+      
+      { id: "p5", title: "Cuál es esta ecuación?", image: "assets/PrincipioMinimaAccion.png", url: "" },
+      { id: "r5", title: "Es el Principio de Mínima Acción", image: "assets/PrincipioMinimaAccion.png", url: "" },
+      
+      { id: "p6", title: "Cuál es esta ecuación?", image: "assets/EcuacionCamposEinstein.png", url: "" },
+      { id: "r6", title: "Es la ecuación de los Campos de Einstein", image: "assets/EcuacionCamposEinstein.png", url: "" },
+      
+      { id: "p7", title: "Cuál es esta ecuación?", image: "assets/EcuacionesMaxwell.png", url: "" },
+      { id: "r7", title: "Son las ecuaciones de Maxwell", image: "assets/EcuacionesMaxwell.png", url: "" },
+    ];
+
+    // Función para dividir el array en parejas de historias
+    function splitIntoPairs(array) {
+      var pairs = [];
+      for (var i = 0; i < array.length; i += 2) {
+        pairs.push([array[i], array[i + 1]]);
+      }
+      return pairs;
+    }
+
+    // Función para reorganizar aleatoriamente las parejas
+    function shufflePairs(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
+
+    // Dividir el array en parejas
+    var storyPairs = splitIntoPairs(stories);
+
+    // Llama a la función para reorganizar aleatoriamente las parejas
+    shufflePairs(storyPairs);
+
+    function generateAMPContent() {
+      var ampStory = document.querySelector('amp-story');
+
+      // Itera sobre las parejas reorganizadas y genera el contenido de AMP
+      storyPairs.forEach(function(pair) {
+        pair.forEach(function(story) {
+          var ampStoryPage = document.createElement('amp-story-page');
+          ampStoryPage.id = story.id;
+
+          if (story.image) {
+            ampStoryPage.innerHTML += `
+              <amp-story-grid-layer template="fill">
+                <amp-img src="${story.image}"
+                    width="720" height="1280"
+                    layout="responsive">
+                </amp-img>
+              </amp-story-grid-layer>
+            `;
+          }
+
+          if (story.title) {
+            ampStoryPage.innerHTML += `
+              <amp-story-grid-layer template="vertical">
+                <h1>${story.title}</h1>
+              </amp-story-grid-layer>
+            `;
+          }
+
+          ampStory.appendChild(ampStoryPage);
+        });
+      });
+    }
+
+    // Llama a la función para generar el contenido de AMP
+    generateAMPContent();
+  </script>
+</body>
+</html>

@@ -1,0 +1,414 @@
+{
+    "geografia": [
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇫🇮 Finlandia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/EU-Finland_%28orthographic_projection%29.svg/375px-EU-Finland_%28orthographic_projection%29.svg.png",
+        "hechos": [
+          "Es conocida como 'la tierra de los mil lagos', aunque en realidad tiene cerca de 188,000.",
+          "En Finlandia, la educación es gratuita y muy valorada, siendo uno de los mejores sistemas educativos del mundo.",
+          "Es uno de los mejores lugares para ver la aurora boreal.",
+          "La sauna es una parte importante de la cultura finlandesa."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Finlandia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇪🇪 Estonia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/EU-Estonia.svg/435px-EU-Estonia.svg.png",
+        "hechos": [
+          "Es uno de los países más digitalizados del mundo, siendo líder en tecnologías de la información.",
+          "Tallin, su capital, es conocida por su bien conservado centro medieval.",
+          "Estonia tiene una gran cantidad de islas y lagos, ofreciendo hermosos paisajes naturales.",
+          "Es famosa por su fuerte tradición en canto coral y alberga un gran festival de la canción cada cinco años."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Estonia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇱🇺 Luxemburgo",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/EU-Luxembourg.svg/435px-EU-Luxembourg.svg.png",
+        "hechos": [
+          "Es uno de los países más ricos del mundo por PIB per cápita.",
+          "Es un importante centro financiero y sede de varias instituciones de la Unión Europea.",
+          "El país es trilingüe, siendo oficiales el luxemburgués, el francés y el alemán.",
+          "Luxemburgo ofrece una mezcla de culturas francesa y alemana con tradiciones propias."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Luxemburgo"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇮🇪 Irlanda",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/EU-Ireland.svg/435px-EU-Ireland.svg.png",
+        "hechos": [
+          "Es conocida como 'La Isla Esmeralda' por sus verdes paisajes y naturaleza prístina.",
+          "Dublín, su capital, fue la cuna de famosos escritores como James Joyce y Samuel Beckett.",
+          "Irlanda tiene una rica herencia cultural en música, danza y mitología celta.",
+          "Es famosa por su hospitalidad y pubs tradicionales, siendo la cuna de la cerveza Guinness."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Irlanda"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇨🇾 Chipre",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/EU-Cyprus.svg/435px-EU-Cyprus.svg.png",
+        "hechos": [
+          "Es la tercera isla más grande del Mediterráneo y un popular destino turístico.",
+          "Nicosia, su capital, es la única capital del mundo dividida entre dos estados.",
+          "Chipre tiene una rica historia que se remonta a más de 10,000 años, con numerosos sitios arqueológicos.",
+          "Su cultura combina influencias griegas y turcas, reflejadas en su gastronomía y tradiciones."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Chipre"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇧🇬 Bulgaria",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/EU-Bulgaria.svg/435px-EU-Bulgaria.svg.png",
+        "hechos": [
+          "Es famosa por sus monasterios ortodoxos y su rica historia, incluyendo el legado tracio y romano.",
+          "Sofía, su capital, es una de las ciudades más antiguas de Europa.",
+          "Bulgaria es conocida por su producción de rosas y el aceite de rosa, un ingrediente clave en la perfumería.",
+          "Tiene una geografía diversa con montañas, llanuras y costas en el Mar Negro."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Bulgaria"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇵🇹 Portugal",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/EU-Portugal_with_islands_circled.svg/435px-EU-Portugal_with_islands_circled.svg.png",
+        "hechos": [
+          "Es famoso por sus exploradores y marineros históricos, jugando un papel crucial en la Era de los Descubrimientos.",
+          "El fado, un tipo de música melancólica, es una expresión musical tradicional de Portugal.",
+          "Lisboa, la capital, es conocida por su arquitectura colorida y su tranvía amarillo icónico.",
+          "El vino de Oporto, un vino fortificado, es uno de sus productos de exportación más famosos."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Portugal"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇬🇷 Grecia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/EU-Greece.svg/435px-EU-Greece.svg.png",
+        "hechos": [
+          "Es considerada la cuna de la civilización occidental y es famosa por su historia antigua y sus ruinas.",
+          "Atenas, su capital, alberga monumentos históricos como el Partenón.",
+          "Las islas griegas son un destino turístico mundialmente famoso por su belleza y su ambiente.",
+          "Grecia ha tenido una enorme influencia en la filosofía, la ciencia y las artes occidentales."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Grecia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇭🇺 Hungría",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/EU-Hungary.svg/435px-EU-Hungary.svg.png",
+        "hechos": [
+          "Budapest, su capital, es conocida por sus baños termales y su impresionante arquitectura.",
+          "El lago Balatón es uno de los lagos de agua dulce más grandes de Europa y un popular destino vacacional.",
+          "Es famosa por su música folclórica y su danza, así como por su cocina, incluyendo el goulash.",
+          "Hungría tiene una rica historia en ciencia y tecnología, siendo el lugar de nacimiento de numerosos inventores y científicos."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Hungr%C3%ADa"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇨🇿 República Checa",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/EU-Czech_Republic.svg/435px-EU-Czech_Republic.svg.png",
+        "hechos": [
+          "Praga, su capital, es conocida como 'La Ciudad de las Cien Torres' y es famosa por su arquitectura gótica y barroca.",
+          "Es uno de los mayores productores de cerveza del mundo, con una larga historia cervecera.",
+          "El país tiene una rica tradición en música clásica, siendo el hogar de compositores como Antonín Dvořák y Bedřich Smetana.",
+          "Bohemia y Moravia, las dos principales regiones históricas, son conocidas por su arte y su historia."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Checa"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇸🇪 Suecia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/EU-Sweden.svg/435px-EU-Sweden.svg.png",
+        "hechos": [
+          "Es conocida por su alto nivel de vida y su sistema de bienestar social avanzado.",
+          "Suecia es líder en innovaciones y sostenibilidad ambiental.",
+          "Estocolmo, su capital, se extiende por un archipiélago en el mar Báltico.",
+          "Es famosa por su música pop, siendo el hogar de ABBA y otros artistas influyentes."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Suecia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇦🇹 Austria",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/EU-Austria.svg/435px-EU-Austria.svg.png",
+        "hechos": [
+          "Es conocida por su rica herencia musical y cultural, siendo el hogar de compositores como Mozart y Beethoven.",
+          "Viena, su capital, es famosa por su arquitectura imperial y sus cafeterías históricas.",
+          "El país es conocido por sus bellos paisajes alpinos y es un destino popular para los deportes de invierno.",
+          "La Ópera de Viena y el Baile de la Ópera son eventos culturales destacados en Austria."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Austria"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇧🇪 Bélgica",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/EU-Belgium.svg/435px-EU-Belgium.svg.png",
+        "hechos": [
+          "Es famosa por su chocolate, cerveza y gofres, siendo una parte importante de su cultura gastronómica.",
+          "Bruselas, su capital, es sede de la Unión Europea y la OTAN.",
+          "El país tiene tres regiones lingüísticas oficiales: flamenca, francesa y germanófona.",
+          "Bélgica tiene una rica historia en arte y arquitectura, con numerosos sitios Patrimonio de la Humanidad."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/B%C3%A9lgica"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇩🇰 Dinamarca",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/EU-Denmark.svg/435px-EU-Denmark.svg.png",
+        "hechos": [
+          "Es conocida por su diseño y arquitectura moderna, así como por su enfoque en la sostenibilidad y la calidad de vida.",
+          "Copenhague, su capital, es famosa por la Sirenita, el parque de atracciones Tivoli y su distrito de Nyhavn.",
+          "Dinamarca está compuesta por una península y numerosas islas, teniendo una larga costa.",
+          "Es el país de origen de Hans Christian Andersen, famoso por sus cuentos de hadas."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Dinamarca"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇸🇮 Eslovenia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/EU-Slovenia.svg/435px-EU-Slovenia.svg.png",
+        "hechos": [
+          "Es conocida por su diversidad geográfica, con montañas alpinas, bosques densos y un pequeño tramo de costa mediterránea.",
+          "Ljubljana, su capital, es conocida por su arquitectura verde y sus puentes pintorescos.",
+          "El lago Bled, con su iglesia en una isla y un castillo medieval, es uno de los lugares más famosos del país.",
+          "Eslovenia es reconocida por su vino y su cocina, que mezcla influencias mediterráneas, alpinas y balcánicas."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Eslovenia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇱🇻 Letonia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/EU-Latvia.svg/435px-EU-Latvia.svg.png",
+        "hechos": [
+          "Riga, su capital, es conocida por su arquitectura Art Nouveau y su centro histórico, Patrimonio de la Humanidad.",
+          "El país tiene una rica tradición coral y es sede del Festival de la Canción y la Danza de Letonia.",
+          "Letonia cuenta con una naturaleza prístina, con densos bosques y numerosos lagos y ríos.",
+          "Es famosa por su ámbar, a menudo llamado 'el oro del Báltico'."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Letonia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇵🇱 Polonia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/EU-Poland.svg/435px-EU-Poland.svg.png",
+        "hechos": [
+          "Es conocida por su rica historia y ciudades históricas como Cracovia y Varsovia, su capital.",
+          "El país tiene una fuerte tradición musical, siendo el hogar de Frédéric Chopin.",
+          "Polonia es famosa por su cocina, incluyendo platos como pierogi y kielbasa.",
+          "El antiguo campo de concentración de Auschwitz, ahora un memorial y museo, se encuentra en Polonia."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Polonia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇱🇹 Lituania",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/EU-Lithuania.svg/435px-EU-Lithuania.svg.png",
+        "hechos": [
+          "Es famosa por su patrimonio cultural y arquitectónico, incluyendo su capital barroca, Vilna.",
+          "Tiene una de las últimas y más extensas áreas de bosques primitivos de Europa.",
+          "El país tiene una fuerte tradición de baloncesto, siendo uno de los deportes más populares.",
+          "Lituania fue el primer país en declarar independencia de la Unión Soviética en 1990."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Lituania"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇸🇰 Eslovaquia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/EU-Slovakia.svg/435px-EU-Slovakia.svg.png",
+        "hechos": [
+          "Es conocida por su impresionante naturaleza, incluyendo los Altos Tatras, una popular área de senderismo y esquí.",
+          "Bratislava, la capital, es conocida por su animado centro histórico y el castillo que domina la ciudad.",
+          "El país tiene una rica tradición en artesanías, incluyendo cerámica y bordado.",
+          "Eslovaquia tiene más de 100 castillos y ruinas de fortalezas, reflejo de su rica historia medieval."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Eslovaquia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇮🇹 Italia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/EU-Italy.svg/435px-EU-Italy.svg.png",
+        "hechos": [
+          "Es famosa por su influencia en la cultura y el arte a nivel mundial, siendo la cuna del Renacimiento.",
+          "Italia tiene más sitios del Patrimonio Mundial de la UNESCO que cualquier otro país del mundo.",
+          "Su capital, Roma, fue la capital del Imperio Romano y es conocida como 'La Ciudad Eterna'.",
+          "La cocina italiana, conocida por su diversidad y sabor, ha influido en la gastronomía mundial."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Italia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇪🇸 España",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/EU-Spain.svg/435px-EU-Spain.svg.png",
+        "hechos": [
+          "Es conocida por su diversidad cultural, histórica y geográfica, desde las playas hasta las montañas.",
+          "España es famosa por sus fiestas y festivales, incluyendo la corrida de toros y la Tomatina.",
+          "Madrid, su capital, es famosa por su vida nocturna y sus museos de arte de renombre mundial.",
+          "La paella, el flamenco y el fútbol son íconos culturales representativos de España."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇫🇷 Francia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/EU-France.svg/435px-EU-France.svg.png",
+        "hechos": [
+          "Es conocida por su influencia en la moda, la gastronomía, el arte y la cultura.",
+          "París, su capital, es famosa por la Torre Eiffel, el Museo del Louvre y su historia romántica.",
+          "La región de Champagne es el lugar de nacimiento del champán, el famoso vino espumoso.",
+          "Francia es uno de los destinos turísticos más populares del mundo."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Francia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇩🇪 Alemania",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/EU-Germany.svg/450px-EU-Germany.svg.png",
+        "hechos": [
+          "Es conocida por su ingeniería de precisión y sus contribuciones a la filosofía, la literatura y la música.",
+          "Berlín, su capital, es famosa por su historia moderna y el Muro de Berlín.",
+          "La Oktoberfest en Múnich es una de las fiestas populares más grandes del mundo.",
+          "Alemania tiene una fuerte tradición en el fútbol y es uno de los países más exitosos en la Copa Mundial."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Alemania"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇳🇱 Países Bajos",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/EU-Netherlands.svg/435px-EU-Netherlands.svg.png",
+        "hechos": [
+          "Es famoso por sus canales, tulipanes, molinos de viento y ciclismo.",
+          "Ámsterdam, su capital, alberga el Museo Van Gogh y la Casa de Ana Frank.",
+          "Los Países Bajos tienen una actitud de tolerancia y liberalismo, siendo líderes en derechos como el matrimonio igualitario.",
+          "Gran parte del país está por debajo del nivel del mar, protegido por una serie de diques."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Pa%C3%ADses_Bajos"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇧🇪 Bélgica",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/EU-Belgium.svg/435px-EU-Belgium.svg.png",
+        "hechos": [
+          "Es famosa por su chocolate, cerveza y gofres, siendo una parte importante de su cultura gastronómica.",
+          "Bruselas, su capital, es sede de la Unión Europea y la OTAN.",
+          "El país tiene tres regiones lingüísticas oficiales: flamenca, francesa y germanófona.",
+          "Bélgica tiene una rica historia en arte y arquitectura, con numerosos sitios Patrimonio de la Humanidad."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/B%C3%A9lgica"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇷🇴 Rumanía",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/EU-Romania.svg/435px-EU-Romania.svg.png",
+        "hechos": [
+          "Es conocida por la región de Transilvania y la leyenda de Drácula basada en el castillo de Bran.",
+          "Bucarest, su capital, es famosa por el gigantesco Palacio del Parlamento construido durante la era comunista.",
+          "Rumanía tiene una geografía diversa, desde montañas y bosques hasta el delta del Danubio.",
+          "El país tiene una rica tradición en arte, música folclórica y festivales."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Ruman%C3%ADa"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇨🇿 República Checa",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/EU-Czech_Republic.svg/435px-EU-Czech_Republic.svg.png",
+        "hechos": [
+          "Praga, su capital, es conocida como 'La Ciudad de las Cien Torres' y es famosa por su arquitectura gótica y barroca.",
+          "Es uno de los mayores productores de cerveza del mundo, con una larga historia cervecera.",
+          "El país tiene una rica tradición en música clásica, siendo el hogar de compositores como Antonín Dvořák y Bedřich Smetana.",
+          "Bohemia y Moravia, las dos principales regiones históricas, son conocidas por su arte y su historia."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Checa"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇸🇮 Eslovenia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/EU-Slovenia.svg/435px-EU-Slovenia.svg.png",
+        "hechos": [
+          "Es conocida por su diversidad geográfica, con montañas alpinas, bosques densos y un pequeño tramo de costa mediterránea.",
+          "Ljubljana, su capital, es conocida por su arquitectura verde y sus puentes pintorescos.",
+          "El lago Bled, con su iglesia en una isla y un castillo medieval, es uno de los lugares más famosos del país.",
+          "Eslovenia es reconocida por su vino y su cocina, que mezcla influencias mediterráneas, alpinas y balcánicas."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Eslovenia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇭🇷 Croacia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/EU-Croatia.svg/435px-EU-Croatia.svg.png",
+        "hechos": [
+          "Es famosa por su impresionante costa en el mar Adriático y sus más de mil islas.",
+          "Dubrovnik, conocida como 'la Perla del Adriático', es famosa por sus murallas históricas y su belleza.",
+          "Croacia tiene una rica historia, visible en sus ciudades romanas, palacios medievales y arquitectura veneciana.",
+          "El Parque Nacional de los Lagos de Plitvice es conocido por sus cascadas y lagos turquesas."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Croacia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇱🇹 Lituania",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/EU-Lithuania.svg/435px-EU-Lithuania.svg.png",
+        "hechos": [
+          "Vilna, la capital, es famosa por su barrio medieval y su arquitectura barroca.",
+          "Lituania tiene una rica tradición cultural y folclórica, con festivales y arte popular.",
+          "Es conocida por su naturaleza prístina, incluyendo bosques densos y la costa del mar Báltico.",
+          "El país tiene una fuerte tradición en baloncesto, siendo uno de los deportes más populares."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Lituania"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇱🇻 Letonia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/EU-Latvia.svg/435px-EU-Latvia.svg.png",
+        "hechos": [
+          "Riga, su capital, es conocida por su arquitectura Art Nouveau y su centro histórico, Patrimonio de la Humanidad.",
+          "El país tiene una rica tradición coral y es sede del Festival de la Canción y la Danza de Letonia.",
+          "Letonia cuenta con una naturaleza prístina, con densos bosques y numerosos lagos y ríos.",
+          "Es famosa por su ámbar, a menudo llamado 'el oro del Báltico'."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Letonia"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇮🇪 Irlanda",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/EU-Ireland.svg/435px-EU-Ireland.svg.png",
+        "hechos": [
+          "Es conocida como 'La Isla Esmeralda' por sus verdes paisajes y naturaleza prístina.",
+          "Dublín, su capital, fue la cuna de famosos escritores como James Joyce y Samuel Beckett.",
+          "Irlanda tiene una rica herencia cultural en música, danza y mitología celta.",
+          "Es famosa por su hospitalidad y pubs tradicionales, siendo la cuna de la cerveza Guinness."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Irlanda"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇲🇹 Malta",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/EU-Malta.svg/435px-EU-Malta.svg.png",
+        "hechos": [
+          "Es un archipiélago en el Mediterráneo conocido por su historia rica que abarca más de 7,000 años.",
+          "Valletta, la capital, es uno de los sitios históricos más concentrados del mundo.",
+          "Malta es famosa por sus estructuras megalíticas y su legado de diversas culturas y potencias.",
+          "Es un popular destino turístico por sus playas, su clima mediterráneo y su vibrante vida nocturna."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Malta"
+      },
+      {
+        "titulo": "Países de la Unión Europea",
+        "nombre": "🇨🇾 Chipre",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/EU-Cyprus.svg/435px-EU-Cyprus.svg.png",
+        "hechos": [
+          "Es la tercera isla más grande del Mediterráneo y un popular destino turístico.",
+          "Nicosia, su capital, es la única capital del mundo dividida entre dos estados.",
+          "Chipre tiene una rica historia que se remonta a más de 10,000 años, con numerosos sitios arqueológicos.",
+          "Su cultura combina influencias griegas y turcas, reflejadas en su gastronomía y tradiciones."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Chipre"
+      }
+ 
+    ]
+  }
+  

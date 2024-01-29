@@ -1,0 +1,332 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+
+    <script>
+    /*
+      // truco para que refresque a los 40s - hay que calcular el tiempo cada vez
+      setTimeout(function() {
+          window.location.href = 'pets.html?' + new Date().getTime();
+      }, 40000);
+    */
+    </script>
+  
+    <title>Bussi</title>
+    <link rel="canonical" href="infoLikeBussi.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+ 
+    <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+
+    <script async custom-element="amp-pan-zoom" src="https://cdn.ampproject.org/v0/amp-pan-zoom-0.1.js"></script>
+    <script async custom-element="amp-story-panning-media" src="https://cdn.ampproject.org/v0/amp-story-panning-media-0.1.js"></script>
+
+    <script async custom-element="amp-date-display" src="https://cdn.ampproject.org/v0/amp-date-display-0.1.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+
+    <script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+    <style amp-custom>
+      amp-story {
+        font-family: 'Oswald',sans-serif;
+        color: #fff;
+      }
+      amp-story-page {
+        background-color: #000;
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 2.875em;
+        font-weight: normal;
+        line-height: 1.174;
+      }
+      p {
+        font-weight: normal;
+        font-size: 1.3em;
+        line-height: 1.5em;
+        color: #fff;
+      }
+      q {
+        font-weight: 300;
+        font-size: 1.1em;
+      }
+      amp-story-grid-layer.bottom {
+        align-content:end;
+      }
+      amp-story-grid-layer.noedge {
+        padding: 0px;
+      }
+      amp-story-grid-layer.center-text {
+        align-content: center;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+      }
+      .banner-text {
+        text-align: center;
+        background-color: #000;
+        line-height: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Cover page -->
+    <amp-story standalone
+        title="Bussi"
+        publisher="AMP tutorials"
+        publisher-logo-src="assets/AMP-Brand-White-Icon0.svg"
+        poster-portrait-src="assets/cover.jpg">
+
+
+      <amp-story-page id="cover" auto-advance-after="5s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/coverBussi.jpg"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1>Las aventuras de los Stickmen</h1>
+          <p>By Bussi Unlimited</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Para hcer zoom sobre una imagen -->
+      <amp-story-page id="page1a" auto-advance-after="5s">
+        <amp-story-grid-layer>
+          <amp-story-panning-media layout="fill" data-x="0%" data-y="0%" data-zoom=".8" >
+            <amp-img src="assets/balsaMedusa_768.jpg" width="3165" height="2160" ></amp-img>
+          </amp-story-panning-media>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page1b" auto-advance-after="5s">
+        <amp-story-grid-layer template="vertical">
+          <amp-story-panning-media layout="fill" data-x="-10%" data-y="40%" data-zoom="2" >       
+            <amp-img src="assets/balsaMedusa_768.jpg" width="3165" height="2160" ></amp-img>
+          </amp-story-panning-media>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page1a" auto-advance-after="5s">
+        <amp-story-grid-layer template="vertical">
+          <amp-story-panning-media layout="fill" data-x="-10%" data-y="-10%" data-zoom=".8" >
+            <amp-img src="assets/balsaMedusa_768.jpg" width="3165" height="2160" ></amp-img>
+          </amp-story-panning-media>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page1c" auto-advance-after="5s">
+        <amp-story-grid-layer template="vertical">
+          <amp-story-panning-media layout="fill" data-x="-10%" data-y="10%" data-zoom="2" >       
+            <amp-img src="assets/balsaMedusa_768.jpg" width="3165" height="2160" ></amp-img>
+          </amp-story-panning-media>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page1d" auto-advance-after="5s">
+        <amp-story-grid-layer template="vertical">
+          <amp-story-panning-media layout="fill" data-x="-40%" data-y="50%" data-zoom="2" >       
+            <amp-img src="assets/balsaMedusa_768.jpg" width="3165" height="2160" ></amp-img>
+          </amp-story-panning-media>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+
+
+      <!-- Tiempo -->
+      <amp-story-page id="page2a" auto-advance-after="5s">
+        <amp-story-grid-layer template="vertical">
+          <div style="background-color: rgb(75, 46, 3);">
+      <amp-date-display datetime="now" layout="fixed" width="360" height="590">
+        <template type="amp-mustache">
+          <table>
+            <thead>
+              <tr><th>variable</th><th>value</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>day</td><td>{{day}}</td></tr>
+              <tr><td>dayName</td><td>{{dayName}}</td></tr>
+              <tr><td>dayNameShort</td><td>{{dayNameShort}}</td></tr>
+              <tr><td>dayPeriod</td><td>{{dayPeriod}}</td></tr>
+              <tr><td>dayTwoDigit</td><td>{{dayTwoDigit}}</td></tr>
+              <tr><td>hour</td><td>{{hour}}</td></tr>
+              <tr><td>hour12</td><td>{{hour12}}</td></tr>
+              <tr><td>hour12TwoDigit</td><td>{{hour12TwoDigit}}</td></tr>
+              <tr><td>hourTwoDigit</td><td>{{hourTwoDigit}}</td></tr>
+              <tr><td>iso</td><td>{{iso}}</td></tr>
+              <tr><td>minute</td><td>{{minute}}</td></tr>
+              <tr><td>minuteTwoDigit</td><td>{{minuteTwoDigit}}</td></tr>
+              <tr><td>month</td><td>{{month}}</td></tr>
+              <tr><td>monthName</td><td>{{monthName}}</td></tr>
+              <tr><td>monthNameShort</td><td>{{monthNameShort}}</td></tr>
+              <tr><td>monthTwoDigit</td><td>{{monthTwoDigit}}</td></tr>
+              <tr><td>second</td><td>{{second}}</td></tr>
+              <tr><td>secondTwoDigit</td><td>{{secondTwoDigit}}</td></tr>
+              <tr><td>year</td><td>{{year}}</td></tr>
+              <tr><td>yearTwoDigit</td><td>{{yearTwoDigit}}</td></tr>
+            </tbody>
+          </table>
+        </template>
+      </amp-date-display>
+    </div>
+    </amp-story-grid-layer>
+    </amp-story-page>
+      
+
+
+
+      <!-- Page 2 (Geografía): 2 layers (fill + thirds) -->
+<!-- Primera Parte de la Página -->
+<amp-story-page id="page2-part1" auto-advance-after="5s">
+  <amp-story-grid-layer template="vertical">
+    <p>Países del mundo</p>
+    <amp-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kazakhstan_%28orthographic_projection%29.svg/375px-Kazakhstan_%28orthographic_projection%29.svg.png" width="250" height="250" layout="responsive"></amp-img>
+  </amp-story-grid-layer>
+</amp-story-page>
+<!-- Segunda Parte de la Página -->
+<amp-story-page id="page2-part2" auto-advance-after="5s">
+  <amp-story-grid-layer template="vertical">
+    <p>Países del mundo</p>
+    <amp-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kazakhstan_%28orthographic_projection%29.svg/375px-Kazakhstan_%28orthographic_projection%29.svg.png" width="250" height="250" layout="responsive"></amp-img>
+     <p style="text-align: center;font-size: 2em;padding-top: 1em;">Kazajistán</p>
+  </amp-story-grid-layer>
+</amp-story-page>
+
+
+      <!-- Page 2 (Geografía): 2 layers (fill + thirds) -->
+<!-- Primera Parte de la Página -->
+<amp-story-page id="page2-part1" auto-advance-after="5s">
+  <amp-story-grid-layer template="vertical">
+    <p>Países del mundo</p>
+    <amp-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Namibia_%28orthographic_projection%29.svg/375px-Namibia_%28orthographic_projection%29.svg.png" width="250" height="250" layout="responsive"></amp-img>
+  </amp-story-grid-layer>
+</amp-story-page>
+<!-- Segunda Parte de la Página -->
+<amp-story-page id="page2-part2" auto-advance-after="5s">
+  <amp-story-grid-layer template="vertical">
+    <p>Países del mundo</p>
+    <amp-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Namibia_%28orthographic_projection%29.svg/375px-Namibia_%28orthographic_projection%29.svg.png" width="250" height="250" layout="responsive"></amp-img>
+     <p style="text-align: center;font-size: 2em;padding-top: 1em;">Namibia</p>
+  </amp-story-grid-layer>
+</amp-story-page>
+    
+
+      <!-- Page 2 (Geografía): 2 layers (fill + thirds) -->
+<!-- Primera Parte de la Página -->
+<amp-story-page id="page2-part1" auto-advance-after="5s">
+  <amp-story-grid-layer template="vertical">
+    <p>Países del mundo</p>
+    <amp-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wisconsin_in_United_States.svg/360px-Wisconsin_in_United_States.svg.png" width="250" height="200" layout="responsive"></amp-img>
+  </amp-story-grid-layer>
+</amp-story-page>
+<!-- Segunda Parte de la Página -->
+<amp-story-page id="page2-part2" auto-advance-after="5s">
+  <amp-story-grid-layer template="vertical">
+    <p>Países del mundo</p>
+    <amp-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wisconsin_in_United_States.svg/360px-Wisconsin_in_United_States.svg.png" width="250" height="200" layout="responsive"></amp-img>
+     <p style="text-align: center;font-size: 2em;padding-top: 1em;">Wisconsin</p>
+  </amp-story-grid-layer>
+</amp-story-page>
+
+
+      <!-- Page 2 (Geografía): 2 layers (fill + thirds) -->
+<!-- Primera Parte de la Página -->
+<amp-story-page id="page2-part1" auto-advance-after="5s">
+  <amp-story-grid-layer template="vertical">
+    <p>Países del mundo</p>
+    <amp-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Hubei_in_China_%28%2Ball_claims_hatched%29.svg/420px-Hubei_in_China_%28%2Ball_claims_hatched%29.svg.png" width="250" height="200" layout="responsive"></amp-img>
+  </amp-story-grid-layer>
+</amp-story-page>
+<!-- Segunda Parte de la Página -->
+<amp-story-page id="page2-part2" auto-advance-after="5s">
+  <amp-story-grid-layer template="vertical">
+    <p>Países del mundo</p>
+    <amp-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Hubei_in_China_%28%2Ball_claims_hatched%29.svg/420px-Hubei_in_China_%28%2Ball_claims_hatched%29.svg.png" width="250" height="200" layout="responsive"></amp-img>
+     <p style="text-align: center;font-size: 2em;padding-top: 1em;">Hubei</p>
+  </amp-story-grid-layer>
+</amp-story-page>
+
+
+      <!-- Page 3 (Bird): 3 layers (fill + vertical + vertical) + Audio-->
+      <amp-story-page id="page3" auto-advance-after="10s" background-audio="assets/bird-singing0.mp3">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/bird0.jpg"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1>Pájaro</h1>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <q>Martín Pescador</q>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page 4 (Rabbit): 3 layers (fill (video) + vertical + vertical) -->
+      <amp-story-page id="page4" auto-advance-after="10s">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+                width="720" height="1280"
+                poster="assets/rabbit0.jpg"
+                layout="responsive">
+              <source src="assets/rabbit0.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h1>Rabbits</h1>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p>Rabbits can learn to follow simple voice commands and come when called by name, and are curious and playful.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page 5 (Collage): 2 layers + animations -->
+      <amp-story-page id="page5" auto-advance-after="5s">
+        <amp-story-grid-layer template="vertical" class="noedge">
+          <div class="wrapper">
+            <amp-img src="assets/cat0.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay="0.4s">
+            </amp-img>
+            <amp-img src="assets/dog0.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay="0.6s">
+            </amp-img>
+            <amp-img src="assets/bird0.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay=".8s">
+            </amp-img>
+            <amp-img src="assets/rabbit0.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay="1s">
+            </amp-img>
+          </div>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="center-text">
+          <p class="banner-text" animate-in="whoosh-in-right">Pets can lower your stress levels!</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Bookend -->
+      <amp-story-bookend src="bookend.json" layout="nodisplay"></amp-story-bookend>
+    </amp-story>
+  </body>
+</html>

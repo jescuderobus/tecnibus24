@@ -1,0 +1,204 @@
+{
+    "cartas": [
+      {
+        "tematica": "ulysseus",
+        "titulo": "Universidades Ulysseus",
+        "nombre": "🇦🇹 Management Center Innsbruck",
+        "imagenUrl": "https://ulysseus.eu/wp-content/uploads/2022/10/logo-mci-frame-back.svg",
+        "imageOrientation":"H",
+        "hechos": [
+          "El MCI Management Center Innsbruck es un centro de enseñanza superior en Tirol, Austria.",
+          "fue fundado en 1995/96 como centro de enseñanza superior organizado según el derecho privado, a pesar de ser de propiedad mayoritariamente pública.",
+          "El MCI comparte con las universidades de Innsbruck instituciones como bibliotecas, laboratorios, comedores, instalaciones deportivas etc.",
+          "Su sitio web es www.mci.edu"
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Management_Center_Innsbruck"
+      },
+      {
+        "tematica": "ulysseus",
+        "titulo": "Universidades Ulysseus",
+        "nombre": "🇸🇰 Technical University of Košice",
+        "imagenUrl": "https://ulysseus.eu/wp-content/uploads/2022/10/logo-kosice-frame-back.svg",
+        "imageOrientation":"H",
+        "hechos": [
+          "También conocida como TUKE, es la segunda universidad más grande de Eslovaquia.",
+          "Se encuentra en la ciudad de Košice que cuenta con unos 240k habitantes",
+          "Tienen muchos estudios relacionados con la Ingeniería",
+          "Su sitio web es www.tuke.sk"
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Universidad_T%C3%A9cnica_de_Ko%C5%A1ice"
+      },
+      {
+        "tematica": "ulysseus",
+        "titulo": "Universidades Ulysseus",
+        "nombre": "🇫🇮 Haaga-Helia University of Applied Sciences",
+        "imagenUrl": "https://ulysseus.eu/wp-content/uploads/2022/10/logo-haaga-helia-frame-back.svg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Es una de las universidades finlandesas más grandes en ciencias aplicadas",
+          "Su sede principal está en Pasila, Helsinki. Tiene otras en Haaga, Malmi, Porvoo y Vierumäki.",
+          "Cursan estudios en sus aulas unos 11000 estudiantes",
+          "Su sitio web es www.haaga-helia.fi/en"
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/Haaga-Helia_University_of_Applied_Sciences"
+      },
+      {
+        "tematica": "ulysseus",
+        "titulo": "Universidades Ulysseus",
+        "nombre": "🇩🇪 Universidad de Münster",
+        "imagenUrl": "https://ulysseus.eu/wp-content/uploads/2023/11/logo-munster-frame-back-2.svg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Es una universidad pública en Renania del Norte-Westfalia, Alemania.",
+          "Es la quinta universidad alemana por número de estudiantes",
+          "Sus profesores han ganado dos premios Nobel, una medalla Fields y diez premios Leibniz",
+          "Su sitio web es uni-muenster.de"
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/University_of_M%C3%BCnster"
+      },
+      {
+        "tematica": "ulysseus",
+        "titulo": "Universidades Ulysseus",
+        "nombre": "🇲🇪 Univerzitet Crne Gore (UCG)",
+        "imagenUrl": "https://ulysseus.eu/wp-content/uploads/2023/11/logo-montenegro-frame-back.svg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Tambien conocida como University of Montenegro",
+          "Fundada en 1974 y con 20 facultades, fue conocida hasta 1992 como Universidad Veljko Vlahović.",
+          "Tiene sedes en las ciudades de Podgorica, Cetinje, Kotor, Herceg Novi y Nikšić.",
+          "Su sitio web es http://www.ucg.ac.me"
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Universidad_de_Montenegro"
+      },
+      {
+        "tematica": "ciencia_y_naturaleza",
+        "titulo": "Montenegro",
+        "nombre": "🏞️ Parque Nacional Durmitor",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Big_Black_Lake.jpg/375px-Big_Black_Lake.jpg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Es un parque nacional de Montenegro que también es Patrimonio de la Humanidad de la UNESCO.",
+          "El parque es famoso por sus formaciones geológicas únicas, incluyendo cañones, lagos glaciares y cuevas.",
+          "El pico Bobotov Kuk, situado dentro del parque, es el punto más alto de Montenegro.",
+          "Durmitor es un destino popular para actividades como senderismo, escalada y esquí."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Parque_Nacional_Durmitor"
+      },
+      {
+        "tematica": "arte_y_literatura",
+        "titulo": "Montenegro",
+        "nombre": "🏰 Kotor, Ciudad Medieval",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Kotor_Montenegro_panorama_2016.jpg/375px-Kotor_Montenegro_panorama_2016.jpg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Es una ciudad antigua de Montenegro situada a lo largo de uno de los tramos más impresionantes de la bahía de Kotor.",
+          "La ciudad es conocida por su bien conservada arquitectura medieval y sus impresionantes murallas fortificadas.",
+          "Ha sido un importante puerto comercial a lo largo de la historia, influenciado por diversas culturas.",
+          "El casco antiguo de Kotor es Patrimonio de la Humanidad por la UNESCO."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Kotor"
+      },
+      {
+        "tematica": "historia",
+        "titulo": "Montenegro",
+        "nombre": "👑 La Dinastía Petrović-Njegoš",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Coat_of_arms_of_the_House_of_Petrovi%C4%87-Njego%C5%A1_%28alt%29.svg/225px-Coat_of_arms_of_the_House_of_Petrovi%C4%87-Njego%C5%A1_%28alt%29.svg.png",
+        "imageOrientation":"C",
+        "hechos": [
+          "La dinastía que gobernó Montenegro durante más de dos siglos.",
+          "Esta dinastía es conocida por sus esfuerzos en la lucha por la independencia y la modernización de Montenegro.",
+          "Petar II, poeta y filósofo, es una de las figuras más emblemáticas de la dinastía.",
+          "La influencia de la dinastía se refleja en la cultura, la literatura y la política de Montenegro."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Petrovi%C4%87-Njego%C5%A1"
+      },
+      {
+        "tematica": "geografia",
+        "titulo": "Montenegro",
+        "nombre": "🌊 Bahía de Kotor",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Bay_of_kotor_768x576.JPG/420px-Bay_of_kotor_768x576.JPG",
+        "imageOrientation":"C",
+        "hechos": [
+          "Es conocida por ser uno de los fiordos más meridionales de Europa.",
+          "Su combinación de belleza natural y patrimonio histórico la convierte en un destino turístico popular.",
+          "La bahía está rodeada de altas montañas que crean un paisaje impresionante.",
+          "En la bahía se encuentran importantes ciudades históricas como Kotor y Perast."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Bocas_de_Kotor"
+      },
+      {
+        "tematica": "geografia",
+        "titulo": "Montenegro",
+        "nombre": "🇲🇪 Podgorica",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/PG_collage.jpg/375px-PG_collage.jpg",
+        "imageOrientation":"C",
+        "hechos": [
+          "Es la capital y la ciudad más grande del país, conocida por su mezcla de arquitectura moderna y soviética.",
+          "Se encuentra en la confluencia de los ríos Ribnica y Morača.",
+          "Fue conocida históricamente como Titogrado durante el período yugoslavo.",
+          "Alberga el Parque Forestal Gorica, un popular destino para actividades al aire libre."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Podgorica"
+      },
+      {
+        "tematica": "historia",
+        "titulo": "Montenegro",
+        "nombre": "🇲🇪 Cetinje",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Widok_na_Cetinje_01.jpg/375px-Widok_na_Cetinje_01.jpg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Conocida como la antigua capital real, es famosa por sus monumentos y museos.",
+          "Ha jugado un papel crucial en la historia como centro cultural y político.",
+          "Alberga el Monasterio de Cetinje, un importante sitio religioso ortodoxo.",
+          "Esta ciudad es conocida por su impresionante arquitectura y calles históricas."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Ceti%C3%B1a"
+      },
+      {
+        "tematica": "arte_y_literatura",
+        "titulo": "Montenegro",
+        "nombre": "🇲🇪 Kotor",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cathedral_of_Saint_Tryphon%2C_Kotor%2C_Montenegro%2C_2012.jpg/330px-Cathedral_of_Saint_Tryphon%2C_Kotor%2C_Montenegro%2C_2012.jpg",
+        "imageOrientation":"V",
+        "hechos": [
+          "Situada en una bahía cerca del mar Adriático, es famosa por su impresionante arquitectura medieval y sus murallas fortificadas.",
+          "Es Patrimonio de la Humanidad por la UNESCO, conocida por su mezcla única de influencias arquitectónicas.",
+          "Sus calles laberínticas y plazas antiguas reflejan su rico pasado histórico.",
+          "El festival anual de verano atrae a visitantes con su música, danza y celebraciones culturales."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Kotor"
+      },
+      {
+        "tematica": "arte_y_literatura",
+        "titulo": "Montenegro",
+        "nombre": "🇲🇪 Herceg Novi",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Herceg_Novi_Sunset.JPG/375px-Herceg_Novi_Sunset.JPG",
+        "imageOrientation":"H",
+        "hechos": [
+          "Conocida por su hermosa costa y exuberante vegetación, es un popular destino turístico.",
+          "Cuenta con numerosos monumentos históricos, incluyendo fortalezas y monasterios.",
+          "El Festival de Cine de Mimosa y el carnaval son eventos destacados en esta ciudad.",
+          "Posee un famoso paseo marítimo lleno de cafés y tiendas con vistas al mar Adriático."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Herceg_Novi"
+      },
+      {
+        "tematica": "geografia",
+        "titulo": "Montenegro",
+        "nombre": "🇲🇪 Nikšić",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Nik%C5%A1i%C4%87.jpg/357px-Nik%C5%A1i%C4%87.jpg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Es la segunda ciudad más grande del país, conocida por su industria y patrimonio cultural.",
+          "Alberga la Cervecería Trebjesa, productora de la cerveza más popular de Montenegro.",
+          "La ciudad está rodeada de montañas y es un punto de partida para visitar el Parque Nacional Durmitor.",
+          "Su lago artificial, el Lago Krupac, es un popular lugar de recreación y eventos."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Nik%C5%A1i%C4%87"
+      }
+      
+
+      
+    ]
+  }
+  

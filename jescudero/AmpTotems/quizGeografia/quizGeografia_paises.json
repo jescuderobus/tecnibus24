@@ -1,0 +1,221 @@
+{
+    "geografia": [
+      {
+        "titulo": "Países del mundo",
+        "nombre": "🇰🇿 Kazajistán",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kazakhstan_%28orthographic_projection%29.svg/375px-Kazakhstan_%28orthographic_projection%29.svg.png",
+        "hechos": [
+          "Es el noveno país más grande del mundo, y el más grande del mundo sin litoral.",
+          "Rico en recursos naturales: petróleo, gas natural, y minerales.",
+          "Cuenta con una gran diversidad étnica",
+          "🚀 El Cosmódromo de Baikonur es la más vieja central de lanzamientos al espacio."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Kazajistán"
+      },
+      {
+        "titulo": "Países del mundo",
+        "nombre": "🇳🇦 Namibia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Namibia_%28orthographic_projection%29.svg/375px-Namibia_%28orthographic_projection%29.svg.png",
+        "hechos": [
+          "🏜️ Tiene uno de los desiertos más antiguos del mundo, con una edad estimada de al menos 55 millones de años.",
+          "Tiene una de las dunas más altas del mundo, la cual alcanza una altura aproximada de 383 metros.",
+          "🦁 El Parque Nacional Etosha, es famoso por sus vastas salinas y por ser un excelente lugar para observar la vida salvaje.",
+          "Fue el primer país en el mundo en incluir la protección del medio ambiente en su constitución"
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Namibia"
+      }, 
+      {
+        "titulo": "Países del mundo",
+        "nombre": "🇩🇰 Islas Feroe",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Europe-Faroe_Islands.svg/435px-Europe-Faroe_Islands.svg.png",
+        "hechos": [
+          "🐑 La población de ovejas supera la de los residentes humanos, contribuyendo a su famoso paisaje verde y ondulado.",
+          "Tienen uno de los parlamentos mas antiguos del mundo, conocido como el Løgting, 900 d.c.",
+          "No hay árboles nativos, los pocos bosques que existen hoy en día fueron plantados por humanos.",
+          "🌞 En verano experimentan el fenómeno de la \"noche blanca\", donde el sol apenas se pone, ofreciendo casi 24 horas de luz diurna."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Islas_Feroe"
+      },
+      {
+        "titulo": "Países del mundo",
+        "nombre": "🇯🇵 Japón",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Japan_%28orthographic_projection%29.svg/375px-Japan_%28orthographic_projection%29.svg.png",
+        "hechos": [
+          "Es el país con más terremotos registrados en el mundo.",
+          "Tiene la red de trenes de alta velocidad más avanzada, conocida como Shinkansen.",
+          "Es el país con la mayor cantidad de personas centenarias.",
+          "Cuenta con más de 6,800 islas en su territorio."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Jap%C3%B3n"
+      },
+      {
+        "titulo": "Países del mundo",
+        "nombre": "🇦🇺 Australia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_with_AAT_%28orthographic_projection%29.svg/375px-Australia_with_AAT_%28orthographic_projection%29.svg.png",
+        "hechos": [
+          "Es el país más grande de Oceanía y el sexto más grande del mundo.",
+          "Tiene la mayor cantidad de especies de reptiles del planeta.",
+          "Es conocido por tener algunos de los animales más venenosos del mundo.",
+          "Alberga la Gran Barrera de Coral, el arrecife de coral más grande del mundo."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Australia"
+      },
+      {
+        "titulo": "Países del mundo",
+        "nombre": "🇫🇮 Finlandia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/EU-Finland_%28orthographic_projection%29.svg/375px-EU-Finland_%28orthographic_projection%29.svg.png",
+        "hechos": [
+          "Es conocida como 'la tierra de los mil lagos', aunque en realidad tiene cerca de 188,000.",
+          "En Finlandia, la educación es gratuita y muy valorada, siendo uno de los mejores sistemas educativos del mundo.",
+          "Es uno de los mejores lugares para ver la aurora boreal.",
+          "La sauna es una parte importante de la cultura finlandesa."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Finlandia"
+      },
+      {
+        "titulo": "Países del mundo",
+        "nombre": "🇧🇷 Brasil",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/BRA_orthographic.svg/375px-BRA_orthographic.svg.png",
+        "hechos": [
+          "Es el país con la mayor biodiversidad del mundo.",
+          "Alberga el Amazonas, el río más largo y caudaloso del mundo.",
+          "Es famoso por su carnaval de Río de Janeiro, uno de los más grandes del mundo.",
+          "Tiene la mayor comunidad japonesa fuera de Japón."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Brasil"
+      },
+      {
+        "titulo": "Países del mundo",
+        "nombre": "🇨🇦 Canadá",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CAN_orthographic.svg/330px-CAN_orthographic.svg.png",
+        "hechos": [
+          "Es el segundo país más grande del mundo en términos de superficie total.",
+          "Tiene más lagos que el resto del mundo combinado.",
+          "Es uno de los países más fríos, con temperaturas extremadamente bajas en invierno.",
+          "Es conocido por su política de bilingüismo oficial, francés e inglés."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Canad%C3%A1"
+      },
+      {
+        "titulo": "🇺🇸 Estados de EEUU",
+        "nombre": "🇺🇸 Wisconsin",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wisconsin_in_United_States.svg/360px-Wisconsin_in_United_States.svg.png",
+        "hechos": [
+          "Es conocido como \"El Estado de los Quesos\"",
+          "Es el estado líder en producción de arándanos en Estados Unidos.",
+          "Alberga el Museo Nacional de la Mostaza en Middleton",
+          "Tiene más de 15,000 lagos, superando la cantidad de lagos en Minnesota"
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/Wisconsin"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Heilongjiang",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Heilongjiang_in_China_%28%2Ball_claims_hatched%29.svg/480px-Heilongjiang_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es la provincia más septentrional de China, compartiendo frontera con Rusia.",
+          "En Harbin, su capital, se celebra un famoso festival de esculturas de hielo y nieve.",
+          "La provincia lleva el nombre del río Heilongjiang (río Amur en ruso), que forma parte de su frontera con Rusia.",
+          "Es una importante región agrícola, especialmente conocida por su producción de soja."
+        ],        
+        "enlace": "https://es.wikipedia.org/wiki/Heilongjiang"
+      },
+      {
+        "titulo": "Países de América",
+        "nombre": "🇲🇽 México",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/MEX_orthographic.svg/375px-MEX_orthographic.svg.png",
+        "hechos": [
+          "Es conocido por su rica herencia cultural, incluyendo la civilización azteca y la era colonial española.",
+          "La cocina mexicana es famosa en todo el mundo y es reconocida como Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO.",
+          "Ciudad de México, la capital, es una de las ciudades más grandes del mundo.",
+          "México tiene una diversidad de paisajes, desde playas hasta montañas y desiertos."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/M%C3%A9xico"
+      },
+      {
+        "titulo": "Países de América",
+        "nombre": "🇦🇷 Argentina",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/ARG_orthographic_%28%2Ball_claims%29.svg/375px-ARG_orthographic_%28%2Ball_claims%29.svg.png",
+        "hechos": [
+          "Es conocida por su pasión por el fútbol y es el hogar de muchos jugadores famosos como Lionel Messi.",
+          "El tango, un baile y género musical, se originó en Buenos Aires.",
+          "La Patagonia, en el sur del país, es famosa por su impresionante paisaje de montañas, glaciares y fauna silvestre.",
+          "Argentina es uno de los mayores productores de vino en el mundo, especialmente conocida por el Malbec."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Argentina"
+      },
+      {
+        "titulo": "Países de América",
+        "nombre": "🇵🇪 Perú",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/PER_orthographic.svg/375px-PER_orthographic.svg.png",
+        "hechos": [
+          "Es el hogar de una parte de la selva amazónica y de Machu Picchu, el famoso sitio inca.",
+          "La gastronomía peruana, con platos como el ceviche y la causa, es reconocida mundialmente.",
+          "Lima, la capital, combina una rica historia colonial con una moderna metrópolis.",
+          "Perú tiene una diversidad cultural significativa, con influencias indígenas, europeas y asiáticas."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Per%C3%BA"
+      },
+      {
+        "titulo": "Países de América",
+        "nombre": "🇨🇴 Colombia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/COL_orthographic_%28San_Andr%C3%A9s_and_Providencia_special%29.svg/375px-COL_orthographic_%28San_Andr%C3%A9s_and_Providencia_special%29.svg.png",
+        "hechos": [
+          "Es famosa por su café de alta calidad y la diversidad de sus paisajes, que incluyen playas, montañas y selvas.",
+          "El Carnaval de Barranquilla es uno de los eventos culturales y folclóricos más grandes de América Latina.",
+          "Bogotá, su capital, es un importante centro cultural con museos notables como el Museo del Oro.",
+          "Colombia es el segundo país más biodiverso del mundo, hogar de una gran variedad de flora y fauna."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Colombia"
+      },
+      {
+        "titulo": "Países de América",
+        "nombre": "🇨🇱 Chile",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CHL_orthographic_%28%2Ball_claims%29.svg/375px-CHL_orthographic_%28%2Ball_claims%29.svg.png",
+        "hechos": [
+          "Se extiende a lo largo de la costa oeste de América del Sur, con una variedad de climas desde desiertos hasta glaciares.",
+          "Es conocido por su producción de vino y su diversa geografía, incluyendo el Desierto de Atacama, el más seco del mundo.",
+          "La Isla de Pascua, famosa por sus enigmáticas estatuas moái, es territorio chileno.",
+          "Santiago, su capital, está ubicada en un valle rodeado de montañas de los Andes."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Chile"
+      },
+      {
+        "titulo": "Países de América",
+        "nombre": "🇻🇪 Venezuela",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Venezuela_Orthographic_Map.svg/375px-Venezuela_Orthographic_Map.svg.png",
+        "hechos": [
+          "Es conocido por su gran diversidad natural, incluyendo el Salto Ángel, la cascada más alta del mundo.",
+          "Tiene importantes reservas de petróleo y una rica cultura musical, especialmente en géneros como el joropo.",
+          "Caracas, la capital, combina arquitectura moderna con barrios tradicionales y parques naturales.",
+          "Los Roques es un archipiélago de hermosas playas y uno de los principales destinos turísticos del país."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Venezuela"
+      },
+      {
+        "titulo": "Países de América",
+        "nombre": "🇪🇨 Ecuador",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ECU_orthographic.svg/375px-ECU_orthographic.svg.png",
+        "hechos": [
+          "Es famoso por las Islas Galápagos, clave en el desarrollo de la teoría de la evolución de Darwin.",
+          "La mitad del mundo, la línea ecuatorial, pasa por el país, de donde toma su nombre.",
+          "Quito, su capital, tiene un bien conservado centro histórico y está rodeada de volcanes.",
+          "La diversidad cultural de Ecuador se refleja en su música, danza y artesanías tradicionales."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Ecuador"
+      },
+      {
+        "titulo": "Países de América",
+        "nombre": "🇺🇾 Uruguay",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Uruguay_%28orthographic_projection%29.svg/375px-Uruguay_%28orthographic_projection%29.svg.png",
+        "hechos": [
+          "Es conocido por su estabilidad política y social, y por tener un alto nivel de vida en América Latina.",
+          "Montevideo, la capital, es famosa por su rambla costera y su vibrante vida cultural.",
+          "Punta del Este es un famoso destino turístico, conocido como el 'Mónaco de América del Sur'.",
+          "El fútbol es una pasión nacional, y Uruguay ha ganado dos veces la Copa Mundial de la FIFA."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Uruguay"
+      }
+    ]
+  }
+  

@@ -1,0 +1,62 @@
+
+## Videos panorámicos de imágenes y zooms
+
+- PANO hacia la derecha de 10 segundos ajustado con la imagen de la medusa
+ffmpeg -loop 1 -i Medusa.jpg -vf "crop=w='iw/2':h='ih':x='iw/2*t/10':y=0, scale=768:1280" -t 10 -pix_fmt
+yuv420p DER_v10_output.mp4
+
+
+- PANO hacia la izquierda de 10 segundos
+ffmpeg -loop 1 -i Medusa.jpg -vf "crop=w='iw/2':h='ih':x='iw/2-iw/2*t/10':y=0, scale=768:1280" -t 10
+-pix_fmt yuv420p IZQ_v10_output.mp4
+
+
+- Video del cuadro de la medusa que va y viene
+
+
+- ZOOM hacia las coordenadas (850,350)
+ffmpeg -loop 1 -i Medusa.jpg -vf
+"zoompan=z='min(zoom+0.0015,2)':x='if(gte(zoom,2),850,y)':y='if(gte(zoom,2),350,y)':d=300:s=1280x720" -t 10
+-pix_fmt yuv420p output.mp4
+
+
+- donde _10_ es la velocidad, si es mayor es mas lento y si es menor es mas rapido
+ffmpeg -loop 1 -i Medusa.jpg -vf
+"zoompan=z='min(zoom+0.0015,2)':x='if(gte(zoom,2),850,y)':y='if(gte(zoom,2),350,y)':d=300:s=1280x720" -t 10
+-pix_fmt yuv420p output.mp4
+
+
+
+## Descarga y edición de un video en YouTube
+
+Video de Ejemplo: https://www.youtube.com/watch?v=9ujMLTtaMIc
+Se descarga con: https://www.fastconverter.net/v40/ (Me lo descargo en 720p)
+
+Ocurre que los bordes los habia añadido YTB para meterlo en su visor, si no fuera asi tendria que hacer esto:
+
+- Renombro el fichero a hope00.mp4 (input.mp4)
+
+- Recorto la parte central del video
+```bash
+ffmpeg -i input.mp4 -vf "crop=in_w*9/16:in_h" output.mp4
+```
+
+- Ahora me gustaría quitarle el sonido
+```bash
+ffmpeg -i input.mp4 -an -vcodec copy output.mp4
+```
+
+- Quiero recortar el video en dos, desde 0:00 hasta 1:15 la primera parte:
+Nota: -t no marca el tiempo final sino el tiempo que hay que tomar
+```bash
+ffmpeg -i input.mp4 -ss 00:00:00 -t 00:01:15 -c:v copy -c:a copy output_part1.mp4
+ffmpeg -i input.mp4 -ss 00:01:16 -t 00:00:17.200 -c:v copy -c:a copy output_part2_aux.mp4
+ffmpeg -i input.mp4 -ss 00:02:05 -t 00:00:11.400 -c:v copy -c:a copy output_part3_aux.mp4
+```
+
+- Para pegar dos ficheros hay que hacer lo siguiente:
+```bash
+echo "file 'output_part2_aux.mp4'" > mylist.txt
+echo "file 'output_part3_aux.mp4'" >> mylist.txt
+ffmpeg -f concat -safe 0 -i mylist.txt -c:v copy -c:a copy output_part2.mp4
+```
