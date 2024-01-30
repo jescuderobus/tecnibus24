@@ -3,6 +3,48 @@
       {
         "tematica": "ulysseus",
         "titulo": "Universidades Ulysseus",
+        "nombre": "🇪🇸 Universidad de Sevilla",
+        "imagenUrl": "https://ulysseus.eu/wp-content/uploads/2022/10/logo-universidad-de-sevilla-frame-back.svg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Fundada en 1505, es una de las universidades más antiguas de España y una importante institución en Andalucía.",
+          "Cuenta con una rica historia y un amplio patrimonio arquitectónico, incluyendo edificios históricos como su famosa capilla.",
+          "Ofrece una amplia gama de programas académicos en diferentes campos del conocimiento.",
+          "Es conocida por su activa participación en programas de intercambio internacional y su contribución a la investigación."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Universidad_de_Sevilla"
+      },
+      {
+        "tematica": "ulysseus",
+        "titulo": "Universidades Ulysseus",
+        "nombre": "🇫🇷 Université Côte-d'Azur",
+        "imagenUrl": "https://ulysseus.eu/wp-content/uploads/2022/10/logo-universite-cote-dazur-frame-back.svg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Anteriormente conocida como Universidad de Niza Sophia Antipolis",
+          "Fue fundada en 1965 y se estructura en ocho facultades, dos institutos autónomos y una escuela de ingeniería",
+          "Cuenta con cerca de 30.000 estudiantes de formación inicial y continua, de los cuales un 20% son extranjeros",
+          "Sus campus universitarios están en Niza, Cannes, Grasse, Menton, así como en el parque tecnológico de Sophia Antípolis."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Universit%C3%A9_C%C3%B4te-d%27Azur"
+      },
+      {
+        "tematica": "ulysseus",
+        "titulo": "Universidades Ulysseus",
+        "nombre": "🇮🇹 Universidad de Génova",
+        "imagenUrl": "https://ulysseus.eu/wp-content/uploads/2022/10/logo-universita-di-genova-frame-back.svg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Fue fundada en 1481, tiene su sede en la Via Balbi.",
+          "Tiene matriculados unos 40000 estudiantes y tiene un 1700 profesores y personal administrativo",
+          "Esta organizada en varios campus que se reparten por toda la ciudad",
+          "Tiene un campus compartido con la Florida International University por el que comparten alumnos"
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/University_of_Genoa"
+      },
+      {
+        "tematica": "ulysseus",
+        "titulo": "Universidades Ulysseus",
         "nombre": "🇦🇹 Management Center Innsbruck",
         "imagenUrl": "https://ulysseus.eu/wp-content/uploads/2022/10/logo-mci-frame-back.svg",
         "imageOrientation":"H",
@@ -69,6 +111,76 @@
           "Su sitio web es http://www.ucg.ac.me"
         ],
         "enlace": "https://es.wikipedia.org/wiki/Universidad_de_Montenegro"
+      },
+      {
+        "tematica": "geografia",
+        "titulo": "Ciudades Ulysseus",
+        "nombre": "🇫🇷 Niza",
+        "imagenUrl": "",
+        "imageOrientation":"H",
+        "hechos": [
+          "Ubicada en la Riviera Francesa, es famosa por su clima templado y sus impresionantes playas.",
+          "La ciudad tiene una rica historia, visible en su arquitectura y el casco antiguo bien conservado.",
+          "Es conocida por su paseo marítimo, el Paseo de los Ingleses, un lugar popular entre turistas y lugareños.",
+          "El Carnaval de Niza es uno de los más grandes del mundo, atrayendo a visitantes de todas partes."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Niza"
+      },
+      {
+        "tematica": "geografia",
+        "titulo": "Ciudades Ulysseus",
+        "nombre": "🇮🇹 Génova",
+        "imagenUrl": "",
+        "imageOrientation":"H",
+        "hechos": [
+          "Es un importante puerto marítimo en Italia, conocido por su papel significativo en la historia marítima.",
+          "La ciudad es famosa por su centro histórico, uno de los más extensos de Europa, lleno de callejuelas y arquitectura antigua.",
+          "Es el lugar de nacimiento de Cristóbal Colón, el famoso explorador.",
+          "El acuario de Génova es uno de los más grandes de Europa y una atracción turística principal."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/G%C3%A9nova"
+      },
+      {
+        "tematica": "geografia",
+        "titulo": "Ciudades Ulysseus",
+        "nombre": "🇦🇹 Innsbruck",
+        "imagenUrl": "",
+        "imageOrientation":"H",
+        "hechos": [
+          "Situada en los Alpes austriacos, es conocida por sus deportes de invierno y ha sido sede de los Juegos Olímpicos de Invierno.",
+          "La ciudad es famosa por su arquitectura imperial, como el Palacio Imperial y el Tejado de Oro.",
+          "Es un importante centro cultural y universitario en el oeste de Austria.",
+          "Sus paisajes montañosos y su rica historia cultural atraen a turistas durante todo el año."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Innsbruck"
+      },
+      {
+        "tematica": "geografia",
+        "titulo": "Ciudades Ulysseus",
+        "nombre": "🇫🇮 Helsinki",
+        "imagenUrl": "",
+        "imageOrientation":"H",
+        "hechos": [
+          "Es la capital de Finlandia y es conocida por su diseño y arquitectura moderna.",
+          "Ubicada junto al mar Báltico, cuenta con numerosas islas y una hermosa costa.",
+          "Es famosa por sus parques y áreas verdes, así como por su vibrante vida cultural.",
+          "El diseño finlandés y la arquitectura moderna son visibles en sus numerosos museos y galerías."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Helsinki"
+      },
+      {
+        "tematica": "geografia",
+        "titulo": "Ciudades Ulysseus",
+        "nombre": "🇩🇪 Münster",
+        "imagenUrl": "",
+        "imageOrientation":"H",
+        "hechos": [
+          "Situada en el oeste de Alemania, es conocida por su universidad y su histórico casco antiguo.",
+          "La ciudad jugó un papel importante en la historia, especialmente durante la Guerra de los Treinta Años.",
+          "Es famosa por su alta calidad de vida y su gran cantidad de ciclistas.",
+          "El Lago Aasee y sus parques circundantes son populares entre residentes y turistas."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/M%C3%BCnster"
       },
       {
         "tematica": "ciencia_y_naturaleza",
