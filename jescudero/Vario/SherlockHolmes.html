@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>OAI-PMH</title>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+</head>
+<body>
+    <div id="contenidoMarkdown">Cargando contenido Markdown...</div>
+
+    <script>
+        // Función para cargar y mostrar el contenido Markdown
+        function cargarYMostrarMarkdown(url) {
+            fetch(url)
+                .then(response => response.text()) // Obtener el texto del archivo Markdown
+                .then(markdown => {
+                    var converter = new showdown.Converter(); // Crear un nuevo conversor de Showdown
+                    var html = converter.makeHtml(markdown); // Convertir Markdown a HTML
+                    document.getElementById('contenidoMarkdown').innerHTML = html; // Mostrar el HTML en la página
+                })
+                .catch(error => console.error('Error al cargar el archivo Markdown:', error));
+        }
+
+        // Llamar a la función con la ruta al archivo Markdown
+        cargarYMostrarMarkdown('SherlockHolmes.md');
+    </script>
+</body>
+</html>
