@@ -1,0 +1,47 @@
+/* Ejemplos de randoms Background Lineales */
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=4b18ba&c2=b30212&gt=r&gd=dtl
+*/
+background: #4B18BA;
+background: radial-gradient(at left top, #4B18BA, #B30212);
+
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=4b18ba&c2=b30212&gt=r&gd=dtt
+*/
+background: #4B18BA;
+background: radial-gradient(at center top, #4B18BA, #B30212);
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=4b18ba&c2=b30212&gt=r&gd=dtr
+*/
+background: #4B18BA;
+background: radial-gradient(at right top, #4B18BA, #B30212);
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=4b18ba&c2=b30212&gt=r&gd=dcl
+*/
+background: #4B18BA;
+background: radial-gradient(at left center, #4B18BA, #B30212);
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=4b18ba&c2=b30212&gt=r&gd=dcc
+*/
+background: #4B18BA;
+background: radial-gradient(at center, #4B18BA, #B30212);
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=4b18ba&c2=b30212&gt=r&gd=dcr
+*/
+background: #4B18BA;
+background: radial-gradient(at right center, #4B18BA, #B30212);
+
+
+

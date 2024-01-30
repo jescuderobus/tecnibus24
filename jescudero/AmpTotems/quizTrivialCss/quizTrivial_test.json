@@ -195,7 +195,64 @@
           "Esta ciudad es conocida por su impresionante arquitectura y calles históricas."
         ],
         "enlace": "https://es.wikipedia.org/wiki/Ceti%C3%B1a"
+      },
+      {
+        "tematica": "entretenimiento",
+        "titulo": "Clásicos del Cine",
+        "nombre": "🚀 2001: Una odisea del espacio",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Yatrides%27_Slab.JPG",
+        "imageOrientation":"H",
+        "hechos": [
+          "Dirigida por Stanley Kubrick y estrenada en 1968, es una obra maestra de la ciencia ficción.",
+          "Es conocida por su avanzado uso de efectos especiales y su narrativa simbólica.",
+          "La película explora temas de existencialismo, inteligencia artificial y la evolución humana.",
+          "La banda sonora es notable por su uso de piezas clásicas como 'Así habló Zaratustra' de Strauss y 'El Danubio Azul'."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/2001:_A_Space_Odyssey"
+      },
+      {
+        "tematica": "entretenimiento",
+        "titulo": "Películas de Culto",
+        "nombre": "🌌 Blade Runner",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Blade_Runner_%281982_poster%29.png",
+        "imageOrientation":"V",
+        "hechos": [
+          "Dirigida por Ridley Scott y lanzada en 1982, se ha convertido en un clásico del cine de ciencia ficción.",
+          "Basada en la novela '¿Sueñan los androides con ovejas eléctricas?' de Philip K. Dick.",
+          "Es famosa por su ambiente futurista distópico y su profunda reflexión filosófica.",
+          "La película generó varias secuelas y ha tenido un gran impacto en el género cyberpunk."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Blade_Runner"
+      },
+      {
+        "tematica": "entretenimiento",
+        "titulo": "Comedias Románticas",
+        "nombre": "💑 La La Land",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_%28film%29.png",
+        "imageOrientation":"V",
+        "hechos": [
+          "Lanzada en 2016, dirigida por Damien Chazelle y protagonizada por Emma Stone y Ryan Gosling.",
+          "La película es un homenaje a los musicales clásicos de Hollywood.",
+          "Ganó 6 premios Óscar, incluyendo Mejor Directora y Mejor Actriz.",
+          "Es conocida por su banda sonora original y sus vibrantes secuencias de baile."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/La_La_Land"
+      },
+      {
+        "tematica": "entretenimiento",
+        "titulo": "Thrillers Psicológicos",
+        "nombre": "🧠 El club de la lucha",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
+        "imageOrientation":"V",
+        "hechos": [
+          "Película de 1999 dirigida por David Fincher, basada en la novela de Chuck Palahniuk.",
+          "Protagonizada por Brad Pitt, Edward Norton y Helena Bonham Carter.",
+          "Es conocida por su crítica a la cultura del consumismo y su trama sorprendente.",
+          "Se ha convertido en una película de culto gracias a su mensaje y estética."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Fight_Club"
       }
+      
       
       
     ]

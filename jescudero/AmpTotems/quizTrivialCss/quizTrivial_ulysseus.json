@@ -184,7 +184,7 @@
       },
       {
         "tematica": "geografia",
-        "titulo": "Ciudades Europeas",
+        "titulo": "Ciudades Ulysseus",
         "nombre": "🇪🇸 Sevilla",
         "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Espa%C3%B1aLoc.svg/399px-Espa%C3%B1aLoc.svg.png",
         "imageOrientation":"H",
@@ -198,7 +198,7 @@
       },
       {
         "tematica": "geografia",
-        "titulo": "Ciudades Europeas",
+        "titulo": "Ciudades Ulysseus",
         "nombre": "🇸🇰 Košice",
         "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Slovakia_location_map.svg/375px-Slovakia_location_map.svg.png",
         "imageOrientation":"H",
@@ -212,7 +212,7 @@
       },
       {
         "tematica": "geografia",
-        "titulo": "Ciudades Europeas",
+        "titulo": "Ciudades Ulysseus",
         "nombre": "🇲🇪 Podgorica",
         "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Montenegro_adm_location_map.svg/375px-Montenegro_adm_location_map.svg.png",
         "imageOrientation":"C",
@@ -226,7 +226,7 @@
       },
       {
         "tematica": "geografia",
-        "titulo": "Ciudades Europeas",
+        "titulo": "Ciudades Ulysseus",
         "nombre": "🇲🇪 Kotor",
         "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Montenegro_adm_location_map.svg/375px-Montenegro_adm_location_map.svg.png",
         "imageOrientation":"C",
