@@ -1,0 +1,137 @@
+{
+    "geografia": [
+      {
+        "titulo": "🇺🇸 Estados de EEUU",
+        "nombre": "🇺🇸 Wisconsin",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wisconsin_in_United_States.svg/360px-Wisconsin_in_United_States.svg.png",
+        "hechos": [
+          "Es conocido como \"El Estado de los Quesos\"",
+          "Es el estado líder en producción de arándanos en Estados Unidos.",
+          "Alberga el Museo Nacional de la Mostaza en Middleton",
+          "Tiene más de 15,000 lagos, superando la cantidad de lagos en Minnesota"
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/Wisconsin"
+      },
+      {
+        "titulo": "🇺🇸 Estados de EEUU",
+        "nombre": "🇺🇸 Wyoming",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Wyoming_in_United_States.svg/450px-Wyoming_in_United_States.svg.png",
+        "hechos": [
+          "Es el estado menos poblado de Estados Unidos.",
+          "Alberga el primer Parque Nacional del mundo, Yellowstone, establecido en 1872.",
+          "Es conocido por sus paisajes naturales, con vastas llanuras y las Montañas Rocosas.",
+          "El rodeo es el deporte oficial del estado, reflejando su herencia como parte del Viejo Oeste."
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/Wyoming"
+      },
+      {
+        "titulo": "🇺🇸 Estados de EEUU",
+        "nombre": "🇺🇸 Vermont",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Vermont_in_United_States_%28zoom%29.svg/450px-Vermont_in_United_States_%28zoom%29.svg.png",
+        "hechos": [
+          "Es conocido por su producción de jarabe de arce, siendo uno de los principales productores en Estados Unidos.",
+          "Es el único estado de Nueva Inglaterra que no tiene costa oceánica.",
+          "Alberga la fábrica de helados Ben & Jerry's, una de las marcas más famosas en Estados Unidos.",
+          "Es famoso por sus paisajes otoñales y esquí en invierno, atrayendo a turistas para actividades al aire libre."
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/Vermont"
+      },
+      {
+        "titulo": "🇺🇸 Estados de EEUU",
+        "nombre": "🇺🇸 Alaska",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Alaska_in_United_States_%28US50%29.svg/450px-Alaska_in_United_States_%28US50%29.svg.png",
+        "hechos": [
+          "Es el estado más grande de Estados Unidos por superficie.",
+          "Es conocido por su naturaleza salvaje, con vastas áreas silvestres y parques nacionales.",
+          "Alberga el pico más alto de Norteamérica, el Denali.",
+          "Es uno de los mejores lugares del mundo para ver la aurora boreal."
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/Alaska"
+      },
+      {
+        "titulo": "🇺🇸 Estados de EEUU",
+        "nombre": "🇺🇸 Dakota del Norte",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/North_Dakota_in_United_States.svg/450px-North_Dakota_in_United_States.svg.png",
+        "hechos": [
+          "Es conocido por ser uno de los principales productores de petróleo en Estados Unidos.",
+          "El Parque Nacional Theodore Roosevelt está ubicado aquí, nombrado en honor al presidente estadounidense.",
+          "Es un importante centro de cultura nativa americana, con varias reservas y sitios históricos.",
+          "La agricultura sigue siendo una parte vital de su economía, especialmente el cultivo de trigo y maíz."
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/North_Dakota"
+      },
+      {
+        "titulo": "🇺🇸 Estados de EEUU",
+        "nombre": "🇺🇸 Dakota del Sur",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/South_Dakota_in_United_States.svg/450px-South_Dakota_in_United_States.svg.png",
+        "hechos": [
+          "Es famoso por el Monumento Nacional Monte Rushmore, que presenta las caras talladas de cuatro presidentes estadounidenses.",
+          "El Parque Nacional Badlands es conocido por su paisaje único de formaciones rocosas y fósiles.",
+          "La economía se basa en la agricultura, el turismo y la minería.",
+          "Alberga la tribu Sioux y es rico en cultura nativa americana."
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/South_Dakota"
+      },
+      {
+        "titulo": "🇺🇸 Estados de EEUU",
+        "nombre": "🇺🇸 Delaware",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Delaware_in_United_States_%28zoom%29.svg/450px-Delaware_in_United_States_%28zoom%29.svg.png",
+        "hechos": [
+          "Es conocido como 'El Primer Estado' por ser el primero en ratificar la Constitución de Estados Unidos.",
+          "Es el segundo estado más pequeño en términos de área.",
+          "Wilmington, su ciudad más grande, es un importante centro financiero y corporativo.",
+          "Es famoso por sus playas y parques estatales, atrayendo a turistas especialmente en verano."
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/Delaware"
+      },
+      {
+        "titulo": "🇺🇸 Estados de EEUU",
+        "nombre": "🇺🇸 Montana",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Montana_in_United_States.svg/450px-Montana_in_United_States.svg.png",
+        "hechos": [
+          "Es conocido por sus paisajes naturales y es apodado 'El Estado del Cielo Grande'.",
+          "El Parque Nacional Glacier y el Parque Nacional Yellowstone se encuentran parcialmente en este estado.",
+          "Es uno de los principales destinos para la pesca de truchas y otras actividades al aire libre.",
+          "La Batalla de Little Bighorn, un famoso conflicto entre el Ejército de EE.UU. y las tribus nativas americanas, tuvo lugar aquí."
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/Montana"
+      },
+      {
+        "titulo": "🇺🇸 Estados de EEUU",
+        "nombre": "🇺🇸 Rhode Island",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rhode_Island_in_United_States_%28zoom%29_%28extra_close%29.svg/450px-Rhode_Island_in_United_States_%28zoom%29_%28extra_close%29.svg.png",
+        "hechos": [
+          "Es el estado más pequeño de Estados Unidos en términos de área.",
+          "Es conocido por sus playas costeras y como el estado natal de la Copa América de vela.",
+          "La ciudad de Newport es famosa por sus mansiones históricas y su festival anual de jazz.",
+          "Tiene una rica historia colonial y fue uno de los primeros estados en rebelarse contra el dominio británico."
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/Rhode_Island"
+      },
+      {
+        "titulo": "🇺🇸 Estados de EEUU",
+        "nombre": "🇺🇸 New Hampshire",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/New_Hampshire_in_United_States.svg/450px-New_Hampshire_in_United_States.svg.png",
+        "hechos": [
+          "Es conocido por sus amplias áreas silvestres y como un popular destino de esquí y senderismo.",
+          "Es uno de los trece estados originales y tiene un papel importante en las elecciones presidenciales de EE.UU. como el primer estado en celebrar primarias.",
+          "La ciudad de Concord es la capital, mientras que Manchester es la ciudad más poblada.",
+          "El lema del estado es 'Vive libre o muere', reflejando su fuerte espíritu de independencia."
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/New_Hampshire"
+      },
+      {
+        "titulo": "🇺🇸 Estados de EEUU",
+        "nombre": "🇺🇸 Maine",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Maine_in_United_States.svg/450px-Maine_in_United_States.svg.png",
+        "hechos": [
+          "Es conocido por sus paisajes costeros, faros y como un importante productor de langostas y arándanos.",
+          "Es el estado más al noreste de EE.UU. y el más grande de Nueva Inglaterra.",
+          "El Parque Nacional Acadia, uno de los parques nacionales más visitados de Estados Unidos, se encuentra aquí.",
+          "Portland, la ciudad más grande, es conocida por su distrito histórico y su vibrante escena culinaria."
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/Maine"
+      }
+    ]
+  }
+  

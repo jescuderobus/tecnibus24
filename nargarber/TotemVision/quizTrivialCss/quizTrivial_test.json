@@ -1,0 +1,260 @@
+{
+    "cartas": [
+      {
+        "tematica": "geografia",
+        "titulo": "Estados de EEUU 🇺🇸",
+        "nombre": "🇺🇸 Wisconsin",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wisconsin_in_United_States.svg/450px-Wisconsin_in_United_States.svg.png",
+        "imageOrientation":"H",
+        "hechos": [
+          "es conocido como \"El Estado de los Quesos\"",
+          "Es el estado líder en producción de arándanos en Estados Unidos.",
+          "Alberga el Museo Nacional de la Mostaza en Middleton",
+          "Tiene más de 15,000 lagos, superando la cantidad de lagos en Minnesota"
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/Wisconsin"
+      },
+      {
+        "tematica": "entretenimiento",
+        "titulo": "Películas Españolas",
+        "nombre": "🐺 El bosque del lobo",
+        "imagenUrl": "https://pics.filmaffinity.com/el_bosque_del_lobo-568263538-mmed.jpg",
+        "imageOrientation":"V",
+        "hechos": [
+          "Es una de las primeras películas españolas que aborda el tema del hombre lobo",
+          "Un vendedor ambulante, Benito Freire, quien sufre de epilepsia, condición que en la época se asociaba con la licantropía.",
+          "Fue rodada en Galicia y destaca por su atmósfera oscura y su retrato de la superstición rural",
+          "La película está basada en la novela 'El bosque de Ancines' de Carlos Martínez-Barbeito"
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/El_bosque_del_lobo"
+      },
+      {
+        "tematica": "historia",
+        "titulo": "Personajes Históricos",
+        "nombre": "ابن رشد Averroes",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Statue_of_Averroes_in_C%C3%B3rdoba%2C_Spain.jpg/330px-Statue_of_Averroes_in_C%C3%B3rdoba%2C_Spain.jpg",
+        "imageOrientation":"V",
+        "hechos": [
+          "ابن رشد nació en Córdoba, España, en 1126, durante el apogeo del Al-Andalus musulmán",
+          "Hizo detallados comentarios sobre las obras de Aristóteles, ayudando a preservar y expandir las enseñanzas del filósofo griego",
+          "Fue también un médico influyente; su libro 'El Collar de la Paloma' es un texto importante en la historia de la medicina.",
+          "enfrentó resistencia y críticas por sus enseñanzas, lo que eventualmente llevó a la quema de sus libros y al exilio hacia el final de su vida."
+        ],
+        "enlace": "https://en.wikipedia.org/wiki/Averroes"
+      },
+      {
+        "tematica": "ciencia_y_naturaleza",
+        "titulo": "🧮 Las ecuaciones más bellas",
+        "nombre": "Identidad de Euler",
+        "imagenUrl": "https://imagenes.muyinteresante.es/files/vertical_composte_image/uploads/2024/01/15/65a50e0c1c82d.jpeg",
+        "imageOrientation":"H",
+        "hechos": [
+          "es conocida como la fórmula más bella en matemáticas por su elegante unión de cinco constantes fundamentales",
+          "Fue publicada por primera vez en 1748",
+          "Su autor es uno de los matematicos mas prolificos en la historia de las matemáticas",
+          "Relaciona áreas aparentemente dispares de las matemáticas."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Identidad_de_Euler"
+      },
+      {
+        "tematica": "arte_y_literatura",
+        "titulo": "Arte",
+        "nombre": "🎨 Leonardo da Vinci",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Possible_Self-Portrait_of_Leonardo_da_Vinci.jpg",
+        "imageOrientation":"V",
+        "hechos": [
+          "Fue un polímata italiano del Renacimiento, conocido tanto por su arte como por sus invenciones y estudios científicos.",
+          "Pintó la 'Mona Lisa', una de las obras de arte más famosas y reconocidas en el mundo.",
+          "Su cuadro 'La Última Cena' ha sido objeto de numerosos estudios y especulaciones.",
+          "Contribuyó significativamente en áreas como la anatomía, la astronomía y la ingeniería."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Leonardo_da_Vinci"
+      },
+      {
+        "tematica": "arte_y_literatura",
+        "titulo": "Literatura",
+        "nombre": "📚 Gabriel García Márquez",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gabriel_Garcia_Marquez.jpg/330px-Gabriel_Garcia_Marquez.jpg",
+        "imageOrientation":"V",
+        "hechos": [
+          "Fue un novelista colombiano, conocido por ser uno de los exponentes más significativos del realismo mágico.",
+          "Su novela 'Cien años de soledad' es considerada una obra maestra de la literatura mundial.",
+          "Recibió el Premio Nobel de Literatura en 1982 por sus novelas e historias cortas.",
+          "Otras obras notables incluyen 'El amor en los tiempos del cólera' y 'Crónica de una muerte anunciada'."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez"
+      },
+      {
+        "tematica": "deportes_y_pasatiempos",
+        "titulo": "Deportes",
+        "nombre": "🏅 Lionel Messi",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg/330px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg",
+        "imageOrientation":"V",
+        "hechos": [
+          "Es un futbolista argentino ampliamente considerado como uno de los mejores jugadores de la historia del fútbol.",
+          "Ha ganado múltiples Balones de Oro, premio otorgado al mejor futbolista del mundo cada año.",
+          "Conocido por su paso en el FC Barcelona, donde estableció numerosos récords y ganó numerosos títulos.",
+          "Destaca por su increíble habilidad de driblar, su visión de juego y su capacidad goleadora."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Lionel_Messi"
+      },
+      {
+        "tematica": "deportes_y_pasatiempos",
+        "titulo": "Deportes Olímpicos",
+        "nombre": "🏊 Natación Olímpica",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/H%C3%A0bit_Saludable.jpg/413px-H%C3%A0bit_Saludable.jpg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Es uno de los deportes con más medallas en los Juegos Olímpicos y ha sido parte del programa olímpico desde 1896.",
+          "Michael Phelps es el nadador más condecorado de la historia olímpica con 28 medallas.",
+          "Incluye varias disciplinas como estilo libre, mariposa, espalda y braza, así como pruebas de relevos.",
+          "Los récords mundiales en este deporte han sido batidos constantemente debido a avances en técnicas y trajes de baño."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Nataci%C3%B3n_(deporte)"
+      },
+      {
+        "tematica": "ciencia_y_naturaleza",
+        "titulo": "Naturaleza",
+        "nombre": "🏞️ Parque Nacional Durmitor",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Big_Black_Lake.jpg/375px-Big_Black_Lake.jpg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Es un parque nacional de Montenegro que también es Patrimonio de la Humanidad de la UNESCO.",
+          "El parque es famoso por sus formaciones geológicas únicas, incluyendo cañones, lagos glaciares y cuevas.",
+          "El pico Bobotov Kuk, situado dentro del parque, es el punto más alto de Montenegro.",
+          "Durmitor es un destino popular para actividades como senderismo, escalada y esquí."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Parque_Nacional_Durmitor"
+      },
+      {
+        "tematica": "historia",
+        "titulo": "Montenegro",
+        "nombre": "🏰 Kotor, Ciudad Medieval",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Kotor_Montenegro_panorama_2016.jpg/375px-Kotor_Montenegro_panorama_2016.jpg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Es una ciudad antigua de Montenegro situada a lo largo de uno de los tramos más impresionantes de la bahía de Kotor.",
+          "La ciudad es conocida por su bien conservada arquitectura medieval y sus impresionantes murallas fortificadas.",
+          "Ha sido un importante puerto comercial a lo largo de la historia, influenciado por diversas culturas.",
+          "El casco antiguo de Kotor es Patrimonio de la Humanidad por la UNESCO."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Kotor"
+      },
+      {
+        "tematica": "historia",
+        "titulo": "Montenegro",
+        "nombre": "👑 La Dinastía Petrović-Njegoš",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Coat_of_arms_of_the_House_of_Petrovi%C4%87-Njego%C5%A1_%28alt%29.svg/225px-Coat_of_arms_of_the_House_of_Petrovi%C4%87-Njego%C5%A1_%28alt%29.svg.png",
+        "imageOrientation":"C",
+        "hechos": [
+          "La dinastía que gobernó Montenegro durante más de dos siglos.",
+          "Esta dinastía es conocida por sus esfuerzos en la lucha por la independencia y la modernización de Montenegro.",
+          "Petar II, poeta y filósofo, es una de las figuras más emblemáticas de la dinastía.",
+          "La influencia de la dinastía se refleja en la cultura, la literatura y la política de Montenegro."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Petrovi%C4%87-Njego%C5%A1"
+      },
+      {
+        "tematica": "geografia",
+        "titulo": "Montenegro",
+        "nombre": "🌊 Bahía de Kotor",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Bay_of_kotor_768x576.JPG/420px-Bay_of_kotor_768x576.JPG",
+        "imageOrientation":"C",
+        "hechos": [
+          "Es conocida por ser uno de los fiordos más meridionales de Europa.",
+          "Su combinación de belleza natural y patrimonio histórico la convierte en un destino turístico popular.",
+          "La bahía está rodeada de altas montañas que crean un paisaje impresionante.",
+          "En la bahía se encuentran importantes ciudades históricas como Kotor y Perast."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Bocas_de_Kotor"
+      },
+      {
+        "tematica": "geografia",
+        "titulo": "Montenegro",
+        "nombre": "🇲🇪 Podgorica",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/PG_collage.jpg/375px-PG_collage.jpg",
+        "imageOrientation":"C",
+        "hechos": [
+          "Es la capital y la ciudad más grande del país, conocida por su mezcla de arquitectura moderna y soviética.",
+          "Se encuentra en la confluencia de los ríos Ribnica y Morača.",
+          "Fue conocida históricamente como Titogrado durante el período yugoslavo.",
+          "Alberga el Parque Forestal Gorica, un popular destino para actividades al aire libre."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Podgorica"
+      },
+      {
+        "tematica": "historia",
+        "titulo": "Montenegro",
+        "nombre": "🇲🇪 Cetinje",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Widok_na_Cetinje_01.jpg/375px-Widok_na_Cetinje_01.jpg",
+        "imageOrientation":"H",
+        "hechos": [
+          "Conocida como la antigua capital real, es famosa por sus monumentos y museos.",
+          "Ha jugado un papel crucial en la historia como centro cultural y político.",
+          "Alberga el Monasterio de Cetinje, un importante sitio religioso ortodoxo.",
+          "Esta ciudad es conocida por su impresionante arquitectura y calles históricas."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Ceti%C3%B1a"
+      },
+      {
+        "tematica": "entretenimiento",
+        "titulo": "Clásicos del Cine",
+        "nombre": "🚀 2001: Una odisea del espacio",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Yatrides%27_Slab.JPG",
+        "imageOrientation":"H",
+        "hechos": [
+          "Dirigida por Stanley Kubrick y estrenada en 1968, es una obra maestra de la ciencia ficción.",
+          "Es conocida por su avanzado uso de efectos especiales y su narrativa simbólica.",
+          "La película explora temas de existencialismo, inteligencia artificial y la evolución humana.",
+          "La banda sonora es notable por su uso de piezas clásicas como 'Así habló Zaratustra' de Strauss y 'El Danubio Azul'."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/2001:_A_Space_Odyssey"
+      },
+      {
+        "tematica": "entretenimiento",
+        "titulo": "Películas de Culto",
+        "nombre": "🌌 Blade Runner",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Blade_Runner_%281982_poster%29.png",
+        "imageOrientation":"V",
+        "hechos": [
+          "Dirigida por Ridley Scott y lanzada en 1982, se ha convertido en un clásico del cine de ciencia ficción.",
+          "Basada en la novela '¿Sueñan los androides con ovejas eléctricas?' de Philip K. Dick.",
+          "Es famosa por su ambiente futurista distópico y su profunda reflexión filosófica.",
+          "La película generó varias secuelas y ha tenido un gran impacto en el género cyberpunk."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Blade_Runner"
+      },
+      {
+        "tematica": "entretenimiento",
+        "titulo": "Comedias Románticas",
+        "nombre": "💑 La La Land",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_%28film%29.png",
+        "imageOrientation":"V",
+        "hechos": [
+          "Lanzada en 2016, dirigida por Damien Chazelle y protagonizada por Emma Stone y Ryan Gosling.",
+          "La película es un homenaje a los musicales clásicos de Hollywood.",
+          "Ganó 6 premios Óscar, incluyendo Mejor Directora y Mejor Actriz.",
+          "Es conocida por su banda sonora original y sus vibrantes secuencias de baile."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/La_La_Land"
+      },
+      {
+        "tematica": "entretenimiento",
+        "titulo": "Thrillers Psicológicos",
+        "nombre": "🧠 El club de la lucha",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
+        "imageOrientation":"V",
+        "hechos": [
+          "Película de 1999 dirigida por David Fincher, basada en la novela de Chuck Palahniuk.",
+          "Protagonizada por Brad Pitt, Edward Norton y Helena Bonham Carter.",
+          "Es conocida por su crítica a la cultura del consumismo y su trama sorprendente.",
+          "Se ha convertido en una película de culto gracias a su mensaje y estética."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Fight_Club"
+      }
+      
+      
+      
+    ]
+  }
+  

@@ -17,8 +17,8 @@ Es una programación en los Totems que permite explorar todas las posibilidades 
 - Se puede crear contenido en imágenes de formato 9:16
 - Se puede crear contenido en videos de formato 9:16
 - Por la ventana que ofrecen HTML se pueden introducir algunas ideas:
-    - Recomendaciones de libros construidas como stories basadas en APM
-    - Preguntas/Respuestas/Curiosidades editables JSON basadas en APM
+    - Recomendaciones de libros construidas como stories basadas en AMP
+    - Preguntas/Respuestas/Curiosidades editables JSON basadas en AMP
         - Geografía
         - Trivial + (Ulysseus)
 - Por la ventana que ofrecen video se pueden introducir algunas ideas:
@@ -30,6 +30,6 @@ Es una programación en los Totems que permite explorar todas las posibilidades 
 ## Conocimientos y Herramientas
 
 Quien quera aprovechar al máximo el Totem debe tener conocimientos de edición de imágenes, edición de video y HTML AMP.
-Algunas herramientas de IA, Gimp, Canva y Clipchamp puededen ser herramientas útiles.
+Algunas herramientas de IA, Gimp, Canva, Clipchamp, OBS pueden ser herramientas útiles.
 
 La sección de informática además ha usado herramientas por linea de comandos como qrencoder, ffmpeg, ImageMagick.

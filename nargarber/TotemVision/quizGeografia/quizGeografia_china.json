@@ -1,0 +1,473 @@
+{
+    "geografia": [
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Heilongjiang",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Heilongjiang_in_China_%28%2Ball_claims_hatched%29.svg/480px-Heilongjiang_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es la provincia más septentrional de China, compartiendo frontera con Rusia.",
+          "En Harbin, su capital, se celebra un famoso festival de esculturas de hielo y nieve.",
+          "La provincia lleva el nombre del río Heilongjiang (río Amur en ruso), que forma parte de su frontera con Rusia.",
+          "Es una importante región agrícola, especialmente conocida por su producción de soja."
+        ],        
+        "enlace": "https://es.wikipedia.org/wiki/Heilongjiang"
+      }, 
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Sichuan",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sichuan_in_China_%28%2Ball_claims_hatched%29.svg/480px-Sichuan_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Conocida por su cocina picante, incluyendo el famoso plato de pollo Kung Pao.",
+          "Es el hogar del Centro de Investigación y Cría de Pandas Gigantes de Chengdu.",
+          "Alberga la estatua de Buda más grande del mundo, el Gran Buda de Leshan.",
+          "Sichuan es una región montañosa con paisajes naturales impresionantes, como el Valle Jiuzhaigou."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Sichuan"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Yunnan",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Yunnan_in_China_%28%2Ball_claims_hatched%29.svg/420px-Yunnan_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es conocida por su gran diversidad étnica, hogar de más de la mitad de las minorías étnicas de China.",
+          "Yunnan cuenta con una biodiversidad excepcional debido a su variada topografía y clima.",
+          "La ciudad de Lijiang, Patrimonio de la Humanidad, es famosa por su antigua ciudad y su arquitectura tradicional.",
+          "El Puente del Doble Dragón en Jianshui es una de las atracciones históricas más notables de la provincia."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Yunnan"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Guangdong",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Guangdong_in_China_%28%2Ball_claims_hatched%29.svg/480px-Guangdong_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es la provincia más poblada de China, conocida por ser el centro de la manufactura y el comercio internacional.",
+          "Guangdong es cuna de la cocina cantonesa, una de las ocho grandes tradiciones culinarias de China.",
+          "Alberga la Torre de Cantón, una de las torres más altas del mundo.",
+          "Es la provincia de origen de la mayoría de los chinos de ultramar."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Guangdong"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Shaanxi",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Shaanxi_in_China_%28%2Ball_claims_hatched%29.svg/420px-Shaanxi_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es famosa por albergar el ejército de terracota en Xi'an, la capital de la provincia.",
+          "Es considerada la cuna de la civilización china, con una historia que se remonta a la dinastía Zhou.",
+          "La antigua muralla de la ciudad de Xi'an es una de las mejor conservadas de China.",
+          "La provincia es un importante centro de investigación y educación, con varias universidades de prestigio."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Shaanxi"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Zhejiang",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Zhejiang_in_China_%28%2Ball_claims_hatched%29.svg/420px-Zhejiang_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Conocida por sus paisajes naturales y ciudades históricas como Hangzhou y Ningbo.",
+          "El Lago del Oeste en Hangzhou es famoso por su belleza natural y su influencia en poetas y artistas chinos.",
+          "Es un líder en la economía privada de China, con un sector de pequeñas y medianas empresas muy desarrollado.",
+          "La provincia es un importante productor de té, incluyendo el famoso Longjing."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Zhejiang"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Fujian",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Fujian_in_China_%28%2Ball_claims_hatched%29.svg/480px-Fujian_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es conocida por su herencia cultural Min, una de las culturas madre de la civilización Han.",
+          "Alberga las casas torre Hakka únicas, conocidas como tulou, algunas de las cuales son Patrimonio de la Humanidad.",
+          "Es un importante centro de emigración china, especialmente hacia el sudeste asiático.",
+          "La provincia es famosa por su té oolong, especialmente el Tieguanyin."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Fujian"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Hunan",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Hunan_in_China_%28%2Ball_claims_hatched%29.svg/420px-Hunan_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es famosa por su cocina picante, que utiliza una variedad de chiles y técnicas de ahumado.",
+          "La provincia es el lugar de nacimiento de Mao Zedong, líder fundador de la República Popular de China.",
+          "Alberga el Parque Nacional de Zhangjiajie, conocido por sus formaciones de pilares de piedra cuarcita.",
+          "Es una región rica en historia y cultura, con varios sitios del Patrimonio Mundial de la UNESCO."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Hunan"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Jiangsu",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Jiangsu_in_China_%28%2Ball_claims_hatched%29.svg/420px-Jiangsu_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es una de las provincias más ricas y desarrolladas, con una economía fuerte en manufactura y tecnología.",
+          "Es famosa por sus jardines clásicos chinos, especialmente en Suzhou, reconocidos por la UNESCO.",
+          "La ciudad de Nanjing sirvió como la capital de varias dinastías chinas y es un importante centro cultural e histórico.",
+          "La provincia es un importante centro de educación y cultura, con varias universidades de prestigio."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Jiangsu"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Anhui",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Anhui_in_China_%28%2Ball_claims_hatched%29.svg/480px-Anhui_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es conocida por su impresionante paisaje natural, incluyendo el monte Huangshan, una fuente de inspiración artística.",
+          "Es una de las provincias menos desarrolladas económicamente, aunque ha estado avanzando rápidamente en los últimos años.",
+          "Es famosa por su rica tradición en ópera y arte dramático, especialmente la Ópera de Hui.",
+          "La provincia es un importante productor de té, incluyendo el famoso Huangshan Maofeng."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Anhui"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Hubei",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Hubei_in_China_%28%2Ball_claims_hatched%29.svg/420px-Hubei_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es conocida por la Presa de las Tres Gargantas, la planta hidroeléctrica más grande del mundo.",
+          "Es un importante centro histórico y cultural, con una historia que se remonta a más de 3.000 años.",
+          "La capital, Wuhan, es un importante núcleo industrial y de transporte en el centro de China.",
+          "La provincia jugó un papel crucial en la historia moderna de China, especialmente durante la Rebelión de Taiping y la Revolución de 1911."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Hubei"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Liaoning",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Liaoning_in_China_%28%2Ball_claims_hatched%29.svg/420px-Liaoning_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es un importante centro industrial, especialmente en la producción de acero y maquinaria pesada.",
+          "La ciudad de Dalian es un importante puerto y centro de comercio en el noreste de China.",
+          "La provincia jugó un papel clave en la historia moderna de China, siendo un foco de conflictos durante la ocupación japonesa.",
+          "Es conocida por sus sitios históricos relacionados con el reino de los Manchúes y la dinastía Qing."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Liaoning"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Jilin",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Jilin_in_China_%28%2Ball_claims_hatched%29.svg/420px-Jilin_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es famosa por su paisaje invernal y es un destino popular para deportes de invierno y turismo.",
+          "La ciudad de Changchun tiene una historia significativa en la industria cinematográfica china.",
+          "La provincia tiene una significativa población de etnia coreana y una rica cultura coreana.",
+          "Es una importante región agrícola, especialmente en la producción de maíz y soja."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Jilin"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Hebei",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Hebei_in_China_%28%2Ball_claims_hatched%29.svg/420px-Hebei_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Rodea Beijing y Tianjin, y es crucial para la economía de la región metropolitana de estas ciudades.",
+          "La Gran Muralla de China atraviesa la provincia, siendo uno de sus atractivos turísticos principales.",
+          "Es conocida por su rica historia y patrimonio cultural, incluyendo antiguas tumbas y templos.",
+          "La provincia es un importante productor de carbón y acero en China."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Hebei"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Henan",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Henan_in_China_%28%2Ball_claims_hatched%29.svg/360px-Henan_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es considerada la cuna de la civilización china, con una historia que se remonta a las primeras dinastías.",
+          "Alberga el Templo Shaolin, famoso por su asociación con las artes marciales chinas.",
+          "La provincia es un importante centro agrícola, conocido como el 'Granero de China'.",
+          "Los restos del antiguo asentamiento de Anyang son uno de los sitios arqueológicos más importantes de la provincia."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Henan"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Shandong",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Shandong_in_China_%28%2Ball_claims_hatched%29.svg/420px-Shandong_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es el lugar de nacimiento de Confucio, y Qufu alberga su templo, cementerio y residencia familiar.",
+          "Tiene una economía diversificada, con industrias que incluyen petróleo, textiles y electrónica.",
+          "La península de Shandong es conocida por sus hermosas costas y ciudades portuarias.",
+          "Es uno de los principales productores de frutas y verduras en China, especialmente manzanas y cacahuetes."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Shandong"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Guangxi",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Guangxi_in_China_%28%2Ball_claims_hatched%29.svg/480px-Guangxi_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es conocida por su impresionante paisaje kárstico, especialmente alrededor de Guilin y Yangshuo.",
+          "Alberga una significativa población de la etnia Zhuang, la más grande de las minorías étnicas de China.",
+          "La región es famosa por sus festivales culturales, incluyendo la celebración del Año Nuevo Zhuang.",
+          "Es un importante centro de producción de caña de azúcar y frutas en China."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Guangxi"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Guizhou",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Guizhou_in_China_%28%2Ball_claims_hatched%29.svg/480px-Guizhou_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es conocida por su diversidad étnica, con muchas minorías étnicas como Miao y Dong.",
+          "La provincia tiene un paisaje montañoso con numerosas cuevas y cascadas.",
+          "Es famosa por su licor baijiu, especialmente la marca Maotai.",
+          "El Puente de Viento y Lluvia de Chengyang es una maravilla arquitectónica de la región."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Guizhou"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Mongolia Interior",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Inner_Mongolia_in_China_%28%2Ball_claims_hatched%29.svg/420px-Inner_Mongolia_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es una región autónoma con una cultura y patrimonio mongol distintos.",
+          "La región es conocida por sus vastas estepas y desiertos, incluyendo una parte del desierto de Gobi.",
+          "Es un importante centro de producción de carbón y recursos naturales en China.",
+          "La Naadam, una tradicional celebración mongola que incluye carreras de caballos y lucha, es popular en la región."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Mongolia_Interior"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Qinghai",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Qinghai_in_China_%28%2Ball_claims_hatched%29.svg/420px-Qinghai_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es conocida por el lago Qinghai, el lago salado más grande de China.",
+          "La provincia es un importante hábitat para muchas especies de aves, incluyendo el grulla de cuello negro.",
+          "Es un lugar importante para el budismo tibetano, con varios monasterios y sitios religiosos históricos.",
+          "Su economía se basa principalmente en la ganadería y la minería."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Qinghai"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Ningxia",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Ningxia_in_China_%28%2Ball_claims_hatched%29.svg/360px-Ningxia_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es una región autónoma hogar de la etnia Hui, una de las minorías musulmanas de China.",
+          "Es conocida por su producción de goji, una baya considerada superalimento.",
+          "La región es un importante centro de producción de vino en China.",
+          "Alberga parte de la Gran Muralla de China y varios sitios históricos importantes."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Ningxia"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Xinjiang",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Xinjiang_in_China_%28de-facto%29.svg/360px-Xinjiang_in_China_%28de-facto%29.svg.png",
+        "hechos": [
+          "Es la región autónoma más grande de China, conocida por su diversidad cultural y étnica, incluyendo la etnia uigur.",
+          "La región es famosa por su impresionante paisaje natural, que incluye partes del desierto de Taklamakán y las montañas Tian Shan.",
+          "Es un importante corredor histórico, formando parte de la antigua Ruta de la Seda.",
+          "La economía se basa en la agricultura, especialmente en la producción de algodón y frutas."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Xinjiang"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Tibet - Xizang",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Tibet_Autonomous_Region_in_China_%28undisputed_%2B_other_de-facto_hatched%29_%28%2Ball_claims_hatched%29.svg/450px-Tibet_Autonomous_Region_in_China_%28undisputed_%2B_other_de-facto_hatched%29_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es una región autónoma conocida por su cultura y religión budista única.",
+          "Alberga varias montañas importantes, incluyendo el monte Everest en la frontera con Nepal.",
+          "Lhasa, la capital, es famosa por el Palacio Potala, la tradicional residencia de los Dalai Lamas.",
+          "Es una región de gran importancia ecológica, a menudo referida como el 'Techo del Mundo'."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Tibet"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Jiangxi",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Jiangxi_in_China_%28%2Ball_claims_hatched%29.svg/420px-Jiangxi_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es conocida por su porcelana, especialmente la producida en Jingdezhen, considerada la 'Capital de la Porcelana'.",
+          "La provincia ha sido históricamente importante en la revolución china, especialmente en la formación del Ejército Rojo.",
+          "Es rica en recursos minerales, incluyendo importantes yacimientos de cobre y tungsteno.",
+          "La montaña de Lushan, un sitio del Patrimonio Mundial, es famosa por su paisaje natural y su importancia histórica y cultural."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Jiangxi"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Gansu",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Gansu_in_China.svg/480px-Gansu_in_China.svg.png",
+        "hechos": [
+          "Es conocida por el Corredor de Hexi, un importante camino histórico que formaba parte de la Ruta de la Seda.",
+          "Las Grutas de Mogao son famosas por sus impresionantes pinturas y esculturas budistas.",
+          "La provincia tiene un paisaje variado, desde el desierto de Gobi hasta fértiles valles fluviales.",
+          "Es un importante centro de producción de lana y tiene una economía agrícola diversificada."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Gansu"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Shanxi",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Shanxi_in_China_%28%2Ball_claims_hatched%29.svg/360px-Shanxi_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es conocida por su rica historia y patrimonio cultural, incluyendo antiguos templos y ciudades amuralladas.",
+          "La provincia es un importante centro de minería de carbón en China.",
+          "Es famosa por sus patios tradicionales de estilo Shanxi, un ejemplo destacado de arquitectura residencial china.",
+          "La ciudad de Pingyao, bien conservada, ofrece una visión excepcional de la cultura y la arquitectura de la China imperial."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Shanxi"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Chongqing",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chongqing_in_China_%28%2Ball_claims_hatched%29.svg/405px-Chongqing_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es una de las cuatro municipalidades de China y es conocida por su extensión urbana y densidad poblacional.",
+          "Es famosa por su cocina picante y el plato de hot pot de Chongqing.",
+          "La región tiene una geografía única con montañas, ríos y una gran cuenca urbana.",
+          "Es un importante centro de comercio y manufactura, con una economía en rápido crecimiento."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Chongqing"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Tianjin",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Tianjin_in_China_%28%2Ball_claims_hatched%29.svg/420px-Tianjin_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es otra de las cuatro municipalidades directamente controladas por el gobierno central de China.",
+          "Es un importante centro portuario e industrial, con una de las economías más prósperas de China.",
+          "La ciudad es conocida por su arquitectura colonial, especialmente en la Concesión Italiana.",
+          "Es un importante centro de educación e investigación, con varias universidades e institutos de prestigio."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Tianjin"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Hainan",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Hainan_in_China_%28%2Ball_claims_hatched%29.svg/480px-Hainan_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es la provincia más meridional de China y conocida por sus hermosas playas y clima tropical.",
+          "Es un popular destino turístico, especialmente la ciudad de Sanya, a menudo llamada 'la Hawai de China'.",
+          "La provincia está desarrollando rápidamente su sector de alta tecnología, incluyendo el turismo espacial.",
+          "Tiene una rica diversidad cultural, con varias minorías étnicas, incluyendo la Li y la Miao."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Hainan"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Macao",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Macau_in_China_%28zoomed%29_%28extra_close%29_%28special_marker%29.svg/360px-Macau_in_China_%28zoomed%29_%28extra_close%29_%28special_marker%29.svg.png",
+        "hechos": [
+          "Es una de las dos regiones administrativas especiales de China, y fue anteriormente una colonia portuguesa.",
+          "Es conocida por su industria de casinos y entretenimiento, a menudo comparada con Las Vegas.",
+          "Tiene una mezcla única de arquitectura portuguesa y china, reflejando su historia colonial.",
+          "Es un importante centro de turismo y ocio, con una economía fuertemente impulsada por el turismo y el juego."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Macao"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Beijing",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Beijing_in_China_%28%2Ball_claims_hatched%29.svg/480px-Beijing_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es la capital de China y una de las ciudades más pobladas del mundo.",
+          "Alberga numerosos sitios históricos y culturales, incluyendo la Ciudad Prohibida y el Templo del Cielo.",
+          "Es un importante centro político, cultural y educativo de China.",
+          "La Gran Muralla China se extiende en sus alrededores, siendo un atractivo turístico clave."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Beijing"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Hong Kong",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/China_edcp_location_map.svg/375px-China_edcp_location_map.svg.png",
+        "hechos": [
+          "Es una región administrativa especial con un alto grado de autonomía y un importante centro financiero global.",
+          "Es conocida por su horizonte lleno de rascacielos, su puerto natural y su mezcla única de influencias orientales y occidentales.",
+          "Tiene una de las economías más libres del mundo y es un importante centro de comercio y negocios.",
+          "La región tiene un paisaje diverso, desde playas hasta montañas, ofreciendo una variedad de actividades al aire libre."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Hong_Kong"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Zhejiang",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Zhejiang_in_China_%28%2Ball_claims_hatched%29.svg/420px-Zhejiang_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Conocida por sus paisajes naturales y ciudades históricas como Hangzhou y Ningbo.",
+          "El Lago del Oeste en Hangzhou es famoso por su belleza natural y su influencia en poetas y artistas chinos.",
+          "Es un líder en la economía privada de China, con un sector de pequeñas y medianas empresas muy desarrollado.",
+          "Es un importante productor de té, incluyendo el famoso Longjing."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Zhejiang"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Jilin",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Jilin_in_China_%28%2Ball_claims_hatched%29.svg/420px-Jilin_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es famosa por su paisaje invernal y es un destino popular para deportes de invierno y turismo.",
+          "La ciudad de Changchun tiene una historia significativa en la industria cinematográfica china.",
+          "La provincia tiene una significativa población de etnia coreana y una rica cultura coreana.",
+          "Es una importante región agrícola, especialmente en la producción de maíz y soja."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Jilin"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Jiangxi",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Jiangxi_in_China_%28%2Ball_claims_hatched%29.svg/420px-Jiangxi_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es conocida por su porcelana, especialmente la producida en Jingdezhen, considerada la 'Capital de la Porcelana'.",
+          "La provincia ha sido históricamente importante en la revolución china, especialmente en la formación del Ejército Rojo.",
+          "Es rica en recursos minerales, incluyendo importantes yacimientos de cobre y tungsteno.",
+          "La montaña de Lushan, un sitio del Patrimonio Mundial, es famosa por su paisaje natural y su importancia histórica y cultural."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Jiangxi"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Gansu",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Gansu_in_China.svg/480px-Gansu_in_China.svg.png",
+        "hechos": [
+          "Es conocida por el Corredor de Hexi, un importante camino histórico que formaba parte de la Ruta de la Seda.",
+          "Las Grutas de Mogao son famosas por sus impresionantes pinturas y esculturas budistas.",
+          "La provincia tiene un paisaje variado, desde el desierto de Gobi hasta fértiles valles fluviales.",
+          "Es un importante centro de producción de lana y tiene una economía agrícola diversificada."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Gansu"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Hainan",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Hainan_in_China_%28%2Ball_claims_hatched%29.svg/480px-Hainan_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es la provincia más meridional de China y conocida por sus hermosas playas y clima tropical.",
+          "Es un popular destino turístico, especialmente la ciudad de Sanya, a menudo llamada 'la Hawai de China'.",
+          "La provincia está desarrollando rápidamente su sector de alta tecnología, incluyendo el turismo espacial.",
+          "Tiene una rica diversidad cultural, con varias minorías étnicas, incluyendo la Li y la Miao."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Hainan"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Shanghai",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Shanghai_in_China_%28%2Ball_claims_hatched%29.svg/360px-Shanghai_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es una de las cuatro municipalidades directamente controladas por el gobierno central y un importante centro financiero global.",
+          "Conocida por su horizonte distintivo, incluyendo la Torre de Shanghai y el Bund.",
+          "Tiene una mezcla única de arquitectura moderna y colonial, reflejando su pasado como centro comercial internacional.",
+          "Es un importante centro cultural, con numerosos museos y galerías de arte."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Shanghai"
+      },
+      {
+        "titulo": "Provincias de China",
+        "nombre": "🇨🇳 Tianjin",
+        "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Tianjin_in_China_%28%2Ball_claims_hatched%29.svg/420px-Tianjin_in_China_%28%2Ball_claims_hatched%29.svg.png",
+        "hechos": [
+          "Es otra de las cuatro municipalidades directamente controladas por el gobierno central de China.",
+          "Es un importante centro portuario e industrial, con una de las economías más prósperas de China.",
+          "La ciudad es conocida por su arquitectura colonial, especialmente en la Concesión Italiana.",
+          "Es un importante centro de educación e investigación, con varias universidades e institutos de prestigio."
+        ],
+        "enlace": "https://es.wikipedia.org/wiki/Tianjin"
+      }
+    ]
+  }
+  
