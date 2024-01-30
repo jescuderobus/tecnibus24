@@ -1,0 +1,23 @@
+{
+    "cartas": [
+        {
+          "tematica": "entretenimiento",
+          "titulo": "Astronomía",
+          "nombre": "Júpiter",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/PIA22946-Jupiter-RedSpot-JunoSpacecraft-20190212.jpg/420px-PIA22946-Jupiter-RedSpot-JunoSpacecraft-20190212.jpg",
+          "imageOrientation": "C",
+          "hechos": [
+            "Es el planeta que tiene más del doble de la masa de todos los demás planetas juntos.",
+            "Posee una Gran Mancha Roja, una tormenta gigante que ha estado activa por al menos 400 años.",
+            "Tiene 79 lunas conocidas, incluyendo a Ganímedes, la luna más grande del sistema solar.",
+            "Su campo magnético es catorce veces más fuerte que el de la Tierra."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Júpiter_(planeta)"
+        },
+
+        
+        
+      
+    ]
+  }
+  
