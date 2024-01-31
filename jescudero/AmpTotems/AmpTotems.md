@@ -1,4 +1,10 @@
-# TotemVisión
+# AMP Totems
+Accelerated Mobile Pages para los Totems
+
+Este desarrollo es para ver las posibilidades de generar contenido para los TOTEMS
+
+
+## ToTemVision
 
 Es una programación en los Totems que permite explorar todas las posibilidades de estos dispositivos.
 
@@ -29,7 +35,26 @@ Es una programación en los Totems que permite explorar todas las posibilidades 
 
 ## Conocimientos y Herramientas
 
-Quien quera aprovechar al máximo el Totem debe tener conocimientos de edición de imágenes, edición de video y HTML AMP.
+Quien quiera aprovechar al máximo el Totem debe tener conocimientos de edición de imágenes, edición de video y HTML AMP.
 Algunas herramientas de IA, Gimp, Canva, Clipchamp, OBS pueden ser herramientas útiles.
 
 La sección de informática además ha usado herramientas por linea de comandos como qrencoder, ffmpeg, ImageMagick.
+
+
+
+## Ideas de contenido
+
+### Stories
+- TIL - Today I learned
+- ICF - Inclusion Cultural Forzada
+- Geografía - Países del mundo - Estados de EEUU - Provincias de China - Ciudades del mundo
+- Conocimientos de Secundaria - Constelaciones del cielo
+- Como sujetar a un cocodrilo - http://pekevasion.blogspot.com/2021/07/como-sujetar-un-cocodrilo.html
+- Enciclopedia de los jóvenes castores
+- Enciclopedia of Life (convert QR_02.png -gravity South -pointsize 30 -fill yellow -annotate +0+20 'SUGERENCIA' QR_03.png)
+- https://www.timesnownews.com/web-stories/technology/10-hidden-websites-on-the-internet-that-give-you-superpowers/photostory/105006054.cms
+- FRASES
+
+### API
+- Efemérides - https://www.frasesyefemerides.com/efemerides-por-mes-y-dia.php
+
