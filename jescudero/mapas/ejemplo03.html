@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa de España con Marcador Personalizado en Sevilla</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map { height: 400px; width: 600px; }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script>
+    // Inicializar el mapa y establecer la vista en España
+    var map = L.map('map').setView([40.4167, -3.70325], 5); // Coordenadas centradas en España
+
+    // Añadir una capa de tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Icono personalizado para el marcador
+    var redIcon = L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/6px-Red_pog.svg.png',
+        iconSize: [6, 6], // Tamaño del icono
+        iconAnchor: [3, 3] // Punto del icono que corresponderá a la coordenada del marcador
+    });
+
+    // Añadir un marcador en Sevilla con el icono personalizado
+    var sevilla = L.marker([37.3891, -5.9845], {icon: redIcon}).addTo(map);
+    //sevilla.bindPopup("<b>Sevilla</b>").openPopup();
+</script>
+
+</body>
+</html>

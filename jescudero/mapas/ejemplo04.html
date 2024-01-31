@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa con Fronteras y Marcador en Sevilla</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map { height: 400px; width: 600px; }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script>
+    // Inicializar el mapa y centrarlo en Sevilla
+    var map = L.map('map').setView([37.3891, -5.9845], 5);
+
+    // Añadir un mapa base simple
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Icono personalizado para el marcador
+    var redIcon = L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/6px-Red_pog.svg.png',
+        iconSize: [8, 8], // Tamaño del icono
+        iconAnchor: [4, 4] // Punto del icono que corresponderá a la coordenada del marcador
+    });
+
+    // Añadir un marcador en Sevilla con el icono personalizado
+    var sevilla = L.marker([37.3891, -5.9845], {icon: redIcon}).addTo(map);
+
+    // Añadir GeoJSON de fronteras de países 
+    // https://github.com/georgique/world-geojson/tree/develop/countries
+    fetch('spain.geojson')
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            L.geoJSON(data, {
+                style: function(feature) {
+                    return {color: "#008888"}; // Color de la línea de frontera
+                }
+            }).addTo(map);
+        });
+</script>
+
+</body>
+</html>

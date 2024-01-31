@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa Interactivo con Leaflet</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map { height: 400px; width: 600px; }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script>
+    // Inicializar el mapa y establecer la vista inicial
+    var map = L.map('map').setView([40.7128, -74.0060], 13);
+
+    // Añadir una capa de tiles a nuestro mapa
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Añadir un marcador con un popup
+    var marker = L.marker([40.7128, -74.0060]).addTo(map);
+    marker.bindPopup("<b>Hola mundo!</b><br>Estoy en Nueva York.").openPopup();
+</script>
+
+</body>
+</html>
