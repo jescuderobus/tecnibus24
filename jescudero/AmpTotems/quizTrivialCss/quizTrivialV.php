@@ -176,7 +176,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         publisher="tecniBUS"
         publisher-logo-src="assets/AMP-Brand-White-Icon.svg"
         poster-portrait-src="assets/cover.jpg">
-      <amp-story-page id="cover" auto-advance-after="3s">
+      <amp-story-page id="cover" auto-advance-after="2s">
         <amp-story-grid-layer template="fill">
           <amp-img src="../../../SHARED/imagenes/quizziCover.png"
               width="768" height="1280"
@@ -191,7 +191,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!-- PAIS -->
 
-<amp-story-page id="page0-part0" auto-advance-after="8s"> 
+<amp-story-page id="page0-part0" auto-advance-after="4s"> 
   <amp-story-grid-layer template="vertical">
   <div class="imagen-contenedor"><amp-img id="urlImagen" width="250" height="450" src="<?php echo $urlImagen;?>"  layout="fixed"></amp-img></div>
     <h2 style="text-align: center;font-size: 2em;padding-top: 1em;padding-bottom: 1em;">?</h2>
@@ -200,7 +200,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </amp-story-page>
 
 
-<amp-story-page id="page0-part1" auto-advance-after="3s">
+<amp-story-page id="page0-part1" auto-advance-after="5s">
   <amp-story-grid-layer template="vertical">
   <div class="imagen-contenedor"><amp-img id="urlImagen" width="250" height="450" src="<?php echo $urlImagen;?>"  layout="fixed"></amp-img></div>
     <h2 style="text-align: center;font-size: 2em;padding-top: 1em;padding-bottom: 1em;">?</h2>
@@ -209,7 +209,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </amp-story-page>
 
 
-<amp-story-page id="page0-part2" auto-advance-after="3s">
+<amp-story-page id="page0-part2" auto-advance-after="5s">
   <amp-story-grid-layer template="vertical">
   <div class="imagen-contenedor"><amp-img id="urlImagen" width="250" height="450" src="<?php echo $urlImagen;?>"  layout="fixed"></amp-img></div>
     <h2 style="text-align: center;font-size: 2em;padding-top: 1em;padding-bottom: 1em;">?</h2>
@@ -217,7 +217,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </amp-story-grid-layer>
 </amp-story-page>
 
-<amp-story-page id="page0-part3" auto-advance-after="3s">
+<amp-story-page id="page0-part3" auto-advance-after="5s">
   <amp-story-grid-layer template="vertical">
   <div class="imagen-contenedor"><amp-img id="urlImagen" width="250" height="450" src="<?php echo $urlImagen;?>"  layout="fixed"></amp-img></div>
     <h2 style="text-align: center;font-size: 2em;padding-top: 1em;padding-bottom: 1em;">?</h2>
@@ -225,7 +225,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </amp-story-grid-layer>
 </amp-story-page>
 
-<amp-story-page id="page0-part4" auto-advance-after="3s">
+<amp-story-page id="page0-part4" auto-advance-after="5s">
   <amp-story-grid-layer template="vertical">
   <div class="imagen-contenedor"><amp-img id="urlImagen" width="250" height="450" src="<?php echo $urlImagen;?>"  layout="fixed"></amp-img></div>
     <h2 style="text-align: center;font-size: 2em;padding-top: 1em;padding-bottom: 1em;">?</h2>
@@ -234,7 +234,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </amp-story-grid-layer>
 </amp-story-page>
 
-<amp-story-page id="page0-part5" auto-advance-after="6s">
+<amp-story-page id="page0-part5" auto-advance-after="5s">
   <amp-story-grid-layer template="vertical">
   <div class="imagen-contenedor"><amp-img id="urlImagen" width="250" height="450" src="<?php echo $urlImagen;?>"  layout="fixed"></amp-img></div>
     <h2 id="paisNombre" style="text-align: center;font-size: 2em;padding-top: 1em;padding-bottom: 1em;"><?php echo $respuesta;?></h2>
