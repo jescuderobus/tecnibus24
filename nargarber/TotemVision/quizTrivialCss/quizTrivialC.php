@@ -51,7 +51,7 @@ function getTituloPorTematica($tematica) {
 }
 
 // Leer el archivo JSON
-$jsons = ["quizTrivial_test.json", "quizTrivial_chatGPT.json", "quizTrivial_ulysseus.json"];
+$jsons = ["quizTrivial_test.json", "quizTrivial.json", "quizTrivial_ulysseus.json"];
 $claveAleatoria = array_rand($jsons);
 $jsonAzar = $jsons[$claveAleatoria];
 $jsonData = file_get_contents($jsonAzar);
