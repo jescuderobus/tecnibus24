@@ -8,3 +8,7 @@
     padding: 10px; /* Espacio dentro de los divs */
     border: 1px solid black; /* Borde para visualizar los divs */
 }
+
+#row1,#row2{
+    width: 90%;
+}

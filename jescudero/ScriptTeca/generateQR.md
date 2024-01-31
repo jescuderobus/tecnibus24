@@ -1,35 +1,43 @@
-## YTB list
-https://www.youtube.com/shorts/N21LHrgVgHY
-https://www.youtube.com/shorts/2GYCjgMBF6A
-https://www.youtube.com/shorts/Lg6bacAeQKY?feature=share
+https://fama.us.es/permalink/34CBUA_US/3enc2g/alma991013717005204987
+
+
+https://www.rtve.es/play/audios/sapiens/etica-para-desconfiados-david-pastor-vico/6894410/
+
+https://www.rtve.es/play/audios/episodios-nacionales/episodios-nacionales-terror-1824/3998682/
 
 
 
-https://www.youtube.com/shorts/lYkJzfeTbWs?feature=share (Arduino in 60 seconds)
-https://www.youtube.com/shorts/Bfg58rrL5ws?feature=share (BreadBoard 60 seconds)
+qrencode -s6 -l H -o "QR_00.png" "https://www.youtube.com/watch?v=HVkRvs4CkBk"
+
+convert QR_00.png -background black -gravity south -splice 0x60 QR_01.png
+
+convert QR_01.png -bordercolor black -border 10 \
+  -background none -alpha background \
+  \( +clone -alpha extract \
+  -draw 'fill black polygon 0,0 0,15 15,0 fill white circle 15,15 15,0' \
+  \( +clone -flip \) -compose Multiply -composite \
+  \( +clone -flop \) -compose Multiply -composite \) \
+  -alpha off -compose CopyOpacity -composite QR_02.png
+
+convert QR_02.png -gravity South -pointsize 30 -fill yellow -annotate +0+20 'MÍRAME' MIRAME_tormentas.png
+
+qrencode -s6 -l H -o "QR_00.png" "https://fama.us.es/permalink/34CBUA_US/3enc2g/alma991002231549704987"
+
+convert QR_00.png -background black -gravity south -splice 0x60 QR_01.png
+
+convert QR_01.png -bordercolor black -border 10 \
+  -background none -alpha background \
+  \( +clone -alpha extract \
+  -draw 'fill black polygon 0,0 0,15 15,0 fill white circle 15,15 15,0' \
+  \( +clone -flip \) -compose Multiply -composite \
+  \( +clone -flop \) -compose Multiply -composite \) \
+  -alpha off -compose CopyOpacity -composite QR_02.png
+
+convert QR_02.png -gravity South -pointsize 30 -fill yellow -annotate +0+20 'LEEME' LEEME_tecnologiaPopular.png
 
 
 
-Stories
-- TIL - Today I learned
-- ICF - Inclusion Cultural Forzada
-- Países del mundo
-- Constelaciones del cielo
-- Como sujetar a un cocodrilo - http://pekevasion.blogspot.com/2021/07/como-sujetar-un-cocodrilo.html
-- Enciclopedia de los jóvenes castores
-- Enciclopedia of Life (convert QR_02.png -gravity South -pointsize 30 -fill yellow -annotate +0+20 'SUGERENCIA' QR_03.png)
-- Estados de EEUU 
-- Provincias de China
-- https://www.timesnownews.com/web-stories/technology/10-hidden-websites-on-the-internet-that-give-you-superpowers/photostory/105006054.cms
-- FRASES
 
-API
-- Efemérides - https://www.frasesyefemerides.com/efemerides-por-mes-y-dia.php
-
-
-
-Anexos
-- QR codes - https://www.howtogeek.com/devops/how-to-create-qr-codes-from-the-linux-command-line/ - qrencode
 
 
 ``` bash
@@ -109,6 +117,7 @@ convert QR_02.png -gravity South -pointsize 30 -fill yellow -annotate +0+20 'LEE
 
 https://convert.leiapix.com (Animación de imágenes)
 https://playground.com/
+
 
 
 
