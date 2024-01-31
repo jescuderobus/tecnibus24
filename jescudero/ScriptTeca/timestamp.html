@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Tiempo</title>
+</head>
+<body>
+    <h1>Conversor de Tiempo</h1>
+
+    <section>
+        <h2>Conversión de Hora de Inicio</h2>
+
+        <h3>Timestamp a Fecha y Hora en Madrid</h3>
+        <input type="number" id="startTimestampInput" placeholder="Introduce timestamp en segundos">
+        <button onclick="timestampToMadrid('startTimestampInput', 'startDateInMadrid')">Convertir a Fecha/Hora</button>
+        <p>Fecha y Hora en Madrid: <span id="startDateInMadrid"></span></p>
+
+        <h3>Fecha y Hora en Madrid a Timestamp</h3>
+        <input type="datetime-local" id="startDateTimeInput">
+        <button onclick="madridToTimestamp('startDateTimeInput', 'startTimestampOutput')">Convertir a Timestamp</button>
+        <p>Timestamp: <span id="startTimestampOutput"></span></p>
+    </section>
+
+    <section>
+        <h2>Conversión de Hora de Finalización</h2>
+
+        <h3>Timestamp a Fecha y Hora en Madrid</h3>
+        <input type="number" id="endTimestampInput" placeholder="Introduce timestamp en segundos">
+        <button onclick="timestampToMadrid('endTimestampInput', 'endDateInMadrid')">Convertir a Fecha/Hora</button>
+        <p>Fecha y Hora en Madrid: <span id="endDateInMadrid"></span></p>
+
+        <h3>Fecha y Hora en Madrid a Timestamp</h3>
+        <input type="datetime-local" id="endDateTimeInput">
+        <button onclick="madridToTimestamp('endDateTimeInput', 'endTimestampOutput')">Convertir a Timestamp</button>
+        <p>Timestamp: <span id="endTimestampOutput"></span></p>
+    </section>
+
+    <script>
+        function timestampToMadrid(inputId, outputId) {
+            var timestamp = document.getElementById(inputId).value;
+            var date = new Date(timestamp * 1000);
+            var options = { timeZone: 'Europe/Madrid', year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+            var madridTime = date.toLocaleString('es-ES', options);
+            document.getElementById(outputId).innerText = madridTime;
+        }
+
+        function madridToTimestamp(inputId, outputId) {
+            var dateString = document.getElementById(inputId).value;
+            var date = new Date(dateString);
+            date.setHours(date.getHours() - date.getTimezoneOffset() / 60); // Ajustar al horario UTC
+            var timestamp = date.getTime() / 1000;
+            document.getElementById(outputId).innerText = timestamp;
+        }
+    </script>
+</body>
+</html>
