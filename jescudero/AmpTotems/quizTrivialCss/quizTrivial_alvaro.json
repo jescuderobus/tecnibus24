@@ -1,23 +1,91 @@
 {
     "cartas": [
         {
-          "tematica": "entretenimiento",
-          "titulo": "Astronomía",
-          "nombre": "Júpiter",
-          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/PIA22946-Jupiter-RedSpot-JunoSpacecraft-20190212.jpg/420px-PIA22946-Jupiter-RedSpot-JunoSpacecraft-20190212.jpg",
-          "imageOrientation": "C",
+          "tematica": "deportes_y_pasatiempos",
+          "titulo": "&#9917; Fútbol",
+          "nombre": "Kylian Mbappé",
+          "imagenUrl": "https://www.sportsadda.com/static-assets/waf-images/01/e0/20/16-9/GHAuTsJABH.jpg?v=1.6&w=420%20420w",
+          "imageOrientation": "V",
           "hechos": [
-            "Es el planeta que tiene más del doble de la masa de todos los demás planetas juntos.",
-            "Posee una Gran Mancha Roja, una tormenta gigante que ha estado activa por al menos 400 años.",
-            "Tiene 79 lunas conocidas, incluyendo a Ganímedes, la luna más grande del sistema solar.",
-            "Su campo magnético es catorce veces más fuerte que el de la Tierra."
+            "Comenzó su carrera en el AS Mónaco con solo 16 años.",
+            "Es el futbolista más joven (24 años) en superar la marca de 150 goles en la primera división de Francia.",
+            "Es el actual capitán de la selección francesa de fútbol.",
+            "Actualmente juega como delantero en el Paris Saint-Germain F. C."
           ],
-          "enlace": "https://es.wikipedia.org/wiki/Júpiter_(planeta)"
+          "enlace": "https://es.wikipedia.org/wiki/Kylian_Mbapp%C3%A9"
         },
+        {
+          "tematica": "deportes_y_pasatiempos",
+          "titulo": "&#9917; Fútbol",
+          "nombre": "Alexia Putellas",
+          "imagenUrl": "https://www.record.com.mx/sites/default/files/articulos/2023/10/15/alexia_putellas_barcelona_1-16.jpg",
+          "imageOrientation": "V",
+          "hechos": [
+            "Juega como centrocampista en el F.C. Barcelona de la Primera División de España.",
+            "Es internacional con la selección española desde 2013.",
+            "Comenzó en el R. C. D. Espanyol y luego fichó por el U. D. Levante, antes de llegar al Bercelona.",
+            "Cuenta con dos balones de oro y un mundial, entre otras distinciones."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Alexia_Putellas#T%C3%ADtulos"
+        },
+        {
+          "tematica": "deportes_y_pasatiempos",
+          "titulo": "&#127941; Olimpiadas",
+          "nombre": "Simone Biles",
+          "imagenUrl": "https://s1.ppllstatics.com/elcorreo/www/multimedia/202106/07/media/cortadas/simone-RHkGJbQS3hzOg6fUjXh9WdL-1248x770@El%20Correo.jpg",
+          "imageOrientation": "H",
+          "hechos": [
+            "De origen estadounidense, empezó con la gimnasia artística a los 8 años de manera profesional.",
+            "Es internacional con la selección española desde 2013.",
+            "Es la gimnasta artística más laureada de todos los tiempos, tanto en la categoría femenina como en la masculina.",
+            "Consiguió cuatro medallas de oro en las Olimpiadas de Río de Janeiro 2016."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Simone_Biles"
+        },        
+        {
+          "tematica": "deportes_y_pasatiempos",
+          "titulo": "&#127934; Tenis",
+          "nombre": "Carlos Alcaraz",
+          "imagenUrl": "https://s1.ppllstatics.com/laverdad/www/multimedia/2023/05/05/carlos-alcaraz.jpg",
+          "imageOrientation": "H",
+          "hechos": [
+            "Dada su procedencia, su estilo de juego y sus éxitos desde joven, es frecuentemente comparado con Rafa Nadal.",
+            "Entrena con el extenista Juan Carlos Ferrero.",
+            "Con 18 años, ganó su primer título ATP en el torneo de Umag.",
+            "Ganó el campeonato de Wimbledon 2023 contra Djokovic, haciédolo el vigente campeón de dicho torneo."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Carlos_Alcaraz"
+        },       
+        {
+          "tematica": "deportes_y_pasatiempos",
+          "titulo": "&#10067, Adivina el deporte",
+          "nombre": "Cricket",
+          "imagenUrl": "https://es.wikipedia.org/wiki/Cr%C3%ADquet#/media/Archivo:Pollock_to_Hussey.jpg",
+          "imageOrientation": "H",
+          "hechos": [
+            "Deporte de bate y pelota de origen inglés, pero especialmente popular en la India.",
+            "Se enfrentan dos equipos, de once personas cada uno, en un campo de hierba con forma elíptica.",
+            "El equipo que lanza intenta eliminar a los bateadores derribando tres postes tras ellos.",
+            "El juego se divide en innings, donde cada equipo tiene la oportunidad de batear y lanzar."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Cr%C3%ADquet"
+        },
+        {
+          "tematica": "deportes_y_pasatiempos",
+          "titulo": "&#10067, Adivina el deporte",
+          "nombre": "Curling",
+          "imagenUrl": "https://es.wikipedia.org/wiki/Curling#/media/Archivo:12-01-20-yog-674.jpg",
+          "imageOrientation": "H",
+          "hechos": [
+            "De origen escocés, este deporte de precisión se juega en una pista de hielo.",
+            "Está especialmente popularizado en Canadá, el norte de los Estados Unidos, la zona norte de Europa y Japón.",
+            "Compiten dos equipos de cuatro jugadores, alternándose para deslizar piedras de granito sobre hielo hasta una diana.",
+            "Los <i>sweepers</i> o barredores acompañan a la piedra puliendo el hielo para facilitar su avance, sin tocarla."
+          ],
+          "enlace": "https://es.wikipedia.org/wiki/Curling"
+        }        
+        
 
-        
-        
-      
     ]
   }
   
