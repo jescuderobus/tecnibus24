@@ -1,8 +1,24 @@
+
+# MAPAS
+
+- https://geojson.io/#map=4/41.58/-1.6
+- http://geacron.com/home-es/?lang=es
+
+- https://www.oldmapsonline.org/map/rumsey/4866.019
+- https://upload.wikimedia.org/wikipedia/commons/d/d2/Mapa_Imperio_Romano_395_%28administrativo%29.svg
+
+
+
+https://chat.openai.com/share/00780a9a-1256-4ae1-8b19-9845cc5605fb
+
+## Mis propios tiles (Mapa del imperio romano)
+
 Sí, puedes construir tus propios tiles con una imagen y georreferenciarla usando seis puntos o más. Este proceso implica varias etapas, que incluyen preparar la imagen, georreferenciarla y luego convertirla en tiles que puedan ser utilizados en un sistema de mapeo como Leaflet. Aquí te explico los pasos generales:
 1. Preparación de la Imagen
 
 Asegúrate de que la imagen que deseas usar sea adecuada para el mapeo. Debe ser de alta resolución y representar claramente el área que deseas mapear.
 2. Georreferenciación
+
 
 La georreferenciación es el proceso de asignar coordenadas geográficas reales a puntos específicos en tu imagen. Esto se puede hacer con software de SIG (Sistema de Información Geográfica) como QGIS o ArcGIS. Los pasos básicos son:
 
