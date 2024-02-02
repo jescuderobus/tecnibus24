@@ -5,7 +5,7 @@
           "titulo": "&#9917; Fútbol",
           "nombre": "Kylian Mbappé",
           "imagenUrl": "https://www.sportsadda.com/static-assets/waf-images/01/e0/20/16-9/GHAuTsJABH.jpg?v=1.6&w=420%20420w",
-          "imageOrientation": "V",
+          "imageOrientation": "C",
           "hechos": [
             "Comenzó su carrera en el AS Mónaco con solo 16 años.",
             "Es el futbolista más joven (24 años) en superar la marca de 150 goles en la primera división de Francia.",
@@ -74,7 +74,7 @@
           "tematica": "deportes_y_pasatiempos",
           "titulo": "&#10067, Adivina el deporte",
           "nombre": "Curling",
-          "imagenUrl": "https://es.wikipedia.org/wiki/Curling#/media/Archivo:12-01-20-yog-674.jpg",
+          "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/12-01-20-yog-674.jpg/640px-12-01-20-yog-674.jpg",
           "imageOrientation": "H",
           "hechos": [
             "De origen escocés, este deporte de precisión se juega en una pista de hielo.",
