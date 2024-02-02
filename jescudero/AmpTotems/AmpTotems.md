@@ -58,3 +58,9 @@ La sección de informática además ha usado herramientas por linea de comandos 
 ### API
 - Efemérides - https://www.frasesyefemerides.com/efemerides-por-mes-y-dia.php
 
+### Interactividad - APPs
+- https://tangram.herokuapp.com/
+- https://www.windy.com/
+- http://joews.github.io/rubik-js/
+- https://codepen.io/Omelyan/pen/BKmedK
+
