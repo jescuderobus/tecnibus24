@@ -64,3 +64,7 @@ La sección de informática además ha usado herramientas por linea de comandos 
 - http://joews.github.io/rubik-js/
 - https://codepen.io/Omelyan/pen/BKmedK
 
+### Videos
+- https://www.youtube.com/watch?v=FaHW3Qs8zKA&ab_channel=ChasSvt
+
+
