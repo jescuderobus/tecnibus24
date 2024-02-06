@@ -60,9 +60,17 @@ La sección de informática además ha usado herramientas por linea de comandos 
 
 ### Interactividad - APPs
 - https://tangram.herokuapp.com/
-- https://www.windy.com/
 - http://joews.github.io/rubik-js/
 - https://codepen.io/Omelyan/pen/BKmedK
+- https://www.chiark.greenend.org.uk/~sgtatham/puzzles/
+
+
+
+### Interactividad - WEBs
+- https://www.windy.com/
+- https://www.eslkidsgames.com/esl-story-dice-online
+- https://davebirss.com/storydice/9dice.html - https://www.youtube.com/watch?v=W29C8QXeONU&ab_channel=DaveBirss
+- https://www.meeplemountain.com/top-six/rolling-and-writing-the-definitive-guide-to-storytelling-dice/
 
 ### Videos
 - https://www.youtube.com/watch?v=FaHW3Qs8zKA&ab_channel=ChasSvt
