@@ -44,7 +44,7 @@
 
     // Añadir un mapa base simple
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap | 1400'
+        attribution: '© OpenStreetMap | 1300'
     }).addTo(map);
 
 /*
@@ -110,9 +110,9 @@
             }).addTo(map);
         });
 
-    // Añadir GeoJSON de fronteras de Europa en 1400
+    // Añadir GeoJSON de fronteras de Europa en 1300
     // https://github.com/aourednik/historical-basemaps/tree/master/geojson
-    fetch('https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_1400.geojson')
+    fetch('https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_1300.geojson')
         .then(function(response) {
             return response.json();
         })
