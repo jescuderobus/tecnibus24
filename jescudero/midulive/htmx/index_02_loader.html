@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas htmx</title>
+    <style>
+        .loader {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #0a0a0a;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
+    button{
+        transition: opacity .3s;
+    }
+
+    button:disabled{
+        opacity: .3;
+        pointer-events: none;
+        cursor: not-allowed;
+        color:red;
+    }
+    </style>
+</head>
+<body>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <!--API:: https://hn.algolia.com/api-->
+    <!--https://cssloaders.github.io/-->
+
+<button
+        hx-get="https://hn.algolia.com/api/v1/search?tags=front_page"
+        hx-disabled-elt="this"
+        hx-trigger="click"
+        hx-target="#results"
+        hx-swap="innerHTML"
+        hx-indicator=".loader"
+    >
+        Cargar Resultados 
+</button>
+    <span class="htmx-indicator loader"></span>
+    <ul id="results">
+        <li>Aquí irán los resultados ....</li>
+    </ul>
+</body>
+</html>

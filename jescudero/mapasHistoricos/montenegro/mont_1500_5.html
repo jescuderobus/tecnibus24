@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa de Montenegro con Marcador en ciudades universitarias</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map { height: 500px; width: 500px; }
+        .flag-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(255, 255, 255, 0); /* Fondo semitransparente para resaltar la bandera */
+            padding-top: 15px;
+            padding-left: 25px;
+            font-size: 4em;
+            z-index: 1000; /* Asegura que la bandera se muestre por encima del mapa */
+        }
+        .custom-marker-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .custom-marker-icon img {
+            margin-right: 4px; /* Espacio entre el icono y el texto */
+        }
+        .custom-marker-icon span {
+            background-color: rgba(255, 255, 255, 0.75);
+            padding: 1px 4px;
+            border-radius: 3px;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div class="flag-container">🇲🇪</div> <!-- Div para la bandera -->
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script>
+    // Inicializar el mapa y centrarlo en Podgorica
+    var map = L.map('map', { zoomControl: false, dragging: false, scrollWheelZoom: false, doubleClickZoom: false }).setView([42.591389, 19.262778], 5);
+
+    // Añadir un mapa base simple
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap | 1500'
+    }).addTo(map);
+
+/*
+    // Icono personalizado para el marcador
+    var redIcon = L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/6px-Red_pog.svg.png',
+        iconSize: [10, 10], // Tamaño del icono
+        iconAnchor: [5, 5] // Punto del icono que corresponderá a la coordenada del marcador
+    });
+
+    // Añadir un marcador en Podgorica con el icono personalizado
+    var podgorica = L.marker([42.441389, 19.262778], {icon: redIcon}).addTo(map);
+    podgorica.bindTooltip("Podgorica", {permanent: true, direction: 'bottom'}).openTooltip();
+
+
+
+    // Añadir un marcador personalizado con icono y texto en Kotor
+    L.marker([42.43, 18.77], {
+        icon: L.divIcon({
+            className: 'custom-marker-icon', // Clase para el estilo personalizado
+            html: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/6px-Red_pog.svg.png" alt="Icono">' +
+                  '&nbsp;<span>kotor</span>', // Icono y texto
+            iconSize: [100, 20] // Ajustar según sea necesario
+        })
+    }).addTo(map);
+
+    // Añadir un marcador personalizado con icono y texto en nisick
+    L.marker([42.777778, 18.95], {
+        icon: L.divIcon({
+            className: 'custom-marker-icon', // Clase para el estilo personalizado
+            html: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/6px-Red_pog.svg.png" alt="Icono">' +
+                  '&nbsp;<span>Nikšić</span>', // Icono y texto
+            iconSize: [100, 20] // Ajustar según sea necesario
+        })
+    }).addTo(map);
+    
+    // Añadir un marcador personalizado con icono y texto en cetinje
+    L.marker([42.38, 18.92], {
+        icon: L.divIcon({
+            className: 'custom-marker-icon', // Clase para el estilo personalizado
+            html: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/6px-Red_pog.svg.png" alt="Icono">' +
+                  '&nbsp;<span>Cetinje</span>', // Icono y texto
+            iconSize: [100, 20] // Ajustar según sea necesario
+        })
+    }).addTo(map);
+
+*/
+    // Añadir GeoJSON de fronteras de Montenegro
+    // https://github.com/georgique/world-geojson/tree/develop/countries
+    fetch('https://raw.githubusercontent.com/georgique/world-geojson/develop/countries/montenegro.json')
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            L.geoJSON(data, {
+                style: function(feature) {
+                    return {
+                        color: "#008800", // Color de la línea de frontera
+                        fillColor: "#008800", // Color de relleno
+                        fillOpacity: 0.8 // Transparencia del relleno
+                    };
+                }
+            }).addTo(map);
+        });
+
+    // Añadir GeoJSON de fronteras de Europa en 1500
+    // https://github.com/aourednik/historical-basemaps/tree/master/geojson
+    fetch('https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_1500.geojson')
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            L.geoJSON(data, {
+                style: function(feature) {
+                    return {
+                        color: "#000099", // Color de la línea de frontera
+                        fillColor: "#000088", // Color de relleno
+                        fillOpacity: 0.1 // Transparencia del relleno
+                    };
+                }
+            }).addTo(map);
+        
+        });
+</script>
+
+<div>
+    <br>
+    - <a href="mont_1400_5.html">1400</a> - 
+    - <a href="mont_1500_5.html">1500</a> - 
+    - <a href="mont_1600_5.html">1600</a> - 
+    - <a href="mont_1700_5.html">1700</a> - 
+    - <a href="mont_1800_5.html">1800</a> - 
+    - <a href="mont_1900_5.html">1900</a> - 
+    - <a href="mont_2000_5.html">2000</a> - 
+</div>
+
+</body>
+</html>

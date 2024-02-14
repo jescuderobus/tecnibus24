@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas htmx</title>
+</head>
+<body>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <!--API:: https://hn.algolia.com/api-->
+
+<button
+        hx-get="https://hn.algolia.com/api/v1/search?tags=front_page"
+        hx-trigger="click"
+        hx-target="#results"
+        hx-swap="innerHTML"
+    >
+        Cargar Resultados
+</button>
+    <ul id="results">
+        <li>Aquí irán los resultados ...</li>
+    </ul>
+</body>
+</html>
