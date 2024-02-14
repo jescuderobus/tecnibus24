@@ -1,0 +1,9 @@
+<svg width="41px" height="57px" viewBox="0 0 41 57" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#9C1F2F" stroke="#9C1F2F" stroke-width="1.5" opacity="0.9" d="M20.5,1C11.387,1,4,8.387,4,17.5C4,31,20.5,56,20.5,56S37,31,37,17.5C37,8.387,29.613,1,20.5,1z"/>
+    <circle fill="#FFFFFF" stroke="#FFFFFF" cx="20.5" cy="17.5" r="6"/>
+    <path fill="none" stroke="#9C1F2F" stroke-width="1.5" opacity="0.5" d="M0,16L4,16"/>
+    <path fill="none" stroke="#9C1F2F" stroke-width="1.5" opacity="0.5" d="M37,16L41,16"/>
+    <path fill="none" stroke="#9C1F2F" stroke-width="1.5" opacity="0.5" d="M20.5,0L20.5,4"/>
+    <path fill="none" stroke="#9C1F2F" stroke-width="1.5" opacity="0.5" d="M20.5,29L20.5,33"/>
+    <path fill="rgba(0,0,0,0.15)" d="M20.5,53C32.5,40,32.5,23,20.5,18C8.5,23,8.5,40,20.5,53z" transform="translate(0,4)"/>
+</svg>

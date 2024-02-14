@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+<head>
+    <title>Bibliotecas en Sevilla</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Incluir CSS de Leaflet y MarkerCluster -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+    <!-- Incluir JS de Leaflet y MarkerCluster -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
+    
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #mapid { 
+            height: 100%; 
+            width: 100%;
+        }
+        .myCluster {
+            background-color: #9C1F2F; /* Tu color */
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px; /* Ajusta al tamaño de tu icono */
+            color: white; /* Color del texto */
+        }
+    </style>
+</head>
+<body>
+
+<div id="mapid"></div>
+
+<script>
+        var map = L.map('mapid').setView([37.377222, -5.986944], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Opción de icono personalizado para marcadores
+        var customIcon = L.icon({
+            iconUrl: './gotitaUS_sombrita.svg', // Reemplaza esto con el URL de tu icono personalizado
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34]
+        });
+
+        // Crea el grupo de marcadores con una función personalizada para crear el icono del cluster
+        var markers = L.markerClusterGroup({
+            iconCreateFunction: function(cluster) {
+                return L.divIcon({
+                    html: '<b>' + cluster.getChildCount() + '</b>',
+                    className: 'myCluster',
+                    iconSize: L.point(40, 40)
+                });
+            }
+        });
+
+        // Lista de bibliotecas y sus coordenadas
+        var bibliotecas = [
+            {nombre: "Biblioteca Rector Machado y Núñez", lat: 37.37000, lng: -5.98641},
+            {nombre: "CRAI Antonio de Ulloa", lat: 37.35960, lng: -5.98657},
+            {nombre: "Biblioteca de Matemáticas", lat: 37.35938, lng: -5.98791},
+            {nombre: "Biblioteca de Informática", lat: 37.35771, lng: -5.98706},
+            {nombre: "Biblioteca de Arquitectura", lat: 37.36283, lng: -5.98646},
+            {nombre: "Biblioteca de Ing. Agrónoma", lat: 37.35295, lng: -5.93864},
+            {nombre: "Biblioteca de Ingeniería", lat: 37.41130, lng: -6.00055},
+            {nombre: "Biblioteca de Comunicación", lat: 37.41019, lng: -6.00658},
+            {nombre: "Biblioteca de Centros de la Salud", lat: 37.40635, lng: -5.98817},
+            {nombre: "Biblioteca de Bellas Artes", lat: 37.39301, lng: -5.98277},
+            {nombre: "Biblioteca de Humanidades", lat: 37.38103, lng: -5.99129},
+            {nombre: "Biblioteca de Derecho y Cc del Trabajo", lat: 37.37741, lng: -5.97785},
+            {nombre: "Biblioteca de Educación", lat: 37.37674, lng: -5.97751},
+            {nombre: "Biblioteca de Económicas", lat: 37.37818, lng: -5.97637},
+            {nombre: "Biblioteca de Turismo", lat: 37.37919, lng: -5.97630},
+            {nombre: "Biblioteca de Filosofía y Psicología", lat: 37.37945, lng: -5.97592},
+            {nombre: "Biblioteca de Politécnica", lat: 37.37599, lng: -6.00256},
+        ];
+
+        // Crear marcadores para cada biblioteca y añadirlos al grupo de marcadores
+        bibliotecas.forEach(function(biblioteca) {
+            var marker = L.marker([biblioteca.lat, biblioteca.lng], {icon: customIcon}).bindPopup(biblioteca.nombre);
+            markers.addLayer(marker);
+        });
+
+        // Añadir el grupo de marcadores al mapa
+        map.addLayer(markers);
+</script>
+
+</body>
+</html>

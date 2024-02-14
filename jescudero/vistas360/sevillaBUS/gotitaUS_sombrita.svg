@@ -1,0 +1,19 @@
+<svg width="41px" height="57px" viewBox="0 0 41 57" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="dropshadow" height="130%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="1"/> <!-- stdDeviation es el tamaño de la sombra -->
+            <feOffset dx="2" dy="2" result="offsetblur"/> <!-- dx y dy son la dirección de la sombra -->
+            <feComponentTransfer>
+                <feFuncA type="linear" slope="0.3"/> <!-- Controla la opacidad -->
+            </feComponentTransfer>
+            <feMerge> 
+                <feMergeNode/> <!-- esta línea es la sombra -->
+                <feMergeNode in="SourceGraphic"/> <!-- esta línea es el gráfico original -->
+            </feMerge>
+        </filter>
+    </defs>
+    <g filter="url(#dropshadow)">
+        <path fill="#9C1F2F" d="M20.5,1C11.387,1,4,8.387,4,17.5C4,31,20.5,56,20.5,56S37,31,37,17.5C37,8.387,29.613,1,20.5,1z"/>
+        <circle fill="#FFFFFF" cx="20.5" cy="17.5" r="6"/>
+    </g>
+</svg>

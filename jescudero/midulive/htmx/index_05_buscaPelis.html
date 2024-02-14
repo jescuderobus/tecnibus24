@@ -57,9 +57,11 @@
     <!--https://bg.ibelick.com/-->
     <script defer src="https://unpkg.com/htmx.org/dist/ext/client-side-templates.js"></script>
     <script defer src="https://unpkg.com/mustache@latest"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
+    <div class="relative h-full w-full bg-slate-950">
+        <div class="absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div><div class="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div></div>
 
-    
 <button
         hx-get="https://hn.algolia.com/api/v1/search?tags=front_page&page=0&hitsPerPage=10"
         hx-disabled-elt="this"
