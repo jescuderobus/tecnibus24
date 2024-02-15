@@ -1,0 +1,33 @@
+Biblioteca: Biblioteca Rector Machado y Núñez, Latitud: 37.37000, Longitud: -5.98641
+Biblioteca: CRAI Antonio de Ulloa, Latitud: 37.35960, Longitud: -5.98657
+Biblioteca: Biblioteca de Matemáticas, Latitud: 37.35938, Longitud: -5.98791 
+Biblioteca: Biblioteca de Informática, Latitud: 37.35771, Longitud: -5.98706 
+Biblioteca: Biblioteca de Arquitectura, Latitud: 37.36283, Longitud: -5.98646 
+Biblioteca: Biblioteca de Ing. Agrónoma, Latitud: 37.35295, Longitud: -5.93864 
+Biblioteca: Biblioteca de Ingeniería, Latitud: 37.41130, Longitud: -6.00055 
+Biblioteca: Biblioteca de Comunicación, Latitud: 37.41019, Longitud: -6.00658 
+Biblioteca: Biblioteca de Centros de la Salud, Latitud: 37.40635, Longitud: -5.98817 
+Biblioteca: Biblioteca de Bellas Artes, Latitud: 37.39301, Longitud: -5.98277 
+Biblioteca: Biblioteca de Humanidades, Latitud: 37.38103, Longitud: -5.99129 
+Biblioteca: Biblioteca de Derecho y Cc del Trabajo, Latitud: 37.37741, Longitud: -5.97785 
+Biblioteca: Biblioteca de Educación, Latitud: 37.37674, Longitud: -5.97751 
+Biblioteca: Biblioteca de Económicas, Latitud: 37.37818, Longitud: -5.97637 
+Biblioteca: Biblioteca de Turismo, Latitud: 37.37919, Longitud: -5.97630 
+Biblioteca: Biblioteca de Filosofía y Psicología, Latitud: 37.37945, Longitud: -5.97592 
+Biblioteca: Biblioteca de Politécnica, Latitud: 37.37599, Longitud: -6.00256 
+
+https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png
+
+https://bib.us.es/horarios/libraryAC_230705_1800.json
+
+
+https://www.svgrepo.com/collection/dazzle-line-icons/?search=clock (horario)
+https://www.svgrepo.com/collection/dazzle-line-icons/?search=book (libros)
+https://www.svgrepo.com/collection/dazzle-line-icons/?search=search
+https://www.svgrepo.com/collection/dazzle-line-icons/?search=laptop (portatiles)
+https://www.svgrepo.com/collection/dazzle-line-icons/?search=users (salas trabajo en grupo)
+
+
+https://www.freepik.com/icon/vending-machine_821407
+https://www.freepik.com/author/freepik/icons/detailed-rounded-lineal_13?t=f&query=clock
+
