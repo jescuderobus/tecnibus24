@@ -33,9 +33,20 @@
             line-height: 40px; /* Ajusta al tamaño de tu icono */
             color: white; /* Color del texto */
         }
-        .icon-shadow {
-            filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
+
+        .info-box {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            min-width: 200px;
+            height: 100px;
+            padding: 5px;
+            z-index: 1000; /* Asegúrate de que el div se muestre sobre el mapa */
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
         }
+
 
     </style>
 </head>
@@ -52,12 +63,14 @@
 
         // Opción de icono personalizado para marcadores
         var customIcon = L.icon({
-            iconUrl: './gotitaUS.svg', // Reemplaza esto con el URL de tu icono personalizado
-            iconSize: [25, 41],
-            iconAnchor: [12, 41],
-            popupAnchor: [1, -34]
+            iconUrl: './gotitaUS.svg', // URL de tu icono principal
+            iconSize: [25, 41], // Tamaño del icono principal
+            iconAnchor: [12, 41], // Punto del icono que corresponderá a la ubicación del marcador
+            popupAnchor: [1, -34], // Punto desde el cual emergirá el popup
+            shadowUrl: './gotitaUS_sombrita.svg', // URL de tu icono de sombra
+            shadowSize: [41, 41], // Tamaño de la sombra; ajusta según necesidad
+            shadowAnchor: [15, 45] // Punto del icono de sombra que corresponderá a la ubicación del marcador
         });
-
         // Crea el grupo de marcadores con una función personalizada para crear el icono del cluster
         var markers = L.markerClusterGroup({
             iconCreateFunction: function(cluster) {
@@ -85,7 +98,7 @@
             {nombre: "Biblioteca de Derecho y Cc del Trabajo", lat: 37.37741, lng: -5.97785},
             {nombre: "Biblioteca de Educación", lat: 37.37674, lng: -5.97751},
             {nombre: "Biblioteca de Económicas", lat: 37.37818, lng: -5.97637},
-            {nombre: "Biblioteca de Turismo", lat: 37.37919, lng: -5.97630},
+            {nombre: "Biblioteca de Turismo y Finanzas", lat: 37.37919, lng: -5.97630},
             {nombre: "Biblioteca de Filosofía y Psicología", lat: 37.37945, lng: -5.97592},
             {nombre: "Biblioteca de Politécnica", lat: 37.37599, lng: -6.00256},
         ];
@@ -99,6 +112,8 @@
         // Añadir el grupo de marcadores al mapa
         map.addLayer(markers);
 </script>
+
+<div class="info-box" id="info-box"><img src="biblioteca.png" alt="logosUsBus"></div>
 
 </body>
 </html>

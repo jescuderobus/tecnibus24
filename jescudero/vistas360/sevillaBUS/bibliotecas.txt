@@ -16,3 +16,18 @@ Biblioteca: Biblioteca de Turismo, Latitud: 37.37919, Longitud: -5.97630
 Biblioteca: Biblioteca de Filosofía y Psicología, Latitud: 37.37945, Longitud: -5.97592 
 Biblioteca: Biblioteca de Politécnica, Latitud: 37.37599, Longitud: -6.00256 
 
+https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png
+
+https://bib.us.es/horarios/libraryAC_230705_1800.json
+
+
+https://www.svgrepo.com/collection/dazzle-line-icons/?search=clock (horario)
+https://www.svgrepo.com/collection/dazzle-line-icons/?search=book (libros)
+https://www.svgrepo.com/collection/dazzle-line-icons/?search=search
+https://www.svgrepo.com/collection/dazzle-line-icons/?search=laptop (portatiles)
+https://www.svgrepo.com/collection/dazzle-line-icons/?search=users (salas trabajo en grupo)
+
+
+https://www.freepik.com/icon/vending-machine_821407
+https://www.freepik.com/author/freepik/icons/detailed-rounded-lineal_13?t=f&query=clock
+
