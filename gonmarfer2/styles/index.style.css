@@ -98,3 +98,20 @@ a {
     color: var(--c-white);
     text-decoration: none;
 }
+
+.script-box {
+    margin: 1rem 0;
+    padding: 0 2rem;
+}
+
+.script-box,
+.script-box p {
+    font-family: 'Courier New', Courier, monospace !important;
+    color: var(--c-white);
+    white-space: pre-wrap;
+}
+
+.info-box {
+    margin: 1rem;
+    border: solid 0.2rem var(--c-white);
+}
