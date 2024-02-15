@@ -1,0 +1,34 @@
+{
+    "title": "Jordan Pond",
+    
+    "author": "Matthew Petroff",
+    
+    "preview": "../../../../SHARED/imagenes/pannellumGithub/examplepano-preview.jpg",
+    
+    "type": "cubemap",
+    
+    "cubeMap": [
+        "../../../../SHARED/imagenes/pannellumGithub/examplepanocube0.jpg",
+        "../../../../SHARED/imagenes/pannellumGithub/examplepanocube1.jpg",
+        "../../../../SHARED/imagenes/pannellumGithub/examplepanocube2.jpg",
+        "../../../../SHARED/imagenes/pannellumGithub/examplepanocube3.jpg",
+        "../../../../SHARED/imagenes/pannellumGithub/examplepanocube4.jpg",
+        "../../../../SHARED/imagenes/pannellumGithub/examplepanocube5.jpg"
+    ],
+    
+    "hotSpots": [
+        {
+            "pitch": -12,
+            "yaw": 170,
+            "type": "info",
+            "text": "This is Jordan Pond, located in Acadia National Park."
+        },
+        {
+            "pitch": -10,
+            "yaw": -50,
+            "type": "info",
+            "text": "This is a link.",
+            "URL": "https://github.com/mpetroff/pannellum"
+        }
+    ]
+}
