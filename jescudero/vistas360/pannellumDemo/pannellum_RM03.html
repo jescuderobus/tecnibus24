@@ -14,18 +14,8 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="site-wrapper">
-<div class="cover-container">
-<div class="masthead clearfix">
-<h1 class="masthead-brand">Pannellum</h1>
-<br><br>
-<div class="cover">
-<h1 class="cover-heading text-center">A Lightweight Panorama Viewer for the Web</h1>
-<p class="lead text-center">
-Pannellum is a lightweight, free, and open source panorama viewer for the web. Built using HTML5, CSS3, JavaScript, and WebGL, it is plug-in free.
-</p>
-<p class="lead">
-<div id="panorama" style="width:100%;height:500px;"></div>
+
+<div id="panorama" style="width:100%;height:100%;"></div>
 <script>
 pannellum.viewer('panorama', {   
     "default": {
@@ -178,19 +168,27 @@ pannellum.viewer('panorama', {
                     "pitch": -4,
                     "yaw": -65,
                     "type": "info",
-                    "text": "Biblioteca: Normalización, Docencia, SIGB, Informática"
+                    "text": "Biblioteca (sólo trabajadores): Normalización, Docencia, SIGB, Informática"
                 },
                 {
                     "pitch": -4,
                     "yaw": 132,
                     "type": "info",
-                    "text": "Biblioteca: Normalización, Docencia, SIGB, Informática"
+                    "text": "Planta 1ª Ascensor"
                 },
                 {
                     "pitch": 0,
                     "yaw": 145,
                     "type": "info",
-                    "text": "Biblioteca: Normalización, Docencia, SIGB, Informática"
+                    "text": "Planta 1ª Sur"
+                },
+                {
+                    "pitch": -25,
+                    "yaw": 175,
+                    "type": "scene",
+                    "text": "Vestíbulo del edificio Rector Machado y Núñez",
+                    "sceneId": "planta0Hall",
+                    "targetYaw": -60
                 },
             ]
         }
@@ -200,11 +198,6 @@ pannellum.viewer('panorama', {
     }
 });
 </script>
-</div>
-</div>
-</div>
-<div class="mastfoot text-center">
-<p>Pannellum is developed on <a href="https://github.com/mpetroff/pannellum">GitHub</a> by <a href="https://mpetroff.net/">Matthew Petroff</a>.<br>CDN via <a href="https://www.keycdn.com/">KeyCDN</a>.</p>
-</div>
+
 </body>
 </html>
