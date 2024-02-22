@@ -19,7 +19,7 @@
 <script>
 pannellum.viewer('panorama', {   
     "default": {
-        "firstScene": "planta1Norte",
+        "firstScene": "planta0Hall",
         "author": "Álvaro Carmona",
         "sceneFadeDuration": 1000,
         "autoLoad": true
@@ -101,8 +101,10 @@ pannellum.viewer('panorama', {
                 {
                     "pitch": 25,
                     "yaw": 160,
-                    "type": "info",
+                    "type": "scene",
                     "text": "Planta 1ª Ascensor",
+                    "sceneId": "planta1Ascensor",
+
                 },
                 {
                     "pitch": -3,
@@ -119,8 +121,9 @@ pannellum.viewer('panorama', {
                 {
                     "pitch": 20,
                     "yaw": -168,
-                    "type": "info",
+                    "type": "scene",
                     "text": "Planta 1ª Ala Sur",
+                    "sceneId": "planta1Sur",
                 },
                 {
                     "pitch": -2,
@@ -140,8 +143,10 @@ pannellum.viewer('panorama', {
                 {
                     "pitch": 40,
                     "yaw": 80,
-                    "type": "info",
-                    "text": "Planta 2ª Fondo Antiguo",
+                    "type": "scene",
+                    "text": "Planta 2ª Vestibulo",
+                    "sceneId": "planta2Entradilla",
+                    "targetYaw": -10
                 }
             ]
         },
@@ -173,14 +178,18 @@ pannellum.viewer('panorama', {
                 {
                     "pitch": -4,
                     "yaw": 132,
-                    "type": "info",
-                    "text": "Planta 1ª Ascensor"
+                    "type": "scene",
+                    "text": "Planta 1ª Ascensor",
+                    "sceneId": "planta1Ascensor",
+                    "targetYaw": -60
                 },
                 {
                     "pitch": 0,
                     "yaw": 145,
-                    "type": "info",
-                    "text": "Planta 1ª Sur"
+                    "type": "scene",
+                    "text": "Planta 1ª Sur",
+                    "sceneId": "planta1Sur",
+                    "targetYaw": -30
                 },
                 {
                     "pitch": -25,
@@ -191,10 +200,217 @@ pannellum.viewer('panorama', {
                     "targetYaw": -60
                 },
             ]
-        }
+        },
 
+        "planta1Ascensor": {
+            "title": "Planta 1ª Norte",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": -20,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../../SHARED/fotos360/240221_planta1Ascensor/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -24,
+                    "yaw": -65,
+                    "type": "scene",
+                    "text": "Vestíbulo del edificio",
+                    "sceneId": "planta0Hall",
+                    "targetYaw": -60
 
+                },
+                {
+                    "pitch": 18,
+                    "yaw": -6,
+                    "type": "scene",
+                    "text": "Vestibulo Fondo Antiguo",
+                    "sceneId": "planta2Entradilla",
+                    "targetYaw": -10
 
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 15,
+                    "type": "scene",
+                    "text": "Planta 1ª Norte",
+                    "sceneId": "planta1Norte",
+                    "targetYaw": -10
+                },
+                {
+                    "pitch": -5,
+                    "yaw": 175,
+                    "type": "scene",
+                    "text": "Planta 1ª Sur",
+                    "sceneId": "planta1Sur",
+                    "targetYaw": -60
+                },
+            ]
+        },
+
+        "planta1Sur": {
+            "title": "Planta 1ª Sur",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": -20,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../../SHARED/fotos360/240221_planta1Sur/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": -65,
+                    "type": "info",
+                    "text": "Biblioteca (sólo trabajadores): Sala de formación Luis Montoto"
+                },
+                {
+                    "pitch": -2,
+                    "yaw": 132,
+                    "type": "info",
+                    "text": "Un plano muy bonito"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 99,
+                    "type": "scene",
+                    "text": "Planta 1ª Ascensor",
+                    "sceneId": "planta1Ascensor",
+                    "targetYaw": -60
+                },
+                {
+                    "pitch": -14,
+                    "yaw": -115,
+                    "type": "info",
+                    "text": "Biblioteca (sólo trabajadores): Administración, Comunicación, Dirección ",
+                },
+            ]
+        },
+        "planta2Entradilla": {
+            "title": "Planta 1ª Norte",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": -10,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../../SHARED/fotos360/240221_planta2Entradilla/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": 30,
+                    "type": "info",
+                    "text": "Biblioteca (sólo trabajadores): Fondo Antiguo, Taller de Restauración"
+                },
+                {
+                    "pitch": -4,
+                    "yaw": -20,
+                    "type": "scene",
+                    "text": "Sala de Investigadores",
+                    "sceneId": "planta2salaInvestigadores",
+                    "targetYaw": 120
+                },
+                {
+                    "pitch": -6,
+                    "yaw": 175,
+                    "type": "info",
+                    "text": "Fichas de catalogación"
+                },
+                {
+                    "pitch": -2,
+                    "yaw": 220,
+                    "type": "info",
+                    "text": "Planta 2ª Ascensor",
+                },
+                {
+                    "pitch": -16,
+                    "yaw": 220,
+                    "type": "scene",
+                    "text": "Planta 1ª Ascensor",
+                    "sceneId": "planta1Ascensor",
+                    "targetYaw": -60
+                },
+            ]
+        },
+        "planta2salaInvestigadores": {
+            "title": "Planta 2ª Sala Investigadores",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": 120,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../../SHARED/fotos360/240221_planta2salaInvestigadores/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": -45,
+                    "type": "info",
+                    "text": "Bibliotecarios de Fondo Antiguo"
+                },
+                {
+                    "pitch": -24,
+                    "yaw": 132,
+                    "type": "info",
+                    "text": "Mostrador de Sala de Investigación y Préstamo Interbibliotecario"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 155,
+                    "type": "info",
+                    "text": "Estanterias con libros"
+                },
+                {
+                    "pitch": -16,
+                    "yaw": 0,
+                    "type": "info",
+                    "text": "Publicaciones de nuestro Fondo Antiguo",
+
+                },
+                {
+                    "pitch": -10,
+                    "yaw": 65,
+                    "type": "scene",
+                    "text": "Puerta de Entrada/Salida",
+                    "sceneId": "planta2Entradilla",
+                    "targetYaw": -160
+
+                },
+            ]
+        },
     }
 });
 </script>
