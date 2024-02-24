@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PÁGINAS que crearemos en este ejemplo ...</h1>
+    <div style="padding:2em;font-size: 1.2em;">
+        <ul style="font-weight: bold;">
+            <li>Cómo llegar desde Avenida de la Guardia Cívil</li>
+            <li>Cómo llegar desde la Avenida de la Palmera</li>
+            <li>Cómo es la sala de Estudio</li>
+            <li>Cómo es la sala de Invesigadores</li>
+        </ul>
+        <p>Los recorridos sólo enseñarán las partes públicas del edificio, no los lugares de trabajo</p>
+    </div>
+    <h1>CONSEJOS</h1>
+    <ul>
+        <li>Leete la <h2><a href="https://pannellum.org/documentation/reference/" target="_blank">Documentación de Referencia</a></h2></li>
+        <li>Pon siempre una coma al final de cada elemento del JSON, nunca falla por tener comas en cada elemento, pero sí si le faltan</li>
+        <li>Para que los recorridos entre escenas se vean naturales usa los targetYaw y targetPitch</li>
+        <li>Recuerda que tienes que hacer los recorridos de ida y de vuelta</li>
+    </ul>
+    
+    <h1>ESCENAS de RECORRIDOS</h1>
+    <h3>Desde la puerta de la Guardia Civil</h3>
+    <ul>
+        <li><a href="../../SHARED/fotos360/240222/calleEntradaGC_rejilla.jpg" target="_blank">calleEntradaGC</a></li>
+        <li><a href="../../SHARED/fotos360/240222/exteriorEntradaGC_rejilla.jpg" target="_blank">exteriorEntradaGC</a></li>
+        <li><a href="../../SHARED/fotos360/240222/exteriorSoportales_rejilla.jpg" target="_blank">exteriorSoportales</a></li>
+    </ul>
+    <h3>Desde la puerta de la Palmera</h3>
+    <ul>
+        <li><a href="../../SHARED/fotos360/240222/calleEntradaBrasil_rejilla.jpg" target="_blank">calleEntradaBrasil</a></li>
+        <li><a href="../../SHARED/fotos360/240222/exteriorBrasil_rejilla.jpg" target="_blank">exteriorBrasil</a></li>
+        <li><a href="../../SHARED/fotos360/240222/exteriorMexicoBrasil_rejilla.jpg" target="_blank">exteriorMexicoBrasil</a></li>
+        <li><a href="../../SHARED/fotos360/240222/exteriorCallejon_rejilla.jpg" target="_blank">exteriorCallejon</a></li>
+        <li><a href="../../SHARED/fotos360/240222/exteriorFuente_rejilla.jpg" target="_blank">exteriorFuente</a></li>
+        <li><a href="../../SHARED/fotos360/240222/exteriorPuntoEncuentro_rejilla.jpg" target="_blank">exteriorPuntoEncuentro</a></li>
+    </ul>
+    <h2>COMUNES</h2>
+    <ul>     
+        <li><a href="../../SHARED/fotos360/240222/exteriorPuertaRM_rejilla.jpg" target="_blank">exteriorPuertaRM</a></li>
+        <li><a href="../../SHARED/fotos360/240222/planta0Hall_rejilla.jpg" target="_blank">planta0Hall</a></li>
+        <li><a href="../../SHARED/fotos360/240222/planta0salaEstudio1_rejilla.jpg" target="_blank">planta0salaEstudio1</a></li>
+        <li><a href="../../SHARED/fotos360/240222/planta0salaEstudio2_rejilla.jpg" target="_blank">planta0salaEstudio2</a></li>
+        <li><a href="../../SHARED/fotos360/240222/planta1Ascensor_rejilla.jpg" target="_blank">planta1Ascensor</a></li>
+        <li><a href="../../SHARED/fotos360/240222/planta1Norte_rejilla.jpg" target="_blank">planta1Norte</a></li>
+        <li><a href="../../SHARED/fotos360/240222/planta1Sur_rejilla.jpg" target="_blank">planta1Sur</a></li>
+        <li><a href="../../SHARED/fotos360/240222/planta2Hall_rejilla.jpg" target="_blank">planta2Hall</a></li>
+        <li><a href="../../SHARED/fotos360/240222/planta2salaInvestigadores_rejilla.jpg" target="_blank">planta2salaInvestigadores</a></li>
+    </ul>
+    <h1>SALAS</h1>
+    <ol>
+        <li><a href="../../SHARED/fotos360/240222/planta0salaEstudio1_rejilla.jpg" target="_blank">planta0salaEstudio1</a></li>
+        <li><a href="../../SHARED/fotos360/240222/planta0salaEstudio2_rejilla.jpg" target="_blank">planta0salaEstudio2</a></li>
+    </ol>
+    <ul>
+        <li><a href="../../SHARED/fotos360/240222/planta2salaInvestigadores_rejilla.jpg" target="_blank">planta2salaInvestigadores</a></li>
+    </ul>
+
+    <h2>Código de una Escena</h2>
+    <pre>
+        "exteriorPuertaRM": {
+            "title": "Puerta edificio Rector Machado y Núñez",
+            "hfov": 100,
+            "pitch": 10,
+            "yaw": 50,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_exteriorPuertaRM/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 5,
+                    "yaw": -215,
+                    "type": "info",
+                    "text": "Pabellón de México"
+                },
+                {
+                    "pitch": 5,
+                    "yaw": -180,
+                    "type": "info",
+                    "text": "Pabellón de Brasil"
+                },
+                {
+                    "pitch": -10,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Vestíbulo",
+                    "sceneId": "planta0Hall",
+                    "targetYaw": 90
+                }
+            ]
+        },
+    </pre>
+</body>
+</html>

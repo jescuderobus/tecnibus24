@@ -1,0 +1,154 @@
+[
+    {
+        "id": "rector-machado",
+        "nombre": "Biblioteca Rector Antonio Machado y Núñez",
+        "lat": 37.37,
+        "lng": -5.98641,
+        "direccion": "Avda. de la Guardia Civil s/n </br>41013 - Sevilla,",
+        "como_llegar": [
+            {
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "desde la Avda. de la Guardia Civil",
+                "url": "RectorMachado_GuardiaCivil.html"
+            },
+            {
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "desde la Avda. Paseo de las Delicias",
+                "url": "RectorMachado_PaseoDelicias.html"
+            }
+        ],
+        "echar_un_vistazo": [
+            {
+                "imagen": "images/eye-3-svgrepo-com.svg",
+                "texto": "desde la puerta",
+                "url": "RectorMachado_PUERTA.html"
+            },
+            {
+                "imagen": "images/eye-3-svgrepo-com.svg",
+                "texto": "sala de estudio",
+                "url": "RectorMachado_SalaEstudio.html"
+            },
+            {
+                "imagen": "images/eye-3-svgrepo-com.svg",
+                "texto": "sala de investigadores",
+                "url": "RectorMachado_SalaInvestigacion.html"
+            }
+
+        ]
+
+    },
+    {
+        "id": "crai-ulloa",
+        "nombre": "CRAI Antonio de Ulloa",
+        "lat": 37.3596,
+        "lng": -5.98657,
+        "direccion": "Dirección del CRAI Antonio de Ulloa",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "matematicas",
+        "nombre": "Biblioteca de Matemáticas",
+        "lat": 37.35938,
+        "lng": -5.98791,
+        "direccion": "Dirección de la Biblioteca de Matemáticas"
+    },
+    {
+        "id": "informatica",
+        "nombre": "Biblioteca de Informática",
+        "lat": 37.35771,
+        "lng": -5.98706,
+        "direccion": "Dirección de la Biblioteca de Informática"
+    },
+    {
+        "id": "arquitectura",
+        "nombre": "Biblioteca de Arquitectura",
+        "lat": 37.36283,
+        "lng": -5.98646,
+        "direccion": "Dirección de la Biblioteca de Arquitectura"
+    },
+    {
+        "id": "agrónoma",
+        "nombre": "Biblioteca de Ing. Agrónoma",
+        "lat": 37.35295,
+        "lng": -5.93864,
+        "direccion": "Dirección de la Biblioteca de Ingeniería Agrónoma"
+    },
+    {
+        "id": "ingenieria",
+        "nombre": "Biblioteca de Ingeniería",
+        "lat": 37.4113,
+        "lng": -6.00055,
+        "direccion": "Dirección de la Biblioteca de Ingeniería"
+    },
+    {
+        "id": "comunicacion",
+        "nombre": "Biblioteca de Comunicación",
+        "lat": 37.41019,
+        "lng": -6.00658,
+        "direccion": "Dirección de la Biblioteca de Comunicación"
+    },
+    {
+        "id": "salud",
+        "nombre": "Biblioteca de Centros de la Salud",
+        "lat": 37.40635,
+        "lng": -5.98817,
+        "direccion": "Dirección de la Biblioteca de Centros de la Salud"
+    },
+    {
+        "id": "bellas-artes",
+        "nombre": "Biblioteca de Bellas Artes",
+        "lat": 37.39301,
+        "lng": -5.98277,
+        "direccion": "Dirección de la Biblioteca de Bellas Artes"
+    },
+    {
+        "id": "humanidades",
+        "nombre": "Biblioteca de Humanidades",
+        "lat": 37.38103,
+        "lng": -5.99129,
+        "direccion": "Dirección de la Biblioteca de Humanidades"
+    },
+    {
+        "id": "derecho",
+        "nombre": "Biblioteca de Derecho y Cc del Trabajo",
+        "lat": 37.37741,
+        "lng": -5.97785,
+        "direccion": "Dirección de la Biblioteca de Derecho y Ciencias del Trabajo"
+    },
+    {
+        "id": "educacion",
+        "nombre": "Biblioteca de Educación",
+        "lat": 37.37674,
+        "lng": -5.97751,
+        "direccion": "Dirección de la Biblioteca de Educación"
+    },
+    {
+        "id": "economicas",
+        "nombre": "Biblioteca de Económicas",
+        "lat": 37.37818,
+        "lng": -5.97637,
+        "direccion": "Dirección de la Biblioteca de Económicas"
+    },
+    {
+        "id": "turismo",
+        "nombre": "Biblioteca de Turismo",
+        "lat": 37.37919,
+        "lng": -5.9763,
+        "direccion": "Dirección de la Biblioteca de Turismo"
+    },
+    {
+        "id": "filosofia",
+        "nombre": "Biblioteca de Filosofía y Psicología",
+        "lat": 37.37945,
+        "lng": -5.97592,
+        "direccion": "Dirección de la Biblioteca de Filosofía y Psicología"
+    },
+    {
+        "id": "politecnica",
+        "nombre": "Biblioteca de Politécnica",
+        "lat": 37.37599,
+        "lng": -6.00256,
+        "direccion": "Dirección de la Biblioteca Politécnica"
+    }
+]

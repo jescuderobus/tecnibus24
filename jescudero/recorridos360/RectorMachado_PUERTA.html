@@ -19,14 +19,14 @@
 <script>
 pannellum.viewer('panorama', {   
     "default": {
-        "firstScene": "planta0Hall",
+        "firstScene": "exteriorPuertaRM",
         "author": "tecnibus24",
         "sceneFadeDuration": 1000,
         "autoLoad": true
     },
     
     "scenes": {
-        "planta0puertaFuera": {
+        "exteriorPuertaRM": {
             "title": "Puerta edificio Rector Machado y Núñez",
             "hfov": 100,
             "pitch": 10,
@@ -35,7 +35,7 @@ pannellum.viewer('panorama', {
             "northOffset": 100,
             "type": "multires",
             "multiRes": {
-                "basePath": "../../../SHARED/fotos360/240221_planta0puertaFuera/",
+                "basePath": "../../SHARED/fotos360/240222/240222_exteriorPuertaRM/",
                 "path": "/%l/%s%y_%x",
                 "fallbackPath": "/fallback/%s",
                 "extension": "jpg",
@@ -160,7 +160,7 @@ pannellum.viewer('panorama', {
             "northOffset": 100,
             "type": "multires",
             "multiRes": {
-                "basePath": "../../../SHARED/fotos360/240221_planta1Norte/",
+                "basePath": "../../SHARED/fotos360/240222/240222_planta1Norte/",
                 "path": "/%l/%s%y_%x",
                 "fallbackPath": "/fallback/%s",
                 "extension": "jpg",
@@ -211,7 +211,7 @@ pannellum.viewer('panorama', {
             "northOffset": 100,
             "type": "multires",
             "multiRes": {
-                "basePath": "../../../SHARED/fotos360/240221_planta1Ascensor/",
+                "basePath": "../../SHARED/fotos360/240222/240222_planta1Ascensor/",
                 "path": "/%l/%s%y_%x",
                 "fallbackPath": "/fallback/%s",
                 "extension": "jpg",
@@ -234,7 +234,7 @@ pannellum.viewer('panorama', {
                     "yaw": -6,
                     "type": "scene",
                     "text": "Vestibulo Fondo Antiguo",
-                    "sceneId": "planta2Entradilla",
+                    "sceneId": "planta2Hall",
                     "targetYaw": -10
 
                 },
@@ -266,7 +266,7 @@ pannellum.viewer('panorama', {
             "northOffset": 100,
             "type": "multires",
             "multiRes": {
-                "basePath": "../../../SHARED/fotos360/240221_planta1Sur/",
+                "basePath": "../../SHARED/fotos360/240222/240222_planta1Sur/",
                 "path": "/%l/%s%y_%x",
                 "fallbackPath": "/fallback/%s",
                 "extension": "jpg",
@@ -304,8 +304,8 @@ pannellum.viewer('panorama', {
             ]
         },
         
-        "planta2Entradilla": {
-            "title": "Planta 1ª Norte",
+        "planta2Hall": {
+            "title": "Planta 2ª Norte",
             "hfov": 100,
             "pitch": 0,
             "yaw": -10,
@@ -313,7 +313,7 @@ pannellum.viewer('panorama', {
             "northOffset": 100,
             "type": "multires",
             "multiRes": {
-                "basePath": "../../SHARED/fotos360/240221_planta2Entradilla/",
+                "basePath": "../../SHARED/fotos360/240222/240222_planta2Hall/",
                 "path": "/%l/%s%y_%x",
                 "fallbackPath": "/fallback/%s",
                 "extension": "jpg",
@@ -358,6 +358,7 @@ pannellum.viewer('panorama', {
                 },
             ]
         },
+        
         "planta2salaInvestigadores": {
             "title": "Planta 2ª Sala Investigadores",
             "hfov": 100,
@@ -367,7 +368,7 @@ pannellum.viewer('panorama', {
             "northOffset": 100,
             "type": "multires",
             "multiRes": {
-                "basePath": "../../../SHARED/fotos360/240221_planta2salaInvestigadores/",
+                "basePath": "../../SHARED/fotos360/240222/240222_planta2salaInvestigadores/",
                 "path": "/%l/%s%y_%x",
                 "fallbackPath": "/fallback/%s",
                 "extension": "jpg",
@@ -406,7 +407,7 @@ pannellum.viewer('panorama', {
                     "yaw": 65,
                     "type": "scene",
                     "text": "Puerta de Entrada/Salida",
-                    "sceneId": "planta2Entradilla",
+                    "sceneId": "planta2Hall",
                     "targetYaw": -160
 
                 },

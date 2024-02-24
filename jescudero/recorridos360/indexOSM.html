@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+<head>
+    <title>Bibliotecas en Sevilla</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Incluir CSS de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+    <!-- Incluir JS de Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #mapid { 
+            height: 100%; 
+            width: 100%;
+        }
+
+        .logo-box {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            min-width: 200px;
+            height: 100px;
+            padding: 5px;
+            z-index: 1000; /* Asegúrate de que el div se muestre sobre el mapa */
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+        }
+        .nom-bib{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.4em;
+            font-weight: bold;
+            color: brown;
+            padding: 10px;
+        }
+        .vistazo, .instruccion {
+            cursor: pointer; 
+            background-color: #ccc; 
+            padding: 5px; 
+            margin-bottom: 5px; 
+            display: flex; 
+            align-items: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div id="mapid"></div>
+    <div class="logo-box" id="logo-box"><img src="./images/biblioteca.png" alt="logosUsBus"></div>
+    
+    <script>
+        var map = L.map('mapid').setView([37.39, -5.99], 13);
+    
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+    
+        // Cargar y mostrar bibliotecas desde el archivo JSON
+        fetch('bibliotecas.json')
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(bibliotecas) {
+                bibliotecas.forEach(function(biblioteca) {
+                    // Aqui es donde definimos el contenido del pop-up
+                    var popupContent = `<span class="nom-bib">${biblioteca.nombre}</span><hr>${biblioteca.direccion}<hr>`;
+                        popupContent += `<b>Cómo llegar ...</b><br>`;
+                        biblioteca.como_llegar.forEach(function(instruccion) {
+                            popupContent += `
+                                <div onclick="window.open('${instruccion.url}', '_blank')" class="instruccion" >
+                                    <img src="${instruccion.imagen}" alt="Instrucciones" style="width: 50px; height: 50px; margin-right: 10px;">
+                                    <span>${instruccion.texto}</span>
+                                </div>`;
+                        });
+                        popupContent += `<br><b>Echar un vistazo ...</b>`;
+                        biblioteca.echar_un_vistazo.forEach(function(vistazo) {
+                            popupContent += `
+                                <div onclick="window.open('${vistazo.url}', '_self')" class="vistazo">
+                                    <img src="${vistazo.imagen}" alt="Vistazo" style="width: 50px; height: 50px; margin-right: 10px;">
+                                    <span>${vistazo.texto}</span>
+                                </div>`;
+                        });
+
+                    var marker = L.marker([biblioteca.lat, biblioteca.lng]).addTo(map);
+                    marker.bindPopup(popupContent);
+
+                });
+            })
+            .catch(function(error) {
+                console.log(error);
+            });
+
+        // Recargar la página al hacer clic en logo-box
+        document.getElementById('logo-box').addEventListener('click', function() {
+            window.location.reload();
+        });
+
+    </script>
+
+</body>
+</html>
