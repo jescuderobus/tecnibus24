@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html style="height:100%;">
 <head>
-    <title>Bibliotecas en Sevilla</title>
+    <title>Bibliotecas de la Universidad de Sevilla</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -30,7 +30,7 @@
             min-width: 200px;
             height: 100px;
             padding: 5px;
-            z-index: 999; /* Asegúrate de que el div se muestre sobre el mapa */
+            z-index: 998; /* Asegúrate de que el div se muestre sobre el mapa */
             border-radius: 4px;
             background-color: rgba(255, 255, 255, 0.7);
             border-radius: 10px;
@@ -55,8 +55,13 @@
         }
 
         .leaflet-popup {
-            z-index: 1000 !important;
+            z-index: 999;
         }
+
+        .leaflet-control-attribution.leaflet-control {
+            display: none;
+        }
+
     </style>
 </head>
 <body>
@@ -84,7 +89,7 @@
                         popupContent += `<b>Cómo llegar ...</b><br>`;
                         biblioteca.como_llegar.forEach(function(instruccion) {
                             popupContent += `
-                                <div onclick="window.open('${instruccion.url}', '_blank')" class="instruccion" >
+                                <div onclick="window.open('${instruccion.url}', '${instruccion.target}')" class="instruccion" >
                                     <img src="${instruccion.imagen}" alt="Instrucciones" style="width: 50px; height: 50px; margin-right: 10px;">
                                     <span>${instruccion.texto}</span>
                                 </div>`;
@@ -92,7 +97,7 @@
                         popupContent += `<br><b>Echar un vistazo ...</b>`;
                         biblioteca.echar_un_vistazo.forEach(function(vistazo) {
                             popupContent += `
-                                <div onclick="window.open('${vistazo.url}', '_self')" class="vistazo">
+                                <div onclick="window.open('${vistazo.url}', '${vistazo.target}')" class="vistazo">
                                     <img src="${vistazo.imagen}" alt="Vistazo" style="width: 50px; height: 50px; margin-right: 10px;">
                                     <span>${vistazo.texto}</span>
                                 </div>`;
@@ -113,6 +118,8 @@
         });
 
     </script>
+
+
 
 </body>
 </html>

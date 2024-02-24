@@ -1,6 +1,6 @@
 [
     {
-        "id": "rector-machado",
+        "id": "sscc",
         "nombre": "Biblioteca Rector Antonio Machado y Núñez",
         "lat": 37.37,
         "lng": -5.98641,
@@ -9,36 +9,41 @@
             {
                 "imagen": "images/walk-svgrepo-com.svg",
                 "texto": "desde la Avda. de la <br>Guardia Civil",
-                "url": "RectorMachado_GuardiaCivil.html"
+                "url": "RectorMachado_GuardiaCivil.html",
+                "target": "_self"
             },
             {
                 "imagen": "images/walk-svgrepo-com.svg",
                 "texto": "desde la Avda. <br>Paseo de las Delicias",
-                "url": "RectorMachado_PaseoDelicias.html"
+                "url": "RectorMachado_PaseoDelicias.html",
+                "target": "_self"
             }
         ],
         "echar_un_vistazo": [
             {
                 "imagen": "images/eye-3-svgrepo-com.svg",
                 "texto": "desde la puerta",
-                "url": "RectorMachado_PUERTA.html"
+                "url": "RectorMachado_PUERTA.html",
+                "target": "_self"
             },
             {
                 "imagen": "images/eye-3-svgrepo-com.svg",
                 "texto": "sala de estudio",
-                "url": "RectorMachado_SalaEstudio.html"
+                "url": "RectorMachado_SalaEstudio.html",
+                "target": "_self"
             },
             {
                 "imagen": "images/eye-3-svgrepo-com.svg",
                 "texto": "sala de investigadores",
-                "url": "RectorMachado_SalaInvestigacion.html"
+                "url": "RectorMachado_SalaInvestigacion.html",
+                "target": "_self"
             }
 
         ]
 
     },
     {
-        "id": "crai-ulloa",
+        "id": "cau",
         "nombre": "CRAI Antonio de Ulloa",
         "lat": 37.3596,
         "lng": -5.98657,
@@ -47,7 +52,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "matematicas",
+        "id": "mat",
         "nombre": "Biblioteca de Matemáticas",
         "lat": 37.35938,
         "lng": -5.98791,
@@ -56,7 +61,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "informatica",
+        "id": "inf",
         "nombre": "Biblioteca de Informática",
         "lat": 37.35771,
         "lng": -5.98706,
@@ -65,7 +70,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "arquitectura",
+        "id": "arqu",
         "nombre": "Biblioteca de Arquitectura",
         "lat": 37.36283,
         "lng": -5.98646,
@@ -74,7 +79,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "ingenieria",
+        "id": "ing",
         "nombre": "Biblioteca de Ingeniería",
         "lat": 37.4113,
         "lng": -6.00055,
@@ -83,7 +88,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "comunicacion",
+        "id": "com",
         "nombre": "Biblioteca de Comunicación",
         "lat": 37.41019,
         "lng": -6.00658,
@@ -92,7 +97,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "salud",
+        "id": "salu",
         "nombre": "Biblioteca de Centros de la Salud",
         "lat": 37.40635,
         "lng": -5.98817,
@@ -101,7 +106,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "bellas-artes",
+        "id": "bbaa",
         "nombre": "Biblioteca de Bellas Artes",
         "lat": 37.39301,
         "lng": -5.98277,
@@ -110,7 +115,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "humanidades",
+        "id": "hum",
         "nombre": "Biblioteca de Humanidades",
         "lat": 37.38103,
         "lng": -5.99129,
@@ -119,7 +124,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "derecho",
+        "id": "der",
         "nombre": "Biblioteca de Derecho y Cc del Trabajo",
         "lat": 37.37741,
         "lng": -5.97785,
@@ -128,7 +133,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "educacion",
+        "id": "edu",
         "nombre": "Biblioteca de Educación",
         "lat": 37.37674,
         "lng": -5.97751,
@@ -137,7 +142,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "economicas",
+        "id": "eco",
         "nombre": "Biblioteca de Económicas",
         "lat": 37.37818,
         "lng": -5.97637,
@@ -146,7 +151,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "turismo",
+        "id": "tyf",
         "nombre": "Biblioteca de Turismo",
         "lat": 37.37919,
         "lng": -5.9763,
@@ -155,7 +160,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "filosofia",
+        "id": "psi",
         "nombre": "Biblioteca de Filosofía y Psicología",
         "lat": 37.37945,
         "lng": -5.97592,
@@ -164,7 +169,7 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "politecnica",
+        "id": "pol",
         "nombre": "Biblioteca de Politécnica",
         "lat": 37.37599,
         "lng": -6.00256,
@@ -173,14 +178,44 @@
         "echar_un_vistazo":[]
     },
     {
-        "id": "agrónoma",
+        "id": "agr",
         "nombre": "Biblioteca de Ing. Agrónoma",
         "lat": 37.35295,
         "lng": -5.93864,
-        "direccion": "Dirección de la Biblioteca de Ingeniería Agrónoma",
+        "direccion": "Ctra. Utrera, Km.1 (ant. Univ. Laboral)<br>41013 - Sevilla",
         "como_llegar": [
-            {"imagen": "images/tuxrider-svgrepo-com.svg", "texto": "Taller Fede & Manuel","url": "RectorMachado_Taller-Fede-Manuel.html"}
+            {
+                "imagen": "images/google-maps-svgrepo-com.svg", 
+                "texto": "con Google Maps",
+                "url": "https://www.google.com/maps/dir//E.T.S.+de+Ingenier%C3%ADa+Agron%C3%B3mica,+Ctra.+de+Utrera,+km.1,+41005+Sevilla/@37.3528599,-5.9799195,13z/",
+                "target": "_blank"
+            },
+            {
+                "imagen": "images/bus-svgrepo-com.svg", 
+                "texto": "en transporte público",
+                "url": "https://reddelineas.tussam.es/API/infotus-ui/cercanos/37359522/-5986400/24-02-2024T22:48:00?_=1708811311482",
+                "target": "_blank"
+            },
+            {
+                "imagen": "images/bicycle-svgrepo-com.svg", 
+                "texto": "en bicicleta",
+                "url": "https://api.jcdecaux.com/vls/v3/stations?apiKey=frifk0jbxfefqqniqez09tw4jvk37wyf823b5j1i&contract=seville",
+                "target": "_blank"
+            }
         ],
-        "echar_un_vistazo":[]
+        "echar_un_vistazo":[
+            {
+                "imagen": "images/tuxrider-svgrepo-com.svg", 
+                "texto": "Taller Fede & Manuel",
+                "url": "RectorMachado_Taller-Fede-Manuel.html",
+                "target": "_self"
+            },
+            {
+                "imagen": "images/tuxrider-svgrepo-com.svg", 
+                "texto": "Help panellum",
+                "url": "RM_help.html",
+                "target": "_self"
+            }
+        ]
     }
 ]

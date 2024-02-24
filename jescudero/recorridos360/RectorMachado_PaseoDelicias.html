@@ -19,13 +19,15 @@
 <script>
 pannellum.viewer('panorama', {   
     "default": {
-        "firstScene": "exteriorFuente",
+        "firstScene": "exteriorPuntoEncuentro",
         "author": "tecnibus24",
         "sceneFadeDuration": 1000,
         "autoLoad": true
     },
-    
+
     "scenes": {
+
+
         "exteriorPuntoEncuentro": {
             "title": "Punto de encuentro de Emergencias del edificio Rector Machado y Núñez",
             "hfov": 100,
@@ -77,7 +79,8 @@ pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Puerta del Edificio Rector Machado",
                     "sceneId": "exteriorPuertaRM",
-                    "targetYaw": 90,
+                    "targetYaw": 0,
+                    "targetPitch": -10,
                 }
             ]
         },
@@ -144,7 +147,6 @@ pannellum.viewer('panorama', {
                 }
             ]
         },
-
         "exteriorPuertaRM": {
             "title": "Puerta edificio Rector Machado y Núñez",
             "hfov": 100,
@@ -229,7 +231,7 @@ pannellum.viewer('panorama', {
                     "pitch": -3,
                     "yaw": 30,
                     "type": "info",
-                    "text": "Biblioteca: Investigación, Bibliometría, I+D",
+                    "text": "Biblioteca (sólo trabajadores): Investigación, Bibliometría, I+D",
                 },
                 {
                     "pitch": 2,
@@ -247,8 +249,9 @@ pannellum.viewer('panorama', {
                 {
                     "pitch": -2,
                     "yaw": -148,
-                    "type": "info",
+                    "type": "scene",
                     "text": "Sala de Estudio",
+                    "sceneId": "planta0salaEstudio1",
                 },
                 {
                     "pitch": 20,
@@ -264,9 +267,110 @@ pannellum.viewer('panorama', {
                     "yaw": 80,
                     "type": "scene",
                     "text": "Planta 2ª Vestibulo",
-                    "sceneId": "planta2Entradilla",
+                    "sceneId": "planta2Hall",
                     "targetYaw": -10
                 }
+            ]
+        },
+
+        "planta0salaEstudio1": {
+            "title": "Planta Baja Sala de Estudio",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_planta0salaEstudio1/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 10,
+                    "yaw": -40,
+                    "type": "info",
+                    "text": "No está permitido comer ni beber dentro"
+                },
+                {
+                    "pitch": 22,
+                    "yaw": -40,
+                    "type": "info",
+                    "text": "Silencia tu teléfono móvil"
+                },
+                {
+                    "pitch": 30,
+                    "yaw": -40,
+                    "type": "info",
+                    "text": "Guarda Silencio"
+                },
+                {
+                    "pitch": -10,
+                    "yaw": 0,
+                    "type": "scene",
+                    "text": "La sala es más ancha hacia el sur",
+                    "sceneId": "planta0salaEstudio2",
+                    "targetYaw": 50
+                },
+
+                {
+                    "pitch": 0,
+                    "yaw": 175,
+                    "type": "scene",
+                    "text": "Puerta de Entrada/Salida",
+                    "sceneId": "planta0Hall",
+
+                },
+
+                {
+                    "pitch": 15,
+                    "yaw": -70,
+                    "type": "info",
+                    "text": "Hay conexión a la red Eduroam",
+
+                },
+            ]
+        },
+        "planta0salaEstudio2": {
+            "title": "Planta Baja Sala de Estudio",
+            "hfov": 100,
+            "pitch": -10,
+            "yaw": 50,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_planta0salaEstudio2/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+
+                {
+                    "pitch": -5,
+                    "yaw": -165,
+                    "type": "scene",
+                    "text": "Otro punto de la sala",
+                    "sceneId": "planta0salaEstudio1",
+                    "targetYaw": 200
+                },
+
+                {
+                    "pitch": -20,
+                    "yaw": 80,
+                    "type": "info",
+                    "text": "Las mesas están electrificadas",
+
+                },
             ]
         },
 
@@ -404,7 +508,7 @@ pannellum.viewer('panorama', {
                     "pitch": -2,
                     "yaw": 132,
                     "type": "info",
-                    "text": "Un plano muy bonito"
+                    "text": "Un mapa muy bonito"
                 },
                 {
                     "pitch": 0,
@@ -418,7 +522,7 @@ pannellum.viewer('panorama', {
                     "pitch": -14,
                     "yaw": -115,
                     "type": "info",
-                    "text": "Biblioteca (sólo trabajadores): Administración, Comunicación, Dirección ",
+                    "text": "Biblioteca (sólo trabajadores): Dirección, Administración, Comunicación, Proyectos y Espacios ",
                 },
             ]
         },
@@ -532,6 +636,26 @@ pannellum.viewer('panorama', {
                 },
             ]
         },
+    }
+});
+</script>
+
+
+<script>
+    // Espera a que el contenido de la página se haya cargado completamente
+document.addEventListener('DOMContentLoaded', function() {
+    // Encuentra el elemento div por sus clases
+    var compassElement = document.querySelector('.pnlm-compass.pnlm-controls.pnlm-control');
+
+    // Asegúrate de que el elemento existe en el documento
+    if(compassElement) {
+        // Agrega un event listener para el evento 'click'
+        compassElement.addEventListener('click', function() {
+            // Carga la página de Google
+            window.location.href = 'indexOSM.html';
+        });
+    } else {
+        console.log('El elemento con las clases pnlm-compass pnlm-controls pnlm-control no se encontró en el documento.');
     }
 });
 </script>
