@@ -21,6 +21,7 @@
         #mapid { 
             height: 100%; 
             width: 100%;
+            z-index: 0;
         }
 
         .logo-box {
@@ -30,7 +31,7 @@
             min-width: 200px;
             height: 100px;
             padding: 5px;
-            z-index: 998; /* Asegúrate de que el div se muestre sobre el mapa */
+            z-index: 9; /* Asegúrate de que el div se muestre sobre el mapa */
             border-radius: 4px;
             background-color: rgba(255, 255, 255, 0.7);
             border-radius: 10px;
@@ -45,6 +46,7 @@
         }
         .vistazo, .instruccion {
             cursor: pointer; 
+            color: #0f0f0f;
             background-color: #ccc; 
             padding: 4px; 
             margin-bottom: 5px; 
@@ -54,8 +56,11 @@
             font-size: 1.4em;
         }
 
-        .leaflet-popup {
-            z-index: 999;
+        .leaflet-popup-pane { /* No parece hacer nada */
+            z-index: 999 !important;
+        }
+        .leaflet-popup-close-button{ /* No parece hacer nada */
+            font-size: 2.4em;
         }
 
         .leaflet-control-attribution.leaflet-control {
@@ -90,7 +95,7 @@
                         biblioteca.como_llegar.forEach(function(instruccion) {
                             popupContent += `
                                 <div onclick="window.open('${instruccion.url}', '${instruccion.target}')" class="instruccion" >
-                                    <img src="${instruccion.imagen}" alt="Instrucciones" style="width: 50px; height: 50px; margin-right: 10px;">
+                                    <img src="${instruccion.imagen}" alt="Instrucciones" style="padding: 4px; width: 45px; height: 45px; margin-right: 10px;">
                                     <span>${instruccion.texto}</span>
                                 </div>`;
                         });
@@ -98,7 +103,7 @@
                         biblioteca.echar_un_vistazo.forEach(function(vistazo) {
                             popupContent += `
                                 <div onclick="window.open('${vistazo.url}', '${vistazo.target}')" class="vistazo">
-                                    <img src="${vistazo.imagen}" alt="Vistazo" style="width: 50px; height: 50px; margin-right: 10px;">
+                                    <img src="${vistazo.imagen}" alt="Vistazo" style="padding: 4px; width: 45px; height: 45px; margin-right: 10px;">
                                     <span>${vistazo.texto}</span>
                                 </div>`;
                         });
