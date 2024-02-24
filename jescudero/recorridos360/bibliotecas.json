@@ -8,12 +8,12 @@
         "como_llegar": [
             {
                 "imagen": "images/walk-svgrepo-com.svg",
-                "texto": "desde la Avda. de la Guardia Civil",
+                "texto": "desde la Avda. de la <br>Guardia Civil",
                 "url": "RectorMachado_GuardiaCivil.html"
             },
             {
                 "imagen": "images/walk-svgrepo-com.svg",
-                "texto": "desde la Avda. Paseo de las Delicias",
+                "texto": "desde la Avda. <br>Paseo de las Delicias",
                 "url": "RectorMachado_PaseoDelicias.html"
             }
         ],
@@ -51,104 +51,136 @@
         "nombre": "Biblioteca de Matemáticas",
         "lat": 37.35938,
         "lng": -5.98791,
-        "direccion": "Dirección de la Biblioteca de Matemáticas"
+        "direccion": "Dirección de la Biblioteca de Matemáticas",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "informatica",
         "nombre": "Biblioteca de Informática",
         "lat": 37.35771,
         "lng": -5.98706,
-        "direccion": "Dirección de la Biblioteca de Informática"
+        "direccion": "Dirección de la Biblioteca de Informática",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "arquitectura",
         "nombre": "Biblioteca de Arquitectura",
         "lat": 37.36283,
         "lng": -5.98646,
-        "direccion": "Dirección de la Biblioteca de Arquitectura"
-    },
-    {
-        "id": "agrónoma",
-        "nombre": "Biblioteca de Ing. Agrónoma",
-        "lat": 37.35295,
-        "lng": -5.93864,
-        "direccion": "Dirección de la Biblioteca de Ingeniería Agrónoma"
+        "direccion": "Dirección de la Biblioteca de Arquitectura",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "ingenieria",
         "nombre": "Biblioteca de Ingeniería",
         "lat": 37.4113,
         "lng": -6.00055,
-        "direccion": "Dirección de la Biblioteca de Ingeniería"
+        "direccion": "Dirección de la Biblioteca de Ingeniería",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "comunicacion",
         "nombre": "Biblioteca de Comunicación",
         "lat": 37.41019,
         "lng": -6.00658,
-        "direccion": "Dirección de la Biblioteca de Comunicación"
+        "direccion": "Dirección de la Biblioteca de Comunicación",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "salud",
         "nombre": "Biblioteca de Centros de la Salud",
         "lat": 37.40635,
         "lng": -5.98817,
-        "direccion": "Dirección de la Biblioteca de Centros de la Salud"
+        "direccion": "Dirección de la Biblioteca de Centros de la Salud",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "bellas-artes",
         "nombre": "Biblioteca de Bellas Artes",
         "lat": 37.39301,
         "lng": -5.98277,
-        "direccion": "Dirección de la Biblioteca de Bellas Artes"
+        "direccion": "Dirección de la Biblioteca de Bellas Artes",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "humanidades",
         "nombre": "Biblioteca de Humanidades",
         "lat": 37.38103,
         "lng": -5.99129,
-        "direccion": "Dirección de la Biblioteca de Humanidades"
+        "direccion": "Dirección de la Biblioteca de Humanidades",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "derecho",
         "nombre": "Biblioteca de Derecho y Cc del Trabajo",
         "lat": 37.37741,
         "lng": -5.97785,
-        "direccion": "Dirección de la Biblioteca de Derecho y Ciencias del Trabajo"
+        "direccion": "Dirección de la Biblioteca de Derecho y Ciencias del Trabajo",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "educacion",
         "nombre": "Biblioteca de Educación",
         "lat": 37.37674,
         "lng": -5.97751,
-        "direccion": "Dirección de la Biblioteca de Educación"
+        "direccion": "Dirección de la Biblioteca de Educación",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "economicas",
         "nombre": "Biblioteca de Económicas",
         "lat": 37.37818,
         "lng": -5.97637,
-        "direccion": "Dirección de la Biblioteca de Económicas"
+        "direccion": "Dirección de la Biblioteca de Económicas",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "turismo",
         "nombre": "Biblioteca de Turismo",
         "lat": 37.37919,
         "lng": -5.9763,
-        "direccion": "Dirección de la Biblioteca de Turismo"
+        "direccion": "Dirección de la Biblioteca de Turismo",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "filosofia",
         "nombre": "Biblioteca de Filosofía y Psicología",
         "lat": 37.37945,
         "lng": -5.97592,
-        "direccion": "Dirección de la Biblioteca de Filosofía y Psicología"
+        "direccion": "Dirección de la Biblioteca de Filosofía y Psicología",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
     },
     {
         "id": "politecnica",
         "nombre": "Biblioteca de Politécnica",
         "lat": 37.37599,
         "lng": -6.00256,
-        "direccion": "Dirección de la Biblioteca Politécnica"
+        "direccion": "Dirección de la Biblioteca Politécnica",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "agrónoma",
+        "nombre": "Biblioteca de Ing. Agrónoma",
+        "lat": 37.35295,
+        "lng": -5.93864,
+        "direccion": "Dirección de la Biblioteca de Ingeniería Agrónoma",
+        "como_llegar": [
+            {"imagen": "images/tuxrider-svgrepo-com.svg", "texto": "Taller Fede & Manuel","url": "RectorMachado_Taller-Fede-Manuel.html"}
+        ],
+        "echar_un_vistazo":[]
     }
 ]
