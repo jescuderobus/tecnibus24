@@ -1,0 +1,156 @@
+{
+  "result": [
+    {
+      "codigo": 62,
+      "descripcion": {
+        "texto": "Reina Mercedes (E.S.I. Inform\u00e1tica)",
+        "formato": ["small"]
+      },
+      "proximidadE6": 88839996,
+      "posicion": { "latitudE6": 37358730, "longitudE6": -5986282 },
+      "lineasCoincidentes": [
+        { "linea": 106, "labelLinea": "A6", "color": "#000000" }
+      ]
+    },
+    {
+      "codigo": 156,
+      "descripcion": {
+        "texto": "Reina Mercedes (Escuela Ing. Edificaci\u00f3n)",
+        "formato": ["small"]
+      },
+      "proximidadE6": 174360000,
+      "posicion": { "latitudE6": 37361091, "longitudE6": -5986368 },
+      "lineasCoincidentes": [
+        { "linea": 3, "labelLinea": "03", "color": "#f7a800" }
+      ]
+    },
+    {
+      "codigo": 63,
+      "descripcion": {
+        "texto": "Reina Mercedes (Escuela de Arquitectura)",
+        "formato": ["small"]
+      },
+      "proximidadE6": 255089996,
+      "posicion": { "latitudE6": 37361808, "longitudE6": -5986143 },
+      "lineasCoincidentes": [
+        { "linea": 3, "labelLinea": "03", "color": "#f7a800" },
+        { "linea": 106, "labelLinea": "A6", "color": "#000000" }
+      ]
+    },
+    {
+      "codigo": 61,
+      "descripcion": {
+        "texto": "Reina Mercedes (Gta. Alc. Parias Merry)",
+        "formato": ["small"]
+      },
+      "proximidadE6": 349950012,
+      "posicion": { "latitudE6": 37356376, "longitudE6": -5986411 },
+      "lineasCoincidentes": [
+        { "linea": 3, "labelLinea": "03", "color": "#f7a800" },
+        { "linea": 106, "labelLinea": "A6", "color": "#000000" }
+      ]
+    },
+    {
+      "codigo": 976,
+      "descripcion": {
+        "texto": "Reina Mercedes (Glta. Alc. Parias Merry)",
+        "formato": ["small"]
+      },
+      "proximidadE6": 352109985,
+      "posicion": { "latitudE6": 37356361, "longitudE6": -5986604 },
+      "lineasCoincidentes": [
+        { "linea": 3, "labelLinea": "03", "color": "#f7a800" }
+      ]
+    },
+    {
+      "codigo": 158,
+      "descripcion": {
+        "texto": "Glorieta Alcalde Parias Merry",
+        "formato": ["small"]
+      },
+      "proximidadE6": 397399993,
+      "posicion": { "latitudE6": 37355953, "longitudE6": -5986594 },
+      "lineasCoincidentes": [
+        { "linea": 2, "labelLinea": "02", "color": "#f54129" }
+      ]
+    },
+    {
+      "codigo": 753,
+      "descripcion": {
+        "texto": "Dr. Fleming (Est. Benito Villamar\u00edn)",
+        "formato": ["small"]
+      },
+      "proximidadE6": 420850006,
+      "posicion": { "latitudE6": 37356437, "longitudE6": -5983643 },
+      "lineasCoincidentes": [
+        { "linea": 3, "labelLinea": "03", "color": "#f7a800" }
+      ]
+    },
+    {
+      "codigo": 60,
+      "descripcion": {
+        "texto": "Padre G. Tejero (Est. Benito Villamar\u00edn)",
+        "formato": ["small"]
+      },
+      "proximidadE6": 433320007,
+      "posicion": { "latitudE6": 37357414, "longitudE6": -5982277 },
+      "lineasCoincidentes": [
+        { "linea": 2, "labelLinea": "02", "color": "#f54129" }
+      ]
+    },
+    {
+      "codigo": 797,
+      "descripcion": {
+        "texto": "Dr. Fleming (Est. Benito Villamar\u00edn)",
+        "formato": ["small"]
+      },
+      "proximidadE6": 439339996,
+      "posicion": { "latitudE6": 37356369, "longitudE6": -5983407 },
+      "lineasCoincidentes": [
+        { "linea": 3, "labelLinea": "03", "color": "#f7a800" },
+        { "linea": 106, "labelLinea": "A6", "color": "#000000" }
+      ]
+    },
+    {
+      "codigo": 687,
+      "descripcion": {
+        "texto": "Padre G. Tejero (Est. Benito Villamar\u00edn)",
+        "formato": ["small"]
+      },
+      "proximidadE6": 439769989,
+      "posicion": { "latitudE6": 37357219, "longitudE6": -5982356 },
+      "lineasCoincidentes": [
+        { "linea": 2, "labelLinea": "02", "color": "#f54129" }
+      ]
+    },
+    {
+      "codigo": 58,
+      "descripcion": {
+        "texto": "Manuel Siurot (Hospital V.Rocio)",
+        "formato": ["small"]
+      },
+      "proximidadE6": 445029998,
+      "posicion": { "latitudE6": 37361286, "longitudE6": -5981879 },
+      "lineasCoincidentes": [
+        { "linea": 106, "labelLinea": "A6", "color": "#000000" }
+      ]
+    },
+    {
+      "codigo": 574,
+      "descripcion": {
+        "texto": "Manuel Siurot (Francisco Murillo)",
+        "formato": ["small"]
+      },
+      "proximidadE6": 491380004,
+      "posicion": { "latitudE6": 37359477, "longitudE6": -5980840 },
+      "lineasCoincidentes": [
+        { "linea": 106, "labelLinea": "A6", "color": "#000000" }
+      ]
+    }
+  ],
+  "data": [],
+  "response": true,
+  "error": false,
+  "message": "",
+  "status": ""
+}
