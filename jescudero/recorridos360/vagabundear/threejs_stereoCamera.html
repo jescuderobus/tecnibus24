@@ -4,7 +4,7 @@
 		<title>three.js webgl - effects - stereo</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<link type="text/css" rel="stylesheet" href="main.css">
+		<link type="text/css" rel="stylesheet" href="css/sc_main.css">
 	</head>
 
 	<body>
@@ -15,8 +15,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "../build/three.module.js",
-					"three/addons/": "./jsm/"
+					"three": "js/three.module.js",
+					"three/addons/": "./js/"
 				}
 			}
 		</script>
@@ -25,7 +25,7 @@
 
 			import * as THREE from 'three';
 
-			import { StereoEffect } from 'three/addons/effects/StereoEffect.js';
+			import { StereoEffect } from 'js/StereoEffect.js';
 
 			let container, camera, scene, renderer, effect;
 
