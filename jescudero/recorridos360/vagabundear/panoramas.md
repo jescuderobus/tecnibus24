@@ -13,4 +13,7 @@ https://immersiveweb.dev/
 https://msub2.github.io/hello-webxr/
 
 
-[file:///C:/Users/VORPC/Desktop/DEVELOPER/lolo/three.js%20examples.htm](https://threejs.org/examples/webgl_effects_stereo.html)
+https://threejs.org/examples/webgl_effects_stereo.html
+
+https://www.teacherspayteachers.com/Product/The-Tell-Tale-Heart-Digital-Escape-Room-Reading-Comprehension-Game-6121035
+
