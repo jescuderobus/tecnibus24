@@ -4,7 +4,7 @@
 <meta name="generator" content="Hugo 0.48" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rector Machado - Planta 2ª - Sala de Investigadores</title>
+<title>VAGABUNDEAR</title>
 <script src="/cdn-cgi/apps/head/TEAHVq5cVsVoM9egFOAS6CBdXPk.js"></script><link rel="stylesheet" href="https://pannellum.org/css/bootstrap.min.css">
 <script type="text/javascript" src="js/bootstrap-native.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
@@ -19,86 +19,103 @@
 <script>
 pannellum.viewer('panorama', {   
     "default": {
-        "firstScene": "planta2salaInvestigadores",
+        "firstScene": "dormido",
         "author": "tecnibus24",
         "sceneFadeDuration": 1000,
         "autoLoad": true
     },
     
     "scenes": {    
-        "planta2salaInvestigadores": {
-            "title": "Planta 2ª Sala Investigadores",
-            "hfov": 100,
+        "dormido": {
+            "title": "¿Qué te gustaría estudiar?",
+            "hfov": 120,
             "pitch": 0,
-            "yaw": 120,
+            "yaw": 0,
             "compass": true,
             "northOffset": 90,
-            "autoRotateInactivityDelay": 6000,
-            "autoRotate": -4,
-            "type": "multires",
-            "multiRes": {
-                "basePath": "../../SHARED/fotos360/240222/240222_planta2salaInvestigadores/",
-                "path": "/%l/%s%y_%x",
-                "fallbackPath": "/fallback/%s",
-                "extension": "jpg",
-                "tileResolution": 512,
-                "maxLevel": 3,
-                "cubeResolution": 1928
-            },
+            "type": "equirectangular",
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/cerebrito-4096.jpg",
             "hotSpots": [
                 {
-                    "pitch": -2,
-                    "yaw": -42,
-                    "type": "info",
-                    "text": "Bibliotecarios de Fondo Antiguo y Archivo Histórico"
+                    "pitch": 0, "yaw": 0,
+                    "type": "scene",
+                    "text": "Bellas Artes",
+                    "sceneId": "arles",
                 },
                 {
-                    "pitch": -2,
-                    "yaw": -50,
-                    "type": "info",
-                    "text": "Ordenadores para consultar fondos digitalizados"
+                    "pitch": 0, "yaw": 30,
+                    "type": "scene",
+                    "text": "Biologia",
+                    "sceneId": "naturaleza",
                 },
                 {
-                    "pitch": -10,
-                    "yaw": -90,
+                    "pitch": -10, "yaw": -90,
                     "type": "info",
                     "text": "Cojín para depositar los libros mientras se leen y que no sufran daños"
                 },
                 {
-                    "pitch": 0,
-                    "yaw": -135,
+                    "pitch": 0, "yaw": -135,
                     "type": "info",
                     "text": "Un investigador consultando los fondos de la Biblioteca"
                 },
                 {
-                    "pitch": -24,
-                    "yaw": 132,
+                    "pitch": -24, "yaw": 132,
                     "type": "info",
                     "text": "Mostrador de Sala de Investigación y Préstamo Interbibliotecario"
                 },
                 {
-                    "pitch": 0,
-                    "yaw": 155,
+                    "pitch": 0, "yaw": 155,
                     "type": "info",
                     "text": "Estanterias con libros"
                 },
                 {
-                    "pitch": -16,
-                    "yaw": 0,
+                    "pitch": -16, "yaw": 0,
                     "type": "info",
                     "text": "Publicaciones de nuestro Fondo Antiguo",
 
                 },
                 {
-                    "pitch": -10,
-                    "yaw": 65,
+                    "pitch": -10, "yaw": 65,
                     "type": "info",
                     "text": "Puerta de Entrada/Salida",
 
                 },
             ]
         },
+        "arles": {
+            "title": "Arlés",
+            "hfov": 120,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 90,
+            "type": "equirectangular",
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/05-4096.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0, "yaw": 0,
+                    "type": "info",
+                    "text": "Cosas que se hacen en Bristol",
+                    "URL":"https://www.sidingstudios.com/dap2021/pannellum.htm#config=https://www.sidingstudios.com/dap2021/tour.json&autoLoad=true"
+                }]
+    },
+    "naturaleza": {
+            "title": "Biología",
+            "hfov": 120,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 90,
+            "type": "equirectangular",
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/08-8192.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0, "yaw": 0,
+                    "type": "info",
+                    "text": "Nada que comentar"
+                }]
     }
+}
 });
 </script>
 
@@ -114,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Agrega un event listener para el evento 'click'
         compassElement.addEventListener('click', function() {
             // Carga la página de Google
-            window.location.href = 'index.html';
+            window.location.href = '../index.html';
         });
     } else {
         console.log('El elemento con las clases pnlm-compass pnlm-controls pnlm-control no se encontró en el documento.');

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+<head>
+    <title>Bibliotecas de la Universidad de Sevilla</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Incluir CSS de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+    <!-- Incluir JS de Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #mapid { 
+            height: 100%; 
+            width: 100%;
+            z-index: 0;
+        }
+
+        .logo-box {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            min-width: 200px;
+            height: 100px;
+            padding: 5px;
+            z-index: 9; /* Asegúrate de que el div se muestre sobre el mapa */
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border: 1px solid white;
+            border-radius: 10px;
+        }
+
+        .menu-popup-logo-box{
+            display:none; 
+            position: absolute; 
+            top: 130px; 
+            right: 10px; 
+            z-index: 10; 
+            background-color: rgba(255, 255, 255, 0.7);
+            border: 1px solid white; 
+            padding: 10px;
+            width: 200px;
+            border-radius: 4px;
+            font-size: 0.8em;
+        }
+
+        .nom-bib{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.4em;
+            font-weight: bold;
+            color: brown;
+            padding: 5px;
+            text-align: center;
+        }
+        .vistazo, .instruccion, .menu-item {
+            cursor: pointer; 
+            color: #0f0f0f;
+            background-color: #ccc; 
+            padding: 4px; 
+            margin-bottom: 5px; 
+            display: flex; 
+            align-items: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1.4em;
+
+            & img {
+                padding: 4px; 
+                width: 45px; 
+                height: 45px; 
+                margin-right: 10px;
+            }
+        }
+
+        .brujula {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            right: 4px;
+            bottom: 5px;
+            border-radius: 25px;
+            border: 1px solid black;
+            background-color: white;
+            background-image: url('images/compass.svg');
+            cursor: default;
+            z-index: 9;
+            
+        }
+
+        .leaflet-popup-pane { /* No parece hacer nada */
+            z-index: 999 !important;
+        }
+        .leaflet-popup-close-button{ /* No parece hacer nada */
+            font-size: 2.4em;
+        }
+
+        .leaflet-control-attribution.leaflet-control {
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div id="mapid"></div>
+    <div class="logo-box" id="logo-box"><img src="./images/biblioteca.png" alt="logosUsBus"></div>
+
+    <div id="customPopup" class="menu-popup-logo-box">
+        <div id="popupContent">
+            <div class="menu-item" style="display: flex;justify-content: center;"><img src="images/Kahoot_Logo.svg" style="width:100px;"></div>
+            <div class="menu-item" onclick="window.location.reload();"><img src="images/reset-svgrepo-com.svg" alt="botón de reset">Reset</div>
+            <hr>
+            <div onclick="window.open('RectorMachado_Taller-Fede-Manuel.html', '_self')" class="vistazo">
+                <img src="images/tuxrider-svgrepo-com.svg" alt="Vistazo">
+                <span>Taller Fede &amp; Manuel</span>
+            </div>
+            <div onclick="window.open('RM_help.html', '_self')" class="vistazo">
+                <img src="images/tuxrider-svgrepo-com.svg" alt="Vistazo">
+                <span>Help Pannellum</span>
+            </div>
+            <div onclick="window.open('Ingenieros_polycam.html', '_self')" class="vistazo">
+                <img src="images/tuxrider-svgrepo-com.svg" alt="Vistazo">
+                <span>Polycam Ingenieros</span>
+            </div>
+            <div class="menu-item" onclick="window.open('Vagabundear/vagabundear.html','_self');"><img src="images/noun-tardis-2800809.png" alt="Botón Tardis by Chris Barklem from Noun Project (CC BY 3.0)">Vagabundear</div>
+
+            
+        </div>
+    </div>
+    
+    <div class="brujula" id="brujula"></div>
+    
+    <script>
+        var map = L.map('mapid').setView([37.39, -5.99], 13);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+    
+        var markers = []; // Almacenar todos los marcadores con su contenido
+    
+        // Función para cargar y mostrar bibliotecas
+        function loadBibliotecas() {
+            console.log("function loadBibliotecas")
+            fetch('bibliotecas.json')
+                .then(function(response) {
+                    return response.json();
+                })
+                .then(function(bibliotecas) {
+                    bibliotecas.forEach(function(biblioteca) {
+
+                        var popupContentIdle = `<div class="nom-bib">${biblioteca.nombre}</div>`;
+
+                        var popupContent = `<div class="nom-bib">${biblioteca.nombre}</div><hr>${biblioteca.direccion}<hr>`;
+                            popupContent += `<b>Cómo llegar ...</b><br>`;
+                            biblioteca.como_llegar.forEach(function(instruccion) {
+                                popupContent += `
+                                    <div onclick="window.open('${instruccion.url}', '${instruccion.target}')" class="instruccion" >
+                                        <img src="${instruccion.imagen}" alt="Instrucciones">
+                                        <span>${instruccion.texto}</span>
+                                    </div>`;
+                            });
+                            popupContent += `<br><b>Echar un vistazo ...</b>`;
+                            biblioteca.echar_un_vistazo.forEach(function(vistazo) {
+                                popupContent += `
+                                    <div onclick="window.open('${vistazo.url}', '${vistazo.target}')" class="vistazo">
+                                        <img src="${vistazo.imagen}" alt="Vistazo">
+                                        <span>${vistazo.texto}</span>
+                                    </div>`;
+                            });
+                       
+    
+                        var marker = L.marker([biblioteca.lat, biblioteca.lng]).addTo(map);
+
+                        markers.push({
+                        marker: marker,
+                        content: popupContent,
+                        contentIdle: popupContentIdle,
+                        isIdle: true // Añadido para controlar el estado del contenido del popup
+                    });
+                });
+            })
+            .catch(function(error) {
+                console.log(error);
+            });
+    }
+
+    loadBibliotecas();
+
+    let idleTimer;
+    let currentIndex = 0; // Índice para recorrer los marcadores
+    let isInIdleMode = false; // Estado para controlar si estamos en modo inactivo
+ 
+
+    function resetIdleTimer() {
+        console.log("function resetIdleTimer")
+        clearTimeout(idleTimer);
+        
+        isInIdleMode = false;
+        // Cerrar cualquier popup abierto y restablecer el contenido original
+        markers.forEach(function(markerObj) {
+            if (isInIdleMode) {markerObj.marker.closePopup();}
+            if(markerObj.isIdle) { // Si estaba en modo inactivo, restablecer el contenido original
+                markerObj.marker.bindPopup(markerObj.content);
+                markerObj.isIdle = false;
+                //console.log(markerObj.content)
+            }
+        });
+        idleTimer = setTimeout(startIdleMode, 60000); // 60 segundos de inactividad
+    }
+
+    function startIdleMode() {
+        isInIdleMode = true;
+        showPopupContentIdle();
+    }
+
+    function showPopupContentIdle() {
+        if (!isInIdleMode || currentIndex >= markers.length) {
+            currentIndex = 0; // Reiniciar el índice si hemos llegado al final o si salimos del modo inactivo
+        }
+        if (isInIdleMode) {
+            var markerObj = markers[currentIndex];
+            markerObj.marker.bindPopup(markerObj.contentIdle).openPopup();
+            markerObj.isIdle = true; // Marcar como contenido inactivo mostrado
+            currentIndex++;
+            idleTimer = setTimeout(showPopupContentIdle, 10000); // Continuar al siguiente marcador después de 10 segundos
+        }
+    }
+
+    // Eventos de interacción del usuario que detienen el modo inactivo y restablecen los popups
+    document.addEventListener('mousemove', resetIdleTimer);
+    document.addEventListener('keypress', resetIdleTimer);
+    document.addEventListener('click', resetIdleTimer);
+
+    // Iniciar el temporizador la primera vez
+    resetIdleTimer();
+
+    // Recargar la página al hacer clic en logo-box o en la brújula
+    document.getElementById('brujula').addEventListener('click', function() {
+        window.location.reload();
+    });
+</script>
+
+
+<script>
+    // Resto de tu script de Leaflet...
+
+    function showCustomPopup() {
+        var popup = document.getElementById('customPopup');
+        popup.style.display = 'block'; // Mostrar el popup
+    }
+
+
+    document.getElementById('logo-box').addEventListener('click', function() {
+    var popup = document.getElementById('customPopup');
+    // Comprobar si el popup ya está visible
+    if (popup.style.display === 'block') {
+        // Si es visible, lo oculta
+        popup.style.display = 'none';
+    } else {
+        // Si no es visible, muestra el popup con el contenido deseado
+        showCustomPopup();
+    }
+});
+</script>
+
+
+
+
+    
+
+
+
+</body>
+</html>

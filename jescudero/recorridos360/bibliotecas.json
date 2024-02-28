@@ -219,19 +219,6 @@
                 "target": "_blank"
             }
         ],
-        "echar_un_vistazo":[
-            {
-                "imagen": "images/tuxrider-svgrepo-com.svg", 
-                "texto": "Taller Fede & Manuel",
-                "url": "RectorMachado_Taller-Fede-Manuel.html",
-                "target": "_self"
-            },
-            {
-                "imagen": "images/tuxrider-svgrepo-com.svg", 
-                "texto": "Help panellum",
-                "url": "RM_help.html",
-                "target": "_self"
-            }
-        ]
+        "echar_un_vistazo":[]
     }
 ]
