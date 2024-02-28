@@ -57,7 +57,7 @@
         "nombre": "Biblioteca de Matemáticas",
         "lat": 37.35938,
         "lng": -5.98791,
-        "direccion": "Dirección de la Biblioteca de Matemáticas",
+        "direccion": "(Campus Reina Mercedes)<br>Tarfia, s/n<br>41012 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -77,7 +77,7 @@
         "nombre": "Biblioteca de Arquitectura",
         "lat": 37.36283,
         "lng": -5.98646,
-        "direccion": "Dirección de la Biblioteca de Arquitectura",
+        "direccion": "(Campus de Reina Mercedes)<br>Avda. de Reina Mercedes, 2<br>41012 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -87,7 +87,7 @@
         "nombre": "Biblioteca de Ingeniería",
         "lat": 37.4113,
         "lng": -6.00055,
-        "direccion": "Dirección de la Biblioteca de Ingeniería",
+        "direccion": "(Campus Cartuja)<br>Camino de los Descubrimientos, s/n<br>41092 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -97,7 +97,7 @@
         "nombre": "Biblioteca de Comunicación",
         "lat": 37.41019,
         "lng": -6.00658,
-        "direccion": "Dirección de la Biblioteca de Comunicación",
+        "direccion": "(Campus Cartuja)<br>Avda. Américo Vespucio, s/n<br>41092 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -107,7 +107,7 @@
         "nombre": "Biblioteca de Centros de la Salud",
         "lat": 37.40635,
         "lng": -5.98817,
-        "direccion": "Dirección de la Biblioteca de Centros de la Salud",
+        "direccion": "(Campus Macarena)<br>Avda. Sánchez Pizjuán s/n<br>41009 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -137,7 +137,7 @@
         "nombre": "Biblioteca de Derecho y Cc del Trabajo",
         "lat": 37.37741,
         "lng": -5.97785,
-        "direccion": "Dirección de la Biblioteca de Derecho y Ciencias del Trabajo",
+        "direccion": "(Campus Ramón y Cajal)<br>Enramadilla, 18-20<br>41018 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -147,7 +147,7 @@
         "nombre": "Biblioteca de Educación",
         "lat": 37.37674,
         "lng": -5.97751,
-        "direccion": "Dirección de la Biblioteca de Educación",
+        "direccion": "(Campus Ramón y Cajal)<br>Pirotecnia, s/n<br>41018 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -157,7 +157,7 @@
         "nombre": "Biblioteca de Económicas",
         "lat": 37.37818,
         "lng": -5.97637,
-        "direccion": "Dirección de la Biblioteca de Económicas",
+        "direccion": "(Campus Ramón y Cajal)<br>Avda. Ramón y Cajal, 1<br>41018 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -167,7 +167,7 @@
         "nombre": "Biblioteca de Turismo",
         "lat": 37.37919,
         "lng": -5.9763,
-        "direccion": "Dirección de la Biblioteca de Turismo",
+        "direccion": "(Campus Ramón y Cajal)<br>",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -177,7 +177,7 @@
         "nombre": "Biblioteca de Filosofía y Psicología",
         "lat": 37.37945,
         "lng": -5.97592,
-        "direccion": "Dirección de la Biblioteca de Filosofía y Psicología",
+        "direccion": "(Campus Ramón y Cajal)<br>Camilo José Cela, s/n<br>41018 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -187,7 +187,7 @@
         "nombre": "Biblioteca de Politécnica",
         "lat": 37.37599,
         "lng": -6.00256,
-        "direccion": "Dirección de la Biblioteca Politécnica",
+        "direccion": "Virgen de África, 7<br> 41011 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
