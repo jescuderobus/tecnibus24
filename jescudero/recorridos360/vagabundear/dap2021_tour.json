@@ -14,6 +14,8 @@
             "type": "equirectangular",
             "panorama": "../../../SHARED/fotos360/240228Andalucia/dap21g2.jpg",
             "hotSpotDebug": true,
+            "compass": true,
+            "northOffset": 90,
 			"hotSpots": [
                 {
                     "pitch": -2.1,
@@ -29,9 +31,10 @@
             "title": "Drawing & Print 2021 - 360",
             "hfov": 110,
             "yaw": 5,
+            "compass": true,
             "type": "equirectangular",
             "panorama": "../../../SHARED/fotos360/240228Andalucia/dap21.jpg",
-            "hotSpotDebug": true,
+            "hotSpotDebug": false,
 			"hotSpots": [
                 {
                     "pitch": 0.7,

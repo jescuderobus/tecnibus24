@@ -2,15 +2,16 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Custom hot spots</title>
-    <link rel="stylesheet" href="css/pannellum.css"/>
+    <title>Custom hotspots - Pikachu en Baltimore</title>
+    <script type="text/javascript" src="js/bootstrap-native.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/pygments.css">
+    <link rel="stylesheet" href="css/pannellum.css" />
     <script type="text/javascript" src="js/pannellum.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 
     <style>
-    #panorama {
-        width: 100%;
-        height: 400px;
-    }
+
     .custom-hotspot {
         height: 50px;
         width: 50px;
@@ -52,14 +53,17 @@
 </head>
 <body>
 
-<div id="panorama"></div>
+<div id="panorama" style="width:100%;height:100%;"></div>
 
 <script>
 // Create viewer
-viewer = pannellum.viewer('panorama', ﻿{
+pannellum.viewer = pannellum.viewer('panorama', {
     "type": "equirectangular",
     "panorama": "../../../SHARED/fotos360/240228Andalucia/bma-1.jpg",
+    "compass": true,
+    "sceneFadeDuration": 1000,
     "autoLoad": true,
+
     "hotSpots": [
         {
             "pitch": 14.1,
@@ -76,6 +80,12 @@ viewer = pannellum.viewer('panorama', ﻿{
             "createTooltipArgs": "Art Museum Drive"
         },
         {
+            "pitch": -9.4,
+            "yaw": 222.6,
+            "type": "info",
+            "text": "Art Museum Drive",
+        },
+        {
             "pitch": -0.9,
             "yaw": 144.4,
             "cssClass": "custom-hotspot",
@@ -86,19 +96,32 @@ viewer = pannellum.viewer('panorama', ﻿{
             "pitch": 0,
             "yaw": -30,
             "type": "info",
-            "title": "Un Pokemon",
+            "title": "Pikachu transparente",
             "cssClass": "custom-hotspot-pokemon",
             "createTooltipFunc": hotspotPokemon,
-            "createTooltipArgs": "Un Pokemon no se la clase"
+            "createTooltipArgs": "Pikachu transparente"
+        },
+        {
+            "pitch": 6,
+            "yaw": -30,
+            "type": "info",
+            "text": "Pikachu transparente",
         },
         {
             "pitch": 8,
             "yaw": 30,
             "type": "info",
-            "title": "Un Pokemon",
+            "text": "Pikachu",
             "cssClass": "custom-hotspot-pokemon",
             "createTooltipFunc": hotspotPokemonPikachu,
-            "createTooltipArgs": "Un Pokemon no se la clase"
+            "createTooltipArgs": "Pikachu"
+        },
+        {
+            "pitch": 14,
+            "yaw": 30,
+            "type": "info",
+            "text": "Pikachu amarillo"
+  
         },
     ]
 });
@@ -144,6 +167,26 @@ function hotspotPokemonPikachu(hsDiv, args) {
     hsDiv.appendChild(img);
 }
 
+</script>
+
+
+<script>
+    // Espera a que el contenido de la página se haya cargado completamente
+document.addEventListener('DOMContentLoaded', function() {
+    // Encuentra el elemento div por sus clases
+    var compassElement = document.querySelector('.pnlm-compass.pnlm-controls.pnlm-control');
+
+    // Asegúrate de que el elemento existe en el documento
+    if(compassElement) {
+        // Agrega un event listener para el evento 'click'
+        compassElement.addEventListener('click', function() {
+            // Carga la página de Google
+            window.location.href = '../index.html';
+        });
+    } else {
+        console.log('El elemento con las clases pnlm-compass pnlm-controls pnlm-control no se encontró en el documento.');
+    }
+});
 </script>
 
 </body>

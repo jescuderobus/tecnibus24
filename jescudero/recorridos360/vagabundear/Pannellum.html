@@ -114,4 +114,8 @@ function parseURLParameters(){var y;if(y=0<window.location.hash.length?window.lo
 break;case "author":case "title":case "firstScene":case "fallback":case "preview":case "panorama":case "config":c[H]=decodeURIComponent(l);break;default:anError("An invalid configuration parameter was specified: "+H);return}}var k;c.config?(k=new XMLHttpRequest,k.onload=function(){if(200!=k.status){var l=document.createElement("a");l.href=c.config;l.textContent=l.href;anError("The file "+l.outerHTML+" could not be accessed.")}else{l=JSON.parse(k.responseText);void 0===l.basePath&&(l.basePath=c.config.substring(0,
 c.config.lastIndexOf("/")+1));for(var p in l)c.hasOwnProperty(p)||(c[p]=l[p]);"title"in c&&(document.title=c.title);c.escapeHTML=!0;viewer=pannellum.viewer("container",c)}},k.open("GET",c.config),k.send()):("title"in c&&(document.title=c.title),c.escapeHTML=!0,viewer=pannellum.viewer("container",c))}else anError("No configuration options were specified.")}
 "file:"==window.location.protocol?anError("Due to browser security restrictions, Pannellum can't be run from the local filesystem; some sort of web server must be used."):parseURLParameters();
-</script></body></html>
+</script>
+
+
+
+</body></html>
