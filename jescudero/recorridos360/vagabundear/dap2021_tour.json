@@ -1,0 +1,76 @@
+﻿{  
+    "default": {
+        "firstScene": "lobby",
+        "author": "Drawing & Print 2021",
+        "sceneFadeDuration": 5000
+    },
+
+    "scenes": {
+        "circle": {
+            "title": "Gallery 2",
+            "hfov": 110,
+            "pitch": -3,
+            "yaw": 126,
+            "type": "equirectangular",
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/dap21g2.jpg",
+            "hotSpotDebug": true,
+			"hotSpots": [
+                {
+                    "pitch": -2.1,
+                    "yaw": -4.59,
+                    "type": "scene",
+                    "text": "Gallery 1",
+                    "sceneId": "lobby"
+                }
+            ]
+        },
+
+        "lobby": {
+            "title": "Drawing & Print 2021 - 360",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/dap21.jpg",
+            "hotSpotDebug": true,
+			"hotSpots": [
+                {
+                    "pitch": 0.7,
+                    "yaw": 17.1,
+                    "type": "scene",
+                    "text": "Gallery 2",
+                    "sceneId": "circle",
+                    "targetYaw": 17.3,
+                    "targetPitch": 2				
+				},
+				{
+                    "pitch": 0.7,
+                    "yaw": -153.1,
+                    "type": "info",
+                    "text": "Woodland, by Walter Fall, Oil on Board, 200 x 200 cm",
+                    "URL": "https://www.uwe.ac.uk/about/faculties-and-departments/arts-creative-industries-and-education/art-and-design"
+				},
+				{
+					"pitch": 0.7,
+                    "yaw": -77,
+                    "type": "info",
+                    "text": "Suez 2",
+                    "URL": "https://www.jomcallister.co.uk/product-category/drawing/suezinkdrawing/"
+				},
+				{
+					"pitch": 0.7,
+                    "yaw": 90.21,
+                    "type": "info",
+                    "text": "Wild West",
+                    "URL": "https://sites.google.com/view/dap2021/home"				
+				},
+				{
+                    "pitch": 0.7,
+                    "yaw": -28,
+                    "type": "info",
+                    "text": "Sci Fi",
+                    "URL": "https://sites.google.com/view/dap2021/home"
+				}			
+            ]
+        }
+    }
+}
