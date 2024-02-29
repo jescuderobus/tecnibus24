@@ -17,71 +17,277 @@
 
 <div id="panorama" style="width:100%;height:100%;"></div>
 <script>
-pannellum.viewer('panorama', {   
-    "default": {
-        "firstScene": "exteriorPuntoEncuentro",
-        "author": "tecnibus24",
-        "sceneFadeDuration": 1000,
-        "autoLoad": true
-    },
-
-    "scenes": {
-
-
-        "exteriorPuntoEncuentro": {
-            "title": "Punto de encuentro de Emergencias del edificio Rector Machado y Núñez",
-            "hfov": 100,
-            "pitch": 0,
-            "yaw": 179,
-            "compass": true,
-            "northOffset": 100,
-            "type": "multires",
-            "multiRes": {
-                "basePath": "../../SHARED/fotos360/240222/240222_exteriorPuntoEncuentro/",
-                "path": "/%l/%s%y_%x",
-                "fallbackPath": "/fallback/%s",
-                "extension": "jpg",
-                "tileResolution": 512,
-                "maxLevel": 3,
-                "cubeResolution": 1928,
+    pannellum.viewer('panorama', {   
+        "default": {
+            "firstScene": "calleEntradaBrasil",
+            "author": "Tecnibus24",
+            "sceneFadeDuration": 1000,
+            "autoLoad": true
+        },
+        
+        "scenes": {
+            "calleEntradaBrasil": {
+                "title": "Vista del Pabellón de Brasil desde la calle.",
+                "hfov": 150,
+                "pitch": 0,
+                "yaw": 0,
+                "compass": true,
+                "northOffset": 70,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_calleEntradaBrasil/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928
+                },
+                "hotSpots": [
+                    {
+                        "pitch": -20,
+                        "yaw": 0,
+                        "type": "scene",
+                        "text": "Entrada al recinto",
+                        "sceneId": "exteriorBrasil",
+                        "targetYaw": 110
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": 0,
+                        "type": "info",
+                        "text": "Pabellón de Brasil"
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": 190,
+                        "type": "info",
+                        "text": "Pabellón de Colombia"
+                    },
+                    {
+                        "pitch": 0,
+                        "yaw": -95,
+                        "type": "info",
+                        "text": "Parada de autobús (TUSSAM). Enlace con líneas 6 y 34."
+                    },
+                    
+                ]
             },
-            "hotSpots": [
-                {
-                    "pitch": 15,
-                    "yaw": 0,
-                    "type": "info",
-                    "text": "Pabellón de México",
+            "exteriorBrasil": {
+                "title": "Vista del Pabellón de Brasil desde el interior del recinto.",
+                "hfov": 150,
+                "pitch": 10,
+                "yaw": -5,
+                "compass": true,
+                "northOffset": 70,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_exteriorBrasil/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928,
                 },
-                {
-                    "pitch": 5,
-                    "yaw": 25,
-                    "type": "info",
-                    "text": "Pabellón de Brasil",
+                "hotSpots": [
+                    {
+                        "pitch": 5,
+                        "yaw": -20,
+                        "type": "info",
+                        "text": "Pabellón de Brasil"
+                    },
+                    {
+                        "pitch": -3,
+                        "yaw": -67,
+                        "type": "scene",
+                        "text": "Salir del recinto",
+                        "sceneId": "calleEntradaBrasil",
+                        "targetYaw": 190
+                    },
+                    {
+                        "pitch": 7,
+                        "yaw": 110,
+                        "type": "info",
+                        "text": "Pabellón de México"
+                    },
+                    {
+                        "pitch": -6,
+                        "yaw": 110,
+                        "type": "scene",
+                        "text": "Continuar por el callejón",
+                        "sceneId": "exteriorCallejon"
+                    }
+                ]
+            },
+            "exteriorCallejon": {
+                "title": "Vista del callejón",
+                "hfov": 150,
+                "pitch": -10,
+                "yaw": -5,
+                "compass": true,
+                "northOffset": 70,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_exteriorCallejon/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928,
                 },
-                {
-                    "pitch": -5,
-                    "yaw": -50,
-                    "type": "scene",
-                    "text": "Vamos a ver la fuente",
-                    "sceneId": "exteriorFuente",
-                    "targetYaw": -110,
-                    "targetPitch": -4,
+                "hotSpots": [
+                    {
+                        "pitch": 5,
+                        "yaw": 45,
+                        "type": "info",
+                        "text": "Pabellón de México"
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": -50,
+                        "type": "info",
+                        "text": "Pabellón de Brasil"
+                    },
+                    {
+                        "pitch": -5,
+                        "yaw": -181.2,
+                        "type": "scene",
+                        "text": "Volver al recinto",
+                        "sceneId": "exteriorBrasil",
+                        "targetYaw": -67
+                    },
+                    {
+                        "pitch": -5,
+                        "yaw": -0.5,
+                        "type": "scene",
+                        "text": "Avanzar hacia el final del callejón",
+                        "sceneId": "exteriorMexicoBrasil"
+                    },
+                ]
+            },
+            "exteriorMexicoBrasil": {
+                "title": "Parking del Pabellón de México",
+                "hfov": 150,
+                "pitch": 6,
+                "yaw": 4,
+                "compass": true,
+                "northOffset": 70,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_exteriorMexicoBrasil/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928,
                 },
-                {
-                    "pitch": 15,
-                    "yaw": -180,
-                    "type": "info",
-                    "text": "Biblioteca Rector Antonio Machado y Núñez"
+                "hotSpots": [
+                    {
+                        "pitch": 3,
+                        "yaw": 7.1,
+                        "type": "info",
+                        "text": "Biblioteca Rector Antonio Machado y Núñez"
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": 60,
+                        "type": "info",
+                        "text": "Pabellón de México"
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": -150,
+                        "type": "info",
+                        "text": "Pabellón de Brasil"
+                    },
+                    {
+                        "pitch": -28,
+                        "yaw": 48,
+                        "type": "info",
+                        "text": "Juan Pavo I"
+                    },
+                    {
+                        "pitch": -12,
+                        "yaw": -193.2,
+                        "type": "scene",
+                        "text": "Volver por el callejón",
+                        "sceneId": "exteriorCallejon",
+                        "targetYaw": -181.2
+                    },
+                    {
+                        "pitch": 0,
+                        "yaw": 13.5,
+                        "type": "scene",
+                        "text": "Avanzar al punto de encuentro",
+                        "sceneId": "exteriorPuntoEncuentro"
+                    }
+                ]
+            },
+            "exteriorPuntoEncuentro": {
+                "title": "Punto de encuentro de Emergencias del edificio Rector Machado y Núñez",
+                "hfov": 100,
+                "pitch": 0,
+                "yaw": 179,
+                "compass": true,
+                "northOffset": 100,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_exteriorPuntoEncuentro/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928,
                 },
-                {
-                    "pitch": 0,
-                    "yaw": -179,
-                    "type": "scene",
-                    "text": "Puerta del Edificio Rector Machado",
-                    "sceneId": "exteriorPuertaRM",
-                    "targetYaw": 0,
-                    "targetPitch": -10,
-                }
+                "hotSpots": [
+                    {
+                        "pitch": 15,
+                        "yaw": 0,
+                        "type": "info",
+                        "text": "Pabellón de México",
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": 25,
+                        "type": "info",
+                        "text": "Pabellón de Brasil",
+                    },
+                    {
+                        "pitch": -5,
+                        "yaw": -50,
+                        "type": "scene",
+                        "text": "Vamos a ver la fuente",
+                        "sceneId": "exteriorFuente",
+                        "targetYaw": -110,
+                        "targetPitch": -4,
+                    },
+                    {
+                        "pitch": 15,
+                        "yaw": -180,
+                        "type": "info",
+                        "text": "Biblioteca Rector Antonio Machado y Núñez"
+                    },
+                    {
+                        "pitch": 0,
+                        "yaw": -179,
+                        "type": "scene",
+                        "text": "Puerta del Edificio Rector Machado",
+                        "sceneId": "exteriorPuertaRM",
+                        "targetYaw": 0,
+                        "targetPitch": -10,
+                    },
+                    {
+                        "pitch": 0,
+                        "yaw": 20,
+                        "type": "scene",
+                        "text": "Retroceder hacia el callejón",
+                        "sceneId": "exteriorMexicoBrasil",
+                        "targetYaw": -193.2
+                    },
             ]
         },
 
@@ -125,7 +331,7 @@ pannellum.viewer('panorama', {
                     "pitch": 8,
                     "yaw": -114,
                     "type": "info",
-                    "text": "Un pavo real",
+                    "text": "Juan Pavo II",
                     "URL": "https://es.wikipedia.org/wiki/Pavo_cristatus",
                 },
                 {
@@ -210,7 +416,7 @@ pannellum.viewer('panorama', {
                     "yaw": -55,
                     "type": "scene",
                     "text": "Puerta edificio Rector Machado y Núñez",
-                    "sceneId": "planta0puertaFuera",
+                    "sceneId": "exteriorPuertaRM",
                     "targetYaw": 200
                 },
                 {
@@ -635,9 +841,10 @@ pannellum.viewer('panorama', {
 
                 },
             ]
+        }
         },
-    }
-});
+    },
+    );
 </script>
 
 
@@ -652,7 +859,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Agrega un event listener para el evento 'click'
         compassElement.addEventListener('click', function() {
             // Carga la página de Google
-            window.location.href = 'indexOSM.html';
+            window.location.href = 'index.html';
         });
     } else {
         console.log('El elemento con las clases pnlm-compass pnlm-controls pnlm-control no se encontró en el documento.');
