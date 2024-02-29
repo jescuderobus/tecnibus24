@@ -20,13 +20,144 @@
     <script>
     pannellum.viewer('panorama', {   
         "default": {
-            "firstScene": "calleEntradaBrasil",
+            "firstScene": "calleEntradaGC",
+            //"firstScene": "calleEntradaBrasil",
             "author": "Tecnibus24",
             "sceneFadeDuration": 1000,
             "autoLoad": true
         },
         
         "scenes": {
+            "calleEntradaGC": {
+                "title": "Entrada Guardia Civil.",
+                "hfov": 150,
+                "pitch": 5,
+                "yaw": 30,
+                "compass": true,
+                "northOffset": 70,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_calleEntradaGC/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928
+                },
+                "hotSpots": [
+                    {
+                        "pitch": -10,
+                        "yaw": 30,
+                        "type": "scene",
+                        "text": "Entrar al recinto",
+                        "sceneId": "exteriorEntradaGC"
+                    },
+                    {
+                        "pitch": 10,
+                        "yaw": 20,
+                        "type": "info",
+                        "text": "Pabellón de México"
+                    },
+                    {
+                        "pitch": 0,
+                        "yaw": 172.5,
+                        "type": "info",
+                        "text": "Guardia Civil"
+                    }
+                ]
+            },
+
+            "exteriorEntradaGC": {
+                "title": "Recinto de la Biblioteca Rector Antonio Machado.",
+                "hfov": 150,
+                "pitch": 10,
+                "yaw": 40,
+                "compass": true,
+                "northOffset": 70,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_exteriorEntradaGC/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928
+                },
+                "hotSpots": [
+                    {
+                        "pitch": -10,
+                        "yaw": 50,
+                        "type": "scene",
+                        "text": "Continuar por el soportal",
+                        "sceneId": "exteriorSoportales"
+                    },
+                    {
+                        "pitch": 10,
+                        "yaw": -20,
+                        "type": "info",
+                        "text": "Pabellón de México"
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": 140,
+                        "type": "info",
+                        "text": "Guardia Civil"
+                    },
+                    {
+                        "pitch": -15,
+                        "yaw": -120,
+                        "type": "scene",
+                        "text": "Salir del recinto",
+                        "sceneId": "calleEntradaGC",
+                        "targetYaw": -70
+                    },
+                ]
+            },
+
+            "exteriorSoportales": {
+                "title": "Soportales de la Biblioteca Rector Antonio Machado.",
+                "hfov": 150,
+                "pitch": 10,
+                "yaw": 0,
+                "compass": true,
+                "northOffset": 70,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_exteriorSoportales/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928
+                },
+                "hotSpots": [
+                    {
+                        "pitch": -5,
+                        "yaw": -1.4,
+                        "type": "scene",
+                        "text": "Continuar por el soportal",
+                        "sceneId": "exteriorPuertaRM"
+                    },
+                    {
+                        "pitch": 10,
+                        "yaw": -100,
+                        "type": "info",
+                        "text": "Pabellón de México"
+                    },
+                    {
+                        "pitch": -8,
+                        "yaw": -190,
+                        "type": "scene",
+                        "text": "Salir del recinto",
+                        "sceneId": "calleEntradaGC",
+                        "targetYaw": -70
+                    },
+                ]
+            },
+
             "calleEntradaBrasil": {
                 "title": "Vista del Pabellón de Brasil desde la calle.",
                 "hfov": 150,
@@ -400,7 +531,17 @@
                     "sceneId": "exteriorPuntoEncuentro",
                     "targetYaw": 0,
                     "targetPitch": 0,
-                }
+                },
+                {
+                    "pitch": -5,
+                    "yaw": 70,
+                    "type": "scene",
+                    "text": "Avanzar por el soportal",
+                    "sceneId": "exteriorSoportales",
+                    "targetYaw": 185,
+                    "targetPitch": 0,
+                },
+
             ]
         },
 
@@ -852,9 +993,8 @@
                 },
             ]
         }
-        },
     },
-    );
+});
 </script>
 
 </body>
