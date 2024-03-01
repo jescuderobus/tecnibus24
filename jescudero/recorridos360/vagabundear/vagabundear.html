@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="generator" content="Hugo 0.48" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VAGABUNDEAR</title>
+<script src="/cdn-cgi/apps/head/TEAHVq5cVsVoM9egFOAS6CBdXPk.js"></script><link rel="stylesheet" href="https://pannellum.org/css/bootstrap.min.css">
+<script type="text/javascript" src="js/bootstrap-native.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/pygments.css">
+<link rel="stylesheet" href="css/pannellum.css" />
+<script type="text/javascript" src="js/pannellum.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<style>
+
+    .custom-hotspot {
+        height: 60px;
+        width: 60px;
+    }
+
+    div.custom-tooltip span {
+        visibility: hidden;
+        position: absolute;
+        border-radius: 3px;
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+        max-width: 200px;
+        padding: 5px 10px;
+        margin-left: -220px;
+        cursor: default;
+    }
+    div.custom-tooltip:hover span{
+        visibility: visible;
+    }
+    div.custom-tooltip:hover span:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-width: 10px;
+        border-style: solid;
+        border-color: #fff transparent transparent transparent;
+        bottom: -20px;
+        left: -10px;
+        margin: 0 50%;
+    }
+</style>
+
+<body>
+
+<div id="panorama" style="width:100%;height:100%;"></div>
+<script>
+pannellum.viewer('panorama', {   
+    "default": {
+        "firstScene": "puertasVentanas",
+        "author": "tecnibus24",
+        "sceneFadeDuration": 1000,
+        "autoLoad": true
+    },
+    
+    "scenes": {    
+        "puertasVentanas": {
+            "title": "Viaje con la Tardis",
+            "hfov": 120,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 90,
+            "type": "equirectangular",
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/cerebrito-4096.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 0,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Volver a Sevilla",
+                        urlImagen: "./images/noun-tardis-2800809.svg"
+                        }
+                },
+                {
+                    "pitch": 0, "yaw": 0,
+                    "type": "info",
+                    "text": "Volver a Sevila",
+                    "URL": "../index.html",
+                },
+
+                {
+                    "pitch": 14,
+                    "yaw": 25,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Van Gogh 360º",
+                        urlImagen: "./images/door-svgrepo-com.svg"
+                        }
+                },
+                {
+                    "pitch": 14, "yaw": 25,
+                    "type": "scene",
+                    "text": "Arlés",
+                    "sceneId": "arles",
+                },
+                {
+                    "pitch": 0,
+                    "yaw": -50,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Biblioteca en una torre",
+                        urlImagen: "./images/window-svgrepo-com.svg"
+                        }
+                },
+                {
+                    "pitch": 0, "yaw": -50,
+                    "type": "scene",
+                    "text": "Biblioteca en una torre",
+                    "sceneId": "bibliotecaTorre",
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 50,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Biblioteca en una torre",
+                        urlImagen: "./images/amphora-svgrepo-com.svg"
+                        }
+                },
+                {
+                    "pitch": 0, "yaw": 50,
+                    "type": "scene",
+                    "text": "Turismo",
+                    "sceneId": "mikonos",
+                },
+                {
+                    "pitch": -10,
+                    "yaw": 30,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Van Gogh 360º",
+                        urlImagen: "./images/rainbow-svgrepo-com.svg"
+                        }
+                },
+                {
+                    "pitch": -10, "yaw": 30,
+                    "type": "scene",
+                    "text": "Biologia",
+                    "sceneId": "naturaleza",
+                },
+                {
+                    "pitch": 10,
+                    "yaw": -60,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Van Gogh 360º",
+                        urlImagen: "./images/palace-svgrepo-com.svg"
+                        }
+                },
+                {
+                    "pitch": 10, "yaw": -60,
+                    "type": "scene",
+                    "text": "Palacio de Hielo",
+                    "sceneId": "palacioHielo",
+                },
+                {
+                    "pitch": -15,
+                    "yaw": 60,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Pikachu en Baltimore",
+                        urlImagen: "./images/Pikachu_Sliced.svg"
+                        }
+                },
+                {
+                    "pitch": -15, "yaw": 60,
+                    "type": "info",
+                    "text": "Pikachu en Baltimore",
+                    "URL": "pannellum_puntosHotSpot.html"
+
+                },
+                {
+                    "pitch": -35,
+                    "yaw": -30,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Biblioteca en una torre",
+                        urlImagen: "./images/gallery-svgrepo-com.svg"
+                        }
+                },
+                {
+                    "pitch": -35, "yaw": -30,
+                    "type": "info",
+                    "text": "Galeria de Arte de Bristol",
+                    "URL": "pannellum_galeriaDeArte.html"
+
+                },
+            ]
+        },
+        "arles": {
+            "title": "Arlés",
+            "hfov": 120,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 90,
+            "type": "equirectangular",
+            "hotSpotDebug": true,
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/05-4096.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 4, "yaw": -45,
+                    "type": "info",
+                    "text": "Los Girasoles",
+                    "URL": "../../../SHARED/fotos360/240228Andalucia/Van_Gogh_Twelve_Sunflowers.jpg"
+                },
+                {
+                    "pitch": -25, "yaw": 75,
+                    "type": "info",
+                    "text": "El cartero",
+                    
+                },
+
+            ]
+    },
+    "naturaleza": {
+            "title": "Biología",
+            "hfov": 120,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 90,
+            "type": "equirectangular",
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/08-8192.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0, "yaw": 0,
+                    "type": "info",
+                    "text": "Nada que comentar"
+                }]
+    },
+    "palacioHielo": {
+            "title": "El palacio de hielo",
+            "hfov": 120,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 90,
+            "type": "equirectangular",
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/07-8192.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0, "yaw": 0,
+                    "type": "info",
+                    "text": "Nada que comentar"
+                }]
+    },
+    "bibliotecaTorre": {
+            "title": "Biblioteca Torre",
+            "hfov": 120,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 90,
+            "type": "equirectangular",
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/Realism_equirectangular-jpg_The_library_of_a_1815340171_10287956.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0, "yaw": 0,
+                    "type": "info",
+                    "text": "Nada que comentar"
+                }]
+    },
+    "mikonos": {
+            "title": "Mikonos",
+            "hfov": 120,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 90,
+            "type": "equirectangular",
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/04-8192.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0, "yaw": 0,
+                    "type": "info",
+                    "text": "Nada que comentar"
+                }]
+    }
+}
+});
+
+
+
+    // Espera a que el contenido de la página se haya cargado completamente
+document.addEventListener('DOMContentLoaded', function() {
+    // Encuentra el elemento div por sus clases
+    var compassElement = document.querySelector('.pnlm-compass.pnlm-controls.pnlm-control');
+
+    // Asegúrate de que el elemento existe en el documento
+    if(compassElement) {
+        // Agrega un event listener para el evento 'click'
+        compassElement.addEventListener('click', function() {
+            // Carga la página de Google
+            window.location.href = 'vagabundear.html';
+        });
+    } else {
+        console.log('El elemento con las clases pnlm-compass pnlm-controls pnlm-control no se encontró en el documento.');
+    }
+});
+
+
+
+function hotspot_comment_img(hotSpotDiv, args) {
+    hotSpotDiv.classList.add('custom-tooltip');
+
+    // Comprueba si el objeto args tiene la propiedad comentario
+    if (args.comentario) {
+        var span = document.createElement('span');
+        span.innerHTML = args.comentario; // Usa la propiedad comentario del objeto args
+        hotSpotDiv.appendChild(span);
+        // Ajustes de estilo para el <span>
+        span.style.width = span.scrollWidth - 20 + 'px';
+        span.style.marginLeft = -(span.scrollWidth - hotSpotDiv.offsetWidth) / 2 + 'px';
+        span.style.marginTop = -span.scrollHeight - 12 + 'px';
+    }
+
+    // Comprueba si el objeto args tiene la propiedad urlImagen
+    if (args.urlImagen) {
+        var img = document.createElement('img');
+        img.src = args.urlImagen; // Usa la propiedad urlImagen del objeto args como fuente de la imagen
+        img.alt = args.comentario ? args.comentario : 'Imagen'; // Usa la propiedad comentario como texto alternativo si está disponible
+        img.style.width = '150%'; // Ajusta el ancho según necesites
+        img.style.height = 'auto'; // Esto mantiene la proporción de la imagen
+        hotSpotDiv.appendChild(img); // Agrega el elemento <img> al hotspot
+    }
+}
+
+
+</script>
+
+</body>
+</html>

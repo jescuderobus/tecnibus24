@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="generator" content="Hugo 0.48" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pannellum</title>
+<script src="/cdn-cgi/apps/head/TEAHVq5cVsVoM9egFOAS6CBdXPk.js"></script><link rel="stylesheet" href="https://pannellum.org/css/bootstrap.min.css">
+<script type="text/javascript" src="js/bootstrap-native.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/pygments.css">
+<link rel="stylesheet" href="css/pannellum.css" />
+<script type="text/javascript" src="js/pannellum.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="panorama" style="width:100%;height:100%;"></div>
+<script>
+pannellum.viewer('panorama', {   
+    "default": {
+        "firstScene": "planta0Hall",
+        "author": "tecnibus24",
+        "sceneFadeDuration": 1000,
+        "autoLoad": true
+    },
+    
+    "scenes": {
+        "planta0puertaFuera": {
+            "title": "Puerta edificio Rector Machado y Núñez",
+            "hfov": 100,
+            "pitch": 10,
+            "yaw": 50,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../../SHARED/fotos360/240221_planta0puertaFuera/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 5,
+                    "yaw": -215,
+                    "type": "info",
+                    "text": "Pabellón de México"
+                },
+                {
+                    "pitch": 5,
+                    "yaw": -180,
+                    "type": "info",
+                    "text": "Pabellón de Brasil"
+                },
+                {
+                    "pitch": -10,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Vestíbulo",
+                    "sceneId": "planta0Hall",
+                    "targetYaw": 90
+                }
+            ]
+        },
+
+        "planta0Hall": {
+            "title": "Vestíbulo del edificio Rector Machado y Núñez",
+            "hfov": 110,
+            "yaw": 90,
+            "type": "multires",
+            "compass": true,
+            "northOffset": 20,
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_planta0Hall/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10,
+                    "yaw": -55,
+                    "type": "scene",
+                    "text": "Puerta edificio Rector Machado y Núñez",
+                    "sceneId": "planta0puertaFuera",
+                    "targetYaw": 200
+                },
+                {
+                    "pitch": -2,
+                    "yaw": 70,
+                    "type": "info",
+                    "text": "Exposición permanente 'Historia del libro'",
+                },
+                {
+                    "pitch": 25,
+                    "yaw": 160,
+                    "type": "scene",
+                    "text": "Planta 1ª Ascensor",
+                    "sceneId": "planta1Ascensor",
+
+                },
+                {
+                    "pitch": -3,
+                    "yaw": 30,
+                    "type": "info",
+                    "text": "Biblioteca: Investigación, Bibliometría, I+D",
+                },
+                {
+                    "pitch": 2,
+                    "yaw": -135,
+                    "type": "info",
+                    "text": "Conserjería",
+                },
+                {
+                    "pitch": 20,
+                    "yaw": -168,
+                    "type": "scene",
+                    "text": "Planta 1ª Ala Sur",
+                    "sceneId": "planta1Sur",
+                },
+                {
+                    "pitch": -2,
+                    "yaw": -148,
+                    "type": "info",
+                    "text": "Sala de Estudio",
+                },
+                {
+                    "pitch": 20,
+                    "yaw": 55,
+                    "type": "scene",
+                    "text": "Planta 1ª Norte",
+                    "sceneId": "planta1Norte",
+                    "targetYaw": -20
+
+                },
+                {
+                    "pitch": 40,
+                    "yaw": 80,
+                    "type": "scene",
+                    "text": "Planta 2ª Vestibulo",
+                    "sceneId": "planta2Entradilla",
+                    "targetYaw": -10
+                }
+            ]
+        },
+
+        "planta1Norte": {
+            "title": "Planta 1ª Norte",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": -20,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../../SHARED/fotos360/240221_planta1Norte/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": -65,
+                    "type": "info",
+                    "text": "Biblioteca (sólo trabajadores): Normalización, Docencia, SIGB, Informática"
+                },
+                {
+                    "pitch": -4,
+                    "yaw": 132,
+                    "type": "scene",
+                    "text": "Planta 1ª Ascensor",
+                    "sceneId": "planta1Ascensor",
+                    "targetYaw": -60
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 145,
+                    "type": "scene",
+                    "text": "Planta 1ª Sur",
+                    "sceneId": "planta1Sur",
+                    "targetYaw": -30
+                },
+                {
+                    "pitch": -25,
+                    "yaw": 175,
+                    "type": "scene",
+                    "text": "Vestíbulo del edificio Rector Machado y Núñez",
+                    "sceneId": "planta0Hall",
+                    "targetYaw": -60
+                },
+            ]
+        },
+
+        "planta1Ascensor": {
+            "title": "Planta 1ª Norte",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": -20,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../../SHARED/fotos360/240221_planta1Ascensor/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -24,
+                    "yaw": -65,
+                    "type": "scene",
+                    "text": "Vestíbulo del edificio",
+                    "sceneId": "planta0Hall",
+                    "targetYaw": -60
+
+                },
+                {
+                    "pitch": 18,
+                    "yaw": -6,
+                    "type": "scene",
+                    "text": "Vestibulo Fondo Antiguo",
+                    "sceneId": "planta2Entradilla",
+                    "targetYaw": -10
+
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 15,
+                    "type": "scene",
+                    "text": "Planta 1ª Norte",
+                    "sceneId": "planta1Norte",
+                    "targetYaw": -10
+                },
+                {
+                    "pitch": -5,
+                    "yaw": 175,
+                    "type": "scene",
+                    "text": "Planta 1ª Sur",
+                    "sceneId": "planta1Sur",
+                    "targetYaw": -60
+                },
+            ]
+        },
+
+        "planta1Sur": {
+            "title": "Planta 1ª Sur",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": -20,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../../SHARED/fotos360/240221_planta1Sur/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": -65,
+                    "type": "info",
+                    "text": "Biblioteca (sólo trabajadores): Sala de formación Luis Montoto"
+                },
+                {
+                    "pitch": -2,
+                    "yaw": 132,
+                    "type": "info",
+                    "text": "Un plano muy bonito"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 99,
+                    "type": "scene",
+                    "text": "Planta 1ª Ascensor",
+                    "sceneId": "planta1Ascensor",
+                    "targetYaw": -60
+                },
+                {
+                    "pitch": -14,
+                    "yaw": -115,
+                    "type": "info",
+                    "text": "Biblioteca (sólo trabajadores): Administración, Comunicación, Dirección ",
+                },
+            ]
+        },
+        
+        "planta2Entradilla": {
+            "title": "Planta 1ª Norte",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": -10,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240221_planta2Entradilla/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": 30,
+                    "type": "info",
+                    "text": "Biblioteca (sólo trabajadores): Fondo Antiguo, Taller de Restauración"
+                },
+                {
+                    "pitch": -4,
+                    "yaw": -20,
+                    "type": "scene",
+                    "text": "Sala de Investigadores",
+                    "sceneId": "planta2salaInvestigadores",
+                    "targetYaw": 120
+                },
+                {
+                    "pitch": -6,
+                    "yaw": 175,
+                    "type": "info",
+                    "text": "Fichas de catalogación"
+                },
+                {
+                    "pitch": -2,
+                    "yaw": 220,
+                    "type": "info",
+                    "text": "Planta 2ª Ascensor",
+                },
+                {
+                    "pitch": -16,
+                    "yaw": 220,
+                    "type": "scene",
+                    "text": "Planta 1ª Ascensor",
+                    "sceneId": "planta1Ascensor",
+                    "targetYaw": -60
+                },
+            ]
+        },
+        "planta2salaInvestigadores": {
+            "title": "Planta 2ª Sala Investigadores",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": 120,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../../SHARED/fotos360/240221_planta2salaInvestigadores/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": -45,
+                    "type": "info",
+                    "text": "Bibliotecarios de Fondo Antiguo"
+                },
+                {
+                    "pitch": -24,
+                    "yaw": 132,
+                    "type": "info",
+                    "text": "Mostrador de Sala de Investigación y Préstamo Interbibliotecario"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 155,
+                    "type": "info",
+                    "text": "Estanterias con libros"
+                },
+                {
+                    "pitch": -16,
+                    "yaw": 0,
+                    "type": "info",
+                    "text": "Publicaciones de nuestro Fondo Antiguo",
+
+                },
+                {
+                    "pitch": -10,
+                    "yaw": 65,
+                    "type": "scene",
+                    "text": "Puerta de Entrada/Salida",
+                    "sceneId": "planta2Entradilla",
+                    "targetYaw": -160
+
+                },
+            ]
+        },
+    }
+});
+</script>
+
+</body>
+</html>

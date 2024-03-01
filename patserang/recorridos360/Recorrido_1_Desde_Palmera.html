@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="generator" content="Hugo 0.48" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pannellum</title>
+<!--<script src="/cdn-cgi/apps/head/TEAHVq5cVsVoM9egFOAS6CBdXPk.js"></script>-->
+<link rel="stylesheet" href="https://pannellum.org/css/bootstrap.min.css">
+<script type="text/javascript" src="js/bootstrap-native.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/pygments.css">
+<link rel="stylesheet" href="css/pannellum.css" />
+<script type="text/javascript" src="js/pannellum.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="panorama" style="width:100%;height:100%;"></div>
+    <script>
+    pannellum.viewer('panorama', {   
+        "default": {
+            "firstScene": "calleEntradaBrasil",
+            "author": "Tecnibus24",
+            "sceneFadeDuration": 1000,
+            "autoLoad": true
+        },
+        
+        "scenes": {
+            "calleEntradaBrasil": {
+                "title": "Vista del Pabellón de Brasil desde la calle.",
+                "hfov": 150,
+                "pitch": 0,
+                "yaw": 0,
+                "compass": true,
+                "northOffset": 70,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_calleEntradaBrasil/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928
+                },
+                "hotSpots": [
+                    {
+                        "pitch": -20,
+                        "yaw": 0,
+                        "type": "scene",
+                        "text": "Entrada al recinto",
+                        "sceneId": "exteriorBrasil",
+                        "targetYaw": 110
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": 0,
+                        "type": "info",
+                        "text": "Pabellón de Brasil"
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": 190,
+                        "type": "info",
+                        "text": "Pabellón de Colombia"
+                    },
+                    {
+                        "pitch": 0,
+                        "yaw": -95,
+                        "type": "info",
+                        "text": "Parada de autobús (TUSSAM). Enlace con líneas 6 y 34."
+                    },
+                    
+                ]
+            },
+            "exteriorBrasil": {
+                "title": "Vista del Pabellón de Brasil desde el interior del recinto.",
+                "hfov": 150,
+                "pitch": 10,
+                "yaw": -5,
+                "compass": true,
+                "northOffset": 70,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_exteriorBrasil/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928,
+                },
+                "hotSpots": [
+                    {
+                        "pitch": 5,
+                        "yaw": -20,
+                        "type": "info",
+                        "text": "Pabellón de Brasil"
+                    },
+                    {
+                        "pitch": -3,
+                        "yaw": -67,
+                        "type": "scene",
+                        "text": "Salir del recinto",
+                        "sceneId": "calleEntradaBrasil",
+                        "targetYaw": 190
+                    },
+                    {
+                        "pitch": 7,
+                        "yaw": 110,
+                        "type": "info",
+                        "text": "Pabellón de México"
+                    },
+                    {
+                        "pitch": -6,
+                        "yaw": 110,
+                        "type": "scene",
+                        "text": "Continuar por el callejón",
+                        "sceneId": "exteriorCallejon"
+                    }
+                ]
+            },
+            "exteriorCallejon": {
+                "title": "Vista del callejón",
+                "hfov": 150,
+                "pitch": -10,
+                "yaw": -5,
+                "compass": true,
+                "northOffset": 70,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_exteriorCallejon/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928,
+                },
+                "hotSpots": [
+                    {
+                        "pitch": 5,
+                        "yaw": 45,
+                        "type": "info",
+                        "text": "Pabellón de México"
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": -50,
+                        "type": "info",
+                        "text": "Pabellón de Brasil"
+                    },
+                    {
+                        "pitch": -5,
+                        "yaw": -181.2,
+                        "type": "scene",
+                        "text": "Volver al recinto",
+                        "sceneId": "exteriorBrasil",
+                        "targetYaw": -67
+                    },
+                    {
+                        "pitch": -5,
+                        "yaw": -0.5,
+                        "type": "scene",
+                        "text": "Avanzar hacia el final del callejón",
+                        "sceneId": "exteriorMexicoBrasil"
+                    },
+                ]
+            },
+            "exteriorMexicoBrasil": {
+                "title": "Parking del Pabellón de México",
+                "hfov": 150,
+                "pitch": 6,
+                "yaw": 4,
+                "compass": true,
+                "northOffset": 70,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_exteriorMexicoBrasil/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928,
+                },
+                "hotSpots": [
+                    {
+                        "pitch": 3,
+                        "yaw": 7.1,
+                        "type": "info",
+                        "text": "Biblioteca Rector Antonio Machado y Núñez"
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": 60,
+                        "type": "info",
+                        "text": "Pabellón de México"
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": -150,
+                        "type": "info",
+                        "text": "Pabellón de Brasil"
+                    },
+                    {
+                        "pitch": -28,
+                        "yaw": 48,
+                        "type": "info",
+                        "text": "Juan Pavo I"
+                    },
+                    {
+                        "pitch": -12,
+                        "yaw": -193.2,
+                        "type": "scene",
+                        "text": "Volver por el callejón",
+                        "sceneId": "exteriorCallejon",
+                        "targetYaw": -181.2
+                    },
+                    {
+                        "pitch": 0,
+                        "yaw": 13.5,
+                        "type": "scene",
+                        "text": "Avanzar al punto de encuentro",
+                        "sceneId": "exteriorPuntoEncuentro"
+                    }
+                ]
+            },
+            "exteriorPuntoEncuentro": {
+                "title": "Punto de encuentro de Emergencias del edificio Rector Machado y Núñez",
+                "hfov": 100,
+                "pitch": 0,
+                "yaw": 179,
+                "compass": true,
+                "northOffset": 100,
+                "type": "multires",
+                "multiRes": {
+                    "basePath": "../../SHARED/fotos360/240222/240222_exteriorPuntoEncuentro/",
+                    "path": "/%l/%s%y_%x",
+                    "fallbackPath": "/fallback/%s",
+                    "extension": "jpg",
+                    "tileResolution": 512,
+                    "maxLevel": 3,
+                    "cubeResolution": 1928,
+                },
+                "hotSpots": [
+                    {
+                        "pitch": 15,
+                        "yaw": 0,
+                        "type": "info",
+                        "text": "Pabellón de México",
+                    },
+                    {
+                        "pitch": 5,
+                        "yaw": 25,
+                        "type": "info",
+                        "text": "Pabellón de Brasil",
+                    },
+                    {
+                        "pitch": -5,
+                        "yaw": -50,
+                        "type": "scene",
+                        "text": "Puerta del Pabellón de México",
+                        "sceneId": "exteriorFuente",
+                        "targetYaw": -70,
+                        "targetPitch": 4,
+                    },
+                    {
+                        "pitch": 15,
+                        "yaw": -180,
+                        "type": "info",
+                        "text": "Biblioteca Rector Antonio Machado y Núñez"
+                    },
+                    {
+                        "pitch": 0,
+                        "yaw": -179,
+                        "type": "scene",
+                        "text": "Puerta del Edificio Rector Machado",
+                        "sceneId": "exteriorPuertaRM",
+                        "targetYaw": 0,
+                        "targetPitch": -10,
+                    },
+                    {
+                        "pitch": 0,
+                        "yaw": 20,
+                        "type": "scene",
+                        "text": "Retroceder hacia el callejón",
+                        "sceneId": "exteriorMexicoBrasil",
+                        "targetYaw": -193.2
+                    },
+            ]
+        },
+
+        "exteriorFuente": {
+            "title": "Fuente del aparcamiento",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": -110,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_exteriorFuente/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928,
+            },
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": -25,
+                    "type": "info",
+                    "text": "Pabellón de México",
+                },
+                {
+                    "pitch": 5,
+                    "yaw": 50,
+                    "type": "info",
+                    "text": "Pabellón de Brasil",
+                },
+                {
+                    "pitch": 10,
+                    "yaw": 160,
+                    "type": "info",
+                    "text": "Biblioteca Rector Antonio Machado y Núñez"
+                },
+                {
+                    "pitch": 8,
+                    "yaw": -118,
+                    "type": "info",
+                    "text": "Juan Pavo II",
+                    "URL": "https://es.wikipedia.org/wiki/Pavo_cristatus",
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 170,
+                    "type": "scene",
+                    "text": "Puerta del Edificio Rector Machado",
+                    "sceneId": "exteriorPuertaRM",
+                    "targetYaw": -10,
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 136,
+                    "type": "scene",
+                    "text": "Punto de encuentro de emergencias",
+                    "sceneId": "exteriorPuntoEncuentro",
+                    "targetYaw": -170,
+                    "targetPitch": -10,
+                }
+            ]
+        },
+        "exteriorPuertaRM": {
+            "title": "Puerta edificio Rector Machado y Núñez",
+            "hfov": 100,
+            "pitch": 10,
+            "yaw": 50,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_exteriorPuertaRM/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 5,
+                    "yaw": -215,
+                    "type": "info",
+                    "text": "Pabellón de México"
+                },
+                {
+                    "pitch": 5,
+                    "yaw": -180,
+                    "type": "info",
+                    "text": "Pabellón de Brasil"
+                },
+                {
+                    "pitch": -10,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Vestíbulo",
+                    "sceneId": "planta0Hall",
+                    "targetYaw": 90
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 162.5,
+                    "type": "scene",
+                    "text": "Punto de encuentro de emergencias",
+                    "sceneId": "exteriorPuntoEncuentro",
+                    "targetYaw": 0,
+                    "targetPitch": 0,
+                }
+            ]
+        },
+
+        "planta0Hall": {
+            "title": "Vestíbulo del edificio Rector Machado y Núñez",
+            "hfov": 110,
+            "yaw": 90,
+            "type": "multires",
+            "compass": true,
+            "northOffset": 20,
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_planta0Hall/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10,
+                    "yaw": -55,
+                    "type": "scene",
+                    "text": "Puerta edificio Rector Machado y Núñez",
+                    "sceneId": "exteriorPuertaRM",
+                    "targetYaw": 180,
+                    "targetPitch": -5
+                },
+                {
+                    "pitch": -2,
+                    "yaw": 70,
+                    "type": "info",
+                    "text": "Exposición permanente 'Historia del libro'",
+                },
+                {
+                    "pitch": 25,
+                    "yaw": 160,
+                    "type": "scene",
+                    "text": "Planta 1ª Ascensor",
+                    "sceneId": "planta1Ascensor",
+
+                },
+                {
+                    "pitch": -3,
+                    "yaw": 30,
+                    "type": "info",
+                    "text": "Biblioteca (sólo trabajadores): Investigación, Bibliometría, I+D",
+                },
+                {
+                    "pitch": 2,
+                    "yaw": -135,
+                    "type": "info",
+                    "text": "Conserjería",
+                },
+                {
+                    "pitch": 20,
+                    "yaw": -168,
+                    "type": "scene",
+                    "text": "Planta 1ª Ala Sur",
+                    "sceneId": "planta1Sur",
+                },
+                {
+                    "pitch": -2,
+                    "yaw": -148,
+                    "type": "scene",
+                    "text": "Sala de Estudio",
+                    "sceneId": "planta0salaEstudio1",
+                },
+                {
+                    "pitch": 20,
+                    "yaw": 55,
+                    "type": "scene",
+                    "text": "Planta 1ª Norte",
+                    "sceneId": "planta1Norte",
+                    "targetYaw": -20
+
+                },
+                {
+                    "pitch": 40,
+                    "yaw": 80,
+                    "type": "scene",
+                    "text": "Planta 2ª Vestibulo",
+                    "sceneId": "planta2Hall",
+                    "targetYaw": -10
+                }
+            ]
+        },
+
+        "planta0salaEstudio1": {
+            "title": "Planta Baja Sala de Estudio",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_planta0salaEstudio1/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 10,
+                    "yaw": -40,
+                    "type": "info",
+                    "text": "No está permitido comer ni beber dentro"
+                },
+                {
+                    "pitch": 22,
+                    "yaw": -40,
+                    "type": "info",
+                    "text": "Silencia tu teléfono móvil"
+                },
+                {
+                    "pitch": 30,
+                    "yaw": -40,
+                    "type": "info",
+                    "text": "Guarda silencio"
+                },
+                {
+                    "pitch": -10,
+                    "yaw": 0,
+                    "type": "scene",
+                    "text": "La sala es más amplia hacia el sur",
+                    "sceneId": "planta0salaEstudio2",
+                    "targetYaw": 50
+                },
+
+                {
+                    "pitch": 0,
+                    "yaw": 175,
+                    "type": "scene",
+                    "text": "Puerta de entrada/salida",
+                    "sceneId": "planta0Hall",
+
+                },
+
+                {
+                    "pitch": 15,
+                    "yaw": -70,
+                    "type": "info",
+                    "text": "Hay conexión a la red Eduroam",
+
+                },
+            ]
+        },
+        "planta0salaEstudio2": {
+            "title": "Planta Baja Sala de Estudio",
+            "hfov": 100,
+            "pitch": -10,
+            "yaw": 50,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_planta0salaEstudio2/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+
+                {
+                    "pitch": -5,
+                    "yaw": -165,
+                    "type": "scene",
+                    "text": "Otro punto de la sala",
+                    "sceneId": "planta0salaEstudio1",
+                    "targetYaw": 200
+                },
+
+                {
+                    "pitch": -20,
+                    "yaw": 80,
+                    "type": "info",
+                    "text": "Las mesas están electrificadas",
+
+                },
+            ]
+        },
+
+        "planta1Norte": {
+            "title": "Planta 1ª Norte",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": -20,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_planta1Norte/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": -65,
+                    "type": "info",
+                    "text": "Biblioteca (sólo trabajadores): Normalización, Docencia, SIGB, Informática"
+                },
+                {
+                    "pitch": -4,
+                    "yaw": 122,
+                    "type": "scene",
+                    "text": "Planta 1ª Ascensor",
+                    "sceneId": "planta1Ascensor",
+                    "targetYaw": 175
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 145,
+                    "type": "scene",
+                    "text": "Planta 1ª Sur",
+                    "sceneId": "planta1Sur",
+                    "targetYaw": -30
+                },
+                {
+                    "pitch": -25,
+                    "yaw": 175,
+                    "type": "scene",
+                    "text": "Vestíbulo del edificio Rector Machado y Núñez",
+                    "sceneId": "planta0Hall",
+                    "targetYaw": -60
+                },
+            ]
+        },
+
+        "planta1Ascensor": {
+            "title": "Planta 1ª Norte",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": -20,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_planta1Ascensor/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -24,
+                    "yaw": -65,
+                    "type": "scene",
+                    "text": "Vestíbulo del edificio",
+                    "sceneId": "planta0Hall",
+                    "targetYaw": -60
+
+                },
+                {
+                    "pitch": 18,
+                    "yaw": -6,
+                    "type": "scene",
+                    "text": "Vestibulo Fondo Antiguo",
+                    "sceneId": "planta2Hall",
+                    "targetYaw": -10
+
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 15,
+                    "type": "scene",
+                    "text": "Planta 1ª Norte",
+                    "sceneId": "planta1Norte",
+                    "targetYaw": -10
+                },
+                {
+                    "pitch": -5,
+                    "yaw": 175,
+                    "type": "scene",
+                    "text": "Planta 1ª Sur",
+                    "sceneId": "planta1Sur",
+                    "targetYaw": 200
+                },
+            ]
+        },
+
+        "planta1Sur": {
+            "title": "Planta 1ª Sur",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": -20,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_planta1Sur/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": -65,
+                    "type": "info",
+                    "text": "Biblioteca (sólo trabajadores): Sala de formación Luis Montoto"
+                },
+                {
+                    "pitch": -2,
+                    "yaw": 132,
+                    "type": "info",
+                    "text": "Un mapa muy bonito"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 99,
+                    "type": "scene",
+                    "text": "Planta 1ª Ascensor",
+                    "sceneId": "planta1Ascensor"
+                },
+                {
+                    "pitch": -14,
+                    "yaw": -115,
+                    "type": "info",
+                    "text": "Biblioteca (sólo trabajadores): Dirección, Administración, Comunicación, Proyectos y Espacios ",
+                },
+            ]
+        },
+        
+        "planta2Hall": {
+            "title": "Planta 2ª Norte",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": -10,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_planta2Hall/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": 30,
+                    "type": "info",
+                    "text": "Biblioteca (sólo trabajadores): Fondo Antiguo, Taller de Restauración"
+                },
+                {
+                    "pitch": -4,
+                    "yaw": -20,
+                    "type": "scene",
+                    "text": "Sala de Investigadores",
+                    "sceneId": "planta2salaInvestigadores",
+                    "targetYaw": 120
+                },
+                {
+                    "pitch": -6,
+                    "yaw": 175,
+                    "type": "info",
+                    "text": "Fichas de catalogación"
+                },
+                {
+                    "pitch": -2,
+                    "yaw": 220,
+                    "type": "info",
+                    "text": "Planta 2ª Ascensor",
+                },
+                {
+                    "pitch": -16,
+                    "yaw": 220,
+                    "type": "scene",
+                    "text": "Planta 1ª Ascensor",
+                    "sceneId": "planta1Ascensor",
+                    "targetYaw": -60
+                },
+            ]
+        },
+        
+        "planta2salaInvestigadores": {
+            "title": "Planta 2ª Sala Investigadores",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": 120,
+            "compass": true,
+            "northOffset": 100,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240222/240222_planta2salaInvestigadores/",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": -45,
+                    "type": "info",
+                    "text": "Bibliotecarios de Fondo Antiguo"
+                },
+                {
+                    "pitch": -24,
+                    "yaw": 132,
+                    "type": "info",
+                    "text": "Mostrador de Sala de Investigación y Préstamo Interbibliotecario"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 155,
+                    "type": "info",
+                    "text": "Estanterias con libros"
+                },
+                {
+                    "pitch": -16,
+                    "yaw": 0,
+                    "type": "info",
+                    "text": "Publicaciones de nuestro Fondo Antiguo",
+
+                },
+                {
+                    "pitch": -10,
+                    "yaw": 65,
+                    "type": "scene",
+                    "text": "Puerta de Entrada/Salida",
+                    "sceneId": "planta2Hall",
+                    "targetYaw": -160
+
+                },
+            ]
+        }
+        },
+    },
+    );
+</script>
+
+</body>
+</html>

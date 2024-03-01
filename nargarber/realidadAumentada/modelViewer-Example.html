@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo oficial de &lt;model-viewer&gt;</title>
+    <style>
+        /* Agrega estilos para asegurarte de que el model-viewer ocupe el 100% del contenedor */
+        .container model-viewer {
+            width: 100%;  /* Esto hace que ocupe todo el ancho del contenedor */
+            height: 100%; /* Esto hace que ocupe toda la altura del contenedor */
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo oficial de &lt;model-viewer&gt;</h1>
+    <p>https://modelviewer.dev/</p>
+
+
+    <!-- Import the component -->
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+
+<!-- Use it like any other HTML element -->
+<div class="container" style="width: 568px;height:927px;">
+<model-viewer 
+    alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" 
+    src="../../SHARED/realidadAumentada/NeilArmstrong.glb" 
+    ar 
+    environment-image="../../SHARED/realidadAumentada/moon_1k.hdr" 
+    poster="../../SHARED/realidadAumentada/NeilArmstrong.webp" 
+    shadow-intensity="1" 
+    camera-controls 
+    touch-action="pan-y">
+</model-viewer>
+</div>
+
+</body>
+</html>
+

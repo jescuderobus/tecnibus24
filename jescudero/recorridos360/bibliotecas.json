@@ -1,0 +1,229 @@
+[
+    {
+        "id": "sscc",
+        "nombre": "Biblioteca Rector Antonio Machado y Núñez",
+        "lat": 37.37,
+        "lng": -5.98641,
+        "direccion": "Avda. de la Guardia Civil s/n </br>41013 - Sevilla,",
+        "como_llegar": [
+            {
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "desde la Avda. de la <br>Guardia Civil",
+                "url": "RectorMachado_GuardiaCivil.html",
+                "target": "_self"
+            },
+            {
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "desde la Avda. <br>Paseo de las Delicias",
+                "url": "RectorMachado_PaseoDelicias.html",
+                "target": "_self"
+            }
+        ],
+        "echar_un_vistazo": [
+            {
+                "imagen": "images/eye-3-svgrepo-com.svg",
+                "texto": "desde la puerta",
+                "url": "RectorMachado_PUERTA.html",
+                "target": "_self"
+            },
+            {
+                "imagen": "images/eye-3-svgrepo-com.svg",
+                "texto": "sala de estudio",
+                "url": "RectorMachado_SalaEstudio.html",
+                "target": "_self"
+            },
+            {
+                "imagen": "images/eye-3-svgrepo-com.svg",
+                "texto": "sala de investigadores",
+                "url": "RectorMachado_SalaInvestigacion.html",
+                "target": "_self"
+            }
+
+        ]
+
+    },
+    {
+        "id": "cau",
+        "nombre": "CRAI Antonio de Ulloa",
+        "lat": 37.3596,
+        "lng": -5.98657,
+        "direccion": "(Campus Reina Mercedes)<br>Avda. Reina Mercedes, s/n<br>41012 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "mat",
+        "nombre": "Biblioteca de Matemáticas",
+        "lat": 37.35938,
+        "lng": -5.98791,
+        "direccion": "(Campus Reina Mercedes)<br>Tarfia, s/n<br>41012 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "inf",
+        "nombre": "Biblioteca de Informática",
+        "lat": 37.35771,
+        "lng": -5.98706,
+        "direccion": "(Campus Reina Mercedes)<br>Avda. Reina Mercedes, s/n<br>41012 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "arqu",
+        "nombre": "Biblioteca de Arquitectura",
+        "lat": 37.36283,
+        "lng": -5.98646,
+        "direccion": "(Campus de Reina Mercedes)<br>Avda. de Reina Mercedes, 2<br>41012 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "ing",
+        "nombre": "Biblioteca de Ingeniería",
+        "lat": 37.4113,
+        "lng": -6.00055,
+        "direccion": "(Campus Cartuja)<br>Camino de los Descubrimientos, s/n<br>41092 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "com",
+        "nombre": "Biblioteca de Comunicación",
+        "lat": 37.41019,
+        "lng": -6.00658,
+        "direccion": "(Campus Cartuja)<br>Avda. Américo Vespucio, s/n<br>41092 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "salu",
+        "nombre": "Biblioteca de Centros de la Salud",
+        "lat": 37.40635,
+        "lng": -5.98817,
+        "direccion": "(Campus Macarena)<br>Avda. Sánchez Pizjuán s/n<br>41009 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "bbaa",
+        "nombre": "Biblioteca de Bellas Artes",
+        "lat": 37.39301,
+        "lng": -5.98277,
+        "direccion": "Gonzalo Bilbao 7-9<br>41003 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "hum",
+        "nombre": "Biblioteca de Humanidades",
+        "lat": 37.38103,
+        "lng": -5.99129,
+        "direccion": "(Campus Rectorado)<br>Dª María de Padilla, s/n<br>41004 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "der",
+        "nombre": "Biblioteca de Derecho y Cc del Trabajo",
+        "lat": 37.37741,
+        "lng": -5.97785,
+        "direccion": "(Campus Ramón y Cajal)<br>Enramadilla, 18-20<br>41018 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "edu",
+        "nombre": "Biblioteca de Educación",
+        "lat": 37.37674,
+        "lng": -5.97751,
+        "direccion": "(Campus Ramón y Cajal)<br>Pirotecnia, s/n<br>41018 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[
+            {
+                "imagen": "images/photo-camera-off-svgrepo-com.svg",
+                "texto": "No Permitido"
+            }
+        ]
+    },
+    {
+        "id": "eco",
+        "nombre": "Biblioteca de Económicas",
+        "lat": 37.37818,
+        "lng": -5.97637,
+        "direccion": "(Campus Ramón y Cajal)<br>Avda. Ramón y Cajal, 1<br>41018 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "tyf",
+        "nombre": "Biblioteca de Turismo",
+        "lat": 37.37919,
+        "lng": -5.9763,
+        "direccion": "(Campus Ramón y Cajal)<br>Avenida San Francisco Javier, s/n<br>41018 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "psi",
+        "nombre": "Biblioteca de Filosofía y Psicología",
+        "lat": 37.37945,
+        "lng": -5.97592,
+        "direccion": "(Campus Ramón y Cajal)<br>Camilo José Cela, s/n<br>41018 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "pol",
+        "nombre": "Biblioteca de Politécnica",
+        "lat": 37.37599,
+        "lng": -6.00256,
+        "direccion": "Virgen de África, 7<br> 41011 - Sevilla",
+        "imagen":"",
+        "como_llegar": [],
+        "echar_un_vistazo":[]
+    },
+    {
+        "id": "agr",
+        "nombre": "Biblioteca de Ing. Agrónoma",
+        "lat": 37.35295,
+        "lng": -5.93864,
+        "direccion": "Ctra. Utrera, Km.1 (ant. Univ. Laboral)<br>41013 - Sevilla",
+        "imagen":"",
+        "como_llegar": [
+            {
+                "imagen": "images/google-maps-svgrepo-com.svg", 
+                "texto": "con Google Maps",
+                "url": "https://www.google.com/maps/dir//E.T.S.+de+Ingenier%C3%ADa+Agron%C3%B3mica,+Ctra.+de+Utrera,+km.1,+41005+Sevilla/@37.3528599,-5.9799195,13z/",
+                "target": "_blank"
+            },
+            {
+                "imagen": "images/bus-svgrepo-com.svg", 
+                "texto": "en transporte público",
+                "url": "https://reddelineas.tussam.es/API/infotus-ui/cercanos/37359522/-5986400/24-02-2024T22:48:00?_=1708811311482",
+                "target": "_blank"
+            },
+            {
+                "imagen": "images/bicycle-svgrepo-com.svg", 
+                "texto": "en bicicleta",
+                "url": "https://api.jcdecaux.com/vls/v3/stations?apiKey=frifk0jbxfefqqniqez09tw4jvk37wyf823b5j1i&contract=seville",
+                "target": "_blank"
+            }
+        ],
+        "echar_un_vistazo":[]
+    }
+]
