@@ -72,7 +72,7 @@ pannellum.viewer('panorama', {
             "northOffset": 90,
             "type": "equirectangular",
             "panorama": "../../../SHARED/fotos360/240228Andalucia/cerebrito-4096.jpg",
-            "hotSpotDebug": false,
+            "hotSpotDebug": true,
             "hotSpots": [
                 {
                     "pitch": 0,
@@ -139,9 +139,18 @@ pannellum.viewer('panorama', {
                     "text": "Turismo",
                     "sceneId": "mikonos",
                 },
-
                 {
-                    "pitch": 0, "yaw": 30,
+                    "pitch": -10,
+                    "yaw": 30,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Van Gogh 360º",
+                        urlImagen: "./images/rainbow-svgrepo-com.svg"
+                        }
+                },
+                {
+                    "pitch": -10, "yaw": 30,
                     "type": "scene",
                     "text": "Biologia",
                     "sceneId": "naturaleza",
@@ -206,19 +215,20 @@ pannellum.viewer('panorama', {
             "compass": true,
             "northOffset": 90,
             "type": "equirectangular",
+            "hotSpotDebug": true,
             "panorama": "../../../SHARED/fotos360/240228Andalucia/05-4096.jpg",
             "hotSpots": [
                 {
-                    "pitch": 0, "yaw": 0,
+                    "pitch": 4, "yaw": -45,
                     "type": "info",
-                    "text": "Cosas que se hacen en Bristol",
-                    "URL":"https://www.sidingstudios.com/dap2021/pannellum.htm#config=https://www.sidingstudios.com/dap2021/tour.json&autoLoad=true"
+                    "text": "Los Girasoles",
+                    "URL": "../../../SHARED/fotos360/240228Andalucia/Van_Gogh_Twelve_Sunflowers.jpg"
                 },
                 {
-                    "pitch": 0, "yaw": 30,
+                    "pitch": -25, "yaw": 75,
                     "type": "info",
-                    "text": "Y que ahi tambien sabriamos hacer",
-                    "URL":"Pannellum.html#config=dap2021_tour.json&autoLoad=true"
+                    "text": "El cartero",
+                    
                 },
 
             ]
