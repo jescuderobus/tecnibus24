@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Consultas formabus</title>
-    <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
-    <link rel="stylesheet" href="../styles/index.style.css">
-</head>
-<body>
-    <a class="home" href="/gonmarfer2/index.html"><img src="../assets/house.svg" alt="Home"></a>
-    <div class="title-bg">
-        <h1>SQL Formabus</h1>
-    </div>
-    <a class="download-box download-link" href="../assets/files/2024/2/formabus.sql" download="">
-        <img src="../assets/download.png" alt="Download button"><span>Descargar script</span>
-    </a>
-    <div class="info-box">
-        <p><img src="../assets/favicon.png" alt="Favicon"> Esta consulta extrae la información de un curso.</p>
-    </div>
-    <div class="script-box">
-        <p>select n.nid as entity_id,
+select n.nid as entity_id,
 dsc.field_c_descripcion_value, dsc.field_c_descripcion_format,
 fm.field_c_materia_tid,
 fd.field_c_documentos_display, fd.field_c_documentos_description,
@@ -83,19 +62,10 @@ left join (select cs.entity_id as nid, d.field_s_duracion_value, fh.field_s_fech
     where cs.entity_id=51451) s on n.nid=s.nid
     
 where n.nid=51451;
-            </p>
-    </div>
 
-    <div class="info-box">
-        <p><img src="../assets/favicon.png" alt="Favicon"> Este fragmento de código sirve para buscar los nodos que sean cursos y los nodos que sean actividades.</p>
-    </div>
-    <div class="script-box">
-        <p>select * from fb240205.node_type;
+select * from fb240205.node_type;
 select * from fb240205.node where type='registro_de_curso';
 select count(*) from fb240205.node where type='registro_de_curso';
 
 select * from fb240205.node where type='registro_de_actividad';
 select count(*) from fb240205.node where type='registro_de_actividad';</p>
-    </div>
-</body>
-</html>
