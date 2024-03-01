@@ -47,7 +47,7 @@
         "nombre": "CRAI Antonio de Ulloa",
         "lat": 37.3596,
         "lng": -5.98657,
-        "direccion": "Dirección del CRAI Antonio de Ulloa",
+        "direccion": "(Campus Reina Mercedes)<br>Avda. Reina Mercedes, s/n<br>41012 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -67,7 +67,7 @@
         "nombre": "Biblioteca de Informática",
         "lat": 37.35771,
         "lng": -5.98706,
-        "direccion": "Dirección de la Biblioteca de Informática",
+        "direccion": "(Campus Reina Mercedes)<br>Avda. Reina Mercedes, s/n<br>41012 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -117,7 +117,7 @@
         "nombre": "Biblioteca de Bellas Artes",
         "lat": 37.39301,
         "lng": -5.98277,
-        "direccion": "Dirección de la Biblioteca de Bellas Artes",
+        "direccion": "Gonzalo Bilbao 7-9<br>41003 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -127,7 +127,7 @@
         "nombre": "Biblioteca de Humanidades",
         "lat": 37.38103,
         "lng": -5.99129,
-        "direccion": "Dirección de la Biblioteca de Humanidades",
+        "direccion": "(Campus Rectorado)<br>Dª María de Padilla, s/n<br>41004 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]
@@ -167,7 +167,7 @@
         "nombre": "Biblioteca de Turismo",
         "lat": 37.37919,
         "lng": -5.9763,
-        "direccion": "(Campus Ramón y Cajal)<br>",
+        "direccion": "(Campus Ramón y Cajal)<br>Avenida San Francisco Javier, s/n<br>41018 - Sevilla",
         "imagen":"",
         "como_llegar": [],
         "echar_un_vistazo":[]

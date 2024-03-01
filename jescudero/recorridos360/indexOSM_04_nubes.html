@@ -36,6 +36,7 @@
             background-color: rgba(255, 255, 255, 0.7);
             border: 1px solid white;
             border-radius: 10px;
+            box-shadow: 0 3px 14px rgba(0,0,0,0.4);
         }
 
         .menu-popup-logo-box{
@@ -50,6 +51,7 @@
             width: 200px;
             border-radius: 4px;
             font-size: 0.8em;
+            box-shadow: 0 3px 14px rgba(0,0,0,0.4);
         }
 
         .nom-bib{
@@ -115,7 +117,9 @@
 
     <div id="customPopup" class="menu-popup-logo-box">
         <div id="popupContent">
-            <div class="menu-item" style="display: flex;justify-content: center;"><img src="images/Kahoot_Logo.svg" style="width:100px;"></div>
+            <div class="menu-item" style="display: flex;justify-content: center;">
+                <img class="img-item" src="images/Kahoot_Logo.svg" style="width:100px;">
+            </div>
             <div class="menu-item" onclick="window.location.reload();">
                 <img class="img-item" src="images/reset-svgrepo-com.svg" alt="botón de reset">
                 <span>Reset</span>
