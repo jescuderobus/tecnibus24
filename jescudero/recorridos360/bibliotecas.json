@@ -150,7 +150,12 @@
         "direccion": "(Campus Ramón y Cajal)<br>Pirotecnia, s/n<br>41018 - Sevilla",
         "imagen":"",
         "como_llegar": [],
-        "echar_un_vistazo":[]
+        "echar_un_vistazo":[
+            {
+                "imagen": "images/photo-camera-off-svgrepo-com.svg",
+                "texto": "No Permitido"
+            }
+        ]
     },
     {
         "id": "eco",
