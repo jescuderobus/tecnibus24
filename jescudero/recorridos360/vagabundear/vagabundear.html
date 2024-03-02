@@ -101,8 +101,22 @@ pannellum.viewer('panorama', {
                         }
                 },
                 {
-                    "pitch": 25,
-                    "yaw": 30,
+                    "pitch": 18, "yaw": 70,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Perseverance en Marte",
+                        urlImagen: "./images/mars-svgrepo-com.svg"
+                        }
+                },
+                {
+                    "pitch": 18, "yaw": 70,
+                    "type": "scene",
+                    "text": "Perseverance en Marte",
+                    "sceneId": "perseveranceMarte",
+                },
+                {
+                    "pitch": 25, "yaw": 30,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
@@ -214,31 +228,15 @@ pannellum.viewer('panorama', {
                 },
             ]
         },
-        "arles": {
-            "title": "Arlés",
+    "perseveranceMars": {
+            "title": "Biología",
             "hfov": 120,
             "pitch": 0,
             "yaw": 0,
             "compass": true,
             "northOffset": 90,
             "type": "equirectangular",
-            "hotSpotDebug": true,
-            "panorama": "../../../SHARED/fotos360/240228Andalucia/05-4096.jpg",
-            "hotSpots": [
-                {
-                    "pitch": 4, "yaw": -45,
-                    "type": "info",
-                    "text": "Los Girasoles",
-                    "URL": "../../../SHARED/fotos360/240228Andalucia/Van_Gogh_Twelve_Sunflowers.jpg"
-                },
-                {
-                    "pitch": -25, "yaw": 75,
-                    "type": "info",
-                    "text": "El cartero",
-                    
-                },
-
-            ]
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/planetas/01-8192-mars-00.jpg"
     },
     "naturaleza": {
             "title": "Biología",
