@@ -64,10 +64,10 @@ pannellum.viewer('panorama', {
     
     "scenes": {    
         "puertasVentanas": {
-            "title": "Viaje con la Tardis",
-            "hfov": 120,
-            "pitch": 0,
-            "yaw": 0,
+            "title": "Vagabundear - Laboratorio de ideas",
+            "hfov": 90,
+            "pitch": -10,
+            "yaw": 30,
             "compass": true,
             "northOffset": 90,
             "type": "equirectangular",
@@ -75,41 +75,50 @@ pannellum.viewer('panorama', {
             "hotSpotDebug": true,
             "hotSpots": [
                 {
-                    "pitch": 0,
-                    "yaw": 0,
+                    "pitch": 5,
+                    "yaw": 10,
                     "cssClass": "custom-hotspot",
-                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipFunc": hotspot_comment_img_href,
                     "createTooltipArgs": {
-                        comentario: "Volver a Sevilla",
-                        urlImagen: "./images/noun-tardis-2800809.svg"
+                        comentario: "Volver al mapa de Sevilla",
+                        urlImagen: "./images/sevilla.png",
+                        urlOnclick: "../index.html",
+                        imgWidth: "350px",
+                        imgHeight: "150px"
                         }
                 },
                 {
-                    "pitch": 0, "yaw": 0,
-                    "type": "info",
-                    "text": "Volver a Sevila",
-                    "URL": "../index.html",
+                    "pitch": -35,
+                    "yaw": -10,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img_href,
+                    "createTooltipArgs": {
+                        comentario: "Comentarios y webs a Investigar",
+                        urlImagen: "./images/astroRoam.png",
+                        urlOnclick: "./vagabundear_notes.html",
+                        imgWidth: "50px",
+                        imgHeight: "50px"
+                        }
                 },
-
                 {
-                    "pitch": 14,
-                    "yaw": 25,
+                    "pitch": 25,
+                    "yaw": 30,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
                         comentario: "Van Gogh 360º",
-                        urlImagen: "./images/door-svgrepo-com.svg"
+                        urlImagen: "./images/des-palette-svgrepo-com.svg"
                         }
                 },
                 {
-                    "pitch": 14, "yaw": 25,
-                    "type": "scene",
-                    "text": "Arlés",
-                    "sceneId": "arles",
+                    "pitch": 25, "yaw": 30,
+                    "type": "info",
+                    "text": "Van Gogh",
+                    "URL": "./pannellum_VanGogh.html",
                 },
                 {
                     "pitch": 0,
-                    "yaw": -50,
+                    "yaw": 80,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
@@ -118,61 +127,60 @@ pannellum.viewer('panorama', {
                         }
                 },
                 {
-                    "pitch": 0, "yaw": -50,
+                    "pitch": 0, "yaw": 80,
                     "type": "scene",
                     "text": "Biblioteca en una torre",
                     "sceneId": "bibliotecaTorre",
                 },
                 {
                     "pitch": 0,
-                    "yaw": 50,
+                    "yaw": 60,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
-                        comentario: "Biblioteca en una torre",
+                        comentario: "Isla Griega",
                         urlImagen: "./images/amphora-svgrepo-com.svg"
                         }
                 },
                 {
-                    "pitch": 0, "yaw": 50,
+                    "pitch": 0, "yaw": 60,
                     "type": "scene",
                     "text": "Turismo",
                     "sceneId": "mikonos",
                 },
                 {
-                    "pitch": -10,
-                    "yaw": 30,
+                    "pitch": 0,
+                    "yaw": -10,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
-                        comentario: "Van Gogh 360º",
+                        comentario: "Biología",
                         urlImagen: "./images/rainbow-svgrepo-com.svg"
                         }
                 },
                 {
-                    "pitch": -10, "yaw": 30,
+                    "pitch": 0, "yaw": -10,
                     "type": "scene",
                     "text": "Biologia",
                     "sceneId": "naturaleza",
                 },
                 {
-                    "pitch": 10,
-                    "yaw": -60,
+                    "pitch": 0,"yaw": -30,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
-                        comentario: "Van Gogh 360º",
+                        comentario: "Palacio de Hielo",
                         urlImagen: "./images/palace-svgrepo-com.svg"
                         }
                 },
                 {
-                    "pitch": 10, "yaw": -60,
+                    "pitch": 0, "yaw": -30,
                     "type": "scene",
                     "text": "Palacio de Hielo",
                     "sceneId": "palacioHielo",
                 },
                 {
-                    "pitch": -15,
+                    "pitch": -25,
                     "yaw": 60,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
@@ -182,24 +190,23 @@ pannellum.viewer('panorama', {
                         }
                 },
                 {
-                    "pitch": -15, "yaw": 60,
+                    "pitch": -25, "yaw": 60,
                     "type": "info",
                     "text": "Pikachu en Baltimore",
                     "URL": "pannellum_puntosHotSpot.html"
 
                 },
                 {
-                    "pitch": -35,
-                    "yaw": -30,
+                    "pitch": -25, "yaw": 30,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
-                        comentario: "Biblioteca en una torre",
+                        comentario: "Galeria de Arte Bristol",
                         urlImagen: "./images/gallery-svgrepo-com.svg"
                         }
                 },
                 {
-                    "pitch": -35, "yaw": -30,
+                    "pitch": -25, "yaw": 30,
                     "type": "info",
                     "text": "Galeria de Arte de Bristol",
                     "URL": "pannellum_galeriaDeArte.html"
@@ -340,12 +347,38 @@ function hotspot_comment_img(hotSpotDiv, args) {
         var img = document.createElement('img');
         img.src = args.urlImagen; // Usa la propiedad urlImagen del objeto args como fuente de la imagen
         img.alt = args.comentario ? args.comentario : 'Imagen'; // Usa la propiedad comentario como texto alternativo si está disponible
-        img.style.width = '150%'; // Ajusta el ancho según necesites
-        img.style.height = 'auto'; // Esto mantiene la proporción de la imagen
+        img.style.width = args.imgWidth ? args.imgWidth : '150%'; // Ajusta el ancho según necesites
+        img.style.height = args.imgHeight ? args.imgHeight :'auto'; // Esto mantiene la proporción de la imagen
         hotSpotDiv.appendChild(img); // Agrega el elemento <img> al hotspot
     }
 }
 
+
+function hotspot_comment_img_href(hotSpotDiv, args) {
+    hotSpotDiv.classList.add('custom-tooltip');
+
+    // Comprueba si el objeto args tiene la propiedad comentario
+    if (args.comentario) {
+        var span = document.createElement('span');
+        span.innerHTML = args.comentario; // Usa la propiedad comentario del objeto args
+        hotSpotDiv.appendChild(span);
+        // Ajustes de estilo para el <span>
+        span.style.width = span.scrollWidth - 20 + 'px';
+        span.style.marginLeft = -(span.scrollWidth - hotSpotDiv.offsetWidth) / 2 + 'px';
+        span.style.marginTop = -span.scrollHeight - 12 + 'px';
+    }
+
+    // Comprueba si el objeto args tiene la propiedad urlImagen
+    if (args.urlImagen) {
+        var img = document.createElement('img');
+        img.src = args.urlImagen; 
+        img.alt = args.comentario ? args.comentario : 'Imagen'; 
+        img.style.width = args.imgWidth ? args.imgWidth : '150%'; 
+        img.style.height = args.imgHeight ? args.imgHeight :'auto'; 
+        img.onclick = function() {window.location.href = args.urlOnclick;};
+        hotSpotDiv.appendChild(img); 
+    }
+}
 
 </script>
 

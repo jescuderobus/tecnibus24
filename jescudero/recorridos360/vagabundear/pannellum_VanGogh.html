@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="generator" content="Hugo 0.48" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Varios cuadros de Van Gogh</title>
+<script src="/cdn-cgi/apps/head/TEAHVq5cVsVoM9egFOAS6CBdXPk.js"></script><link rel="stylesheet" href="https://pannellum.org/css/bootstrap.min.css">
+<script type="text/javascript" src="js/bootstrap-native.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/pygments.css">
+<link rel="stylesheet" href="css/pannellum.css" />
+<script type="text/javascript" src="js/pannellum.js"></script>
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/lightbox.min.css">
+
+</head>
+
+<style>
+
+    .custom-hotspot {
+        height: 60px;
+        width: 60px;
+    }
+
+    div.custom-tooltip span {
+        visibility: hidden;
+        position: absolute;
+        border-radius: 3px;
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+        max-width: 200px;
+        padding: 5px 10px;
+        margin-left: -220px;
+        cursor: default;
+    }
+    div.custom-tooltip:hover span{
+        visibility: visible;
+    }
+    div.custom-tooltip:hover span:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-width: 10px;
+        border-style: solid;
+        border-color: #fff transparent transparent transparent;
+        bottom: -20px;
+        left: -10px;
+        margin: 0 50%;
+    }
+</style>
+
+<body>
+
+<div id="panorama" style="width:100%;height:100%;"></div>
+<script>
+pannellum.viewer('panorama', {   
+    "default": {
+        "firstScene": "arles",
+        "author": "tecnibus24",
+        "sceneFadeDuration": 1000,
+        "autoLoad": true,
+    },
+    
+    "scenes": {    
+
+        "arles": {
+            "title": "Varios cuadros de Vincent Van Gogh",
+            "hfov": 120,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 90,
+            "type": "equirectangular",
+            "hotSpotDebug": true,
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/VanGogh/variosCuadros.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 4, "yaw": -45,
+                    "type": "info",
+                    "text": "Los Girasoles"
+                },
+                {
+                    "pitch": 7, "yaw": 111,
+                    "type": "scene",
+                    "text": "Una habitación en Arles",
+                    "sceneId": "habitacion1",
+                   
+                },
+                {
+                    "pitch": 3, "yaw": 98,
+                    "type": "scene",
+                    "text": "Una habitación en Arles",
+                    "sceneId": "habitacion2",
+                    "targetYaw": -107
+                },
+                {
+                    "pitch": 8,
+                    "yaw": -4,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_img_onclick,
+                    "createTooltipArgs": {
+                        comentario: "La noche estrellada, Los girasoles, La iglesia de Auvers-sur-Oise, Terraza de café por la noche, El café de noche, En la puerta de la eternidad",
+                        urlImagen: "./images/info-svgrepo-com.svg",
+                        urlOnclick: "#lightbox-gallery-one .example-image-link",
+                        imgWidth: "40px",
+                        imgHeight: "40px"
+                        }
+                },
+                {
+                    "pitch": -21,
+                    "yaw": -133,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_img_onclick,
+                    "createTooltipArgs": {
+                        comentario: "La noche estrellada, Los girasoles, La iglesia de Auvers-sur-Oise, Terraza de café por la noche, El café de noche, En la puerta de la eternidad",
+                        urlImagen: "./images/info-svgrepo-com.svg",
+                        urlOnclick: "#lightbox-gallery-two .example-image-link",
+                        imgWidth: "40px",
+                        imgHeight: "40px"
+                        }
+                },
+                {
+                    "pitch": 90, "yaw": 0,
+                    "type": "info",
+                    "text": "La noche estrellada, Los girasoles, La iglesia de Auvers-sur-Oise, Terraza de café por la noche, El café de noche, En la puerta de la eternidad",
+                    
+                }
+
+            ]
+        },
+        "habitacion1": {
+            "title": "La habitación de Arles 1",
+            "hfov": 120,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 90,
+            "type": "equirectangular",
+            "hotSpotDebug": true,
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/VanGogh/01-5900-BedroomArles-01.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 5, "yaw": 100,
+                    "type": "scene",
+                    "text": "volver a Arles",
+                    "sceneId": "arles"
+                }
+            ]
+            },
+            "habitacion2": {
+            "title": "La habitación de Arles 2",
+            "hfov": 120,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 90,
+            "type": "equirectangular",
+            "hotSpotDebug": true,
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/VanGogh/01-5900-BedroomArles-02.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0, "yaw": -12,
+                    "type": "scene",
+                    "text": "volver a Arles",
+                    "sceneId": "arles"
+                }
+            ]
+            }
+
+}
+}
+    );
+
+
+
+    // Espera a que el contenido de la página se haya cargado completamente
+    document.addEventListener('DOMContentLoaded', function() {
+    // Encuentra el elemento div por sus clases
+    var compassElement = document.querySelector('.pnlm-compass.pnlm-controls.pnlm-control');
+
+    // Asegúrate de que el elemento existe en el documento
+    if(compassElement) {
+        // Agrega un event listener para el evento 'click'
+        compassElement.addEventListener('click', function() {
+            // Carga la página de Google
+            window.location.href = 'vagabundear.html';
+        });
+    } else {
+        console.log('El elemento con las clases pnlm-compass pnlm-controls pnlm-control no se encontró en el documento.');
+    }
+});
+
+
+function hotspot_img_onclick(hotSpotDiv, args) {
+    hotSpotDiv.classList.add('custom-tooltip');
+    // Comprueba si el objeto args tiene la propiedad urlImagen
+    if (args.urlImagen) {
+        var img = document.createElement('img');
+        img.src = args.urlImagen; 
+        img.alt = args.comentario ? args.comentario : 'Imagen'; 
+        img.style.width = args.imgWidth ? args.imgWidth : '150%'; 
+        img.style.height = args.imgHeight ? args.imgHeight :'auto'; 
+        img.onclick = function() {document.querySelector(args.urlOnclick).click();};
+        hotSpotDiv.appendChild(img); 
+    }
+}
+
+
+</script>
+
+
+    <div id="lightbox-gallery-one">
+      <a class="example-image-link" href="../../../SHARED/fotos360/240228Andalucia/VanGogh/variosCuadros/837px-Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise,_View_from_the_Chevet_-_Google_Art_Project.jpg" data-lightbox="example-set" data-title="La iglesia de Auvers-sur-Oise"></a>
+      <a class="example-image-link" href="../../../SHARED/fotos360/240228Andalucia/VanGogh/variosCuadros/853px-At_Eternity's_Gate_-_Vincent_Van_Gogh.jpg" data-lightbox="example-set" data-title="En la puerta de la eternidad"></a>
+      <a class="example-image-link" href="../../../SHARED/fotos360/240228Andalucia/VanGogh/variosCuadros/861px-Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg" data-lightbox="example-set" data-title="Terraza de café por la noche"></a>
+      <a class="example-image-link" href="../../../SHARED/fotos360/240228Andalucia/VanGogh/variosCuadros/912px-Vincent_Willem_van_Gogh_076.jpg" data-lightbox="example-set" data-title="El café de noche"></a>
+      <a class="example-image-link" href="../../../SHARED/fotos360/240228Andalucia/VanGogh/variosCuadros/864px-Vincent_Willem_van_Gogh_128.jpg" data-lightbox="example-set" data-title="Los Girasoles"></a>
+      <a class="example-image-link" href="../../../SHARED/fotos360/240228Andalucia/VanGogh/variosCuadros/909px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" data-lightbox="example-set" data-title="La noche estrellada"></a>
+      <a class="example-image-link" href="../../../SHARED/fotos360/240228Andalucia/VanGogh/variosCuadros/NocheEstrellada.jpg" data-lightbox="example-set" data-title="La noche estrellada"></a>
+    </div>
+
+    <div id="lightbox-gallery-two">
+        <a class="example-image-link" href="../../../SHARED/fotos360/240228Andalucia/VanGogh/lap/cartero.gif" data-lightbox="example-set" data-title="Cartero"></a>
+        <a class="example-image-link" href="../../../SHARED/fotos360/240228Andalucia/VanGogh/lap/cipres.gif" data-lightbox="example-set" data-title="Cipres"></a>
+        <a class="example-image-link" href="../../../SHARED/fotos360/240228Andalucia/VanGogh/lap/nocheEstrellada-Viva.gif" data-lightbox="example-set" data-title="Noche Estrellada"></a>
+        <a class="example-image-link" href="../../../SHARED/fotos360/240228Andalucia/VanGogh/lap/trigo.gif" data-lightbox="example-set" data-title="trigo"></a>
+      </div>
+
+
+
+<script src="js/lightbox-plus-jquery.min.js"></script>
+
+    
+</body>
+</html>
