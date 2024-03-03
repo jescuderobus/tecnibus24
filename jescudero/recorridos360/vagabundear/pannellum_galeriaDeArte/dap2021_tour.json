@@ -12,7 +12,7 @@
             "pitch": -3,
             "yaw": 126,
             "type": "equirectangular",
-            "panorama": "../../../SHARED/fotos360/240228Andalucia/dap21g2.jpg",
+            "panorama": "../../../../SHARED/fotos360/240228Andalucia/dap21g2.jpg",
             "hotSpotDebug": true,
             "compass": true,
             "northOffset": 90,
@@ -33,7 +33,7 @@
             "yaw": 5,
             "compass": true,
             "type": "equirectangular",
-            "panorama": "../../../SHARED/fotos360/240228Andalucia/dap21.jpg",
+            "panorama": "../../../../SHARED/fotos360/240228Andalucia/dap21.jpg",
             "hotSpotDebug": false,
 			"hotSpots": [
                 {
