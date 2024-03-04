@@ -116,6 +116,23 @@ c.config.lastIndexOf("/")+1));for(var p in l)c.hasOwnProperty(p)||(c[p]=l[p]);"t
 "file:"==window.location.protocol?anError("Due to browser security restrictions, Pannellum can't be run from the local filesystem; some sort of web server must be used."):parseURLParameters();
 </script>
 
+<script>
+    // Espera a que el contenido de la página se haya cargado completamente
+document.addEventListener('DOMContentLoaded', function() {
+    // Encuentra el elemento div por sus clases
+    var compassElement = document.querySelector('.pnlm-compass.pnlm-controls.pnlm-control');
 
+    // Asegúrate de que el elemento existe en el documento
+    if(compassElement) {
+        // Agrega un event listener para el evento 'click'
+        compassElement.addEventListener('click', function() {
+            // Carga la página de Google
+            window.location.href = '../vagabundear.html';
+        });
+    } else {
+        console.log('El elemento con las clases pnlm-compass pnlm-controls pnlm-control no se encontró en el documento.');
+    }
+});
+</script>
 
 </body></html>
