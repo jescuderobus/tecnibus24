@@ -17,6 +17,7 @@
   <li id="ambientLightSensor">Sensor de Luz Ambiental</li>
   <li id="geolocation">Geolocalización</li>
   <li id="deviceOrientation">Orientación del Dispositivo</li>
+  <li id="magnetometer">Magnetómetro</li>
 </ul>
 <button onclick="checkSensors()">Comprobar Sensores</button>
 <script>
@@ -76,6 +77,20 @@
     } else {
       document.getElementById('deviceOrientation').className = 'unsupported';
     }
+
+    // Magnetómetro
+    if ('Magnetometer' in window) {
+      const magnetometer = new Magnetometer();
+      magnetometer.addEventListener('reading', () => {
+        document.getElementById('magnetometer').innerHTML = `Magnetómetro (X: ${magnetometer.x.toFixed(2)}, Y: ${magnetometer.y.toFixed(2)}, Z: ${magnetometer.z.toFixed(2)})`;
+        document.getElementById('magnetometer').className = 'supported';
+      });
+      magnetometer.start();
+    } else {
+      document.getElementById('magnetometer').className = 'unsupported';
+      document.getElementById('magnetometer').innerHTML = 'Magnetómetro (No soportado)';
+    }
+
   }
 </script>
 
