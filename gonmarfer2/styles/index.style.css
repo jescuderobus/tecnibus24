@@ -156,9 +156,16 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 0.8s;
 }
 
 .home img {
     width: clamp(22px,5vw,36px);
+}
+
+.home:hover {
+    transform: scale(1.1);
+    box-shadow: 0.2rem 0.2rem var(--c-indigo);
+    transition-duration: 0.2s;
 }
 
