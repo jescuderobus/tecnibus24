@@ -73,7 +73,7 @@ pannellum.viewer('panorama', {
             "autoRotateInactivityDelay": 10000,
             "autoRotate": -2,
             "type": "equirectangular",
-            "panorama": "../../../SHARED/fotos360/240228Andalucia/cerebrito-4096.jpg",
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/cerebrito-2048-index.png",
             "hotSpotDebug": true,
             "hotSpots": [
                 // Volver al plano de Sevilla
@@ -282,7 +282,7 @@ pannellum.viewer('panorama', {
                     "pitch": 0, "yaw": 30,
                     "type": "info",
                     "text": "Pikachu en Baltimore",
-                    "URL": "pannellum_puntosHotSpot.html"
+                    "URL": "pannellum_pikachuBaltimore.html"
 
                 },
 
@@ -387,7 +387,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Agrega un event listener para el evento 'click'
         compassElement.addEventListener('click', function() {
             // Carga la página de Google
-            window.location.href = 'vagabundear.html';
+            window.location.href = '../index.html';
         });
     } else {
         console.log('El elemento con las clases pnlm-compass pnlm-controls pnlm-control no se encontró en el documento.');
