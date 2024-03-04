@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ubicación del Dispositivo</title>
+<script>
+function obtenerUbicacion() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(mostrarPosicion, mostrarError);
+  } else {
+    document.getElementById("ubicacion").innerHTML = "Geolocalización no es soportada por este navegador.";
+  }
+}
+
+function mostrarPosicion(position) {
+  document.getElementById("latitud").innerHTML = "Latitud: " + position.coords.latitude;
+  document.getElementById("longitud").innerHTML = "Longitud: " + position.coords.longitude;
+
+  // La altitud puede no estar disponible en todos los dispositivos
+  const altitud = position.coords.altitude === null ? "No disponible" : position.coords.altitude;
+  document.getElementById("altitud").innerHTML = "Altitud: " + altitud;
+}
+
+function mostrarError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      document.getElementById("ubicacion").innerHTML = "Usuario denegó la solicitud de geolocalización."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      document.getElementById("ubicacion").innerHTML = "Información de ubicación no disponible."
+      break;
+    case error.TIMEOUT:
+      document.getElementById("ubicacion").innerHTML = "La solicitud para obtener la ubicación del usuario expiró."
+      break;
+    case error.UNKNOWN_ERROR:
+      document.getElementById("ubicacion").innerHTML = "Un error desconocido ocurrió."
+      break;
+  }
+}
+</script>
+<style>
+  body{
+    font-size: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+</style>
+</head>
+<body>
+  <a href="../herramientas-swiss-army-knife.html">Volver</a>
+<h2>Ubicación del Dispositivo</h2>
+<button onclick="obtenerUbicacion()">Obtener Ubicación</button>
+<p id="latitud"></p>
+<p id="longitud"></p>
+<p id="altitud"></p>
+<p id="ubicacion"></p>
+
+</body>
+</html>

@@ -64,116 +64,213 @@ pannellum.viewer('panorama', {
     
     "scenes": {    
         "puertasVentanas": {
-            "title": "Viaje con la Tardis",
-            "hfov": 120,
+            "title": "Vagabundear - Laboratorio de ideas",
+            "hfov": 90,
             "pitch": 0,
             "yaw": 0,
             "compass": true,
             "northOffset": 90,
+            "autoRotateInactivityDelay": 10000,
+            "autoRotate": -2,
             "type": "equirectangular",
             "panorama": "../../../SHARED/fotos360/240228Andalucia/cerebrito-4096.jpg",
             "hotSpotDebug": true,
             "hotSpots": [
+                // Volver al plano de Sevilla
+                {
+                    "pitch": 5,
+                    "yaw": -180,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img_href,
+                    "createTooltipArgs": {
+                        comentario: "Volver al mapa de Sevilla",
+                        urlImagen: "./images/sevilla.png",
+                        urlOnclick: "../index.html",
+                        imgWidth: "350px",
+                        imgHeight: "150px"
+                        }
+                },
                 {
                     "pitch": 0,
                     "yaw": 0,
                     "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img_href,
+                    "createTooltipArgs": {
+                        comentario: "Volver al mapa de Sevilla",
+                        urlImagen: "./images/giralda-tower-svgrepo-com.svg",
+                        urlOnclick: "../index.html",
+                        imgWidth: "100px",
+                        imgHeight: "200px"
+                        }
+                },
+                // Página Web de apoyo
+                {
+                    "pitch": -40,
+                    "yaw": -20,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img_href,
+                    "createTooltipArgs": {
+                        comentario: "Comentarios y webs a Investigar",
+                        urlImagen: "./images/astroRoam.png",
+                        urlOnclick: "./vagabundear_notes.html",
+                        imgWidth: "50px",
+                        imgHeight: "50px"
+                        }
+                },
+
+                // Galeria de Arte de Bristol
+                                {
+                    "pitch": -35, "yaw": 20,
+                    "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
-                        comentario: "Volver a Sevilla",
-                        urlImagen: "./images/noun-tardis-2800809.svg"
+                        comentario: "Galeria de Arte Bristol",
+                        urlImagen: "./images/gallery-svgrepo-com.svg"
                         }
                 },
                 {
-                    "pitch": 0, "yaw": 0,
+                    "pitch": -35, "yaw": 20,
                     "type": "info",
-                    "text": "Volver a Sevila",
-                    "URL": "../index.html",
-                },
+                    "text": "Galeria de Arte de Bristol",
+                    "URL": "pannellum_galeriaDeArte.html"
 
+                },
+                // Perseverance en Marte
                 {
-                    "pitch": 14,
-                    "yaw": 25,
+                    "pitch": 24, "yaw": 70,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Perseverance en Marte",
+                        urlImagen: "./images/mars-svgrepo-com.svg"
+                        }
+                },
+                {
+                    "pitch": 24, "yaw": 70,
+                    "type": "scene",
+                    "text": "Perseverance en Marte",
+                    "sceneId": "perseveranceMarte",
+                },
+                // Luna
+                {
+                    "pitch": 22, "yaw": 99,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "El hombre pisa la Luna",
+                        urlImagen: "./images/moon-svgrepo-com.svg"
+                        }
+                },
+                {
+                    "pitch": 22, "yaw": 99,
+                    "type": "scene",
+                    "text": "El hombre pisa la luna",
+                    "sceneId": "apoloLuna",
+                },
+                // Van Gogh 360
+                {
+                    "pitch": 25, "yaw": 25,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
                         comentario: "Van Gogh 360º",
-                        urlImagen: "./images/door-svgrepo-com.svg"
+                        urlImagen: "./images/des-palette-svgrepo-com.svg"
                         }
                 },
                 {
-                    "pitch": 14, "yaw": 25,
-                    "type": "scene",
-                    "text": "Arlés",
-                    "sceneId": "arles",
+                    "pitch": 25, "yaw": 25,
+                    "type": "info",
+                    "text": "Van Gogh",
+                    "URL": "./pannellum_VanGogh.html",
                 },
+                // Biblioteca en torre - BlockadeLabs
                 {
-                    "pitch": 0,
-                    "yaw": -50,
+                    "pitch": -20,
+                    "yaw": 90,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
-                        comentario: "Biblioteca en una torre",
+                        comentario: "Biblioteca en una torre - BlockadeLabs",
                         urlImagen: "./images/window-svgrepo-com.svg"
                         }
                 },
                 {
-                    "pitch": 0, "yaw": -50,
+                    "pitch": -20, "yaw": 90,
                     "type": "scene",
-                    "text": "Biblioteca en una torre",
+                    "text": "Biblioteca en una torre - BlockadeLabs",
                     "sceneId": "bibliotecaTorre",
                 },
+                // Isla Griega de Mikonos
                 {
-                    "pitch": 0,
-                    "yaw": 50,
+                    "pitch": -10,
+                    "yaw": 60,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
-                        comentario: "Biblioteca en una torre",
+                        comentario: "Isla Griega de Mikonos",
                         urlImagen: "./images/amphora-svgrepo-com.svg"
                         }
                 },
                 {
-                    "pitch": 0, "yaw": 50,
+                    "pitch": -10, "yaw": 60,
                     "type": "scene",
-                    "text": "Turismo",
+                    "text": "Isla Griega de Mikonos",
                     "sceneId": "mikonos",
                 },
-                {
-                    "pitch": -10,
-                    "yaw": 30,
+                // Tardis
+                                {
+                    "pitch": 20, "yaw": -20,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
-                        comentario: "Van Gogh 360º",
+                        comentario: "Viaje con la Tardis",
+                        urlImagen: "./images/tardis-svgrepo-com.svg",
+                        imgWidth: "200%",
+                        }
+                },
+                {
+                    "pitch": 20, "yaw": -20,
+                    "type": "info",
+                    "text": "Viaje con la Tardis",
+                    "URL": "pannellum_viajeConLaTardis.html",
+                    "attributes": {"target":"_self"}
+                },
+                // Biologia
+                {
+                    "pitch": -10, "yaw": -30,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Biología",
                         urlImagen: "./images/rainbow-svgrepo-com.svg"
                         }
                 },
                 {
-                    "pitch": -10, "yaw": 30,
+                    "pitch": -10, "yaw": -30,
                     "type": "scene",
                     "text": "Biologia",
                     "sceneId": "naturaleza",
                 },
+                // Palacio de Hielo
                 {
-                    "pitch": 10,
-                    "yaw": -60,
+                    "pitch": 0,"yaw": -45,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
-                        comentario: "Van Gogh 360º",
+                        comentario: "Palacio de Hielo",
                         urlImagen: "./images/palace-svgrepo-com.svg"
                         }
                 },
                 {
-                    "pitch": 10, "yaw": -60,
+                    "pitch": 0, "yaw": -45,
                     "type": "scene",
                     "text": "Palacio de Hielo",
                     "sceneId": "palacioHielo",
                 },
+                // Pokemons en Baltimore
                 {
-                    "pitch": -15,
-                    "yaw": 60,
+                    "pitch": 0,
+                    "yaw": 30,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
@@ -182,56 +279,34 @@ pannellum.viewer('panorama', {
                         }
                 },
                 {
-                    "pitch": -15, "yaw": 60,
+                    "pitch": 0, "yaw": 30,
                     "type": "info",
                     "text": "Pikachu en Baltimore",
                     "URL": "pannellum_puntosHotSpot.html"
 
                 },
-                {
-                    "pitch": -35,
-                    "yaw": -30,
-                    "cssClass": "custom-hotspot",
-                    "createTooltipFunc": hotspot_comment_img,
-                    "createTooltipArgs": {
-                        comentario: "Biblioteca en una torre",
-                        urlImagen: "./images/gallery-svgrepo-com.svg"
-                        }
-                },
-                {
-                    "pitch": -35, "yaw": -30,
-                    "type": "info",
-                    "text": "Galeria de Arte de Bristol",
-                    "URL": "pannellum_galeriaDeArte.html"
 
-                },
             ]
         },
-        "arles": {
-            "title": "Arlés",
+    "apoloLuna": {
+            "title": "Luna - Viajes Planetarios",
             "hfov": 120,
             "pitch": 0,
             "yaw": 0,
             "compass": true,
             "northOffset": 90,
             "type": "equirectangular",
-            "hotSpotDebug": true,
-            "panorama": "../../../SHARED/fotos360/240228Andalucia/05-4096.jpg",
-            "hotSpots": [
-                {
-                    "pitch": 4, "yaw": -45,
-                    "type": "info",
-                    "text": "Los Girasoles",
-                    "URL": "../../../SHARED/fotos360/240228Andalucia/Van_Gogh_Twelve_Sunflowers.jpg"
-                },
-                {
-                    "pitch": -25, "yaw": 75,
-                    "type": "info",
-                    "text": "El cartero",
-                    
-                },
-
-            ]
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/planetas/01-8192-Moon.jpg"
+    },
+    "perseveranceMarte": {
+            "title": "Marte - Viajes Planetarios",
+            "hfov": 120,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 90,
+            "type": "equirectangular",
+            "panorama": "../../../SHARED/fotos360/240228Andalucia/planetas/01-8192-mars-00.jpg"
     },
     "naturaleza": {
             "title": "Biología",
@@ -340,12 +415,38 @@ function hotspot_comment_img(hotSpotDiv, args) {
         var img = document.createElement('img');
         img.src = args.urlImagen; // Usa la propiedad urlImagen del objeto args como fuente de la imagen
         img.alt = args.comentario ? args.comentario : 'Imagen'; // Usa la propiedad comentario como texto alternativo si está disponible
-        img.style.width = '150%'; // Ajusta el ancho según necesites
-        img.style.height = 'auto'; // Esto mantiene la proporción de la imagen
+        img.style.width = args.imgWidth ? args.imgWidth : '150%'; // Ajusta el ancho según necesites
+        img.style.height = args.imgHeight ? args.imgHeight :'auto'; // Esto mantiene la proporción de la imagen
         hotSpotDiv.appendChild(img); // Agrega el elemento <img> al hotspot
     }
 }
 
+
+function hotspot_comment_img_href(hotSpotDiv, args) {
+    hotSpotDiv.classList.add('custom-tooltip');
+
+    // Comprueba si el objeto args tiene la propiedad comentario
+    if (args.comentario) {
+        var span = document.createElement('span');
+        span.innerHTML = args.comentario; // Usa la propiedad comentario del objeto args
+        hotSpotDiv.appendChild(span);
+        // Ajustes de estilo para el <span>
+        span.style.width = span.scrollWidth - 20 + 'px';
+        span.style.marginLeft = -(span.scrollWidth - hotSpotDiv.offsetWidth) / 2 + 'px';
+        span.style.marginTop = -span.scrollHeight - 12 + 'px';
+    }
+
+    // Comprueba si el objeto args tiene la propiedad urlImagen
+    if (args.urlImagen) {
+        var img = document.createElement('img');
+        img.src = args.urlImagen; 
+        img.alt = args.comentario ? args.comentario : 'Imagen'; 
+        img.style.width = args.imgWidth ? args.imgWidth : '150%'; 
+        img.style.height = args.imgHeight ? args.imgHeight :'auto'; 
+        img.onclick = function() {window.location.href = args.urlOnclick;};
+        hotSpotDiv.appendChild(img); 
+    }
+}
 
 </script>
 

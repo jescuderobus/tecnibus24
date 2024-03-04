@@ -15,13 +15,10 @@
             flex-direction: column; /* Cambiado a columna */
             justify-content: center;
             align-items: center;
-            height: 100%;
+            height: 80%;
             text-align: center; /* Asegura que el texto también esté centrado */
         }
-        .container img {
-            max-width: 100%;
-            height: auto;
-        }
+
         .container span {
             font-size: 24px; /* Ajusta este valor según necesites */
             margin-top: 20px; /* Espacio entre la imagen y el texto */
@@ -29,17 +26,22 @@
     </style>
 </head>
 <body>
-    <a href="../index.html">Volver</a>
-    <div class="container">
-        <img src="images/trabajandoEnEllo.png" alt="">
-        <span>estamos trabajando en ello...</span>
-    </div>
-    <ul>
-        <li>Pedir las gafas en la Facultad de Educación</li>
-        <li><a href="https://tecnibus24.site/jescudero/recorridos360/vagabundear/krpano_bus/krpano.html?xml=tour.xml">krpano Corfu</a></li>
-        <li><a href="panolens_nudo3D.html">Nudos Panolens</a></li>
-        <li><a href="threejs_stereoCamera.html">Burbujas threejs StereoCamera</a></li>
-        
-    </ul>
+    <a href="../index.html" style="padding:1em;">Volver</a>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1/qrcode.min.js"></script>
+    <h1 style="padding-left:2em;">Escanea el código QR para empezar...</h1>
+    <div class="container" id="qrcode"></div>
+    <script type="text/javascript">
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+          text: "https://tecnibus24.site/gitWeb/jescudero/recorridos360/vagabundear/krpano_bus/krpano.html?xml=tour.xml",
+          width: 425,
+          height: 425,
+          colorDark : "#000000",
+          colorLight : "#ffffff",
+          correctLevel : QRCode.CorrectLevel.H
+        });
+      </script>
+          <ul>
+                 
+        </ul>
 </body>
 </html>

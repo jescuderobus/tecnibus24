@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="generator" content="Hugo 0.48" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Viaje con la Tardis</title>
+<script src="/cdn-cgi/apps/head/TEAHVq5cVsVoM9egFOAS6CBdXPk.js"></script><link rel="stylesheet" href="https://pannellum.org/css/bootstrap.min.css">
+<script type="text/javascript" src="js/bootstrap-native.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/pygments.css">
+<link rel="stylesheet" href="css/pannellum.css" />
+<script type="text/javascript" src="js/pannellum.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="panorama" style="width:100%;height:100%;"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var imagesWithComments = [
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/01-4096-Iglesia.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/01-4096-invernadero.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/01-5900-Escher.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/01-8192-Waldo.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/01-8192-rareBooks.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/Skybox-AI-Blockade-Labs-3D-AI-to-island.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/Skybox-AI-Blockade-Labs-3D-AI-to-room.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/don-low-pano-360-room.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/drawing-360-andre-wee-170504-gs-panox-final.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/drawing-D0DC0CAD-3C4D-49C6-A6EA-94845361.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/drawing-Venice-file.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/skylab-blockadelabs-moon.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/skylab-blockadelabs-panorama-interior-room.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/skylab-blockadelabs-panorama-montañas-deserticas.jpg', comment: 'comentario' },
+        { url: '../../../SHARED/fotos360/240228Andalucia/viajeTardis/skylab-blockadelabs-stable-diffusion.jpg', comment: 'comentario' },
+            // Añade más objetos con URLs de imágenes y comentarios según sea necesario
+        ];
+    
+        // Selecciona un objeto al azar del array
+        var selectedItem = imagesWithComments[Math.floor(Math.random() * imagesWithComments.length)];
+    
+        // Configura el visor de Pannellum con la imagen y comentario seleccionados
+        pannellum.viewer('panorama', {   
+            "default": {
+                "firstScene": "escena",
+                "author": "tecnibus24",
+                "sceneFadeDuration": 1000,
+                "autoLoad": true
+            },
+            
+            "scenes": {    
+                "escena": {
+                    "title": selectedItem.comment, // Asegúrate de usar la propiedad correcta aquí
+                    "hfov": 100,
+                    "pitch": 0,
+                    "yaw": 120,
+                    "compass": true,
+                    "northOffset": 90,
+                    "autoRotateInactivityDelay": 10000,
+                    "autoRotate": -2,
+                    "type": "equirectangular",
+                    "panorama": selectedItem.url, // Y aquí para la URL de la imagen
+                    "hotSpots": [
+                        {
+                            "pitch": -10,
+                            "yaw": -179,
+                            "type": "info",
+                            "text": "Salta a Otro Mundo",
+                            "URL": "./pannellum_viajeConLaTardis.html",
+                            "attributes": {"target":"_self"}
+                        },
+                    ]
+                },
+            }
+        });
+
+    });
+
+    // Espera a que el contenido de la página se haya cargado completamente
+    document.addEventListener('DOMContentLoaded', function() {
+    // Encuentra el elemento div por sus clases
+    var compassElement = document.querySelector('.pnlm-compass.pnlm-controls.pnlm-control');
+
+    // Asegúrate de que el elemento existe en el documento
+    if(compassElement) {
+        // Agrega un event listener para el evento 'click'
+        compassElement.addEventListener('click', function() {
+            // Carga la página de Google
+            window.location.href = 'vagabundear.html';
+        });
+    } else {
+        console.log('El elemento con las clases pnlm-compass pnlm-controls pnlm-control no se encontró en el documento.');
+    }
+});
+
+
+
+</script>
+
+</body>
+</html>
