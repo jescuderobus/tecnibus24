@@ -6,16 +6,27 @@
 <style>
   .supported { color: green; }
   .unsupported { color: red; }
+
   #sensorList{
-    font-size: 2em;
+    font-size: 1.8em;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 10px;
+  }
+
+  #sensorList li {
+    padding-bottom: 10px;
   }
 
   button {
+    margin-left: 10px;
     padding: 10px;
     border-radius: 10px;
-    font-size: 2em;
+    font-size: 1em;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .bb {
+    font-size: 2em;
   }
 </style>
 </head>
@@ -23,14 +34,15 @@
   <a href="../herramientas-swiss-army-knife.html">Volver</a>
 <h2>Comprobación de Sensores del Smartphone</h2>
 <ul id="sensorList">
-  <li id="accelerometer">Acelerómetro</li>
-  <li id="gyroscope">Giroscopio</li>
-  <li id="ambientLightSensor">Sensor de Luz Ambiental</li>
-  <li id="geolocation">Geolocalización</li>
-  <li id="deviceOrientation">Orientación del Dispositivo</li>
-  <li id="magnetometer">Magnetómetro</li>
+  <li id="accelerometer">Acelerómetro<button onclick="requestPermission('accelerometer')">�</button></li>
+  <li id="gyroscope">Giroscopio<button onclick="requestPermission('gyroscope')">�</button></li>
+  <li id="ambientLightSensor">Sensor de Luz Ambiental<button onclick="requestPermission('ambientLightSensor')">�</button></li>
+  <li id="geolocation">Geolocalización<button onclick="requestPermission('geolocation')">�</button></li>
+  <li id="deviceOrientation">Orientación del Dispositivo<button onclick="requestPermission('deviceOrientation')">�</button></li>
+  <li id="magnetometer">Magnetómetro<button onclick="requestPermission('magnetometer')">�</button></li>
 </ul>
-<button onclick="checkSensors()">Comprobar Sensores</button>
+<button class="bb" onclick="checkSensors()">Comprobar Sensores</button>
+<button class="bb" onclick="stopSensors()">stop</button>
 <script>
   function checkSensors() {
     // Acelerómetro
@@ -103,12 +115,43 @@
     }
 
   }
+
+  function stopSensors() {
+    // Aquí detienes todos los sensores
+    Object.values(sensors).forEach(sensor => sensor.stop());
+  }
+
+  async function requestPermission(sensorName) {
+    console.log(`Solicitando permiso para: ${sensorName}`);
+
+    switch (sensorName) {
+        case 'geolocation':
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(position => {
+                    console.log(`Permiso concedido para geolocalización. Latitud: ${position.coords.latitude}, Longitud: ${position.coords.longitude}`);
+                    // Actualizar la interfaz de usuario o realizar acciones después de obtener el permiso
+                }, error => {
+                    console.error(`Error al obtener permiso para geolocalización: ${error.message}`);
+                    // Manejar errores o denegación de permisos aquí
+                });
+            } else {
+                console.error('Geolocalización no soportada por este navegador.');
+            }
+            break;
+        // Aquí puedes añadir más casos para otros sensores si tienen un mecanismo específico de solicitud de permisos
+        default:
+            console.log('Sensor no reconocido o sin necesidad de permisos explícitos.');
+    }
+}
+
 </script>
 
 
 <br>
-<ul>
+<ul> <b>Referencias</b>
   <li><a href="https://sensor-js.xyz/demo.html" target="_blank">https://sensor-js.xyz/demo.html</a></li>
+  <li><a href="latitud_longitud.html">Coordenadas Geográficas</a></li> 
+  <li><a href="distancia_latitud_longitud.html">Distancia dos puntos</a></li> 
 </ul>
 
 </body>
