@@ -46,3 +46,9 @@ Es un tipo de vista que parece usar la fotogrametria para crear una vista 3D par
 Es el único programa que hace construcciones en VR 
 - https://www.alliance.edu.in/alliance-University-360-campus-tour/files/Library/tour.html
 - https://ra.sav.us.es/rv/imagen/circe1/index.html
+
+## Anaglyph
+- https://www.stereoeye.jp/software/index_e.html
+- https://www.ajax-zoom.com/index.php?cid=blog&article=anaglyph_360_object&lang=en
+- http://360hugh.co.uk/360-panoramas/3d-360-anaglyph-panoramas/stereo-anaglyph-of-st-marys-church/
+
