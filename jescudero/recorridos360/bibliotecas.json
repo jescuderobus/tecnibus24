@@ -97,7 +97,14 @@
                 "target": "_self"
             }
         ],
-        "echar_un_vistazo":[]
+        "echar_un_vistazo":[
+            {
+                "imagen": "images/eye-3-svgrepo-com.svg",
+                "texto": "desde la puerta",
+                "url": "ETSI_Biblioteca.html",
+                "target": "_self"
+            }
+        ]
     },
     {
         "id": "com",
