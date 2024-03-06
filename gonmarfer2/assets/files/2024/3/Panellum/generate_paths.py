@@ -71,16 +71,16 @@ class GeneratePathScript:
             }
 
         for i,hotspotinfo in self.hotspot_info.iterrows():
-            self.json_dict["scenes"][escena['idEscena']]["hotSpots"].append({
-                "pitch": hotspotinfo['pitch'] if not pandas.isna(hotspotinfo['URL']) else 0,
-                "yaw": hotspotinfo['yaw'] if not pandas.isna(hotspotinfo['URL']) else 0,
+            self.json_dict["scenes"][hotspotinfo['idEscena']]["hotSpots"].append({
+                "pitch": hotspotinfo['pitch'] if not pandas.isna(hotspotinfo['pitch']) else 0,
+                "yaw": hotspotinfo['yaw'] if not pandas.isna(hotspotinfo['yaw']) else 0,
                 "type": "info",
                 "text": hotspotinfo['text'] if not pandas.isna(hotspotinfo['text']) else "",
                 "URL": hotspotinfo['URL'] if not pandas.isna(hotspotinfo['URL']) else ""
             })
 
         for i,hotspotescena in self.hotspot_escenas.iterrows():
-            self.json_dict["scenes"][escena['idEscena']]["hotSpots"].append({
+            self.json_dict["scenes"][hotspotescena['idEscena']]["hotSpots"].append({
                 "pitch": hotspotescena['pitch'] if not pandas.isna(hotspotescena['pitch']) else 0,
                 "yaw": hotspotescena['yaw'] if not pandas.isna(hotspotescena['yaw']) else 0,
                 "type": "scene",
