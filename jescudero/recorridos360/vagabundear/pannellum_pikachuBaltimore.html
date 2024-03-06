@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Custom hotspots - Pikachu en Baltimore</title>
+    <script type="text/javascript" src="js/bootstrap-native.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/pygments.css">
+    <link rel="stylesheet" href="css/pannellum.css" />
+    <script type="text/javascript" src="js/pannellum.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+    .custom-hotspot {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background: #f00;
+    }
+
+    .custom-hotspot-pokemon {
+        height: 50px;
+        width: 50px;
+        user-select: none;
+    }
+    div.custom-tooltip span {
+        visibility: hidden;
+        position: absolute;
+        border-radius: 3px;
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+        max-width: 200px;
+        padding: 5px 10px;
+        margin-left: -220px;
+        cursor: default;
+    }
+    div.custom-tooltip:hover span{
+        visibility: visible;
+    }
+    div.custom-tooltip:hover span:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-width: 10px;
+        border-style: solid;
+        border-color: #fff transparent transparent transparent;
+        bottom: -20px;
+        left: -10px;
+        margin: 0 50%;
+    }
+
+     /* The Modal (background) */
+    .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    }
+
+    /* The Close Button */
+    .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    } 
+    </style>
+</head>
+<body>
+
+<div id="panorama" style="width:100%;height:100%;"></div>
+
+<div id="mab" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>Cosas que hay en el Museo de Baltimore</h2>
+<img src="https://collection.artbma.org/internal/media/dispatcher/105845/thumbnail" alt="Leones">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique placerat iaculis. Quisque id rhoncus tellus. Nullam quis leo orci. Maecenas id nibh sagittis, vestibulum turpis in, pharetra sapien. Suspendisse euismod pretium quam, id tincidunt enim pellentesque vitae. Curabitur id sem id odio varius convallis. Sed vulputate arcu varius, dapibus ex a, interdum mauris. In accumsan quam elementum eleifend dictum. Sed augue felis, hendrerit sed pharetra sit amet, aliquam nec nunc. Praesent placerat ipsum ut enim mollis, at eleifend leo tincidunt. Vestibulum fermentum arcu enim, eget pretium ex cursus ac. Sed nec sagittis risus, at tincidunt ex. Sed at sodales erat, at consectetur quam. Aenean volutpat, justo in euismod iaculis, diam lacus posuere sem, a pellentesque neque massa ac elit. Nunc feugiat nisi vitae enim sodales, eget faucibus neque consectetur.</p>
+<p>Donec iaculis arcu congue dolor consectetur, at molestie mauris auctor. Sed vitae feugiat ipsum. Nam aliquam tortor a ullamcorper pulvinar. Nunc hendrerit tristique maximus. Phasellus leo metus, placerat sit amet orci id, imperdiet viverra mi. Morbi nec aliquet nisi. Maecenas volutpat mauris ut elit auctor consectetur.</p>
+<p>Sed condimentum, mi eu lobortis dictum, odio quam placerat felis, at fringilla nulla elit vel mi. Nulla tincidunt purus non facilisis eleifend. Pellentesque vestibulum urna vel elit luctus ultricies. Donec in rhoncus nisl. Ut quis lacus ultricies, ultrices ante ultricies, euismod est. Fusce tempor nulla ac massa finibus dignissim. Fusce laoreet ultrices tempus. Suspendisse potenti. Aenean luctus fermentum ante, eget pulvinar nisi ultrices eget. Donec iaculis consequat volutpat. Duis non ultrices nibh. Maecenas ultrices, nulla at volutpat bibendum, urna orci tempus ante, vitae sollicitudin sapien sem non urna. Pellentesque eget luctus elit. Etiam sodales cursus ex eu pharetra.</p>
+<p>Nam at odio mauris. Nulla congue id turpis sit amet malesuada. In vel nibh volutpat, consequat libero eu, tincidunt quam. Suspendisse vitae erat eget neque elementum fringilla. Phasellus sapien enim, tempus quis libero eu, varius dictum quam. Suspendisse potenti. Ut sed tortor leo. Nulla facilisi. Nunc faucibus, ligula euismod eleifend rhoncus, arcu nibh placerat nulla, sed viverra metus magna vel libero. Mauris sodales commodo quam eget commodo. Praesent tempus metus a quam rutrum, eu cursus augue imperdiet.</p>
+<p>Quisque nec erat vitae elit gravida imperdiet at eget elit. Phasellus quis sollicitudin eros. Aenean lobortis, magna vel tristique rhoncus, orci eros sodales nunc, in faucibus dolor metus volutpat felis. Cras consequat pulvinar libero, vitae sollicitudin mi fermentum in. Duis eu ligula sapien. Sed sed risus in massa posuere pharetra et id sem. Phasellus ullamcorper nisl id libero sollicitudin, nec convallis ante tincidunt. </p>
+    </div>
+</div>
+
+<div id="street1" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>Una calle diferente</h2>
+<img src="https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/41008/article_full%401x.jpg" alt="Barrio Sesamo">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique placerat iaculis. Quisque id rhoncus tellus. Nullam quis leo orci. Maecenas id nibh sagittis, vestibulum turpis in, pharetra sapien. Suspendisse euismod pretium quam, id tincidunt enim pellentesque vitae. Curabitur id sem id odio varius convallis. Sed vulputate arcu varius, dapibus ex a, interdum mauris. In accumsan quam elementum eleifend dictum. Sed augue felis, hendrerit sed pharetra sit amet, aliquam nec nunc. Praesent placerat ipsum ut enim mollis, at eleifend leo tincidunt. Vestibulum fermentum arcu enim, eget pretium ex cursus ac. Sed nec sagittis risus, at tincidunt ex. Sed at sodales erat, at consectetur quam. Aenean volutpat, justo in euismod iaculis, diam lacus posuere sem, a pellentesque neque massa ac elit. Nunc feugiat nisi vitae enim sodales, eget faucibus neque consectetur.</p>
+<p>Donec iaculis arcu congue dolor consectetur, at molestie mauris auctor. Sed vitae feugiat ipsum. Nam aliquam tortor a ullamcorper pulvinar. Nunc hendrerit tristique maximus. Phasellus leo metus, placerat sit amet orci id, imperdiet viverra mi. Morbi nec aliquet nisi. Maecenas volutpat mauris ut elit auctor consectetur.</p>
+<p>Sed condimentum, mi eu lobortis dictum, odio quam placerat felis, at fringilla nulla elit vel mi. Nulla tincidunt purus non facilisis eleifend. Pellentesque vestibulum urna vel elit luctus ultricies. Donec in rhoncus nisl. Ut quis lacus ultricies, ultrices ante ultricies, euismod est. Fusce tempor nulla ac massa finibus dignissim. Fusce laoreet ultrices tempus. Suspendisse potenti. Aenean luctus fermentum ante, eget pulvinar nisi ultrices eget. Donec iaculis consequat volutpat. Duis non ultrices nibh. Maecenas ultrices, nulla at volutpat bibendum, urna orci tempus ante, vitae sollicitudin sapien sem non urna. Pellentesque eget luctus elit. Etiam sodales cursus ex eu pharetra.</p>
+<p>Nam at odio mauris. Nulla congue id turpis sit amet malesuada. In vel nibh volutpat, consequat libero eu, tincidunt quam. Suspendisse vitae erat eget neque elementum fringilla. Phasellus sapien enim, tempus quis libero eu, varius dictum quam. Suspendisse potenti. Ut sed tortor leo. Nulla facilisi. Nunc faucibus, ligula euismod eleifend rhoncus, arcu nibh placerat nulla, sed viverra metus magna vel libero. Mauris sodales commodo quam eget commodo. Praesent tempus metus a quam rutrum, eu cursus augue imperdiet.</p>
+<p>Quisque nec erat vitae elit gravida imperdiet at eget elit. Phasellus quis sollicitudin eros. Aenean lobortis, magna vel tristique rhoncus, orci eros sodales nunc, in faucibus dolor metus volutpat felis. Cras consequat pulvinar libero, vitae sollicitudin mi fermentum in. Duis eu ligula sapien. Sed sed risus in massa posuere pharetra et id sem. Phasellus ullamcorper nisl id libero sollicitudin, nec convallis ante tincidunt. </p>
+    </div>
+</div>
+
+<div id="street2" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>Cosas que hay en el Museo de Baltimore</h2>
+<img src="https://collection.artbma.org/internal/media/dispatcher/105845/thumbnail" alt="Leones">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique placerat iaculis. Quisque id rhoncus tellus. Nullam quis leo orci. Maecenas id nibh sagittis, vestibulum turpis in, pharetra sapien. Suspendisse euismod pretium quam, id tincidunt enim pellentesque vitae. Curabitur id sem id odio varius convallis. Sed vulputate arcu varius, dapibus ex a, interdum mauris. In accumsan quam elementum eleifend dictum. Sed augue felis, hendrerit sed pharetra sit amet, aliquam nec nunc. Praesent placerat ipsum ut enim mollis, at eleifend leo tincidunt. Vestibulum fermentum arcu enim, eget pretium ex cursus ac. Sed nec sagittis risus, at tincidunt ex. Sed at sodales erat, at consectetur quam. Aenean volutpat, justo in euismod iaculis, diam lacus posuere sem, a pellentesque neque massa ac elit. Nunc feugiat nisi vitae enim sodales, eget faucibus neque consectetur.</p>
+<p>Donec iaculis arcu congue dolor consectetur, at molestie mauris auctor. Sed vitae feugiat ipsum. Nam aliquam tortor a ullamcorper pulvinar. Nunc hendrerit tristique maximus. Phasellus leo metus, placerat sit amet orci id, imperdiet viverra mi. Morbi nec aliquet nisi. Maecenas volutpat mauris ut elit auctor consectetur.</p>
+<p>Sed condimentum, mi eu lobortis dictum, odio quam placerat felis, at fringilla nulla elit vel mi. Nulla tincidunt purus non facilisis eleifend. Pellentesque vestibulum urna vel elit luctus ultricies. Donec in rhoncus nisl. Ut quis lacus ultricies, ultrices ante ultricies, euismod est. Fusce tempor nulla ac massa finibus dignissim. Fusce laoreet ultrices tempus. Suspendisse potenti. Aenean luctus fermentum ante, eget pulvinar nisi ultrices eget. Donec iaculis consequat volutpat. Duis non ultrices nibh. Maecenas ultrices, nulla at volutpat bibendum, urna orci tempus ante, vitae sollicitudin sapien sem non urna. Pellentesque eget luctus elit. Etiam sodales cursus ex eu pharetra.</p>
+<p>Nam at odio mauris. Nulla congue id turpis sit amet malesuada. In vel nibh volutpat, consequat libero eu, tincidunt quam. Suspendisse vitae erat eget neque elementum fringilla. Phasellus sapien enim, tempus quis libero eu, varius dictum quam. Suspendisse potenti. Ut sed tortor leo. Nulla facilisi. Nunc faucibus, ligula euismod eleifend rhoncus, arcu nibh placerat nulla, sed viverra metus magna vel libero. Mauris sodales commodo quam eget commodo. Praesent tempus metus a quam rutrum, eu cursus augue imperdiet.</p>
+<p>Quisque nec erat vitae elit gravida imperdiet at eget elit. Phasellus quis sollicitudin eros. Aenean lobortis, magna vel tristique rhoncus, orci eros sodales nunc, in faucibus dolor metus volutpat felis. Cras consequat pulvinar libero, vitae sollicitudin mi fermentum in. Duis eu ligula sapien. Sed sed risus in massa posuere pharetra et id sem. Phasellus ullamcorper nisl id libero sollicitudin, nec convallis ante tincidunt. </p>
+    </div>
+</div>
+
+<script>
+// Create viewer
+pannellum.viewer = pannellum.viewer('panorama', {
+    "type": "equirectangular",
+    "panorama": "../../../SHARED/fotos360/240228Andalucia/bma-1.jpg",
+    "compass": true,
+    "sceneFadeDuration": 1000,
+    "autoLoad": true,
+
+    "hotSpots": [
+        {
+            "pitch": 14.1,
+            "yaw": 1.5,
+            "cssClass": "custom-hotspot",
+            "createTooltipFunc": hotspot,
+            "createTooltipArgs": "<h2>Baltimore Museum of Art</h2><small>(si quieres que te cuente más pincha en 'info')</small>",
+            "scale":true
+        },
+        {
+            "pitch": 14.1,
+            "yaw": 1.5,
+            "type": "info",
+            "text": "",
+            "clickHandlerFunc":showModal,
+            "clickHandlerArgs":{"modalId":"mab"}
+        },
+        // street 2
+        {
+            "pitch": -9.4,
+            "yaw": 222.6,
+            "cssClass": "custom-hotspot",
+            "createTooltipFunc": hotspot,
+            "createTooltipArgs": "Art Museum Drive"
+        },
+        {
+            "pitch": -9.4,
+            "yaw": 222.6,
+            "type": "info",
+            "text": "",
+            "clickHandlerFunc":showModal,
+            "clickHandlerArgs":{"modalId":"street2"}
+        },
+        // Barrio sesamo
+        {
+            "pitch": -0.9,
+            "yaw": 144.4,
+            "cssClass": "custom-hotspot",
+            "createTooltipFunc": hotspot,
+            "createTooltipArgs": "North Charles Street"
+        },
+        {
+            "pitch": -0.9,
+            "yaw": 144.4,
+            "type": "info",
+            "text": "La calle que va al museo",
+            "clickHandlerFunc":showModal,
+            "clickHandlerArgs":{"modalId":"street1"}
+        },
+        // Charizard
+        {
+            "pitch": 0,
+            "yaw": -30,
+            "type": "info",
+            "title": "Pikachu transparente",
+            "cssClass": "custom-hotspot-pokemon",
+            "createTooltipFunc": hotspotCharizard,
+            "createTooltipArgs": "Charizard",
+            "scale": true
+        },
+        {
+            "pitch": 2,
+            "yaw": -30,
+            "type": "info",
+            "text": "Charizard",
+        },
+        // Pikachu Amarillo
+        {
+            "pitch": 8,
+            "yaw": 30,
+            "type": "info",
+            "text": "Pikachu",
+            "cssClass": "custom-hotspot-pokemon",
+            "createTooltipFunc": hotspotPikachu,
+            "createTooltipArgs": "Pikachu Amarillo",
+            "scale":true
+        },
+        {
+            "pitch": 12,
+            "yaw": 30,
+            "type": "info",
+            "text": "Pikachu Amarillo"
+  
+        },
+    ]
+});
+
+function showModal(event,clickHandlerArgs) {
+    var modal = document.getElementById(clickHandlerArgs.modalId);
+    var spanClose = modal.getElementsByClassName("close")[0];
+    modal.style.display = "block";
+    spanClose.onclick = function() {
+        modal.style.display = "none";
+    }
+}
+
+// Hot spot creation function
+function hotspot(hotSpotDiv, args) {
+    hotSpotDiv.classList.add('custom-tooltip');
+    var span = document.createElement('span');
+    span.innerHTML = args;
+    hotSpotDiv.appendChild(span);
+    span.style.width = span.scrollWidth - 20 + 'px';
+    span.style.marginLeft = -(span.scrollWidth - hotSpotDiv.offsetWidth) / 2 + 'px';
+    span.style.marginTop = -span.scrollHeight - 12 + 'px';
+}
+
+function hotspotCharizard(hsDiv, args) {
+    //hsDiv.classList.add('custom-tooltip');
+    // Crea un elemento img para contener la imagen SVG
+    var img = document.createElement('img');
+    // Ajusta la URL de la imagen SVG aquí
+    img.src = './images/Charizard.svg';
+    img.alt = args; // Puedes usar 'args' como texto alternativo para la imagen
+    img.style.width = '250%'; // Ajusta esto según necesites
+    img.style.height = 'auto'; // Esto mantiene la proporción de la imagen
+    // Agrega el elemento img al hotspot
+    hsDiv.appendChild(img);
+}
+
+function hotspotPikachu(hsDiv, args) {
+    //hsDiv.classList.add('custom-tooltip');
+    // Crea un elemento img para contener la imagen SVG
+    var img = document.createElement('img');
+    // Ajusta la URL de la imagen SVG aquí
+    img.src = './images/Pikachu_Sliced.svg';
+    img.alt = args; // Puedes usar 'args' como texto alternativo para la imagen
+    img.style.width = '150%'; // Ajusta esto según necesites
+    img.style.height = 'auto'; // Esto mantiene la proporción de la imagen
+    // Agrega el elemento img al hotspot
+    hsDiv.appendChild(img);
+}
+
+</script>
+
+
+<script>
+    // Espera a que el contenido de la página se haya cargado completamente
+document.addEventListener('DOMContentLoaded', function() {
+    // Encuentra el elemento div por sus clases
+    var compassElement = document.querySelector('.pnlm-compass.pnlm-controls.pnlm-control');
+
+    // Asegúrate de que el elemento existe en el documento
+    if(compassElement) {
+        // Agrega un event listener para el evento 'click'
+        compassElement.addEventListener('click', function() {
+            // Carga la página de Google
+            window.location.href = 'vagabundear.html';
+        });
+    } else {
+        console.log('El elemento con las clases pnlm-compass pnlm-controls pnlm-control no se encontró en el documento.');
+    }
+});
+</script>
+
+</body>
+</html>
