@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta name="generator" content="Hugo 0.48" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pannellum</title>
+    <!--<script src="/cdn-cgi/apps/head/TEAHVq5cVsVoM9egFOAS6CBdXPk.js"></script>-->
+    <link rel="stylesheet" href="https://pannellum.org/css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap-native.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/pygments.css">
+    <link rel="stylesheet" href="css/pannellum.css" />
+    <script type="text/javascript" src="js/pannellum.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="panorama" style="width:100%;height:100%;"></div>
+        <script>
+        pannellum.viewer('panorama', {
+    "default": {
+        "firstScene": "ETSI_Parada",
+        "author": "Tecnibus24",
+        "sceneFadeDuration": 1000,
+        "autoLoad": true
+    },
+    "scenes": {
+        "ETSI_Parada": {
+            "title": "Vista de la ETSI desde la parada de autobús.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Parada",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": -133.0,
+                    "type": "info",
+                    "text": "Parada de TUSSAM nº738",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0,
+                    "yaw": -158.0,
+                    "type": "info",
+                    "text": "Parada de TUSSAM nº935",
+                    "URL": ""
+                },
+                {
+                    "pitch": 9,
+                    "yaw": -10.0,
+                    "type": "info",
+                    "text": "Escuela Técnica Superior de Ingeniería",
+                    "URL": "https://etsi.us.es/"
+                },
+                {
+                    "pitch": 4.0,
+                    "yaw": -29.0,
+                    "type": "scene",
+                    "text": "Puerta 2 de acceso",
+                    "sceneId": "ETSI_Puerta2",
+                    "targetYaw": -30.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Puerta2": {
+            "title": "Vista de la Puerta 2 de la ETSI.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Puerta2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 30,
+                    "yaw": 1.5,
+                    "type": "info",
+                    "text": "Escuela Técnica Superior de Ingeniería",
+                    "URL": "https://etsi.us.es/"
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": 91.0,
+                    "type": "scene",
+                    "text": "Vuelta a la parada de autobuses",
+                    "sceneId": "ETSI_Parada",
+                    "targetYaw": -120.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -86.0,
+                    "type": "scene",
+                    "text": "Acercarse a la Puerta 3 de acceso a la ETSI",
+                    "sceneId": "ETSI_Puerta3",
+                    "targetYaw": -10.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 2.0,
+                    "type": "scene",
+                    "text": "Entrar al edificio por la Puerta 2",
+                    "sceneId": "ETSI_Escalera2_PBaja",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Puerta3": {
+            "title": "Vista de la Puerta 3 de la ETSI.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Puerta3",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 30,
+                    "yaw": 35.0,
+                    "type": "info",
+                    "text": "Escuela Técnica Superior de Ingeniería",
+                    "URL": "https://etsi.us.es/"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": -130.0,
+                    "type": "info",
+                    "text": "Residencia de estudiantes Yugo Cartuja",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 140.0,
+                    "type": "scene",
+                    "text": "Volver a la Puerta 2",
+                    "sceneId": "ETSI_Puerta2",
+                    "targetYaw": 91.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -6.5,
+                    "yaw": 30.0,
+                    "type": "scene",
+                    "text": "Entrar al edificio por la Puerta 3",
+                    "sceneId": "ETSI_Escalera3_PBaja",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Escalera2_PBaja": {
+            "title": "Entrada a la ETSI por la Puerta 2.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Escalera2_PBaja",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -30.0,
+                    "yaw": -124.0,
+                    "type": "scene",
+                    "text": "Salir del edificio por la Puerta 2",
+                    "sceneId": "ETSI_Puerta2",
+                    "targetYaw": 140.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": 16.0,
+                    "yaw": -110.0,
+                    "type": "scene",
+                    "text": "Subir a la Entreplanta 1",
+                    "sceneId": "ETSI_Escalera2_Entreplanta1",
+                    "targetYaw": -30.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -20.0,
+                    "yaw": 0.0,
+                    "type": "scene",
+                    "text": "Entrar a la Planta Baja",
+                    "sceneId": "ETSI_PBaja_Norte",
+                    "targetYaw": 61.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Escalera2_Entreplanta1": {
+            "title": "Acceso a la entreplanta 1 por la escalera 2.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Escalera2_Entreplanta1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": -20.0,
+                    "type": "info",
+                    "text": "A la Entreplanta 1",
+                    "URL": ""
+                },
+                {
+                    "pitch": -40.0,
+                    "yaw": 150.0,
+                    "type": "scene",
+                    "text": "Bajar a la Planta Baja",
+                    "sceneId": "ETSI_Escalera2_PBaja",
+                    "targetYaw": 40.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": 18.0,
+                    "yaw": -155.0,
+                    "type": "scene",
+                    "text": "Subir a la Planta 1",
+                    "sceneId": "ETSI_Escalera2_P1",
+                    "targetYaw": 10.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_PBaja_Norte": {
+            "title": "Planta baja junto a la cafetería.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_PBaja_Norte",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -3,
+                    "yaw": 87.5,
+                    "type": "info",
+                    "text": "Salón de Actos",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3,
+                    "yaw": 24.0,
+                    "type": "info",
+                    "text": "Oficina del Banco Santander",
+                    "URL": ""
+                },
+                {
+                    "pitch": -8,
+                    "yaw": 141.0,
+                    "type": "info",
+                    "text": "Comedor",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7,
+                    "yaw": 168.0,
+                    "type": "info",
+                    "text": "Salida norte",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5,
+                    "yaw": -35.0,
+                    "type": "info",
+                    "text": "Aula 002",
+                    "URL": ""
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": -2.0,
+                    "type": "scene",
+                    "text": "Avanzar hacia la copistería",
+                    "sceneId": "ETSI_PBaja_Centro",
+                    "targetYaw": -43.5,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -90.0,
+                    "type": "scene",
+                    "text": "Salida a la Escalera 2",
+                    "sceneId": "ETSI_Escalera2_PBaja",
+                    "targetYaw": -130.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_PBaja_Centro": {
+            "title": "Planta baja junto a la piscina.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_PBaja_Centro",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -5,
+                    "yaw": 170.0,
+                    "type": "info",
+                    "text": "Aula 002",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4,
+                    "yaw": 116.0,
+                    "type": "info",
+                    "text": "Delegación de alumnos",
+                    "URL": ""
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 30.0,
+                    "type": "info",
+                    "text": "Piscina",
+                    "URL": ""
+                },
+                {
+                    "pitch": 25,
+                    "yaw": 20.0,
+                    "type": "info",
+                    "text": "Biblioteca",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2,
+                    "yaw": -61.0,
+                    "type": "info",
+                    "text": "Aula 003",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": -43.5,
+                    "type": "scene",
+                    "text": "Avanzar hacia la copistería",
+                    "sceneId": "ETSI_PBaja_Sur",
+                    "targetYaw": -50.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 137.0,
+                    "type": "scene",
+                    "text": "Ir a la Escalera 2",
+                    "sceneId": "ETSI_PBaja_Norte",
+                    "targetYaw": -110.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_PBaja_Sur": {
+            "title": "Planta baja junto a copistería.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_PBaja_Sur",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": -168.0,
+                    "type": "info",
+                    "text": "Aula 003",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5,
+                    "yaw": 2.0,
+                    "type": "info",
+                    "text": "Copistería",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5,
+                    "yaw": 112.0,
+                    "type": "info",
+                    "text": "Ascensor",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3,
+                    "yaw": 60.0,
+                    "type": "info",
+                    "text": "Entrada principal",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -110.0,
+                    "type": "scene",
+                    "text": "Subir por la Escalera 3",
+                    "sceneId": "ETSI_Escalera3_PBaja",
+                    "targetYaw": 170.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": 160.0,
+                    "type": "scene",
+                    "text": "Retroceder hacia el comedor",
+                    "sceneId": "ETSI_PBaja_Centro",
+                    "targetYaw": 138.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Escalera3_PBaja": {
+            "title": "Entrada a la ETSI por la Puerta 3.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Escalera3_PBaja",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 12.0,
+                    "yaw": 161.5,
+                    "type": "scene",
+                    "text": "Subir a la Entreplanta 1",
+                    "sceneId": "ETSI_Escalera3_Entreplanta1",
+                    "targetYaw": 10.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -17.0,
+                    "yaw": -152.0,
+                    "type": "scene",
+                    "text": "Salir del edificio por la Puerta 2",
+                    "sceneId": "ETSI_Puerta3",
+                    "targetYaw": -160.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -30.0,
+                    "yaw": -10.0,
+                    "type": "scene",
+                    "text": "Entrar a la Planta Baja",
+                    "sceneId": "ETSI_PBaja_Sur",
+                    "targetYaw": 80.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Escalera3_Entreplanta1": {
+            "title": "Acceso a la entreplanta 1 por la escalera 3.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Escalera3_Entreplanta1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": 26.0,
+                    "type": "info",
+                    "text": "A la Entreplanta 1",
+                    "URL": ""
+                },
+                {
+                    "pitch": 15.0,
+                    "yaw": 162.0,
+                    "type": "scene",
+                    "text": "Subir a la Planta 1",
+                    "sceneId": "ETSI_Escalera3_P1",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -30.0,
+                    "yaw": -170.0,
+                    "type": "scene",
+                    "text": "Bajar a la Planta Baja",
+                    "sceneId": "ETSI_Escalera3_PBaja",
+                    "targetYaw": -20.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Escalera3_P1": {
+            "title": "Acceso a la planta 1 por la escalera 3.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Escalera3_P1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 150.0,
+                    "type": "info",
+                    "text": "A la Entreplanta 2",
+                    "URL": ""
+                },
+                {
+                    "pitch": -20.0,
+                    "yaw": -8.0,
+                    "type": "scene",
+                    "text": "Entrar a la Planta 1",
+                    "sceneId": "ETSI_P1_Sur",
+                    "targetYaw": 5.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -20.0,
+                    "yaw": -132.0,
+                    "type": "scene",
+                    "text": "Bajar a la Entreplanta 1",
+                    "sceneId": "ETSI_Escalera3_Entreplanta1",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_P1_Sur": {
+            "title": "Conserjería de la 1ª planta. Aula 207.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_P1_Sur",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": -136.0,
+                    "type": "info",
+                    "text": "Conserjería de la Planta 1",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5,
+                    "yaw": -65.0,
+                    "type": "info",
+                    "text": "Aula 207",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5,
+                    "yaw": 55.0,
+                    "type": "info",
+                    "text": "Ascensor",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5,
+                    "yaw": 140.0,
+                    "type": "info",
+                    "text": "Aula 204",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 103.0,
+                    "type": "scene",
+                    "text": "Ir a la zona de estudio",
+                    "sceneId": "ETSI_P1_Centro",
+                    "targetYaw": 157.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": 7.0,
+                    "type": "scene",
+                    "text": "Entrar a la biblioteca",
+                    "sceneId": "ETSI_Biblio_Vest¡bulo",
+                    "targetYaw": -35.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -12.0,
+                    "yaw": -176.0,
+                    "type": "scene",
+                    "text": "Ir a la Escalera 3",
+                    "sceneId": "ETSI_Escalera3_P1",
+                    "targetYaw": -170.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_P1_Centro": {
+            "title": "Primera planta junto a la piscina. Zona de estudio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_P1_Centro",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": -135.0,
+                    "type": "info",
+                    "text": "Zona de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4,
+                    "yaw": -52.0,
+                    "type": "info",
+                    "text": "Aula 204",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3,
+                    "yaw": -38.0,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3,
+                    "yaw": 176.0,
+                    "type": "info",
+                    "text": "Aula 203",
+                    "URL": ""
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": 157.0,
+                    "type": "scene",
+                    "text": "Ir a la Escalera 2",
+                    "sceneId": "ETSI_P1_Norte",
+                    "targetYaw": -120.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -23.0,
+                    "type": "scene",
+                    "text": "Avanzar hacia la biblioteca",
+                    "sceneId": "ETSI_P1_Sur",
+                    "targetYaw": -50.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_P1_Norte": {
+            "title": "Aulas 203 y 216.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_P1_Norte",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -8,
+                    "yaw": -160.0,
+                    "type": "info",
+                    "text": "Aula 216",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4,
+                    "yaw": -45.0,
+                    "type": "info",
+                    "text": "Aula 203",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0,
+                    "yaw": -18.0,
+                    "type": "info",
+                    "text": "Zona de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10,
+                    "yaw": 35.0,
+                    "type": "info",
+                    "text": "Taquillas",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5,
+                    "yaw": 16.0,
+                    "type": "info",
+                    "text": "Taquillas",
+                    "URL": ""
+                },
+                {
+                    "pitch": -11.0,
+                    "yaw": -97.0,
+                    "type": "scene",
+                    "text": "Salida a la Escalera 2",
+                    "sceneId": "ETSI_Escalera2_P1",
+                    "targetYaw": 170.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 3.0,
+                    "type": "scene",
+                    "text": "Avanzar por el pasillo",
+                    "sceneId": "ETSI_P1_Centro",
+                    "targetYaw": -22.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Escalera2_P1": {
+            "title": "Acceso a la planta 1 por la escalera 2.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Escalera2_P1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 17,
+                    "yaw": -138.0,
+                    "type": "info",
+                    "text": "A la Entreplanta 2",
+                    "URL": ""
+                },
+                {
+                    "pitch": -25.0,
+                    "yaw": 15.0,
+                    "type": "scene",
+                    "text": "Entrar a la Planta 1",
+                    "sceneId": "ETSI_P1_Norte",
+                    "targetYaw": 30.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -30.0,
+                    "yaw": 170.0,
+                    "type": "scene",
+                    "text": "Bajar a la Entreplanta 1",
+                    "sceneId": "ETSI_Escalera2_Entreplanta1",
+                    "targetYaw": -20.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_Vest¡bulo": {
+            "title": "Vestíbulo de entrada a la biblioteca de la ETSI.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_Vest¡bulo",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -23,
+                    "yaw": 38.0,
+                    "type": "info",
+                    "text": "Mostrador de préstamo e información",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2,
+                    "yaw": -11.0,
+                    "type": "info",
+                    "text": "Portátiles de préstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": 1,
+                    "yaw": -21.0,
+                    "type": "info",
+                    "text": "Sala de descanso",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0,
+                    "yaw": -34.5,
+                    "type": "info",
+                    "text": "Directorio y plano de la biblioteca",
+                    "URL": "https://bib.us.es/ingenieros/planos"
+                },
+                {
+                    "pitch": -2,
+                    "yaw": -63.5,
+                    "type": "info",
+                    "text": " \"Máquina de autopréstamo\"",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2,
+                    "yaw": -100.0,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.5,
+                    "yaw": 80.0,
+                    "type": "scene",
+                    "text": "Entrar a la sala de autoaprendizaje",
+                    "sceneId": "ETSI_Bilbio_SalaOrdenadores",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": 1.5,
+                    "yaw": 56.0,
+                    "type": "scene",
+                    "text": "Entrar a la biblioteca",
+                    "sceneId": "ETSI_Biblio_PB_Entrada",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -15.0,
+                    "yaw": 125.0,
+                    "type": "scene",
+                    "text": "Salir de la biblioteca",
+                    "sceneId": "ETSI_P1_Sur",
+                    "targetYaw": 170.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Bilbio_SalaOrdenadores": {
+            "title": "Sala de autoaprendizaje.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Bilbio_SalaOrdenadores",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -12,
+                    "yaw": 70.0,
+                    "type": "info",
+                    "text": "Impresora",
+                    "URL": ""
+                },
+                {
+                    "pitch": -9,
+                    "yaw": 126.0,
+                    "type": "info",
+                    "text": "Ordenadoradores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10,
+                    "yaw": -15.0,
+                    "type": "info",
+                    "text": "Ordenadoradores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -13,
+                    "yaw": -156.7,
+                    "type": "info",
+                    "text": "Ordenadoradores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -25,
+                    "yaw": 25.0,
+                    "type": "info",
+                    "text": "Puestos de trabajo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -12,
+                    "yaw": -45.0,
+                    "type": "info",
+                    "text": "Puestos de trabajo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": 175.0,
+                    "type": "scene",
+                    "text": "Volver al vestíbulo de la biblioteca",
+                    "sceneId": "ETSI_Biblio_Vest¡bulo",
+                    "targetYaw": -70.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_PB_Entrada": {
+            "title": "Planta baja de la biblioteca.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_PB_Entrada",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2,
+                    "yaw": -139.0,
+                    "type": "info",
+                    "text": "Novedades editoriales",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2,
+                    "yaw": 136.0,
+                    "type": "info",
+                    "text": "Nuevas adquisiciones",
+                    "URL": ""
+                },
+                {
+                    "pitch": 4.0,
+                    "yaw": 0.0,
+                    "type": "scene",
+                    "text": "Avanzar hacia las escaleras",
+                    "sceneId": "ETSI_Biblio_PB_Escaleras",
+                    "targetYaw": 1.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": 158.0,
+                    "type": "scene",
+                    "text": "Volver al vestíbulo de la Biblioteca",
+                    "sceneId": "ETSI_Biblio_Vest¡bulo",
+                    "targetYaw": -160.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_PB_Escaleras": {
+            "title": "Planta baja de la biblioteca junto a las escaleras.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_PB_Escaleras",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -5,
+                    "yaw": -130.0,
+                    "type": "info",
+                    "text": "Información bibliográfica",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": -71.0,
+                    "type": "scene",
+                    "text": "Acceso a las salas de estudio",
+                    "sceneId": "ETSI_Biblio_PB_Oeste",
+                    "targetYaw": 5.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": 74.0,
+                    "type": "scene",
+                    "text": "Acceso a la Hemeroteca",
+                    "sceneId": "ETSI_Biblio_PB_Este1",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": 20.0,
+                    "yaw": 125.0,
+                    "type": "scene",
+                    "text": "Subir a la primera planta de la Biblioteca",
+                    "sceneId": "ETSI_Biblio_P1_Noreste",
+                    "targetYaw": 20.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": 20.0,
+                    "yaw": -117.0,
+                    "type": "scene",
+                    "text": "Subir a la primera planta de la Biblioteca",
+                    "sceneId": "ETSI_Biblio_P1_Noroeste",
+                    "targetYaw": -10.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": 180.0,
+                    "type": "scene",
+                    "text": "Volver a la entrada",
+                    "sceneId": "ETSI_Biblio_PB_Entrada",
+                    "targetYaw": 160.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_PB_Oeste": {
+            "title": "Planta baja fondo oeste.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_PB_Oeste",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": -30.0,
+                    "type": "info",
+                    "text": "Oficinas de Dirección y Adquisiciones",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 5.0,
+                    "type": "scene",
+                    "text": "Entrar a las salas de estudio",
+                    "sceneId": "ETSI_Biblio_SalasEstudio",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": 152.0,
+                    "type": "scene",
+                    "text": "Volver a las escaleras",
+                    "sceneId": "ETSI_Biblio_PB_Escaleras",
+                    "targetYaw": 90.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_SalasEstudio": {
+            "title": "Entrada a las salas de estudio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_SalasEstudio",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": -5.0,
+                    "type": "info",
+                    "text": "Salas de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 11.0,
+                    "type": "scene",
+                    "text": "Avanzar al fondo del pasillo",
+                    "sceneId": "ETSI_Biblio_Seminario",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 155.0,
+                    "type": "scene",
+                    "text": "Salir de la zona de salas de estudio",
+                    "sceneId": "ETSI_Biblio_PB_Oeste",
+                    "targetYaw": 160.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_Seminario": {
+            "title": "Aula seminario.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_Seminario",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -20.0,
+                    "yaw": -165.0,
+                    "type": "scene",
+                    "text": "Salir de la sala seminario",
+                    "sceneId": "ETSI_Biblio_SalasEstudio",
+                    "targetYaw": 155.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_PB_Este1": {
+            "title": "Planta baja junto a Hemeroteca.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_PB_Este1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 58.0,
+                    "type": "info",
+                    "text": "Oficinas de Proceso Técnico",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": 0.0,
+                    "type": "scene",
+                    "text": "Avanzar al fondo del ala este",
+                    "sceneId": "ETSI_Biblio_PB_Este2",
+                    "targetYaw": -10.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": -150.0,
+                    "type": "scene",
+                    "text": "Volver a las escaleras",
+                    "sceneId": "ETSI_Biblio_PB_Escaleras",
+                    "targetYaw": -100.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_PB_Este2": {
+            "title": "Planta baja ala este",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_PB_Este2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -11.0,
+                    "yaw": -15.0,
+                    "type": "scene",
+                    "text": "Avanzar al fondo del ala este",
+                    "sceneId": "ETSI_Biblio_EsteFondo",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -170.0,
+                    "type": "scene",
+                    "text": "Volver a la Hemeroteca",
+                    "sceneId": "ETSI_Biblio_PB_Este1",
+                    "targetYaw": -160.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_EsteFondo": {
+            "title": "Planta baja fondo este.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_EsteFondo",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -20.0,
+                    "yaw": -175.0,
+                    "type": "scene",
+                    "text": "Volver atrás",
+                    "sceneId": "ETSI_Biblio_PB_Este2",
+                    "targetYaw": -170.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_P1_Noreste": {
+            "title": "Primera planta de la biblioteca junto a la escalera este.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_P1_Noreste",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 5.0,
+                    "yaw": -105.0,
+                    "type": "scene",
+                    "text": "Subir a la segunda planta de la Biblioteca",
+                    "sceneId": "ETSI_Biblio_P2_Noreste",
+                    "targetYaw": 5.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 16.0,
+                    "type": "scene",
+                    "text": "Avanzar por la primera planta",
+                    "sceneId": "ETSI_Biblio_P1_Sur",
+                    "targetYaw": -130.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -22.0,
+                    "yaw": -165.0,
+                    "type": "scene",
+                    "text": "Bajar por las escaleras",
+                    "sceneId": "ETSI_Biblio_PB_Escaleras",
+                    "targetYaw": -80.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_P2_Noreste": {
+            "title": "Segunda planta de la biblioteca junto a la escalera este.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_P2_Noreste",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.0,
+                    "yaw": 20.0,
+                    "type": "scene",
+                    "text": "Avanzar por la segunda planta",
+                    "sceneId": "ETSI_Biblio_P2_Sur",
+                    "targetYaw": -150.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -20.0,
+                    "yaw": -120.0,
+                    "type": "scene",
+                    "text": "Bajar a la primera planta de la Biblioteca",
+                    "sceneId": "ETSI_Biblio_P1_Noreste",
+                    "targetYaw": -170.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_P2_Sur": {
+            "title": "Segunda planta de la biblioteca.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_P2_Sur",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 0.0,
+                    "yaw": -20.0,
+                    "type": "scene",
+                    "text": "Volver a las escaleras",
+                    "sceneId": "ETSI_Biblio_P2_Noroeste",
+                    "targetYaw": 140.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": 30.0,
+                    "type": "scene",
+                    "text": "Volver a las escaleras",
+                    "sceneId": "ETSI_Biblio_P2_Noreste",
+                    "targetYaw": -140.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_P1_Sur": {
+            "title": "Primera planta de la biblioteca.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_P1_Sur",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.0,
+                    "yaw": -24.0,
+                    "type": "scene",
+                    "text": "Volver a las escaleras",
+                    "sceneId": "ETSI_Biblio_P1_Noroeste",
+                    "targetYaw": 160.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": 20.0,
+                    "type": "scene",
+                    "text": "Volver a las escaleras",
+                    "sceneId": "ETSI_Biblio_P1_Noreste",
+                    "targetYaw": 180.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_P1_Noroeste": {
+            "title": "Primera planta de la biblioteca junto a la escalera oeste.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_P1_Noroeste",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 11.0,
+                    "yaw": 112.0,
+                    "type": "scene",
+                    "text": "Subir a la segunda planta de la Biblioteca",
+                    "sceneId": "ETSI_Biblio_P2_Noroeste",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -25.0,
+                    "yaw": 162.0,
+                    "type": "scene",
+                    "text": "Bajar por las escaleras",
+                    "sceneId": "ETSI_Biblio_PB_Escaleras",
+                    "targetYaw": 70.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -9.0,
+                    "type": "scene",
+                    "text": "Avanzar por la primera planta",
+                    "sceneId": "ETSI_Biblio_P1_Sur",
+                    "targetYaw": 110.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "ETSI_Biblio_P2_Noroeste": {
+            "title": "Segunda planta de la biblioteca junto a la escalera oeste.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/ETSI_Biblio_P2_Noroeste",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.0,
+                    "yaw": -15.0,
+                    "type": "scene",
+                    "text": "Avanzar por la segunda planta",
+                    "sceneId": "ETSI_Biblio_P2_Sur",
+                    "targetYaw": 100.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -28.0,
+                    "yaw": 128.0,
+                    "type": "scene",
+                    "text": "Bajar a la primera planta de la Biblioteca",
+                    "sceneId": "ETSI_Biblio_P1_Noroeste",
+                    "targetYaw": -170.0,
+                    "targetPitch": 0
+                }
+            ]
+        }
+    }
+});
+</script>
+
+</body>
+</html>
