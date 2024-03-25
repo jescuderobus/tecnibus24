@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta name="generator" content="Hugo 0.48" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pannellum</title>
+    <!--<script src="/cdn-cgi/apps/head/TEAHVq5cVsVoM9egFOAS6CBdXPk.js"></script>-->
+    <link rel="stylesheet" href="https://pannellum.org/css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap-native.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/pygments.css">
+    <link rel="stylesheet" href="css/pannellum.css" />
+    <script type="text/javascript" src="js/pannellum.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="panorama" style="width:100%;height:100%;"></div>
+        <script>
+        pannellum.viewer('panorama', {
+    "default": {
+        "firstScene": "FCOM_Parada",
+        "author": "Tecnibus24",
+        "sceneFadeDuration": 1000,
+        "autoLoad": true
+    },
+    "scenes": {
+        "FCOM_Parada": {
+            "title": "Parada de autobuses en calle Américo Vespucio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_Parada",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4.0,
+                    "yaw": -55.0,
+                    "type": "info",
+                    "text": "Parada de TUSSAM nº 737",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": -92.0,
+                    "type": "info",
+                    "text": "Parada de TUSSAM nº 936",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": 120.0,
+                    "type": "info",
+                    "text": "Bicicletero de acceso controlado",
+                    "URL": ""
+                },
+                {
+                    "pitch": 8.0,
+                    "yaw": 34.0,
+                    "type": "info",
+                    "text": "Punto de encuentro",
+                    "URL": ""
+                },
+                {
+                    "pitch": 11.0,
+                    "yaw": 19.0,
+                    "type": "info",
+                    "text": "Facultad de Comunicación",
+                    "URL": "https://fcom.us.es/"
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 11.0,
+                    "type": "scene",
+                    "text": "Entrar al recinto de la Facultad",
+                    "sceneId": "FCOM_ExteriorOeste",
+                    "targetYaw": -40,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_ExteriorOeste": {
+            "title": "Entrada a la Fcom por Américo Vespucio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_ExteriorOeste",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.5,
+                    "yaw": 28.0,
+                    "type": "info",
+                    "text": "Máquinas expendedoras",
+                    "URL": ""
+                },
+                {
+                    "pitch": -12.5,
+                    "yaw": -145.0,
+                    "type": "info",
+                    "text": "Acceso mediante rampa al comedor",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": -146.5,
+                    "type": "info",
+                    "text": "Acceso mediante escalera al comedor",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": -42.0,
+                    "type": "scene",
+                    "text": "Entrar al edificio",
+                    "sceneId": "FCOM_PB_EntradaOeste",
+                    "targetYaw": 0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": 161.0,
+                    "type": "scene",
+                    "text": "Salir del recinto de la Facultad",
+                    "sceneId": "FCOM_Parada",
+                    "targetYaw": -125,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_PB_EntradaOeste": {
+            "title": "Hall principal.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_PB_EntradaOeste",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 0.0,
+                    "yaw": 73.0,
+                    "type": "info",
+                    "text": "Conserjería",
+                    "URL": ""
+                },
+                {
+                    "pitch": 6.5,
+                    "yaw": 73.0,
+                    "type": "info",
+                    "text": "Directorio de la Facultad",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -81.0,
+                    "type": "info",
+                    "text": "Cafetería",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": -43.0,
+                    "type": "info",
+                    "text": "Acceso a sala de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": -126.0,
+                    "type": "info",
+                    "text": "Tablón de anuncios",
+                    "URL": ""
+                },
+                {
+                    "pitch": 13.0,
+                    "yaw": 30.0,
+                    "type": "info",
+                    "text": "Ficom",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": 31.0,
+                    "type": "info",
+                    "text": "Escultura Proyector",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": -10.0,
+                    "type": "scene",
+                    "text": "Entrar a la planta baja",
+                    "sceneId": "FCOM_PB_EntradaEste",
+                    "targetYaw": -40,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -149.0,
+                    "type": "scene",
+                    "text": "Salir del edificio",
+                    "sceneId": "FCOM_ExteriorOeste",
+                    "targetYaw": 160,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_PB_EntradaEste": {
+            "title": "Planta baja de la Fcom.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_PB_EntradaEste",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -9.0,
+                    "yaw": 78.0,
+                    "type": "info",
+                    "text": "Escultura Industrial",
+                    "URL": ""
+                },
+                {
+                    "pitch": -1.0,
+                    "yaw": 87.0,
+                    "type": "info",
+                    "text": "Decanato",
+                    "URL": ""
+                },
+                {
+                    "pitch": -1.0,
+                    "yaw": 114.0,
+                    "type": "info",
+                    "text": "Secretaría",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": -6.0,
+                    "type": "info",
+                    "text": "Salida por calle Leonardo Da Vinci",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": -137.0,
+                    "type": "info",
+                    "text": "Delegación de estudiantes",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -130.0,
+                    "type": "info",
+                    "text": "Mesas de uso común",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": 162.0,
+                    "type": "info",
+                    "text": "Tablón de anuncios",
+                    "URL": ""
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -75.0,
+                    "type": "scene",
+                    "text": "Hacia las escaleras",
+                    "sceneId": "FCOM_PB_Escalera",
+                    "targetYaw": 4,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": -166.0,
+                    "type": "scene",
+                    "text": "Hacia la cafetería",
+                    "sceneId": "FCOM_PB_EntradaOeste",
+                    "targetYaw": 180,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_PB_Escalera": {
+            "title": "Planta baja junto a las escaleras.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_PB_Escalera",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -5.0,
+                    "yaw": -88.0,
+                    "type": "info",
+                    "text": "Aula de Cultura",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": 119.5,
+                    "type": "info",
+                    "text": "Copistería",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 5.0,
+                    "type": "scene",
+                    "text": "Subir a la primera planta",
+                    "sceneId": "FCOM_P1_Escalera",
+                    "targetYaw": 0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": -177.0,
+                    "type": "scene",
+                    "text": "Volver al Hall principal",
+                    "sceneId": "FCOM_PB_EntradaEste",
+                    "targetYaw": 140,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_P1_Escalera": {
+            "title": "Entrada a la primera planta.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_P1_Escalera",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 10.0,
+                    "yaw": -128.0,
+                    "type": "info",
+                    "text": "A la segunda planta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 5.0,
+                    "type": "scene",
+                    "text": "Hacia la Biblioteca",
+                    "sceneId": "FCOM_P1_EntradaBiblio",
+                    "targetYaw": -40,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -30.0,
+                    "yaw": -160.0,
+                    "type": "scene",
+                    "text": "Volver a la planta baja",
+                    "sceneId": "FCOM_PB_Escalera",
+                    "targetYaw": -172,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_P1_EntradaBiblio": {
+            "title": "Primera planta. Pasillo junto a la Biblioteca.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_P1_EntradaBiblio",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -5.0,
+                    "yaw": -18.0,
+                    "type": "info",
+                    "text": "Aseos",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -92.0,
+                    "type": "info",
+                    "text": "Aula de Medios Audiovisuales",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": 45.0,
+                    "type": "info",
+                    "text": "Biblioteca de la Facultad de Comunicación",
+                    "URL": "https://bib.us.es/comunicacion/"
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": -3.0,
+                    "type": "scene",
+                    "text": "Entrar a la Biblioteca",
+                    "sceneId": "FCOM_Biblio_Entrada",
+                    "targetYaw": 0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 143.0,
+                    "type": "scene",
+                    "text": "Hacia la Videoteca",
+                    "sceneId": "FCOM_P1_EntradaVideoteca",
+                    "targetYaw": 87,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 125.0,
+                    "type": "scene",
+                    "text": "Volver a las escaleras",
+                    "sceneId": "FCOM_P1_Escalera",
+                    "targetYaw": -155,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_Biblio_Entrada": {
+            "title": "Entrada a la Biblioteca.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_Biblio_Entrada",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -1.5,
+                    "yaw": -143.0,
+                    "type": "info",
+                    "text": "Plano de la Biblioteca",
+                    "URL": "https://bib.us.es/comunicacion/planos"
+                },
+                {
+                    "pitch": -8.5,
+                    "yaw": -141.0,
+                    "type": "info",
+                    "text": "Escáner",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": -122.0,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": -104.0,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -20.0,
+                    "yaw": -98.0,
+                    "type": "info",
+                    "text": "Puestos de lectura",
+                    "URL": ""
+                },
+                {
+                    "pitch": -20.0,
+                    "yaw": -30.0,
+                    "type": "info",
+                    "text": "Puestos de lectura",
+                    "URL": ""
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -55.0,
+                    "type": "info",
+                    "text": "Títulos recomendados",
+                    "URL": ""
+                },
+                {
+                    "pitch": -1.0,
+                    "yaw": -27.0,
+                    "type": "info",
+                    "text": "Consulta en catálogo Fama",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -8.0,
+                    "type": "info",
+                    "text": "Novedades",
+                    "URL": ""
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": 40.0,
+                    "type": "info",
+                    "text": "Máquina de autopréstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -11.0,
+                    "yaw": 75.0,
+                    "type": "info",
+                    "text": "Mostrador de información",
+                    "URL": ""
+                },
+                {
+                    "pitch": -20.0,
+                    "yaw": 120.0,
+                    "type": "info",
+                    "text": "Mostrador de préstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -11.0,
+                    "yaw": -101.0,
+                    "type": "scene",
+                    "text": "A las salas de estudio",
+                    "sceneId": "FCOM_Biblio_Sudeste",
+                    "targetYaw": 0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -176.0,
+                    "type": "scene",
+                    "text": "Salir de la Biblioteca",
+                    "sceneId": "FCOM_P1_EntradaBiblio",
+                    "targetYaw": -160,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 32.0,
+                    "type": "scene",
+                    "text": "A la zona cómic",
+                    "sceneId": "FCOM_Biblio_Norte",
+                    "targetYaw": -60,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_Biblio_Sudeste": {
+            "title": "Biblioteca. Salas de estudio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_Biblio_Sudeste",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.0,
+                    "yaw": -102.0,
+                    "type": "info",
+                    "text": "Sala de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": -63.0,
+                    "type": "info",
+                    "text": "Sala de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.5,
+                    "yaw": -53.0,
+                    "type": "info",
+                    "text": "Sala de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 61.0,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": -44.0,
+                    "type": "scene",
+                    "text": "A la zona cine",
+                    "sceneId": "FCOM_Biblio_Sur",
+                    "targetYaw": -15,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -14.0,
+                    "yaw": 54.0,
+                    "type": "scene",
+                    "text": "Volver a la entrada",
+                    "sceneId": "FCOM_Biblio_Entrada",
+                    "targetYaw": 110,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_Biblio_Sur": {
+            "title": "Biblioteca. Zona cine.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_Biblio_Sur",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -19.0,
+                    "yaw": -10.0,
+                    "type": "info",
+                    "text": "Puestos de lectura",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 15.0,
+                    "type": "info",
+                    "text": "Puestos de lectura",
+                    "URL": ""
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": 134.0,
+                    "type": "scene",
+                    "text": "A la zona cómic",
+                    "sceneId": "FCOM_Biblio_Centro",
+                    "targetYaw": 75,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -16.0,
+                    "yaw": 155.0,
+                    "type": "scene",
+                    "text": "A las salas de estudio",
+                    "sceneId": "FCOM_Biblio_Sudeste",
+                    "targetYaw": 90,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_Biblio_Centro": {
+            "title": "Biblioteca. Puestos de estudio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_Biblio_Centro",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.0,
+                    "yaw": 86.0,
+                    "type": "scene",
+                    "text": "A la zona cómic",
+                    "sceneId": "FCOM_Biblio_Norte",
+                    "targetYaw": 10,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -92.0,
+                    "type": "scene",
+                    "text": "A la zona cine",
+                    "sceneId": "FCOM_Biblio_Sur",
+                    "targetYaw": -40,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_Biblio_Norte": {
+            "title": "Biblioteca. Zona cómic.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_Biblio_Norte",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 0.0,
+                    "yaw": 12.0,
+                    "type": "info",
+                    "text": "Oficinas de proceso técnico y adquisiciones",
+                    "URL": ""
+                },
+                {
+                    "pitch": -8.5,
+                    "yaw": 30.2,
+                    "type": "info",
+                    "text": "Novedades (cómic y novela gráfica)",
+                    "URL": ""
+                },
+                {
+                    "pitch": -21.0,
+                    "yaw": 50.0,
+                    "type": "info",
+                    "text": "Puestos de lectura",
+                    "URL": ""
+                },
+                {
+                    "pitch": -17.0,
+                    "yaw": 147.0,
+                    "type": "scene",
+                    "text": "Volver a la entrada",
+                    "sceneId": "FCOM_Biblio_Entrada",
+                    "targetYaw": -160,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -13.0,
+                    "yaw": 179.0,
+                    "type": "scene",
+                    "text": "Avanzar por la Biblioteca",
+                    "sceneId": "FCOM_Biblio_Centro",
+                    "targetYaw": -92,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_P1_EntradaVideoteca": {
+            "title": "Primera planta. Pasillo junto a la Videoteca.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_P1_EntradaVideoteca",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -8.0,
+                    "yaw": -6.0,
+                    "type": "info",
+                    "text": "Ascensores",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": 107.5,
+                    "type": "info",
+                    "text": "Aseos",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.7,
+                    "yaw": 20.0,
+                    "type": "scene",
+                    "text": "Entrar a la Videoteca",
+                    "sceneId": "FCOM_Videoteca_Vest¡bulo",
+                    "targetYaw": -15,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -63.0,
+                    "type": "scene",
+                    "text": "Hacia la Biblioteca",
+                    "sceneId": "FCOM_P1_EntradaBiblio",
+                    "targetYaw": -50,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_Videoteca_Vest¡bulo": {
+            "title": "Entrada a la Videoteca.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_Videoteca_Vest¡bulo",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -15.0,
+                    "yaw": 25.0,
+                    "type": "info",
+                    "text": "Títulos destacados",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.5,
+                    "yaw": 64.0,
+                    "type": "info",
+                    "text": "Mostrador de información",
+                    "URL": ""
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": 86.0,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": 45.0,
+                    "type": "scene",
+                    "text": "A las cabinas de visionado",
+                    "sceneId": "FCOM_Videoteca_Cabinas",
+                    "targetYaw": 0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -12.0,
+                    "yaw": -79.0,
+                    "type": "scene",
+                    "text": "A las salas de estudio",
+                    "sceneId": "FCOM_Videoteca_SalasEstudio",
+                    "targetYaw": -20,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -2.6,
+                    "yaw": -28.5,
+                    "type": "scene",
+                    "text": "A la sala Home Cinema",
+                    "sceneId": "FCOM_Videoteca_SalaVisionado",
+                    "targetYaw": -10,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -2.6,
+                    "yaw": -32.0,
+                    "type": "scene",
+                    "text": "A la sala seminario",
+                    "sceneId": "FCOM_Videoteca_Seminario",
+                    "targetYaw": -20,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -11.0,
+                    "yaw": 171.0,
+                    "type": "scene",
+                    "text": "Salir de la Videoteca",
+                    "sceneId": "FCOM_P1_EntradaVideoteca",
+                    "targetYaw": -110,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_Videoteca_Cabinas": {
+            "title": "Videoteca. Cabinas de visionado.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_Videoteca_Cabinas",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -12.0,
+                    "yaw": 85.0,
+                    "type": "info",
+                    "text": "Puesto de visionado",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -81.0,
+                    "type": "info",
+                    "text": "Puesto de visionado",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": -175.5,
+                    "type": "scene",
+                    "text": "Salir de las cabinas de visionado",
+                    "sceneId": "FCOM_Videoteca_Vest¡bulo",
+                    "targetYaw": 140,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_Videoteca_SalasEstudio": {
+            "title": "Videoteca. Salas de estudio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_Videoteca_SalasEstudio",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.0,
+                    "yaw": 110.0,
+                    "type": "scene",
+                    "text": "Salir de las salas de estudio",
+                    "sceneId": "FCOM_Videoteca_Vest¡bulo",
+                    "targetYaw": 90,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_Videoteca_SalaVisionado": {
+            "title": "Videoteca. Sala Home Cinema.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_Videoteca_SalaVisionado",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -9.0,
+                    "yaw": 151.0,
+                    "type": "scene",
+                    "text": "Salir de la sala Home Cinema",
+                    "sceneId": "FCOM_Videoteca_Vest¡bulo",
+                    "targetYaw": 170,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FCOM_Videoteca_Seminario": {
+            "title": "Videoteca. Seminario.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240223/FCOM_Videoteca_Seminario",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.5,
+                    "yaw": 150.0,
+                    "type": "scene",
+                    "text": "Salir de la sala seminario",
+                    "sceneId": "FCOM_Videoteca_Vest¡bulo",
+                    "targetYaw": 170,
+                    "targetPitch": 0
+                }
+            ]
+        }
+    }
+});
+</script>
+
+</body>
+</html>
