@@ -8,64 +8,67 @@
     <link rel="stylesheet" href="../styles/index.style.css">
 </head>
 <body>
-    <a class="home" href="/gonmarfer2/"><img src="../assets/house.svg" alt="Home"></a>
-    <div class="title-bg">
-        <h1>Cómo automaticé los archivos de Panellum</h1>
-    </div>
-    <a class="download-box download-link" href="../assets/files/2024/3/Panellum/generate_paths.py" download="">
-        <img src="../assets/download.png" alt="Download button"><span>Descargar script</span>
-    </a>
+    <video id="fondo" src="../assets/fondo.webm" autoplay loop muted>Your browser does not support this video.</video>
+    <div id="body">
+        <a class="home" href="/gonmarfer2/"><img src="../assets/house.svg" alt="Home"></a>
+        <div class="title-bg">
+            <h1>Cómo automaticé los archivos de Panellum</h1>
+        </div>
+        <a class="download-box download-link" href="../assets/files/2024/3/Panellum/generate_paths.py" download="">
+            <img src="../assets/download.png" alt="Download button"><span>Descargar script</span>
+        </a>
 
-    <h2>¿Cómo funciona el script?</h2>
-    <div class="info-box">
-        <ol>
-            <li>Se crea una carpeta <i>data</i> donde incluir tres ficheros:
-                <ol>
-                    <li>escenas.csv (Contiene la información de las escenas)</li>
-                    <li>hotspotinfo.csv (Contiene la información de los hotspots de información)</li>
-                    <li>hotspotescenas.csv (Contiene la información de los hotspots de escenas)</li>
-                </ol>
-            </li>
-            <li>Se ejecuta el script Python <i>generate_paths.py</i></li>
-            <li>El script genera una carpeta <i>out</i> con el fichero HTML generado, y cuyo título será la fecha y la hora actuales.</li>
-        </ol>
-    </div>
+        <h2>¿Cómo funciona el script?</h2>
+        <div class="info-box">
+            <ol>
+                <li>Se crea una carpeta <i>data</i> donde incluir tres ficheros:
+                    <ol>
+                        <li>escenas.csv (Contiene la información de las escenas)</li>
+                        <li>hotspotinfo.csv (Contiene la información de los hotspots de información)</li>
+                        <li>hotspotescenas.csv (Contiene la información de los hotspots de escenas)</li>
+                    </ol>
+                </li>
+                <li>Se ejecuta el script Python <i>generate_paths.py</i></li>
+                <li>El script genera una carpeta <i>out</i> con el fichero HTML generado, y cuyo título será la fecha y la hora actuales.</li>
+            </ol>
+        </div>
 
-    <h2>¿Cómo deben ser los ficheros?</h2>
-    <div class="info-box">
-        <h3>escenas.csv</h3>
-        <p>Tiene la cabecera: idEscena,title,basePath.</p>
-        <ul>
-            <li><strong>idEscena</strong> (texto): el identificador de la escena.</li>
-            <li><strong>title</strong> (texto): la descripción de la escena.</li>
-            <li><strong>basePath</strong> (texto): ruta de la imagen panorámica de la escena.</li>
-        </ul>
-    </div>
+        <h2>¿Cómo deben ser los ficheros?</h2>
+        <div class="info-box">
+            <h3>escenas.csv</h3>
+            <p>Tiene la cabecera: idEscena,title,basePath.</p>
+            <ul>
+                <li><strong>idEscena</strong> (texto): el identificador de la escena.</li>
+                <li><strong>title</strong> (texto): la descripción de la escena.</li>
+                <li><strong>basePath</strong> (texto): ruta de la imagen panorámica de la escena.</li>
+            </ul>
+        </div>
 
-    <div class="info-box">
-        <h3>hotspotinfo.csv</h3>
-        <p>Tiene la cabecera: idEscena,pitch,yaw,text,URL.</p>
-        <ul>
-            <li><strong>idEscena</strong> (texto): el identificador de la escena.</li>
-            <li><strong>pitch</strong> (número): posición Y del punto.</li>
-            <li><strong>yaw</strong> (texto): ruta de la imagen panorámica de la escena.</li>
-            <li><strong>text</strong> (texto): descripción del punto.
-            <li><strong>URL</strong> (texto): ruta opcional.
-        </ul>
-    </div>
+        <div class="info-box">
+            <h3>hotspotinfo.csv</h3>
+            <p>Tiene la cabecera: idEscena,pitch,yaw,text,URL.</p>
+            <ul>
+                <li><strong>idEscena</strong> (texto): el identificador de la escena.</li>
+                <li><strong>pitch</strong> (número): posición Y del punto.</li>
+                <li><strong>yaw</strong> (texto): ruta de la imagen panorámica de la escena.</li>
+                <li><strong>text</strong> (texto): descripción del punto.
+                <li><strong>URL</strong> (texto): ruta opcional.
+            </ul>
+        </div>
 
-    <div class="info-box">
-        <h3>hotspotescenas.csv</h3>
-        <p>Tiene la cabecera: idEscena,sceneId,pitch,yaw,text,targetYaw,targetPitch.</p>
-        <ul>
-            <li><strong>idEscena</strong> (texto): el identificador de la escena.</li>
-            <li><strong>sceneId</strong> (texto): el identificador de la escena de destino.</li>
-            <li><strong>pitch</strong> (número): posición Y del punto.</li>
-            <li><strong>yaw</strong> (texto): ruta de la imagen panorámica de la escena.</li>
-            <li><strong>text</strong> (texto): descripción del punto.
-            <li><strong>targetPitch</strong> (número): posición Y del punto.
-            <li><strong>targetYaw</strong> (número): posición X del punto.
-        </ul>
+        <div class="info-box">
+            <h3>hotspotescenas.csv</h3>
+            <p>Tiene la cabecera: idEscena,sceneId,pitch,yaw,text,targetYaw,targetPitch.</p>
+            <ul>
+                <li><strong>idEscena</strong> (texto): el identificador de la escena.</li>
+                <li><strong>sceneId</strong> (texto): el identificador de la escena de destino.</li>
+                <li><strong>pitch</strong> (número): posición Y del punto.</li>
+                <li><strong>yaw</strong> (texto): ruta de la imagen panorámica de la escena.</li>
+                <li><strong>text</strong> (texto): descripción del punto.
+                <li><strong>targetPitch</strong> (número): posición Y del punto.
+                <li><strong>targetYaw</strong> (número): posición X del punto.
+            </ul>
+        </div>
     </div>
 
 </body>
