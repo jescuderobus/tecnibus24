@@ -251,9 +251,25 @@ pannellum.viewer('panorama', {
                     "text": "Biologia",
                     "sceneId": "naturaleza",
                 },
-                // Palacio de Hielo
+                // St Mary
                 {
                     "pitch": 0,"yaw": -45,
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot_comment_img,
+                    "createTooltipArgs": {
+                        comentario: "Iglesia Anaglifa",
+                        urlImagen: "./images/church-svgrepo-com.svg"
+                        }
+                },
+                {
+                    "pitch": 0, "yaw": -45,
+                    "type": "info",
+                    "text": "Iglesia Anaglifa",
+                    "URL": "pannellum_from_pano2VR_StMary.html",
+                },
+                // Palacio de Hielo
+                                {
+                    "pitch": 10,"yaw": -65,
                     "cssClass": "custom-hotspot",
                     "createTooltipFunc": hotspot_comment_img,
                     "createTooltipArgs": {
@@ -262,7 +278,7 @@ pannellum.viewer('panorama', {
                         }
                 },
                 {
-                    "pitch": 0, "yaw": -45,
+                    "pitch": 10, "yaw": -65,
                     "type": "scene",
                     "text": "Palacio de Hielo",
                     "sceneId": "palacioHielo",

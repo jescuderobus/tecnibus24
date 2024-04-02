@@ -89,8 +89,22 @@
         "lng": -6.00055,
         "direccion": "(Campus Cartuja)<br>Camino de los Descubrimientos, s/n<br>41092 - Sevilla",
         "imagen":"",
-        "como_llegar": [],
-        "echar_un_vistazo":[]
+        "como_llegar": [
+            {
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "desde la Avda. de los <br>Descubrimientos",
+                "url": "ETSI_Autobus.html",
+                "target": "_self"
+            }
+        ],
+        "echar_un_vistazo":[
+            {
+                "imagen": "images/eye-3-svgrepo-com.svg",
+                "texto": "desde la puerta",
+                "url": "ETSI_Biblioteca.html",
+                "target": "_self"
+            }
+        ]
     },
     {
         "id": "com",
