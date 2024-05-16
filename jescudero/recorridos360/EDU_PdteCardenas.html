@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+    <meta name="generator" content="Hugo 0.48" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pannellum</title>
+    <!--<script src="/cdn-cgi/apps/head/TEAHVq5cVsVoM9egFOAS6CBdXPk.js"></script>-->
+    <link rel="stylesheet" href="https://pannellum.org/css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap-native.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/pygments.css">
+    <link rel="stylesheet" href="css/pannellum.css" />
+    <script type="text/javascript" src="js/pannellum.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="panorama" style="width:100%;height:100%;"></div>
+        <script>
+        pannellum.viewer('panorama', {
+    "default": {
+        "firstScene": "EDU_Calle_Pdte_Cardenas",
+        "author": "Tecnibus24",
+        "sceneFadeDuration": 1000,
+        "autoLoad": true
+    },
+    "scenes": {
+        "EDU_Calle_Pdte_Cardenas": {
+            "title": "Entrada a la Facultad de Ciencias de la Educación por calle Miguel Rodríguez Piñero.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Calle_Pdte_Cardenas",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 20.0,
+                    "yaw": 8.0,
+                    "type": "info",
+                    "text": "Facultad de Ciencias de la Educación",
+                    "URL": "https://educacion.us.es/"
+                },
+                {
+                    "pitch": 1.0,
+                    "yaw": -85.0,
+                    "type": "info",
+                    "text": "Calle Miguel Rodríguez Piñero",
+                    "URL": ""
+                },
+                {
+                    "pitch": 1.0,
+                    "yaw": 80.0,
+                    "type": "info",
+                    "text": "Calle Presidente Cárdenas",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.5,
+                    "yaw": -138.0,
+                    "type": "info",
+                    "text": "Acceso a las Facultades de Derecho y CC del Trabajo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.5,
+                    "yaw": -19.0,
+                    "type": "scene",
+                    "text": "Entrar a la Facultad",
+                    "sceneId": "EDU_Salida_Oeste",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Salida_Oeste": {
+            "title": "Acceso al Bloque 2 de la Facultad de Ciencias de la Educación.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Salida_Oeste",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 5.0,
+                    "yaw": 65.0,
+                    "type": "info",
+                    "text": "Conexiones y transportes",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": -14.0,
+                    "type": "info",
+                    "text": "Acceso al Bloque 2",
+                    "URL": ""
+                },
+                {
+                    "pitch": -1.0,
+                    "yaw": 2.0,
+                    "type": "scene",
+                    "text": "Hacia el patio",
+                    "sceneId": "EDU_Pasillo_Oeste",
+                    "targetYaw": 50.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 121.5,
+                    "type": "scene",
+                    "text": "A la calle",
+                    "sceneId": "EDU_Calle_Pdte_Cardenas",
+                    "targetYaw": -150.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Pasillo_Oeste": {
+            "title": "Acceso al patio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Pasillo_Oeste",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -13.0,
+                    "yaw": 95.0,
+                    "type": "info",
+                    "text": "Salida a calle Pdte. Cárdenas",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": 28.0,
+                    "type": "info",
+                    "text": "Tablón de anuncios",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.5,
+                    "yaw": -85.0,
+                    "type": "info",
+                    "text": "Acceso al Bloque 2",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": 5.0,
+                    "type": "scene",
+                    "text": "Acceso al patio",
+                    "sceneId": "EDU_Patio_Oeste",
+                    "targetYaw": 20.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -103.0,
+                    "type": "scene",
+                    "text": "Salir del recinto",
+                    "sceneId": "EDU_Salida_Oeste",
+                    "targetYaw": 180.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Patio_Oeste": {
+            "title": "Patio de la Facultad de Ciencias de la Educación.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Patio_Oeste",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 24.0,
+                    "yaw": -63.0,
+                    "type": "info",
+                    "text": "Bloque 2",
+                    "URL": ""
+                },
+                {
+                    "pitch": 28.0,
+                    "yaw": 35.0,
+                    "type": "info",
+                    "text": "Bloque 1",
+                    "URL": ""
+                },
+                {
+                    "pitch": 25.0,
+                    "yaw": 75.0,
+                    "type": "info",
+                    "text": "Biblioteca",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": -117.6,
+                    "type": "info",
+                    "text": "Acceso al Bloque 2",
+                    "URL": ""
+                },
+                {
+                    "pitch": -1.0,
+                    "yaw": 79.0,
+                    "type": "info",
+                    "text": "Acceso al Bloque 1",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": 0.0,
+                    "type": "scene",
+                    "text": "Avanzar por el patio",
+                    "sceneId": "EDU_Patio_Este",
+                    "targetYaw": 14.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": -131.0,
+                    "type": "scene",
+                    "text": "Salir del recinto",
+                    "sceneId": "EDU_Pasillo_Oeste",
+                    "targetYaw": -140.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Patio_Este": {
+            "title": "Patio de la Facultad de Ciencias de la Educación.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Patio_Este",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 29.0,
+                    "yaw": 85.0,
+                    "type": "info",
+                    "text": "Bloque 1",
+                    "URL": ""
+                },
+                {
+                    "pitch": 14.0,
+                    "yaw": 149.0,
+                    "type": "info",
+                    "text": "Biblioteca",
+                    "URL": ""
+                },
+                {
+                    "pitch": 25.0,
+                    "yaw": -115.0,
+                    "type": "info",
+                    "text": "Bloque 2",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": -69.0,
+                    "type": "info",
+                    "text": "Gimnasio",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": 24.0,
+                    "type": "info",
+                    "text": "Salida a calle Pirotecnia",
+                    "URL": ""
+                },
+                {
+                    "pitch": -0.8,
+                    "yaw": 37.0,
+                    "type": "scene",
+                    "text": "Entrar al edificio",
+                    "sceneId": "EDU_Vestibulo",
+                    "targetYaw": 45.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": -178.0,
+                    "type": "scene",
+                    "text": "Avanzar por el patio",
+                    "sceneId": "EDU_Patio_Oeste",
+                    "targetYaw": -160.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Vestibulo": {
+            "title": "Planta baja. Vestíbulo de la Facultad",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Vestibulo",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4.0,
+                    "yaw": -69.5,
+                    "type": "info",
+                    "text": "Ascensores",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": 72.0,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -1.0,
+                    "yaw": 27.0,
+                    "type": "info",
+                    "text": "Conserjería",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": 60.0,
+                    "type": "info",
+                    "text": "Secretaría del Vicedecanato de Prácticas",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": 81.0,
+                    "type": "info",
+                    "text": "secretaría de la Facultad",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": -28.0,
+                    "type": "scene",
+                    "text": "Volver a la calle",
+                    "sceneId": "EDU_Pasillo_Este",
+                    "targetYaw": 175.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": 115.0,
+                    "type": "scene",
+                    "text": "Subir a la Biblioteca",
+                    "sceneId": "EDU_Escaleras_P1",
+                    "targetYaw": 160.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -158.0,
+                    "type": "scene",
+                    "text": "Salir al patio",
+                    "sceneId": "EDU_Patio_Este",
+                    "targetYaw": -140.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Pasillo_Este": {
+            "title": "Acceso al Bloque 1 de la Facultad de Ciencias de la Educación.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Pasillo_Este",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -1.0,
+                    "yaw": 31.0,
+                    "type": "info",
+                    "text": "Acceso al patio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": 51.0,
+                    "type": "info",
+                    "text": "Salida c/Pirotecnia con Avión Cuatro Vientos",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -144.0,
+                    "type": "scene",
+                    "text": "A la calle",
+                    "sceneId": "EDU_Calle_Pirotecnia",
+                    "targetYaw": -175.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -4.5,
+                    "yaw": -13.0,
+                    "type": "scene",
+                    "text": "Entrar al edificio",
+                    "sceneId": "EDU_Vestibulo",
+                    "targetYaw": 135.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Calle_Pirotecnia": {
+            "title": "Entrada a la Facultad de Ciencias de la Educación por calle Pirotecnia.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Calle_Pirotecnia",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.0,
+                    "yaw": -13.0,
+                    "type": "info",
+                    "text": "Bicicletero",
+                    "URL": ""
+                },
+                {
+                    "pitch": 5.0,
+                    "yaw": -65.0,
+                    "type": "info",
+                    "text": "SADUS - CED Pirotecnia",
+                    "URL": "https://www.sadus.us.es/"
+                },
+                {
+                    "pitch": 29.5,
+                    "yaw": 40.0,
+                    "type": "info",
+                    "text": "Facultad de Ciencias de la Educación",
+                    "URL": "https://educacion.us.es/"
+                },
+                {
+                    "pitch": 5.0,
+                    "yaw": 161.0,
+                    "type": "info",
+                    "text": "CC Viapol Center",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": 49.5,
+                    "type": "scene",
+                    "text": "Entrar al recinto",
+                    "sceneId": "EDU_Pasillo_Este",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Escaleras_P1": {
+            "title": "Primera planta. Entrada a la Biblioteca de la Facultad.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Escaleras_P1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -8.5,
+                    "yaw": 117.5,
+                    "type": "info",
+                    "text": "Tablón de la Biblioteca",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": -35.0,
+                    "type": "info",
+                    "text": "A los baños",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.5,
+                    "yaw": 156.0,
+                    "type": "scene",
+                    "text": "Entrar a la Biblioteca",
+                    "sceneId": "EDU_Biblio_Entrada",
+                    "targetYaw": 12.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -30.0,
+                    "yaw": 20.0,
+                    "type": "scene",
+                    "text": "A la planta baja",
+                    "sceneId": "EDU_Vestibulo",
+                    "targetYaw": -50.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Biblio_Entrada": {
+            "title": "Entrada de la Biblioteca. Monstrador de información.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Biblio_Entrada",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -11.0,
+                    "yaw": 139.0,
+                    "type": "info",
+                    "text": "Selección de destacados",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 100.0,
+                    "type": "info",
+                    "text": "Escultura reciclaje",
+                    "URL": ""
+                },
+                {
+                    "pitch": 1.0,
+                    "yaw": 82.0,
+                    "type": "info",
+                    "text": "Plano de la biblioteca y directorio",
+                    "URL": "https://bib.us.es/educacion/planos-y-ordenaci%C3%B3n-de-la-sala-de-libre-acceso"
+                },
+                {
+                    "pitch": -13.0,
+                    "yaw": 61.0,
+                    "type": "info",
+                    "text": "Máquina de autopréstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": 21.0,
+                    "type": "info",
+                    "text": "Portátiles de préstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -13.0,
+                    "yaw": -74.0,
+                    "type": "info",
+                    "text": "Nuevas adquisiciones",
+                    "URL": ""
+                },
+                {
+                    "pitch": -19.0,
+                    "yaw": -149.5,
+                    "type": "info",
+                    "text": "Nuevas adquisiciones",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -105.0,
+                    "type": "info",
+                    "text": "Mostrador de información y préstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -13.0,
+                    "yaw": -36.0,
+                    "type": "scene",
+                    "text": "A las salas de estudio",
+                    "sceneId": "EDU_Biblio_Pasillo1",
+                    "targetYaw": -45.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 46.0,
+                    "type": "scene",
+                    "text": "Avanzar por la Biblioteca",
+                    "sceneId": "EDU_Biblio_Sillones",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -167.0,
+                    "type": "scene",
+                    "text": "Salir de la Biblioteca",
+                    "sceneId": "EDU_Escaleras_P1",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Biblio_Pasillo1": {
+            "title": "Biblioteca. Acceso a las salas de estudio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Biblio_Pasillo1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -15.5,
+                    "yaw": -146.2,
+                    "type": "scene",
+                    "text": "A las salas de estudio",
+                    "sceneId": "EDU_Biblio_Pasillo2",
+                    "targetYaw": -96.6,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -20.0,
+                    "yaw": -5.0,
+                    "type": "scene",
+                    "text": "Avanzar por la Biblioteca",
+                    "sceneId": "EDU_Biblio_Centro_Izq",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -15.0,
+                    "yaw": 122.0,
+                    "type": "scene",
+                    "text": "Volver a la entrada",
+                    "sceneId": "EDU_Biblio_Entrada",
+                    "targetYaw": 170.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Biblio_Pasillo2": {
+            "title": "Biblioteca. Salas y cabinas de trabajo en grupo.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Biblio_Pasillo2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 0.0,
+                    "yaw": -4.5,
+                    "type": "info",
+                    "text": "Interior de sala",
+                    "URL": ""
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -97.0,
+                    "type": "info",
+                    "text": "Administración de la Biblioteca",
+                    "URL": ""
+                },
+                {
+                    "pitch": -13.0,
+                    "yaw": 84.5,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "EDU_Biblio_Pasillo1",
+                    "targetYaw": 30.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Biblio_Centro_Izq": {
+            "title": "Biblioteca. Puestos de estudio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Biblio_Centro_Izq",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.0,
+                    "yaw": 1.0,
+                    "type": "scene",
+                    "text": "Hacia el fondo",
+                    "sceneId": "EDU_Biblio_Fondo_Izq",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -11.0,
+                    "yaw": 89.0,
+                    "type": "scene",
+                    "text": "Cambiar de pasillo",
+                    "sceneId": "EDU_Biblio_Centro_Dch",
+                    "targetYaw": -103.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -179.0,
+                    "type": "scene",
+                    "text": "A la entrada",
+                    "sceneId": "EDU_Biblio_Pasillo1",
+                    "targetYaw": -175.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Biblio_Fondo_Izq": {
+            "title": "Biblioteca. Fondo.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Biblio_Fondo_Izq",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -18.0,
+                    "yaw": 68.0,
+                    "type": "info",
+                    "text": "Zona de lectura",
+                    "URL": ""
+                },
+                {
+                    "pitch": -8.5,
+                    "yaw": 75.0,
+                    "type": "scene",
+                    "text": "Cambiar de pasillo",
+                    "sceneId": "EDU_Biblio_Fondo_Dch",
+                    "targetYaw": -62.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": 172.0,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "EDU_Biblio_Centro_Izq",
+                    "targetYaw": -175.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Biblio_Fondo_Dch": {
+            "title": "Biblioteca. Fondo.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Biblio_Fondo_Dch",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -20.0,
+                    "yaw": 105.0,
+                    "type": "info",
+                    "text": "Zona de lectura",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 24.0,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "EDU_Biblio_Centro_Dch",
+                    "targetYaw": 5.8,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": 110.0,
+                    "type": "scene",
+                    "text": "Cambiar de pasillo",
+                    "sceneId": "EDU_Biblio_Fondo_Izq",
+                    "targetYaw": -110.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Biblio_Centro_Dch": {
+            "title": "Biblioteca. Puestos de estudio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Biblio_Centro_Dch",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -7.0,
+                    "yaw": 5.0,
+                    "type": "scene",
+                    "text": "Volver a la entrada",
+                    "sceneId": "EDU_Biblio_Sillones",
+                    "targetYaw": -170.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -174.0,
+                    "type": "scene",
+                    "text": "Hacia el fondo",
+                    "sceneId": "EDU_Biblio_Fondo_Dch",
+                    "targetYaw": 180.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -15.0,
+                    "yaw": 95.0,
+                    "type": "scene",
+                    "text": "Cambiar de pasillo",
+                    "sceneId": "EDU_Biblio_Centro_Izq",
+                    "targetYaw": -110.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "EDU_Biblio_Sillones": {
+            "title": "Biblioteca. Ordenadores de consulta y puestos de lectura.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/EDU_Biblio_Sillones",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.0,
+                    "yaw": 62.0,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -22.0,
+                    "yaw": 155.0,
+                    "type": "info",
+                    "text": "Zona de lectura",
+                    "URL": ""
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": -143.0,
+                    "type": "info",
+                    "text": "Portátiles de préstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": -175.0,
+                    "type": "info",
+                    "text": "Máquina de autopréstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": -80.0,
+                    "type": "info",
+                    "text": "Escáneres",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": 5.0,
+                    "type": "scene",
+                    "text": "Avanzar",
+                    "sceneId": "EDU_Biblio_Centro_Dch",
+                    "targetYaw": -175.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -11.0,
+                    "yaw": -160.0,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "EDU_Biblio_Entrada",
+                    "targetYaw": -110.0,
+                    "targetPitch": 0
+                }
+            ]
+        }
+    }
+});
+</script>
+
+</body>
+</html>

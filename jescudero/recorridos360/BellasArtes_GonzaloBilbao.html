@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+    <meta name="generator" content="Hugo 0.48" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pannellum</title>
+    <!--<script src="/cdn-cgi/apps/head/TEAHVq5cVsVoM9egFOAS6CBdXPk.js"></script>-->
+    <link rel="stylesheet" href="https://pannellum.org/css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap-native.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/pygments.css">
+    <link rel="stylesheet" href="css/pannellum.css" />
+    <script type="text/javascript" src="js/pannellum.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="panorama" style="width:100%;height:100%;"></div>
+        <script>
+        pannellum.viewer('panorama', {
+    "default": {
+        "firstScene": "BBAA_Calle",
+        "author": "Tecnibus24",
+        "sceneFadeDuration": 1000,
+        "autoLoad": true
+    },
+    "scenes": {
+        "BBAA_Calle": {
+            "title": "Acceso por c/ Gonzalo Bilbao.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Calle",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 2.0,
+                    "yaw": -64.0,
+                    "type": "info",
+                    "text": "C/ Arroyo",
+                    "URL": ""
+                },
+                {
+                    "pitch": 2.0,
+                    "yaw": 64.0,
+                    "type": "info",
+                    "text": "C/ Gonzalo Bilbao",
+                    "URL": ""
+                },
+                {
+                    "pitch": 36.5,
+                    "yaw": -2.0,
+                    "type": "info",
+                    "text": "Anexo de la Facultad de Bellas Artes",
+                    "URL": "https://bellasartes.us.es/"
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": 0.0,
+                    "type": "scene",
+                    "text": "Acceder",
+                    "sceneId": "BBAA_Vestibulo",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Vestibulo": {
+            "title": "Anexo de Bellas Artes. Vestíbulo.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Vestibulo",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 0.0,
+                    "yaw": -100.8,
+                    "type": "info",
+                    "text": "Conserjería",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 56.0,
+                    "type": "info",
+                    "text": "Tablón del Aula de Cultura",
+                    "URL": ""
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": 33.0,
+                    "type": "info",
+                    "text": "Al despacho de Dirección de la Biblioteca",
+                    "URL": ""
+                },
+                {
+                    "pitch": -13.0,
+                    "yaw": -22.0,
+                    "type": "scene",
+                    "text": "A la Biblioteca",
+                    "sceneId": "BBAA_Pasillo",
+                    "targetYaw": 4.5,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": -175.0,
+                    "type": "scene",
+                    "text": "Salir del edificio",
+                    "sceneId": "BBAA_Calle",
+                    "targetYaw": 180.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Pasillo": {
+            "title": "Pasillo de la Biblioteca.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Pasillo",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -6.0,
+                    "yaw": -33.2,
+                    "type": "info",
+                    "text": "Aula B.08",
+                    "URL": ""
+                },
+                {
+                    "pitch": -9.2,
+                    "yaw": 4.7,
+                    "type": "scene",
+                    "text": "A la Biblioteca",
+                    "sceneId": "BBAA_EntradaBiblio",
+                    "targetYaw": -75.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -175.0,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "BBAA_Vestibulo",
+                    "targetYaw": 175.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_EntradaBiblio": {
+            "title": "Entrada a la Biblioteca.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_EntradaBiblio",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -8.2,
+                    "yaw": -128.1,
+                    "type": "info",
+                    "text": "Aula B.08",
+                    "URL": ""
+                },
+                {
+                    "pitch": -0.8,
+                    "yaw": -45.0,
+                    "type": "info",
+                    "text": "Información (enlace)",
+                    "URL": "https://bib.us.es/bellasartes/"
+                },
+                {
+                    "pitch": -22.0,
+                    "yaw": -1.0,
+                    "type": "scene",
+                    "text": "Entrar a la Biblioteca",
+                    "sceneId": "BBAA_Biblio1",
+                    "targetYaw": -25.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 87.5,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "BBAA_Pasillo",
+                    "targetYaw": -175.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Biblio1": {
+            "title": "Biblioteca de Bellas Artes. Mostrador.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Biblio1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -7.0,
+                    "yaw": 96.0,
+                    "type": "info",
+                    "text": "Mostrador de préstamo e información",
+                    "URL": ""
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": -12.0,
+                    "type": "info",
+                    "text": "Escáner",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": -40.1,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -134.0,
+                    "type": "info",
+                    "text": "Selección de destacados",
+                    "URL": ""
+                },
+                {
+                    "pitch": -1.8,
+                    "yaw": -126.0,
+                    "type": "scene",
+                    "text": "Adentrarse",
+                    "sceneId": "BBAA_Biblio2",
+                    "targetYaw": -105.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": 8.0,
+                    "type": "scene",
+                    "text": "A los puestos de lectura",
+                    "sceneId": "BBAA_Biblio7",
+                    "targetYaw": 138.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -16.0,
+                    "yaw": -178.0,
+                    "type": "scene",
+                    "text": "Salir de la Biblioteca",
+                    "sceneId": "BBAA_EntradaBiblio",
+                    "targetYaw": 172.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Biblio2": {
+            "title": "Biblioteca de Bellas Artes.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Biblio2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.0,
+                    "yaw": 8.0,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -116.0,
+                    "type": "scene",
+                    "text": "Avanzar",
+                    "sceneId": "BBAA_Biblio3",
+                    "targetYaw": -10.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -91.5,
+                    "type": "scene",
+                    "text": "Avanzar",
+                    "sceneId": "BBAA_Biblio5",
+                    "targetYaw": -118.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -18.0,
+                    "type": "scene",
+                    "text": "A la escalera",
+                    "sceneId": "BBAA_Biblio6",
+                    "targetYaw": -175.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": 43.0,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "BBAA_Biblio1",
+                    "targetYaw": 50.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Biblio3": {
+            "title": "Biblioteca de Bellas Artes. Salida de emergencia.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Biblio3",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -20.0,
+                    "yaw": 27.5,
+                    "type": "info",
+                    "text": "Puestos de lectura",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -52.0,
+                    "type": "info",
+                    "text": "Salida de emergencia",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 12.5,
+                    "type": "scene",
+                    "text": "A la escalera",
+                    "sceneId": "BBAA_Biblio4",
+                    "targetYaw": -140.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 165.0,
+                    "type": "scene",
+                    "text": "Volver a la entrada",
+                    "sceneId": "BBAA_Biblio2",
+                    "targetYaw": 57.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Biblio4": {
+            "title": "Biblioteca de Bellas Artes. Escaleras (fondo).",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Biblio4",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -8.0,
+                    "yaw": -22.0,
+                    "type": "scene",
+                    "text": "A la entrada",
+                    "sceneId": "BBAA_Biblio5",
+                    "targetYaw": 2.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -9.1,
+                    "yaw": 51.2,
+                    "type": "scene",
+                    "text": "Subir",
+                    "sceneId": "BBAA_Biblio12",
+                    "targetYaw": 160.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": 71.5,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "BBAA_Biblio3",
+                    "targetYaw": -130.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Biblio5": {
+            "title": "Biblioteca de Bellas Artes.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Biblio5",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -12.0,
+                    "yaw": 2.5,
+                    "type": "scene",
+                    "text": "A la escalera de la entrada",
+                    "sceneId": "BBAA_Biblio6",
+                    "targetYaw": -80.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": 84.0,
+                    "type": "scene",
+                    "text": "A la entrada",
+                    "sceneId": "BBAA_Biblio2",
+                    "targetYaw": 82.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -11.0,
+                    "yaw": -177.5,
+                    "type": "scene",
+                    "text": "A la escalera del fondo",
+                    "sceneId": "BBAA_Biblio4",
+                    "targetYaw": 147.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Biblio6": {
+            "title": "Biblioteca de Bellas Artes. Escaleras (entrada).",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Biblio6",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -7.5,
+                    "yaw": -90.2,
+                    "type": "info",
+                    "text": "Puestos reservados a movilidad reducida",
+                    "URL": ""
+                },
+                {
+                    "pitch": -12.8,
+                    "yaw": -78.0,
+                    "type": "scene",
+                    "text": "A los puestos de lectura",
+                    "sceneId": "BBAA_Biblio7",
+                    "targetYaw": -145.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": -2.5,
+                    "type": "scene",
+                    "text": "Subir",
+                    "sceneId": "BBAA_Biblio8",
+                    "targetYaw": 170.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -7.5,
+                    "yaw": 27.8,
+                    "type": "scene",
+                    "text": "A la entrada",
+                    "sceneId": "BBAA_Biblio2",
+                    "targetYaw": 170.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 97.2,
+                    "type": "scene",
+                    "text": "Adentrarse",
+                    "sceneId": "BBAA_Biblio5",
+                    "targetYaw": -176.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Biblio7": {
+            "title": "Biblioteca de Bellas Artes. Puestos de lectura.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Biblio7",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -13.0,
+                    "yaw": 75.0,
+                    "type": "info",
+                    "text": "Puestos reservados a movilidad reducida",
+                    "URL": ""
+                },
+                {
+                    "pitch": -0.5,
+                    "yaw": 21.0,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 16.0,
+                    "type": "info",
+                    "text": "Escáner",
+                    "URL": ""
+                },
+                {
+                    "pitch": -11.0,
+                    "yaw": -5.0,
+                    "type": "info",
+                    "text": "Ordenador de consulta accesible",
+                    "URL": ""
+                },
+                {
+                    "pitch": -16.0,
+                    "yaw": 15.0,
+                    "type": "info",
+                    "text": "Puestos de lectura",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": -44.0,
+                    "type": "info",
+                    "text": "Mostrador",
+                    "URL": ""
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -9.0,
+                    "type": "scene",
+                    "text": "A la entrada",
+                    "sceneId": "BBAA_Biblio1",
+                    "targetYaw": -166.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -11.0,
+                    "yaw": 44.0,
+                    "type": "scene",
+                    "text": "A la escalera",
+                    "sceneId": "BBAA_Biblio6",
+                    "targetYaw": 97.5,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Biblio8": {
+            "title": "Biblioteca de Bellas Artes.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Biblio8",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -16.0,
+                    "yaw": -172.0,
+                    "type": "info",
+                    "text": "Entrada",
+                    "URL": ""
+                },
+                {
+                    "pitch": -16.0,
+                    "yaw": 145.0,
+                    "type": "info",
+                    "text": "Mostrador",
+                    "URL": ""
+                },
+                {
+                    "pitch": 35.0,
+                    "yaw": 100.0,
+                    "type": "info",
+                    "text": "Zona de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": 32.0,
+                    "yaw": -125.0,
+                    "type": "info",
+                    "text": "Zona de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": 16.0,
+                    "type": "scene",
+                    "text": "Subir",
+                    "sceneId": "BBAA_Biblio9",
+                    "targetYaw": -54.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -41.0,
+                    "yaw": -9.0,
+                    "type": "scene",
+                    "text": "Bajar",
+                    "sceneId": "BBAA_Biblio6",
+                    "targetYaw": -175.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Biblio9": {
+            "title": "Biblioteca de Bellas Artes. Primera planta.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Biblio9",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 2.7,
+                    "yaw": 5.5,
+                    "type": "info",
+                    "text": "Sala de lectura",
+                    "URL": ""
+                },
+                {
+                    "pitch": 3.0,
+                    "yaw": 117.0,
+                    "type": "info",
+                    "text": "Zona de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": 4.0,
+                    "yaw": -170.0,
+                    "type": "info",
+                    "text": "Zona de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": 3.8,
+                    "yaw": -114.0,
+                    "type": "info",
+                    "text": "Zona de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -9.8,
+                    "yaw": -85.0,
+                    "type": "scene",
+                    "text": "Al fondo",
+                    "sceneId": "BBAA_Biblio10",
+                    "targetYaw": -81.5,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -21.0,
+                    "yaw": 100.0,
+                    "type": "scene",
+                    "text": "Bajar",
+                    "sceneId": "BBAA_Biblio8",
+                    "targetYaw": -170.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Biblio10": {
+            "title": "Biblioteca de Bellas Artes. Primera planta.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Biblio10",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 4.0,
+                    "yaw": 142.0,
+                    "type": "info",
+                    "text": "Zona de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": 5.0,
+                    "yaw": -115.0,
+                    "type": "info",
+                    "text": "Zona de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -11.0,
+                    "yaw": -78.0,
+                    "type": "scene",
+                    "text": "A la sala de silencio",
+                    "sceneId": "BBAA_Biblio11",
+                    "targetYaw": -116.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -42.0,
+                    "yaw": -163.5,
+                    "type": "scene",
+                    "text": "Bajar",
+                    "sceneId": "BBAA_Biblio12",
+                    "targetYaw": -160.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": 93.0,
+                    "type": "scene",
+                    "text": "A la escalera de la entrada",
+                    "sceneId": "BBAA_Biblio9",
+                    "targetYaw": 93.4,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Biblio11": {
+            "title": "Biblioteca de Bellas Artes. Sala de silencio",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Biblio11",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -3.5,
+                    "yaw": -46.0,
+                    "type": "info",
+                    "text": "Sala de silencio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 169.0,
+                    "type": "info",
+                    "text": "Zona de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -28.3,
+                    "yaw": 56.0,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "BBAA_Biblio10",
+                    "targetYaw": 93.5,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "BBAA_Biblio12": {
+            "title": "Biblioteca de Bellas Artes.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240408/BBAA_Biblio12",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -67.8,
+                    "yaw": 42.0,
+                    "type": "info",
+                    "text": "Zona de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": 38.0,
+                    "yaw": 105.0,
+                    "type": "info",
+                    "text": "Zona de estudio",
+                    "URL": ""
+                },
+                {
+                    "pitch": -30.0,
+                    "yaw": -169.0,
+                    "type": "info",
+                    "text": "Salida de emergencia",
+                    "URL": ""
+                },
+                {
+                    "pitch": -41.0,
+                    "yaw": -3.0,
+                    "type": "scene",
+                    "text": "Bajar",
+                    "sceneId": "BBAA_Biblio4",
+                    "targetYaw": -125.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": 20.5,
+                    "type": "scene",
+                    "text": "Subir",
+                    "sceneId": "BBAA_Biblio10",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        }
+    }
+});
+</script>
+
+</body>
+</html>
