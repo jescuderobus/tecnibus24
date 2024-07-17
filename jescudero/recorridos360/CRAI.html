@@ -1,0 +1,2408 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta name="generator" content="Hugo 0.48" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pannellum</title>
+    <!--<script src="/cdn-cgi/apps/head/TEAHVq5cVsVoM9egFOAS6CBdXPk.js"></script>-->
+    <link rel="stylesheet" href="https://pannellum.org/css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap-native.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600%7CSource+Code+Pro:400,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/pygments.css">
+    <link rel="stylesheet" href="css/pannellum.css" />
+    <script type="text/javascript" src="js/pannellum.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="panorama" style="width:100%;height:100%;"></div>
+        <script>
+        pannellum.viewer('panorama', {
+    "default": {
+        "firstScene": "CALLE_2",
+        "author": "Tecnibus24",
+        "sceneFadeDuration": 1000,
+        "autoLoad": true
+    },
+    "scenes": {
+        "CALLE_2": {
+            "title": "Av. de la Reina Mercedes. Entrada al campus.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CALLE_2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4.5,
+                    "yaw": -111.0,
+                    "type": "info",
+                    "text": "Av. Reina Mercedes",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": -5.5,
+                    "type": "info",
+                    "text": "Al Instituto de Idiomas",
+                    "URL": "https://institutodeidiomas.us.es/"
+                },
+                {
+                    "pitch": 31.0,
+                    "yaw": 26.0,
+                    "type": "info",
+                    "text": "Facultad de Física",
+                    "URL": "https://fisica.us.es/"
+                },
+                {
+                    "pitch": 26.8,
+                    "yaw": 128.0,
+                    "type": "info",
+                    "text": "CRAI Antonio de Ulloa",
+                    "URL": "https://bib.us.es/ulloa/"
+                },
+                {
+                    "pitch": -7.5,
+                    "yaw": 86.0,
+                    "type": "scene",
+                    "text": "Entrar al recinto",
+                    "sceneId": "FISICA_1",
+                    "targetYaw": 138.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FISICA_1": {
+            "title": "Campus Reina Mercedes. Fac. de Física - CRAI Antonio de Ulloa.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/FISICA_1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 30.0,
+                    "yaw": -175.0,
+                    "type": "info",
+                    "text": "CRAI Antonio de Ulloa",
+                    "URL": "https://bib.us.es/ulloa/"
+                },
+                {
+                    "pitch": 19.0,
+                    "yaw": 79.0,
+                    "type": "info",
+                    "text": "Facultad de Física",
+                    "URL": "https://fisica.us.es/"
+                },
+                {
+                    "pitch": 5.5,
+                    "yaw": 121.0,
+                    "type": "info",
+                    "text": "Facultad de Matemáticas",
+                    "URL": "https://matematicas.us.es/"
+                },
+                {
+                    "pitch": -2.5,
+                    "yaw": 136.1,
+                    "type": "scene",
+                    "text": "Avanzar por el campus",
+                    "sceneId": "FISICA_2",
+                    "targetYaw": -52.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -0.75,
+                    "yaw": -123.8,
+                    "type": "scene",
+                    "text": "Al CRAI",
+                    "sceneId": "CRAI_PB_6",
+                    "targetYaw": -45.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -11.1,
+                    "yaw": -37.5,
+                    "type": "scene",
+                    "text": "Salir del recinto",
+                    "sceneId": "CALLE_2",
+                    "targetYaw": -94.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "FISICA_2": {
+            "title": "Campus Reina Mercedes. Fac. de Física - CRAI Antonio de Ulloa.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/FISICA_2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 15.0,
+                    "yaw": -150.0,
+                    "type": "info",
+                    "text": "Facultad de Física",
+                    "URL": "https://fisica.us.es/"
+                },
+                {
+                    "pitch": 6.5,
+                    "yaw": -74.0,
+                    "type": "info",
+                    "text": "Facultad de Matemáticas",
+                    "URL": "https://matematicas.us.es/"
+                },
+                {
+                    "pitch": 7.5,
+                    "yaw": -35.0,
+                    "type": "info",
+                    "text": "Fac. Biología (Ed. rojo)",
+                    "URL": "https://biologia.us.es/"
+                },
+                {
+                    "pitch": 6.0,
+                    "yaw": -2.5,
+                    "type": "info",
+                    "text": "Facultad de Química",
+                    "URL": "https://quimica.us.es/"
+                },
+                {
+                    "pitch": 6.1,
+                    "yaw": 37.35,
+                    "type": "info",
+                    "text": "Fac. Biología (Ed. Verde)",
+                    "URL": "https://biologia.us.es/"
+                },
+                {
+                    "pitch": 19.0,
+                    "yaw": 78.0,
+                    "type": "info",
+                    "text": "CRAI Antonio de Ulloa",
+                    "URL": "https://bib.us.es/ulloa/"
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 37.65,
+                    "type": "scene",
+                    "text": "Al CRAI",
+                    "sceneId": "CRAI_PB_1",
+                    "targetYaw": 93.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -3.1,
+                    "yaw": 127.5,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "FISICA_1",
+                    "targetYaw": -44.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_PB_1": {
+            "title": "Campus Reina Mercedes. CRAI Antonio de Ulloa.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_PB_1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 30.0,
+                    "yaw": 180.0,
+                    "type": "info",
+                    "text": "CRAI Antonio de Ulloa",
+                    "URL": "https://bib.us.es/ulloa/"
+                },
+                {
+                    "pitch": 7.0,
+                    "yaw": 90.5,
+                    "type": "info",
+                    "text": "Fac. Biología (Ed. Verde)",
+                    "URL": "https://biologia.us.es/"
+                },
+                {
+                    "pitch": 5.0,
+                    "yaw": 35.0,
+                    "type": "info",
+                    "text": "Facultad de Química",
+                    "URL": "https://quimica.us.es/"
+                },
+                {
+                    "pitch": 6.0,
+                    "yaw": 7.5,
+                    "type": "info",
+                    "text": "Fac. Biología (Ed. rojo)",
+                    "URL": "https://biologia.us.es/"
+                },
+                {
+                    "pitch": 5.0,
+                    "yaw": -27.0,
+                    "type": "info",
+                    "text": "Facultad de Matemáticas",
+                    "URL": "https://matematicas.us.es/"
+                },
+                {
+                    "pitch": 13.1,
+                    "yaw": -85.0,
+                    "type": "info",
+                    "text": "Facultad de Física",
+                    "URL": "https://fisica.us.es/"
+                },
+                {
+                    "pitch": -4.9,
+                    "yaw": 91.0,
+                    "type": "scene",
+                    "text": "Avanzar",
+                    "sceneId": "CRAI_PB_2",
+                    "targetYaw": 95.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": -176.0,
+                    "type": "scene",
+                    "text": "Al CRAI",
+                    "sceneId": "CRAI_PB_4",
+                    "targetYaw": 180.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -4.6,
+                    "yaw": -87.5,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "FISICA_2",
+                    "targetYaw": -135.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_PB_2": {
+            "title": "Campus Reina Mercedes. CRAI Antonio de Ulloa.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_PB_2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 25.0,
+                    "yaw": -178.0,
+                    "type": "info",
+                    "text": "CRAI Antonio de Ulloa",
+                    "URL": ""
+                },
+                {
+                    "pitch": 9.5,
+                    "yaw": -86.0,
+                    "type": "info",
+                    "text": "Facultad de Física",
+                    "URL": ""
+                },
+                {
+                    "pitch": 11.0,
+                    "yaw": 92.3,
+                    "type": "info",
+                    "text": "Fac. Biología (Ed. Verde)",
+                    "URL": ""
+                },
+                {
+                    "pitch": -1.0,
+                    "yaw": -167.0,
+                    "type": "scene",
+                    "text": "Al Bicicletero",
+                    "sceneId": "CRAI_PB_3",
+                    "targetYaw": -175.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -2.5,
+                    "yaw": -88.0,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "CRAI_PB_1",
+                    "targetYaw": -90.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_PB_3": {
+            "title": "CRAI Antonio de Ulloa. Bicicletero.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_PB_3",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -9.5,
+                    "yaw": 115.0,
+                    "type": "info",
+                    "text": "Bicicleteros",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": -83.0,
+                    "type": "info",
+                    "text": "Salida de emergencia",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": -156.0,
+                    "type": "info",
+                    "text": "Taquillas",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.1,
+                    "yaw": 11.0,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "CRAI_PB_2",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_PB_4": {
+            "title": "CRAI Antonio de Ulloa. Máquinas expendedoras.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_PB_4",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -31.0,
+                    "yaw": -20.0,
+                    "type": "info",
+                    "text": "Rampa de acceso",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -135.0,
+                    "type": "info",
+                    "text": "Máquinas expendedoras",
+                    "URL": ""
+                },
+                {
+                    "pitch": -14.2,
+                    "yaw": 96.0,
+                    "type": "info",
+                    "text": "Reciclaje en el CRAI",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.5,
+                    "yaw": 178.0,
+                    "type": "scene",
+                    "text": "Entrar al CRAI",
+                    "sceneId": "CRAI_PB_5",
+                    "targetYaw": -179.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 0.0,
+                    "type": "scene",
+                    "text": "Al campus",
+                    "sceneId": "CRAI_PB_1",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_PB_5": {
+            "title": "CRAI Antonio de Ulloa. Entrada.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_PB_5",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4.0,
+                    "yaw": 147.0,
+                    "type": "info",
+                    "text": "Buzón de autodevolución",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": 180.0,
+                    "type": "scene",
+                    "text": "A la calle",
+                    "sceneId": "CRAI_PB_6",
+                    "targetYaw": 90.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -4.4,
+                    "yaw": 79.2,
+                    "type": "scene",
+                    "text": "Entrar",
+                    "sceneId": "CRAI_PB_7",
+                    "targetYaw": -90.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -11.1,
+                    "yaw": -0.2,
+                    "type": "scene",
+                    "text": "Al campus",
+                    "sceneId": "CRAI_PB_4",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_PB_6": {
+            "title": "CRAI Antonio de Ulloa. Acceso por F. de Física.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_PB_6",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 46.0,
+                    "yaw": -35.0,
+                    "type": "info",
+                    "text": "CRAI Antonio de Ulloa",
+                    "URL": ""
+                },
+                {
+                    "pitch": -25.0,
+                    "yaw": 96.3,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "FISICA_1",
+                    "targetYaw": 20.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -87.5,
+                    "type": "scene",
+                    "text": "Entrar al CRAI",
+                    "sceneId": "CRAI_PB_5",
+                    "targetYaw": 1.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_PB_7": {
+            "title": "CRAI. Planta baja.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_PB_7",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.5,
+                    "yaw": -176.0,
+                    "type": "info",
+                    "text": "Ascensor (ala oeste)",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": 11.0,
+                    "type": "info",
+                    "text": "Ascensor (ala este)",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.0,
+                    "yaw": -40.3,
+                    "type": "info",
+                    "text": "Ordenador de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -1.1,
+                    "yaw": 154.0,
+                    "type": "info",
+                    "text": "Ordenador de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -1.9,
+                    "yaw": -146.0,
+                    "type": "info",
+                    "text": "Zona de exposiciones",
+                    "URL": ""
+                },
+                {
+                    "pitch": -18.1,
+                    "yaw": -97.6,
+                    "type": "info",
+                    "text": "Mostrador de información",
+                    "URL": ""
+                },
+                {
+                    "pitch": 14.0,
+                    "yaw": -147.5,
+                    "type": "info",
+                    "text": "Espacios del CRAI",
+                    "URL": "https://bib.us.es/ulloa/espacios"
+                },
+                {
+                    "pitch": -4.1,
+                    "yaw": -130.2,
+                    "type": "info",
+                    "text": "Salida de emergencia",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.2,
+                    "yaw": -57.5,
+                    "type": "info",
+                    "text": "Salida de emergencia",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": 33.9,
+                    "type": "info",
+                    "text": "Salida de emergencia",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": 142.0,
+                    "type": "info",
+                    "text": "Salida de emergencia",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.6,
+                    "yaw": 172.5,
+                    "type": "scene",
+                    "text": "A la primera planta",
+                    "sceneId": "CRAI_P1_1",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": 2.5,
+                    "type": "scene",
+                    "text": "A la primera planta",
+                    "sceneId": "CRAI_P1_4",
+                    "targetYaw": 90.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 95.1,
+                    "type": "scene",
+                    "text": "Salir",
+                    "sceneId": "CRAI_PB_5",
+                    "targetYaw": -90.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P1_1": {
+            "title": "CRAI. Planta 1. Escaleras ala oeste.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P1_1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -4.5,
+                    "yaw": 156.0,
+                    "type": "info",
+                    "text": "Aseos movilidad reducida",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.2,
+                    "yaw": -149.7,
+                    "type": "info",
+                    "text": "Ascensor",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 81.7,
+                    "type": "scene",
+                    "text": "A las salas de trabajo",
+                    "sceneId": "CRAI_P1_2",
+                    "targetYaw": -101.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": -86.0,
+                    "type": "scene",
+                    "text": "A la sala Navegación",
+                    "sceneId": "CRAI_P1_6",
+                    "targetYaw": 30.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -13.75,
+                    "yaw": -172.0,
+                    "type": "scene",
+                    "text": "A la segunda planta",
+                    "sceneId": "CRAI_P2_1",
+                    "targetYaw": -80.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -11.8,
+                    "yaw": -132.0,
+                    "type": "scene",
+                    "text": "A la planta baja",
+                    "sceneId": "CRAI_PB_7",
+                    "targetYaw": 5.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P1_2": {
+            "title": "CRAI. Planta 1. Salas de trabajo en grupo.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P1_2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -9.0,
+                    "yaw": 178.5,
+                    "type": "scene",
+                    "text": "Más salas",
+                    "sceneId": "CRAI_P1_3",
+                    "targetYaw": -118.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 88.5,
+                    "type": "scene",
+                    "text": "A las escaleras",
+                    "sceneId": "CRAI_P1_1",
+                    "targetYaw": -110.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P1_3": {
+            "title": "CRAI. Planta 1. Salas de trabajo en grupo.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P1_3",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -9.8,
+                    "yaw": 176.0,
+                    "type": "scene",
+                    "text": "A las escaleras",
+                    "sceneId": "CRAI_P1_4",
+                    "targetYaw": 180.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -8.5,
+                    "yaw": 81.5,
+                    "type": "scene",
+                    "text": "Más salas",
+                    "sceneId": "CRAI_P1_2",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P1_4": {
+            "title": "CRAI. Planta 1. Escaleras ala este.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P1_4",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -5.0,
+                    "yaw": -93.0,
+                    "type": "info",
+                    "text": "Ascensor",
+                    "URL": ""
+                },
+                {
+                    "pitch": 10.0,
+                    "yaw": -136.0,
+                    "type": "info",
+                    "text": "Plano de la planta 1",
+                    "URL": "https://bib.us.es/ulloa/sites/bib3.us.es.ulloa/files/planta_1.png"
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": 169.5,
+                    "type": "scene",
+                    "text": "A la sala Navegación",
+                    "sceneId": "CRAI_P1_5",
+                    "targetYaw": -97.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -13.0,
+                    "yaw": -116.0,
+                    "type": "scene",
+                    "text": "A la segunda planta",
+                    "sceneId": "CRAI_P2_4",
+                    "targetYaw": 120.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -16.0,
+                    "yaw": -67.5,
+                    "type": "scene",
+                    "text": "A la planta baja",
+                    "sceneId": "CRAI_PB_7",
+                    "targetYaw": -179.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": 10.0,
+                    "type": "scene",
+                    "text": "A las salas de trabajo",
+                    "sceneId": "CRAI_P1_3",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P1_5": {
+            "title": "CRAI. Planta 1. Acceso a sala Navegación.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P1_5",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.0,
+                    "yaw": 12.0,
+                    "type": "info",
+                    "text": "Aseos",
+                    "URL": ""
+                },
+                {
+                    "pitch": -12.0,
+                    "yaw": -121.0,
+                    "type": "scene",
+                    "text": "Entrar a la sala",
+                    "sceneId": "CRAI_P1_6",
+                    "targetYaw": -31.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -18.9,
+                    "yaw": 99.0,
+                    "type": "scene",
+                    "text": "A las escaleras",
+                    "sceneId": "CRAI_P1_4",
+                    "targetYaw": -25.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P1_6": {
+            "title": "CRAI. Planta 1. Sala Navegación.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P1_6",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -3.1,
+                    "yaw": 100.0,
+                    "type": "info",
+                    "text": "Máquina de autopréstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": 110.5,
+                    "type": "info",
+                    "text": "Portátiles de préstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.9,
+                    "yaw": 125.0,
+                    "type": "info",
+                    "text": "Servicio de reprografía",
+                    "URL": ""
+                },
+                {
+                    "pitch": -0.5,
+                    "yaw": -114.7,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 180.0,
+                    "type": "info",
+                    "text": "Mostrador de información y préstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": 4.0,
+                    "type": "scene",
+                    "text": "Avanzar",
+                    "sceneId": "CRAI_P1_7",
+                    "targetYaw": 176.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": -133.0,
+                    "type": "scene",
+                    "text": "Salir",
+                    "sceneId": "CRAI_P1_1",
+                    "targetYaw": 100.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": 139.0,
+                    "type": "scene",
+                    "text": "Salir",
+                    "sceneId": "CRAI_P1_5",
+                    "targetYaw": 80.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P1_7": {
+            "title": "CRAI. Planta 1. Sala Navegación.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P1_7",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -3.0,
+                    "yaw": 79.0,
+                    "type": "info",
+                    "text": "Área de descanso",
+                    "URL": ""
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": 98.0,
+                    "type": "info",
+                    "text": "Zona de trabajo TIC",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.1,
+                    "yaw": -5.0,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "CRAI_P1_6",
+                    "targetYaw": 180.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P2_1": {
+            "title": "CRAI. Planta 2. Escaleras ala oeste.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P2_1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -7.0,
+                    "yaw": 57.5,
+                    "type": "info",
+                    "text": "Aseos movilidad reducida",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.7,
+                    "yaw": 118.5,
+                    "type": "info",
+                    "text": "Ascensor",
+                    "URL": ""
+                },
+                {
+                    "pitch": 9.0,
+                    "yaw": 30.8,
+                    "type": "info",
+                    "text": "Plano de la planta 2",
+                    "URL": "https://bib.us.es/ulloa/sites/bib3.us.es.ulloa/files/planta_2.png"
+                },
+                {
+                    "pitch": -16.0,
+                    "yaw": -17.1,
+                    "type": "scene",
+                    "text": "A las aulas TIC",
+                    "sceneId": "CRAI_P2_2",
+                    "targetYaw": -75.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -168.0,
+                    "type": "scene",
+                    "text": "A la sala Meridiano",
+                    "sceneId": "CRAI_P2_6",
+                    "targetYaw": -160.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -16.5,
+                    "yaw": 94.0,
+                    "type": "scene",
+                    "text": "A la tercera planta",
+                    "sceneId": "CRAI_P3_1",
+                    "targetYaw": -40.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -13.6,
+                    "yaw": 137.5,
+                    "type": "scene",
+                    "text": "A la primera planta",
+                    "sceneId": "CRAI_P1_1",
+                    "targetYaw": 7.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P2_2": {
+            "title": "CRAI. Planta 2. Aulas TIC.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P2_2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.0,
+                    "yaw": -125.0,
+                    "type": "scene",
+                    "text": "Avanzar por el pasillo",
+                    "sceneId": "CRAI_P2_3",
+                    "targetYaw": 177.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -13.0,
+                    "yaw": 115.0,
+                    "type": "scene",
+                    "text": "A las escaleras",
+                    "sceneId": "CRAI_P2_1",
+                    "targetYaw": 160.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P2_3": {
+            "title": "CRAI. Planta 2. Aulas TIC.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P2_3",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -15.0,
+                    "yaw": 120.0,
+                    "type": "scene",
+                    "text": "A las escaleras",
+                    "sceneId": "CRAI_P2_4",
+                    "targetYaw": -170.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": 2.5,
+                    "type": "scene",
+                    "text": "Avanzar por el pasillo",
+                    "sceneId": "CRAI_P2_2",
+                    "targetYaw": 58.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P2_4": {
+            "title": "CRAI. Planta 2. Escaleras ala este.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P2_4",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -6.0,
+                    "yaw": -91.5,
+                    "type": "info",
+                    "text": "Ascensor",
+                    "URL": ""
+                },
+                {
+                    "pitch": 10.0,
+                    "yaw": -30.0,
+                    "type": "info",
+                    "text": "Plano de la planta 2",
+                    "URL": "https://bib.us.es/ulloa/sites/bib3.us.es.ulloa/files/planta_2.png"
+                },
+                {
+                    "pitch": -19.0,
+                    "yaw": 161.0,
+                    "type": "scene",
+                    "text": "A la sala Meridiano",
+                    "sceneId": "CRAI_P2_5",
+                    "targetYaw": 180.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -14.5,
+                    "yaw": -115.5,
+                    "type": "scene",
+                    "text": "A la tercera planta",
+                    "sceneId": "CRAI_P3_4",
+                    "targetYaw": 180.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -17.2,
+                    "yaw": -64.5,
+                    "type": "scene",
+                    "text": "A la primera planta",
+                    "sceneId": "CRAI_P1_4",
+                    "targetYaw": 65.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -14.0,
+                    "yaw": 14.0,
+                    "type": "scene",
+                    "text": "A las aulas TIC",
+                    "sceneId": "CRAI_P2_3",
+                    "targetYaw": -75.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P2_5": {
+            "title": "CRAI. Planta 2. Acceso a sala Meridiano",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P2_5",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.0,
+                    "yaw": -69.0,
+                    "type": "info",
+                    "text": "Aseos",
+                    "URL": ""
+                },
+                {
+                    "pitch": -15.0,
+                    "yaw": 146.0,
+                    "type": "scene",
+                    "text": "Entrar a la sala",
+                    "sceneId": "CRAI_P2_6",
+                    "targetYaw": 160.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -20.0,
+                    "yaw": 16.0,
+                    "type": "scene",
+                    "text": "A las escaleras",
+                    "sceneId": "CRAI_P2_4",
+                    "targetYaw": -40.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P2_6": {
+            "title": "CRAI. Planta 2. Sala Meridiano.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P2_6",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.0,
+                    "yaw": 80.0,
+                    "type": "info",
+                    "text": "Zona de descanso",
+                    "URL": ""
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": 18.0,
+                    "type": "info",
+                    "text": "Mostrador de información y préstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": -61.0,
+                    "type": "info",
+                    "text": "Servicio de reprografía",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.5,
+                    "yaw": -88.0,
+                    "type": "info",
+                    "text": "Máquina de autopréstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.5,
+                    "yaw": -134.5,
+                    "type": "info",
+                    "text": "Ordenador de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.6,
+                    "yaw": -179.7,
+                    "type": "scene",
+                    "text": "Avanzar",
+                    "sceneId": "CRAI_P2_7",
+                    "targetYaw": 176.5,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": 53.0,
+                    "type": "scene",
+                    "text": "Salir",
+                    "sceneId": "CRAI_P2_1",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -38.5,
+                    "type": "scene",
+                    "text": "Salir",
+                    "sceneId": "CRAI_P2_5",
+                    "targetYaw": 5.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P2_7": {
+            "title": "CRAI. Planta 2. Sala Meridiano.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P2_7",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -6.5,
+                    "yaw": 176.0,
+                    "type": "scene",
+                    "text": "Avanzar",
+                    "sceneId": "CRAI_P2_8",
+                    "targetYaw": 176.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -7.5,
+                    "yaw": 3.0,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "CRAI_P2_6",
+                    "targetYaw": 5.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P2_8": {
+            "title": "CRAI. Planta 2. Sala Meridiano.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P2_8",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -6.5,
+                    "yaw": -2.5,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "CRAI_P2_7",
+                    "targetYaw": 3.7,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P3_1": {
+            "title": "CRAI. Planta 3. Escaleras ala oeste.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P3_1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -5.5,
+                    "yaw": 85.75,
+                    "type": "info",
+                    "text": "Aseos movilidad reducida",
+                    "URL": ""
+                },
+                {
+                    "pitch": -6.2,
+                    "yaw": 151.0,
+                    "type": "info",
+                    "text": "Ascensor",
+                    "URL": ""
+                },
+                {
+                    "pitch": 7.9,
+                    "yaw": 56.8,
+                    "type": "info",
+                    "text": "Plano de la planta 3",
+                    "URL": "https://bib.us.es/ulloa/sites/bib3.us.es.ulloa/files/planta_3.png"
+                },
+                {
+                    "pitch": -9.8,
+                    "yaw": 11.2,
+                    "type": "scene",
+                    "text": "A las aulas de aprendizaje TIC",
+                    "sceneId": "CRAI_P3_2",
+                    "targetYaw": 60.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -8.8,
+                    "yaw": -122.65,
+                    "type": "scene",
+                    "text": "A la sala Platina",
+                    "sceneId": "CRAI_P3_6",
+                    "targetYaw": -165.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -17.55,
+                    "yaw": 124.1,
+                    "type": "scene",
+                    "text": "A la cuarta planta",
+                    "sceneId": "CRAI_P4_1",
+                    "targetYaw": -155.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -14.2,
+                    "yaw": 171.0,
+                    "type": "scene",
+                    "text": "A la segunda planta",
+                    "sceneId": "CRAI_P2_1",
+                    "targetYaw": -90.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P3_2": {
+            "title": "CRAI. Planta 3. Aulas de aprendizaje TIC.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P3_2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -9.1,
+                    "yaw": -8.8,
+                    "type": "scene",
+                    "text": "Avanzar por el pasillo",
+                    "sceneId": "CRAI_P3_3",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -14.0,
+                    "yaw": -113.0,
+                    "type": "scene",
+                    "text": "A las escaleras",
+                    "sceneId": "CRAI_P3_1",
+                    "targetYaw": -170.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P3_3": {
+            "title": "CRAI. Planta 3. Aulas de aprendizaje TIC.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P3_3",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -14.0,
+                    "yaw": -51.0,
+                    "type": "scene",
+                    "text": "A las escaleras",
+                    "sceneId": "CRAI_P3_4",
+                    "targetYaw": -70.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -9.9,
+                    "yaw": -178.5,
+                    "type": "scene",
+                    "text": "Avanzar por el pasillo",
+                    "sceneId": "CRAI_P3_2",
+                    "targetYaw": 179.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P3_4": {
+            "title": "CRAI. Planta 3. Escaleras ala este.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P3_4",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -7.8,
+                    "yaw": -24.0,
+                    "type": "info",
+                    "text": "Ascensor",
+                    "URL": ""
+                },
+                {
+                    "pitch": 9.5,
+                    "yaw": 44.9,
+                    "type": "info",
+                    "text": "Plano de la planta 3",
+                    "URL": "https://bib.us.es/ulloa/sites/bib3.us.es.ulloa/files/planta_3.png"
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -139.2,
+                    "type": "scene",
+                    "text": "A la sala Platina",
+                    "sceneId": "CRAI_P3_5",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -17.0,
+                    "yaw": -52.0,
+                    "type": "scene",
+                    "text": "A la cuarta planta",
+                    "sceneId": "CRAI_P4_2",
+                    "targetYaw": 30.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -18.15,
+                    "yaw": 9.0,
+                    "type": "scene",
+                    "text": "A la segunda planta",
+                    "sceneId": "CRAI_P2_4",
+                    "targetYaw": 68.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -15.1,
+                    "yaw": 93.5,
+                    "type": "scene",
+                    "text": "A las aulas de aprendizaje TIC",
+                    "sceneId": "CRAI_P3_3",
+                    "targetYaw": 100.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P3_5": {
+            "title": "CRAI. Planta 3. Acceso a sala Platina.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P3_5",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.0,
+                    "yaw": 121.1,
+                    "type": "info",
+                    "text": "Aseos",
+                    "URL": ""
+                },
+                {
+                    "pitch": -12.0,
+                    "yaw": 0.9,
+                    "type": "scene",
+                    "text": "Entrar a la sala",
+                    "sceneId": "CRAI_P3_6",
+                    "targetYaw": 155.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -19.0,
+                    "yaw": -167.5,
+                    "type": "scene",
+                    "text": "A las escaleras",
+                    "sceneId": "CRAI_P3_4",
+                    "targetYaw": 31.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P3_6": {
+            "title": "CRAI. Planta 3. Sala Platina.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P3_6",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -6.0,
+                    "yaw": 85.0,
+                    "type": "info",
+                    "text": "Zona de descanso",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -138.0,
+                    "type": "info",
+                    "text": "Ordenador de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": -91.0,
+                    "type": "info",
+                    "text": "Máquina de autopréstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -2.6,
+                    "yaw": -64.0,
+                    "type": "info",
+                    "text": "Servicio de reprografía",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 11.0,
+                    "type": "info",
+                    "text": "Mostrador de información y préstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.5,
+                    "yaw": -179.9,
+                    "type": "scene",
+                    "text": "Avanzar",
+                    "sceneId": "CRAI_P3_7",
+                    "targetYaw": 179.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -2.5,
+                    "yaw": 53.0,
+                    "type": "scene",
+                    "text": "Salir",
+                    "sceneId": "CRAI_P3_1",
+                    "targetYaw": 40.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": -44.0,
+                    "type": "scene",
+                    "text": "Salir",
+                    "sceneId": "CRAI_P3_5",
+                    "targetYaw": -178.5,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P3_7": {
+            "title": "CRAI. Planta 3. Sala Platina.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P3_7",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -8.1,
+                    "yaw": 179.0,
+                    "type": "scene",
+                    "text": "Avanzar",
+                    "sceneId": "CRAI_P3_8",
+                    "targetYaw": 36.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -7.5,
+                    "yaw": -1.0,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "CRAI_P3_6",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P3_8": {
+            "title": "CRAI. Planta 3. Sala Platina.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P3_8",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": 4.5,
+                    "yaw": -9.6,
+                    "type": "info",
+                    "text": "Mural Jane Goodall",
+                    "URL": ""
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -145.0,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "CRAI_P3_7",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P4_1": {
+            "title": "CRAI. Planta 4. Escaleras ala oeste.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P4_1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -5.5,
+                    "yaw": 40.0,
+                    "type": "info",
+                    "text": "Ascensor",
+                    "URL": ""
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -28.5,
+                    "type": "info",
+                    "text": "Aseos movilidad reducida",
+                    "URL": ""
+                },
+                {
+                    "pitch": 10.0,
+                    "yaw": -60.0,
+                    "type": "info",
+                    "text": "Plano de la planta 4",
+                    "URL": "https://bib.us.es/ulloa/sites/bib3.us.es.ulloa/files/planta_4.png"
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -110.0,
+                    "type": "info",
+                    "text": "Dirección y trabajo interno",
+                    "URL": ""
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": 115.0,
+                    "type": "scene",
+                    "text": "A la sala Observatorio",
+                    "sceneId": "CRAI_P4_4",
+                    "targetYaw": -135.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -12.8,
+                    "yaw": 57.5,
+                    "type": "scene",
+                    "text": "A la tercera planta",
+                    "sceneId": "CRAI_P3_1",
+                    "targetYaw": -60.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P4_2": {
+            "title": "CRAI. Planta 4. Escaleras ala este.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P4_2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.0,
+                    "yaw": 180.0,
+                    "type": "info",
+                    "text": "Ascensor",
+                    "URL": ""
+                },
+                {
+                    "pitch": 9.6,
+                    "yaw": -111.2,
+                    "type": "info",
+                    "text": "Plano de la planta 4",
+                    "URL": "https://bib.us.es/ulloa/sites/bib3.us.es.ulloa/files/planta_4.png"
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": -69.5,
+                    "type": "info",
+                    "text": "Dirección y trabajo interno",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 55.0,
+                    "type": "scene",
+                    "text": "A la sala Observatorio",
+                    "sceneId": "CRAI_P4_3",
+                    "targetYaw": 45.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -18.5,
+                    "yaw": -148.0,
+                    "type": "scene",
+                    "text": "A la tercera planta",
+                    "sceneId": "CRAI_P3_4",
+                    "targetYaw": 142.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P4_3": {
+            "title": "CRAI. Planta 4. Acceso a sala Observatorio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P4_3",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -10.0,
+                    "yaw": 167.0,
+                    "type": "info",
+                    "text": "Aseos",
+                    "URL": ""
+                },
+                {
+                    "pitch": -14.0,
+                    "yaw": 20.0,
+                    "type": "scene",
+                    "text": "A la sala Observatorio",
+                    "sceneId": "CRAI_P4_8",
+                    "targetYaw": 160.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -22.0,
+                    "yaw": -112.0,
+                    "type": "scene",
+                    "text": "A las escaleras",
+                    "sceneId": "CRAI_P4_2",
+                    "targetYaw": -120.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P4_4": {
+            "title": "CRAI. Planta 4. Sala Observatorio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P4_4",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -6.5,
+                    "yaw": 85.0,
+                    "type": "info",
+                    "text": "Zona de descanso",
+                    "URL": ""
+                },
+                {
+                    "pitch": 0.0,
+                    "yaw": 60.0,
+                    "type": "info",
+                    "text": "Ordenadores de consulta",
+                    "URL": ""
+                },
+                {
+                    "pitch": -7.0,
+                    "yaw": 0.0,
+                    "type": "info",
+                    "text": "Mostrador de información y préstamo",
+                    "URL": ""
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": -173.5,
+                    "type": "scene",
+                    "text": "Avanzar",
+                    "sceneId": "CRAI_P4_5",
+                    "targetYaw": 177.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": -78.1,
+                    "type": "scene",
+                    "text": "Salir",
+                    "sceneId": "CRAI_P4_8",
+                    "targetYaw": -60.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -4.3,
+                    "yaw": 49.68,
+                    "type": "scene",
+                    "text": "Salir",
+                    "sceneId": "CRAI_P4_1",
+                    "targetYaw": -70.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P4_5": {
+            "title": "CRAI. Planta 4. Sala Observatorio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P4_5",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -8.0,
+                    "yaw": 178.0,
+                    "type": "scene",
+                    "text": "Avanzar",
+                    "sceneId": "CRAI_P4_6",
+                    "targetYaw": 179.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -9.0,
+                    "yaw": -7.8,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "CRAI_P4_4",
+                    "targetYaw": 0.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P4_6": {
+            "title": "CRAI. Planta 4. Sala Observatorio.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P4_6",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -5.5,
+                    "yaw": -135.0,
+                    "type": "info",
+                    "text": "Fondo de Botánica",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.7,
+                    "yaw": -90.5,
+                    "type": "scene",
+                    "text": "A los seminarios",
+                    "sceneId": "CRAI_P4_7",
+                    "targetYaw": -80.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -8.0,
+                    "yaw": -2.1,
+                    "type": "scene",
+                    "text": "Volver",
+                    "sceneId": "CRAI_P4_5",
+                    "targetYaw": -5.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P4_7": {
+            "title": "CRAI. Planta 4. Seminarios.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P4_7",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -7.5,
+                    "yaw": 149.0,
+                    "type": "info",
+                    "text": "Fondo de Botánica",
+                    "URL": ""
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 180.0,
+                    "type": "info",
+                    "text": "Salida de emergencia",
+                    "URL": ""
+                },
+                {
+                    "pitch": -15.0,
+                    "yaw": -130.0,
+                    "type": "info",
+                    "text": "Seminario 1",
+                    "URL": ""
+                },
+                {
+                    "pitch": -6.0,
+                    "yaw": -19.7,
+                    "type": "info",
+                    "text": "Seminario 2",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": -6.8,
+                    "type": "info",
+                    "text": "Seminario 3",
+                    "URL": ""
+                },
+                {
+                    "pitch": -4.0,
+                    "yaw": 2.41,
+                    "type": "scene",
+                    "text": "A la entrada",
+                    "sceneId": "CRAI_P4_8",
+                    "targetYaw": 5.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -10.0,
+                    "yaw": 92.5,
+                    "type": "scene",
+                    "text": "A la sala Observatorio",
+                    "sceneId": "CRAI_P4_6",
+                    "targetYaw": 89.0,
+                    "targetPitch": 0
+                }
+            ]
+        },
+        "CRAI_P4_8": {
+            "title": "CRAI. Planta 4. Acceso a sala y reprografía.",
+            "hfov": 150,
+            "pitch": 0,
+            "yaw": 0,
+            "compass": true,
+            "northOffset": 70,
+            "type": "multires",
+            "multiRes": {
+                "basePath": "../../SHARED/fotos360/240507/CRAI_P4_8",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 3,
+                "cubeResolution": 1928
+            },
+            "hotSpots": [
+                {
+                    "pitch": -11.0,
+                    "yaw": -40.0,
+                    "type": "info",
+                    "text": "Servicio de reprografía",
+                    "URL": ""
+                },
+                {
+                    "pitch": -3.0,
+                    "yaw": -171.0,
+                    "type": "info",
+                    "text": "CRAILab",
+                    "URL": "https://bib.us.es/ulloa/mas_servicios_crai_crailab"
+                },
+                {
+                    "pitch": -0.5,
+                    "yaw": -172.6,
+                    "type": "info",
+                    "text": "Sala de videoconferencias",
+                    "URL": ""
+                },
+                {
+                    "pitch": -9.8,
+                    "yaw": 39.0,
+                    "type": "scene",
+                    "text": "Salir",
+                    "sceneId": "CRAI_P4_3",
+                    "targetYaw": -130.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -11.5,
+                    "yaw": 130.0,
+                    "type": "scene",
+                    "text": "Entrar a la sala",
+                    "sceneId": "CRAI_P4_4",
+                    "targetYaw": 135.0,
+                    "targetPitch": 0
+                },
+                {
+                    "pitch": -3.8,
+                    "yaw": -177.0,
+                    "type": "scene",
+                    "text": "A los seminarios",
+                    "sceneId": "CRAI_P4_7",
+                    "targetYaw": 180.0,
+                    "targetPitch": 0
+                }
+            ]
+        }
+    }
+});
+</script>
+
+</body>
+</html>
