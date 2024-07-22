@@ -49,7 +49,14 @@
         "lng": -5.98657,
         "direccion": "(Campus Reina Mercedes)<br>Avda. Reina Mercedes, s/n<br>41012 - Sevilla",
         "imagen":"",
-        "como_llegar": [],
+        "como_llegar": [
+            {
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "Avda. Reina Mercedes",
+                "url": "CRAI.html",
+                "target": "_self"
+            }
+        ],
         "echar_un_vistazo":[]
     },
     {
@@ -59,7 +66,14 @@
         "lng": -5.98791,
         "direccion": "(Campus Reina Mercedes)<br>Tarfia, s/n<br>41012 - Sevilla",
         "imagen":"",
-        "como_llegar": [],
+        "como_llegar": [
+            {
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "Avda. Reina Mercedes",
+                "url": "Mates_campus.html",
+                "target": "_self"
+            }
+        ],
         "echar_un_vistazo":[]
     },
     {
@@ -69,7 +83,14 @@
         "lng": -5.98706,
         "direccion": "(Campus Reina Mercedes)<br>Avda. Reina Mercedes, s/n<br>41012 - Sevilla",
         "imagen":"",
-        "como_llegar": [],
+        "como_llegar": [
+            {
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "Avda. Reina Mercedes",
+                "url": "ETSIInformatica.html",
+                "target": "_self"
+            }
+        ],
         "echar_un_vistazo":[]
     },
     {
@@ -79,7 +100,14 @@
         "lng": -5.98646,
         "direccion": "(Campus de Reina Mercedes)<br>Avda. de Reina Mercedes, 2<br>41012 - Sevilla",
         "imagen":"",
-        "como_llegar": [],
+        "como_llegar": [
+            {
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "Avda. Reina Mercedes",
+                "url": "Arquitectura.html",
+                "target": "_self"
+            }
+        ],
         "echar_un_vistazo":[]
     },
     {
@@ -113,7 +141,14 @@
         "lng": -6.00658,
         "direccion": "(Campus Cartuja)<br>Avda. Américo Vespucio, s/n<br>41092 - Sevilla",
         "imagen":"",
-        "como_llegar": [],
+        "como_llegar": [
+            {
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "Avda. Américo Vespucio",
+                "url": "FCOM_Parada.html",
+                "target": "_self"
+            }
+        ],
         "echar_un_vistazo":[]
     },
     {
@@ -123,7 +158,14 @@
         "lng": -5.98817,
         "direccion": "(Campus Macarena)<br>Avda. Sánchez Pizjuán s/n<br>41009 - Sevilla",
         "imagen":"",
-        "como_llegar": [],
+        "como_llegar": [
+            {
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "Avda. Sánchez Pizjuán",
+                "url": "Salud_SanchezPizjuan.html",
+                "target": "_self"
+            }
+        ],
         "echar_un_vistazo":[]
     },
     {
@@ -133,7 +175,14 @@
         "lng": -5.98277,
         "direccion": "Gonzalo Bilbao 7-9<br>41003 - Sevilla",
         "imagen":"",
-        "como_llegar": [],
+        "como_llegar": [
+            {
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "C/ Gonzalo de Bilbao",
+                "url": "BellasArtes_GonzaloBilbao.html",
+                "target": "_self"
+            }
+        ],
         "echar_un_vistazo":[]
     },
     {
@@ -166,8 +215,10 @@
         "como_llegar": [],
         "echar_un_vistazo":[
             {
-                "imagen": "images/photo-camera-off-svgrepo-com.svg",
-                "texto": "No Permitido"
+                "imagen": "images/walk-svgrepo-com.svg",
+                "texto": "Avda. Presidente Cárdenas",
+                "url": "EDU_PdteCardenas.html",
+                "target": "_self"
             }
         ]
     },
